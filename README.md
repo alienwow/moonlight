@@ -1,12 +1,11 @@
 
-## Moonligjht
+## Moonlight
 
 [![license](https://img.shields.io/github/license/erda-project/erda.svg)](https://github.com/erda-project/erda/blob/main/LICENSE)
 
 ## Introduction
 
 Moonlight is copied from Erda, but unlike Erda, Moonlight is based on a plug-in design, allowing users to assemble the required functions according to their own usage scenarios. Thanks again for Erda team.
-hub.com/erda-project/erda-bot) is the bot handing Github webhooks.
 
 ## Quick Start
 
