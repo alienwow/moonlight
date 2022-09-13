@@ -1,4 +1,4 @@
-# Contributing to Erda
+# Contributing to Moonlight
 
 Firstly, thanks for your interest in contributing! I hope that this will be a
 pleasant first experience for you, and that you will return to continue
@@ -14,14 +14,14 @@ for us to fix.
 
 ## How to report a bug?
 
-* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/erda-project/erda/issues).
+* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/ping-cloudnative/moonlight/issues).
 
-* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/erda-project/erda-infra/issues/new/choose). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
+* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/ping-cloudnative/moonlight/issues/new/choose). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
 
 
 ## How to add a new feature or change an existing one
 
-_Before making any significant changes, please [open an issue](https://github.com/erda-project/erda/issues)._ Discussing your proposed changes ahead of time will make the contribution process smooth for everyone.
+_Before making any significant changes, please [open an issue](https://github.com/ping-cloudnative/moonlight/issues)._ Discussing your proposed changes ahead of time will make the contribution process smooth for everyone.
 
 Once we've discussed your changes and you've got your code ready, make sure that tests are passing and open your pull request. Your PR is most likely to be accepted if it:
 
