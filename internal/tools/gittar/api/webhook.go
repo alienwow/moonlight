@@ -20,8 +20,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/tools/gittar/models"
-	"github.com/erda-project/erda/internal/tools/gittar/webcontext"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/models"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/webcontext"
 )
 
 type HookRequest struct {

@@ -21,8 +21,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/http/httpclientutil"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclientutil"
 )
 
 //import (

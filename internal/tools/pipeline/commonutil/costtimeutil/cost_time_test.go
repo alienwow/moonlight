@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 func TestCalculateTaskCostTimeSec(t *testing.T) {

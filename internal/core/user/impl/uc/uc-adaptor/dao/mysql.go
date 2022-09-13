@@ -16,8 +16,8 @@
 package dao
 
 import (
-	"github.com/erda-project/erda/internal/core/user/impl/uc/uc-adaptor/conf"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/internal/core/user/impl/uc/uc-adaptor/conf"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
 )
 
 const BULK_INSERT_CHUNK_SIZE = 3000

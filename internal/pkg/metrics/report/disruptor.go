@@ -17,7 +17,7 @@ package report
 import (
 	"time"
 
-	parallel "github.com/erda-project/erda-infra/pkg/parallel-writer"
+	parallel "github.com/ping-cloudnative/moonlight-utils/pkg/parallel-writer"
 )
 
 type Disruptor interface {

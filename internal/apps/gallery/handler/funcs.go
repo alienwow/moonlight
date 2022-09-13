@@ -23,13 +23,13 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-proto-go/apps/gallery/pb"
-	"github.com/erda-project/erda/internal/apps/gallery/dao"
-	"github.com/erda-project/erda/internal/apps/gallery/model"
-	"github.com/erda-project/erda/internal/apps/gallery/types"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/apps/gallery/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/gallery/model"
+	"github.com/ping-cloudnative/moonlight/internal/apps/gallery/types"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/proto-go/apps/gallery/pb"
 )
 
 func ListOpusTypes(ctx context.Context, tran i18n.Translator) *pb.ListOpusTypesRespData {

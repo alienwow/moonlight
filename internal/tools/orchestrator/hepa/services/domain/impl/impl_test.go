@@ -20,9 +20,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/gateway/dto"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/gateway/dto"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
 )
 
 func Test_sortPackage(t *testing.T) {

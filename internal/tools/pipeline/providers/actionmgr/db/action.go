@@ -14,7 +14,7 @@
 
 package db
 
-import "github.com/erda-project/erda-infra/providers/mysqlxorm"
+import "github.com/ping-cloudnative/moonlight-utils/providers/mysqlxorm"
 
 type Client struct {
 	mysqlxorm.Interface

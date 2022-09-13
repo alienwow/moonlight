@@ -17,17 +17,17 @@ package project
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	tenantpb "github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda-proto-go/msp/tenant/project/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/msp/instance/db/monitor"
-	"github.com/erda-project/erda/internal/apps/msp/tenant/db"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db/monitor"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/tenant/db"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
+	tenantpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/project/pb"
 )
 
 type config struct {

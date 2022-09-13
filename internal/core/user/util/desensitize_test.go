@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 func TestDensensitize(t *testing.T) {

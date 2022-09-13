@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
-	"github.com/erda-project/erda/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/pkg/common/permission"
 )
 
 func (p *provider) getOrgIDByClusters(ctx httpserver.Context) (string, error) {

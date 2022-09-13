@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package erda.apps.gallery;
-option go_package = "github.com/erda-project/erda-proto-go/apps/gallery/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/apps/gallery/pb";
 
 import "google/api/annotations.proto";
 import "google/protobuf/timestamp.proto";

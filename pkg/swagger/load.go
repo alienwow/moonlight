@@ -20,9 +20,9 @@ import (
 	"github.com/getkin/kin-openapi/openapi3"
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda/pkg/swagger/oas2"
-	"github.com/erda-project/erda/pkg/swagger/oas3"
-	"github.com/erda-project/erda/pkg/swagger/oasconv"
+	"github.com/ping-cloudnative/moonlight/pkg/swagger/oas2"
+	"github.com/ping-cloudnative/moonlight/pkg/swagger/oas3"
+	"github.com/ping-cloudnative/moonlight/pkg/swagger/oasconv"
 )
 
 func LoadFromData(spec []byte) (*openapi3.Swagger, error) {

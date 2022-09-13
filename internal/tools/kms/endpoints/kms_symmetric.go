@@ -18,9 +18,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/erda-project/erda/internal/tools/kms/endpoints/apierrors"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/kms/kmstypes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/kms/endpoints/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmstypes"
 )
 
 func (e *Endpoints) KmsEncrypt(ctx context.Context, r *http.Request, vars map[string]string) (httpserver.Responser, error) {

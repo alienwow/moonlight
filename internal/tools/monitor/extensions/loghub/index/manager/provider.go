@@ -21,10 +21,10 @@ import (
 	"github.com/olivere/elastic"
 	"github.com/robfig/cron"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/elasticsearch"
-	"github.com/erda-project/erda-infra/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/elasticsearch"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
 )
 
 type config struct {

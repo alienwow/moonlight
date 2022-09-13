@@ -14,7 +14,7 @@
 
 package model
 
-import "github.com/erda-project/erda-infra/providers/legacy/httpendpoints/errorresp"
+import "github.com/ping-cloudnative/moonlight-utils/providers/legacy/httpendpoints/errorresp"
 
 var (
 	ErrCreateNotify = err("ErrCreateNotify", "创建通知失败")

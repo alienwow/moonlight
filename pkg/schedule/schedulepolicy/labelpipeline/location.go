@@ -15,7 +15,7 @@
 package labelpipeline
 
 import (
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/labelconfig"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/labelconfig"
 )
 
 // LocationLabelFilter LabelInfo.Selectors

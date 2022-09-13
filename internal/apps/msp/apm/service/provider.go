@@ -17,16 +17,16 @@ package service
 import (
 	"embed"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	componentprotocol "github.com/erda-project/erda-infra/providers/component-protocol"
-	"github.com/erda-project/erda-infra/providers/component-protocol/protocol"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda-proto-go/msp/apm/service/pb"
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/service/components"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	componentprotocol "github.com/ping-cloudnative/moonlight-utils/providers/component-protocol"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/protocol"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/service/components"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/service/pb"
 )
 
 type View struct {

@@ -17,9 +17,9 @@ package resource
 import (
 	"strconv"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
 )
 
 // Resource 应用实例对象封装

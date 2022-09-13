@@ -22,9 +22,9 @@ import (
 	ckdriver "github.com/ClickHouse/clickhouse-go/v2/lib/driver"
 	"gotest.tools/assert"
 
-	"github.com/erda-project/erda-infra/providers/clickhouse"
-	"github.com/erda-project/erda/internal/tools/monitor/core/log/storage"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table/loader"
+	"github.com/ping-cloudnative/moonlight-utils/providers/clickhouse"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log/storage"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table/loader"
 )
 
 func Test_Aggregate(t *testing.T) {

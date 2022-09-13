@@ -21,8 +21,8 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/lifecycle_hook_client/pb"
-	"github.com/erda-project/erda/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/lifecycle_hook_client/pb"
 )
 
 func Test_loadLifecycleHookClient(t *testing.T) {

@@ -17,7 +17,7 @@ package apistructs
 import (
 	"encoding/json"
 
-	"github.com/erda-project/erda-proto-go/core/messenger/eventbox/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/messenger/eventbox/pb"
 )
 
 // EventCreateRequest  用于发送 event 的 json request (非 OPENAPI)

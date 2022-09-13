@@ -19,13 +19,13 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	projpb "github.com/erda-project/erda-proto-go/msp/tenant/project/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle/apierrors"
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
+	projpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/project/pb"
 )
 
 // PutRuntimeService 部署runtime之后，orchestrator需要将服务域名信息通过此接口提交给hepa

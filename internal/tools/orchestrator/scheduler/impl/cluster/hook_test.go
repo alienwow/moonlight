@@ -21,9 +21,9 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/cluster/clusterutil"
-	"github.com/erda-project/erda/pkg/jsonstore"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/cluster/clusterutil"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore"
 )
 
 func TestSetDefaultClusterConfig(t *testing.T) {

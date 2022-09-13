@@ -25,12 +25,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	checkerpb "github.com/erda-project/erda-proto-go/msp/apm/checker/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/checker/storage/db"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/checker/storage/db"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
+	checkerpb "github.com/ping-cloudnative/moonlight/proto-go/msp/apm/checker/pb"
 )
 
 func Test_checkerV1Service_DescribeCheckersV1(t *testing.T) {

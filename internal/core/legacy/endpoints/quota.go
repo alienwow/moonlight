@@ -18,8 +18,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/erda-project/erda/bundle/apierrors"
-	"github.com/erda-project/erda/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/bundle/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
 )
 
 func (e *Endpoints) GetWorkspaceQuota(ctx context.Context, r *http.Request, vars map[string]string) (httpserver.Responser, error) {

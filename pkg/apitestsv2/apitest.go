@@ -24,10 +24,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/mock"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/mock"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // APITest API 测试的结构信息

@@ -24,10 +24,10 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/clickhouse"
-	election "github.com/erda-project/erda-infra/providers/etcd-election"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/clickhouse"
+	election "github.com/ping-cloudnative/moonlight-utils/providers/etcd-election"
 )
 
 type LoadMode string

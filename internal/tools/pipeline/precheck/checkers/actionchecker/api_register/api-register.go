@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/precheck/prechecktype"
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/http/httpclientutil"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/precheck/prechecktype"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclientutil"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
 )
 
 type apiRegister struct{}

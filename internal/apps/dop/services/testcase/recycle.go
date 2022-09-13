@@ -17,8 +17,8 @@ package testcase
 import (
 	"fmt"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
 )
 
 // BatchCleanFromRecycleBin 从回收站彻底删除测试用例

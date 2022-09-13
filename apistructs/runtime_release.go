@@ -14,7 +14,7 @@
 
 package apistructs
 
-import "github.com/erda-project/erda-proto-go/core/dicehub/release/pb"
+import "github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb"
 
 // AppWorkspaceReleasesGetRequest 查询应用某个环境所有可部署的 release 请求
 type AppWorkspaceReleasesGetRequest struct {

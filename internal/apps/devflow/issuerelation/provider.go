@@ -17,14 +17,14 @@ package issuerelation
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-proto-go/apps/devflow/issuerelation/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/devflow/issuerelation/db"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/devflow/issuerelation/db"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/proto-go/apps/devflow/issuerelation/pb"
 )
 
 type config struct {

@@ -18,9 +18,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/queue/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/metadata"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/metadata"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/queue/pb"
 )
 
 // PipelineExtra represents `pipeline_extras` table.

@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"strconv"
 
-	commonpb "github.com/erda-project/erda-proto-go/common/pb"
-	syncpb "github.com/erda-project/erda-proto-go/dop/issue/sync/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
+	commonpb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	syncpb "github.com/ping-cloudnative/moonlight/proto-go/dop/issue/sync/pb"
 )
 
 func (p *provider) UpdateLabels(id, projectID uint64, labelNames []string) (err error) {

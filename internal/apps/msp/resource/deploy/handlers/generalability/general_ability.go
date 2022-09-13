@@ -24,15 +24,15 @@ import (
 	"github.com/ghodss/yaml"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-proto-go/core/dicehub/release/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/msp/instance/db"
-	"github.com/erda-project/erda/internal/apps/msp/resource/deploy/handlers"
-	"github.com/erda-project/erda/internal/apps/msp/resource/utils"
-	"github.com/erda-project/erda/pkg/http/httputil"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/resource/deploy/handlers"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/resource/utils"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb"
 )
 
 const (

@@ -24,7 +24,7 @@ import (
 	fakeclientset "k8s.io/client-go/kubernetes/fake"
 	clientgotesting "k8s.io/client-go/testing"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func Test_getRetryWatcher(t *testing.T) {

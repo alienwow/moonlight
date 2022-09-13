@@ -17,10 +17,10 @@ package configitemlistfilter
 import (
 	"context"
 
-	"github.com/erda-project/erda/apistructs"
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/scenarios/edge-configSet-item/i18n"
-	i18r "github.com/erda-project/erda/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/scenarios/edge-configSet-item/i18n"
+	i18r "github.com/ping-cloudnative/moonlight/pkg/i18n"
 )
 
 func (c *ComponentListFilter) Render(ctx context.Context, component *apistructs.Component, scenario apistructs.ComponentProtocolScenario, event apistructs.ComponentEvent, gs *apistructs.GlobalStateData) error {

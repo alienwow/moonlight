@@ -26,10 +26,10 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-proto-go/core/monitor/log/query/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/core/log/storage"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log/storage"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/log/query/pb"
 )
 
 type queryFunc func(it *logsIterator, opts *v1.PodLogOptions) (io.ReadCloser, error)

@@ -17,8 +17,8 @@ package schedulabletask
 import (
 	"context"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/dag"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/dag"
 )
 
 type DagImpl struct {

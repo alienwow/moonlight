@@ -14,7 +14,7 @@
 
 package api_gateway
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var API_GATEWAY_PUBLISH_AUTHN_GET = apis.ApiSpec{
 	Path:        "/api/gateway/publications/<apiPublishId>/authn",

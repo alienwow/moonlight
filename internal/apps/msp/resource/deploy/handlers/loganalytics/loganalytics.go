@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/erda-project/erda/internal/apps/msp/instance/db"
-	"github.com/erda-project/erda/internal/apps/msp/resource/deploy/handlers"
-	"github.com/erda-project/erda/internal/apps/msp/resource/utils"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/resource/deploy/handlers"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/resource/utils"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
 )
 
 const AddonLogIndexPrefix = "rlogs-"

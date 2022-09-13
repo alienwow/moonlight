@@ -17,8 +17,8 @@ package flow
 import (
 	"context"
 
-	"github.com/erda-project/erda-proto-go/dop/devflowrule/pb"
-	"github.com/erda-project/erda/internal/apps/dop/providers/devflowrule"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/devflowrule"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/devflowrule/pb"
 )
 
 type devFlowRuleMock struct {

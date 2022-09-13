@@ -18,10 +18,10 @@ import (
 	"context"
 	"strings"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda-proto-go/msp/apm/service/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/service/view/common"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/service/view/common"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/service/pb"
 )
 
 const Layout = "2006-01-02T15:04:05Z"

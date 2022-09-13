@@ -15,7 +15,7 @@
 package js_util
 
 import (
-	"github.com/erda-project/erda/pkg/jsonstore/storetypes"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/storetypes"
 )
 
 // 取得 kvs 和 keys 的交集

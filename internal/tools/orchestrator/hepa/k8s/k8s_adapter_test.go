@@ -28,8 +28,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	corev1 "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/util"
-	"github.com/erda-project/erda/pkg/k8s/union_interface"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/util"
+	"github.com/ping-cloudnative/moonlight/pkg/k8s/union_interface"
 )
 
 type ingressHelper struct{}

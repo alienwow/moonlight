@@ -23,11 +23,11 @@ import (
 	extensionsv1beta1 "k8s.io/api/extensions/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/plugins/k8s/clusterinfo"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/plugins/k8s/k8serror"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/util"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/plugins/k8s/clusterinfo"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/plugins/k8s/k8serror"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/util"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func groupStatefulset(sg *apistructs.ServiceGroup) ([]*apistructs.ServiceGroup, error) {

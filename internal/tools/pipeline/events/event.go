@@ -15,12 +15,12 @@
 package events
 
 import (
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/pkg/websocket"
-	"github.com/erda-project/erda/internal/tools/pipeline/dbclient"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgepipeline_register"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/websocket"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgepipeline_register"
 )
 
 type Event interface {

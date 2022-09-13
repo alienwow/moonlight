@@ -20,11 +20,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-proto-go/core/dicehub/release/pb"
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/pkg/mock"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/mock"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 func Test_releaseService_CreateRelease(t *testing.T) {

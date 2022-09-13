@@ -18,8 +18,8 @@ import (
 	"context"
 	"path/filepath"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/leaderworker/worker"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/leaderworker/worker"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func (p *provider) deleteWorker(ctx context.Context, w worker.Worker) error {

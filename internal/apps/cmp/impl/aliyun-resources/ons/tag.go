@@ -21,8 +21,8 @@ import (
 	"github.com/golang-collections/collections/set"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	aliyun_resources "github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	aliyun_resources "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources"
 )
 
 func OverwriteTags(ctx aliyun_resources.Context, items []apistructs.CloudResourceTagItem, tags []string, resourceType aliyun_resources.TagResourceType, instanceID string) error {

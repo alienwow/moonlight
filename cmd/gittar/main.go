@@ -17,15 +17,15 @@ package main
 import (
 	_ "embed"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/pkg/common"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/pkg/common"
 
 	// providers and modules
-	_ "github.com/erda-project/erda-infra/providers/grpcclient"
-	_ "github.com/erda-project/erda-proto-go/core/org/client"
-	_ "github.com/erda-project/erda-proto-go/core/token/client"
-	_ "github.com/erda-project/erda-proto-go/core/user/client"
-	_ "github.com/erda-project/erda/internal/tools/gittar"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/grpcclient"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/gittar"
+	_ "github.com/ping-cloudnative/moonlight/proto-go/core/org/client"
+	_ "github.com/ping-cloudnative/moonlight/proto-go/core/token/client"
+	_ "github.com/ping-cloudnative/moonlight/proto-go/core/user/client"
 )
 
 //go:embed bootstrap.yaml

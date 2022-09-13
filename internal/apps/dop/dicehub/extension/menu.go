@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erda-project/erda-proto-go/core/dicehub/extension/pb"
-	"github.com/erda-project/erda/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/extension/pb"
 )
 
 const DicehubExtensionsMenu = "dicehub.extensions.menu"

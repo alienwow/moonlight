@@ -15,7 +15,7 @@
 package table
 
 import (
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 type CommonTable struct {

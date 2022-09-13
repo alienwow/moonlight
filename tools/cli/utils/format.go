@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erda-project/erda/pkg/strutil"
-	"github.com/erda-project/erda/pkg/time/readable_time"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/time/readable_time"
 )
 
 // shortID for containerID

@@ -23,9 +23,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/msp/instance/db"
-	db2 "github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/index/query/db"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	db2 "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/index/query/db"
 )
 
 func TestNewESClient(t *testing.T) {
@@ -50,7 +50,7 @@ func TestGetLogIndices_WithNoneEmptyOrgId_Should_Return_Indices_With_OrgAlias(t 
 	}
 }
 
-//go:generate mockgen -destination=./clients_mock_logs_test.go -package query github.com/erda-project/erda-infra/base/logs Logger
+//go:generate mockgen -destination=./clients_mock_logs_test.go -package query github.com/ping-cloudnative/moonlight-utils/base/logs Logger
 func TestGetESClientsFromLogAnalyticsByCluster_Should_Success(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()

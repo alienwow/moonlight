@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
-	_ "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/scenarios/action/components/actionForm"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/i18n"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
+	_ "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/scenarios/action/components/actionForm"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 func rend(req *apistructs.ComponentProtocolRequest) (cont *apistructs.ComponentProtocolRequest, err error) {

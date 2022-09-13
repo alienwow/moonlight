@@ -25,10 +25,10 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/tools/remotecommand"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/common/errors"
-	perm "github.com/erda-project/erda/pkg/common/permission"
-	remotecommandexec "github.com/erda-project/erda/pkg/k8s/remotecommand"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	perm "github.com/ping-cloudnative/moonlight/pkg/common/permission"
+	remotecommandexec "github.com/ping-cloudnative/moonlight/pkg/k8s/remotecommand"
 )
 
 const instanceKey = "instance"

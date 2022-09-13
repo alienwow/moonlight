@@ -14,7 +14,7 @@
 
 package common
 
-import "github.com/erda-project/erda-proto-go/common/pb"
+import "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
 
 const (
 	JavaProcessType   = "jvm_memory"

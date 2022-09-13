@@ -14,7 +14,7 @@
 
 package mysql
 
-import "github.com/erda-project/erda/pkg/kms/kmstypes"
+import "github.com/ping-cloudnative/moonlight/pkg/kms/kmstypes"
 
 type KMSWrapper interface {
 	CreateKey() (*kmstypes.CreateKeyResponse, error)

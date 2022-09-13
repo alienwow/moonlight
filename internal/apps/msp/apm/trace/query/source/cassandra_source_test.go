@@ -22,8 +22,8 @@ import (
 	"bou.ke/monkey"
 	"github.com/gocql/gocql"
 
-	"github.com/erda-project/erda-infra/providers/cassandra"
-	"github.com/erda-project/erda-proto-go/msp/apm/trace/pb"
+	"github.com/ping-cloudnative/moonlight-utils/providers/cassandra"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/trace/pb"
 )
 
 func TestCassandraSource_GetSpans(t *testing.T) {

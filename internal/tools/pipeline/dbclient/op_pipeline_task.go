@@ -21,13 +21,13 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/commonutil/statusutil"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskinspect"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskresult"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
-	"github.com/erda-project/erda/pkg/retry"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/commonutil/statusutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskinspect"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskresult"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/pkg/retry"
 )
 
 func (client *Client) CreatePipelineTask(pt *spec.PipelineTask, ops ...SessionOption) (err error) {

@@ -14,7 +14,7 @@
 
 package apierrors
 
-import "github.com/erda-project/erda/pkg/http/httpserver/errorresp"
+import "github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
 
 var (
 	// uc users

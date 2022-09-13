@@ -18,9 +18,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
-	"github.com/erda-project/erda/internal/core/user/impl/uc"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/user/impl/uc"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
 )
 
 var OPENAPI_GEN_CLIENT_TOKEN = apis.ApiSpec{

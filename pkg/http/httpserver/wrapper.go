@@ -18,8 +18,8 @@ import (
 	"context"
 	"net/http"
 
-	i18nProviders "github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-infra/providers/legacy/httpendpoints/i18n"
+	i18nProviders "github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight-utils/providers/legacy/httpendpoints/i18n"
 )
 
 func Wrap(h Handler, wrappers ...HandlerWrapper) Handler {

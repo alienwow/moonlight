@@ -19,7 +19,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // GenerateYml 根据 spec 重新生成 yaml 文本，一般用于对 spec 进行调整后重新生成 yaml 文本

@@ -19,7 +19,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
 )
 
 // TraceRequestHistoryDB  .

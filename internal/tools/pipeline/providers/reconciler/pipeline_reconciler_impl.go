@@ -17,9 +17,9 @@ package reconciler
 import (
 	"context"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/commonutil/statusutil"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/commonutil/statusutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 // updateCalculatedPipelineStatusForTaskUseField by:

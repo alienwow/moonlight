@@ -21,10 +21,10 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/pkg/gitflowutil"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cms"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/gitflowutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cms"
 )
 
 func TestGetBranch(t *testing.T) {

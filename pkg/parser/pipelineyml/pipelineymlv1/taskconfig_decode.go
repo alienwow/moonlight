@@ -21,8 +21,8 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/pkg/parser/pipelineyml/pipelineymlv1/pipelineymlvars"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml/pipelineymlv1/steptasktype"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml/pipelineymlv1/pipelineymlvars"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml/pipelineymlv1/steptasktype"
 )
 
 func (tc TaskConfig) decodeAggregateStepTasks() ([]StepTask, error) {

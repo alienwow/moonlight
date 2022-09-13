@@ -21,16 +21,16 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace"
-	"github.com/erda-project/erda/internal/tools/monitor/core/log"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model/odata"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/compressor"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/plugins"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/plugins/exporters/collector/auth"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model/odata"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/compressor"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/plugins"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/plugins/exporters/collector/auth"
 )
 
 var providerName = plugins.WithPrefixExporter("collector")

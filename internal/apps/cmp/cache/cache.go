@@ -31,7 +31,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"modernc.org/mathutil"
 
-	"github.com/erda-project/erda/internal/apps/cmp/queue"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/queue"
 )
 
 type (

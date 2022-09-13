@@ -20,11 +20,11 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-proto-go/core/hepa/api_policy/pb"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/util"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/vars"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/api_policy"
-	erdaErr "github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/util"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/vars"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/api_policy"
+	erdaErr "github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/api_policy/pb"
 )
 
 type apiPolicyService struct {

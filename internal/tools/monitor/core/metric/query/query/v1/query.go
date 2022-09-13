@@ -21,12 +21,12 @@ import (
 
 	"github.com/olivere/elastic"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/chartmeta"
-	tsql "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/query"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/chartmeta"
+	tsql "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/query"
 )
 
 // Queryer .

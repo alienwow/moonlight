@@ -17,8 +17,8 @@ package event_overview_info
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 type ComponentEventOverviewInfo struct {

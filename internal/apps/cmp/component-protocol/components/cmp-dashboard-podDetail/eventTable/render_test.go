@@ -18,10 +18,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/cmp/component-protocol/cputil"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/cputil"
 )
 
 func TestContain(t *testing.T) {

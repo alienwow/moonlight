@@ -25,8 +25,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda-proto-go/core/dicehub/extension/pb"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/extension/pb"
 )
 
 type Repo struct {

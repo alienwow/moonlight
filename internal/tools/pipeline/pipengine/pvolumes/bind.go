@@ -18,9 +18,9 @@ import (
 	"net/url"
 	"path/filepath"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/conf"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/conf"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
 )
 
 // ParseDiceYmlJobBinds 将 diceYmlJob 里老格式的 binds 转换为新的格式

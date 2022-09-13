@@ -17,7 +17,7 @@ package spec
 import (
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 // PipelineLabel 标签

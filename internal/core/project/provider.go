@@ -21,10 +21,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-proto-go/core/project/pb"
-	"github.com/erda-project/erda/internal/core/project/dao"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/internal/core/project/dao"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/project/pb"
 )
 
 var (

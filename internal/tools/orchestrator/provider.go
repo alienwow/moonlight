@@ -17,15 +17,15 @@ package orchestrator
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	election "github.com/erda-project/erda-infra/providers/etcd-election"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	clusterpb "github.com/erda-project/erda-proto-go/core/clustermanager/cluster/pb"
-	dicehubpb "github.com/erda-project/erda-proto-go/core/dicehub/release/pb"
-	tenantpb "github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/tools/orchestrator/events"
-	"github.com/erda-project/erda/internal/tools/orchestrator/queue"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	election "github.com/ping-cloudnative/moonlight-utils/providers/etcd-election"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/events"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/queue"
+	clusterpb "github.com/ping-cloudnative/moonlight/proto-go/core/clustermanager/cluster/pb"
+	dicehubpb "github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb"
+	tenantpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
 )
 
 type provider struct {

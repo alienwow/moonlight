@@ -17,9 +17,9 @@ package permission
 import (
 	"strconv"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/pkg/gitflowutil"
-	"github.com/erda-project/erda/internal/tools/pipeline/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/gitflowutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/services/apierrors"
 )
 
 func (s *provider) Check(identityInfo apistructs.IdentityInfo, req *apistructs.PermissionCheckRequest) error {

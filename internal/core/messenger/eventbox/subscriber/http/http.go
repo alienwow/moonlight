@@ -25,11 +25,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/constant"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/monitor"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/subscriber"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/types"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/constant"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/monitor"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/subscriber"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/types"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 const (

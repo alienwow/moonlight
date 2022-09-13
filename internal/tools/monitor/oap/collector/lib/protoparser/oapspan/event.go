@@ -19,11 +19,11 @@ import (
 	"strings"
 	"sync"
 
-	oap "github.com/erda-project/erda-proto-go/oap/trace/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/common"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/common/unmarshalwork"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/common/unmarshalwork"
+	oap "github.com/ping-cloudnative/moonlight/proto-go/oap/trace/pb"
 )
 
 func ParseOapSpanEvent(buf []byte, callback func(event []*metric.Metric) error) error {

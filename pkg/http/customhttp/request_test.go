@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
 )
 
 const (

@@ -31,16 +31,16 @@ import (
 	"github.com/patrickmn/go-cache"
 	"github.com/sirupsen/logrus"
 
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda/apistructs"
-	identity "github.com/erda-project/erda/internal/core/user/common"
-	"github.com/erda-project/erda/internal/tools/gittar/conf"
-	"github.com/erda-project/erda/internal/tools/gittar/models"
-	"github.com/erda-project/erda/internal/tools/gittar/pkg/gitmodule"
-	"github.com/erda-project/erda/internal/tools/gittar/uc"
-	"github.com/erda-project/erda/internal/tools/gittar/webcontext"
-	"github.com/erda-project/erda/pkg/http/httputil"
-	"github.com/erda-project/erda/pkg/oauth2/tokenstore/mysqltokenstore"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	identity "github.com/ping-cloudnative/moonlight/internal/core/user/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/models"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/pkg/gitmodule"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/uc"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/webcontext"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/pkg/oauth2/tokenstore/mysqltokenstore"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
 )
 
 var (

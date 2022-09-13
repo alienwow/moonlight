@@ -17,8 +17,8 @@ package http
 import (
 	"testing"
 
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/constant"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/types"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/constant"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/types"
 )
 
 func Test_getUserID(t *testing.T) {

@@ -32,10 +32,10 @@ import (
 	"github.com/sirupsen/logrus"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/cluster-agent/config"
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/k8sclient"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/cluster-agent/config"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient"
 )
 
 const (

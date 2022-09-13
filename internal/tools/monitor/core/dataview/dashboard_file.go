@@ -32,11 +32,11 @@ import (
 	"github.com/recallsong/go-utils/encoding/jsonx"
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-proto-go/core/monitor/dataview/pb"
-	"github.com/erda-project/erda/internal/core/file/filetypes"
-	"github.com/erda-project/erda/internal/tools/monitor/core/dataview/db"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/internal/core/file/filetypes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/dataview/db"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/dataview/pb"
 )
 
 func (p *provider) ParseDashboardTemplate(r *http.Request, params struct {

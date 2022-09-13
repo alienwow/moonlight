@@ -15,7 +15,7 @@
 package label
 
 import (
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/types"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/types"
 )
 
 var DefaultLabels = map[types.LabelKey]map[types.LabelKey]interface{}{

@@ -17,7 +17,7 @@ package dao
 import (
 	"strconv"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 // LabelRelation 标签关联关系

@@ -23,7 +23,7 @@ import (
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 
-	"github.com/erda-project/erda/internal/core/project/dao"
+	"github.com/ping-cloudnative/moonlight/internal/core/project/dao"
 )
 
 var dsn = filepath.Join(os.TempDir(), "gorm.db")

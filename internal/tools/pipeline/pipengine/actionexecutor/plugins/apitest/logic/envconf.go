@@ -15,8 +15,8 @@
 package logic
 
 import (
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/encoding/jsonparse"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/encoding/jsonparse"
 )
 
 type EnvConfig struct {

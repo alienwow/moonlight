@@ -28,12 +28,12 @@ import (
 	"github.com/labstack/echo"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api"
-	apispec "github.com/erda-project/erda/internal/core/openapi/legacy/api/spec"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/hooks"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/monitor"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api"
+	apispec "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/spec"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/hooks"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/monitor"
 )
 
 func getModifyResponse(rw http.ResponseWriter) func(*http.Response) error {

@@ -18,17 +18,17 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-infra/pkg/transport/http/encoding"
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda-proto-go/msp/credential/pb"
-	tenantpb "github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/pkg/audit"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	transhttp "github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport/http/encoding"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/audit"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/credential/pb"
+	tenantpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
 )
 
 type config struct {

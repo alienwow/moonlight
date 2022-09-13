@@ -23,7 +23,7 @@ import (
 	"github.com/ahmetb/go-linq/v3"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 type projectStats struct {

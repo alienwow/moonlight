@@ -23,10 +23,10 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/aop/aoptypes"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskinspect"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/aop/aoptypes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskinspect"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 type testOp TaskRun

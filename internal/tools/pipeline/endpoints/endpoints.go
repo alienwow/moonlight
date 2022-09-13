@@ -20,19 +20,19 @@ import (
 
 	"github.com/gorilla/schema"
 
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
-	"github.com/erda-project/erda/internal/tools/pipeline/dbclient"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cancel"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/clusterinfo"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cron/daemon"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgepipeline"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgepipeline_register"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/engine"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/permission"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/run"
-	"github.com/erda-project/erda/internal/tools/pipeline/services/pipelinesvc"
-	"github.com/erda-project/erda/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysqlxorm"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cancel"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/clusterinfo"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cron/daemon"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgepipeline"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgepipeline_register"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/engine"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/permission"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/run"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/services/pipelinesvc"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
 )
 
 // Endpoints 定义 endpoint 方法

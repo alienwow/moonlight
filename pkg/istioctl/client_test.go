@@ -23,8 +23,8 @@ package istioctl
 //	"k8s.io/apimachinery/pkg/api/errors"
 //	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 //
-//	"github.com/erda-project/erda/pkg/clientgo"
-//	"github.com/erda-project/erda/pkg/clientgo/restclient"
+//	"github.com/ping-cloudnative/moonlight/pkg/clientgo"
+//	"github.com/ping-cloudnative/moonlight/pkg/clientgo/restclient"
 //)
 //
 //func TestNewIstioClient(t *testing.T) {

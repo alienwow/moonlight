@@ -25,10 +25,10 @@ import (
 	gojsonnet "github.com/google/go-jsonnet"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/apps/dop/providers/rule/jsonnet"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/jsonnet"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
 )
 
 type config struct {

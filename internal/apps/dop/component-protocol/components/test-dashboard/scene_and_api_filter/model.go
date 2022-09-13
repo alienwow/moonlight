@@ -19,12 +19,12 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/test-dashboard/common"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/types"
-	autotestv2 "github.com/erda-project/erda/internal/apps/dop/services/autotest_v2"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/components/filter"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/test-dashboard/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/types"
+	autotestv2 "github.com/ping-cloudnative/moonlight/internal/apps/dop/services/autotest_v2"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/components/filter"
 )
 
 type Filter struct {

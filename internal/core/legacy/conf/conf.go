@@ -23,10 +23,10 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/legacy/model"
-	"github.com/erda-project/erda/pkg/envconf"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/model"
+	"github.com/ping-cloudnative/moonlight/pkg/envconf"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // Conf 定义基于环境变量的配置项

@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erda-project/erda/pkg/math"
+	"github.com/ping-cloudnative/moonlight/pkg/math"
 )
 
 func GetDataSourceNames(layers ...TransactionLayerType) string {

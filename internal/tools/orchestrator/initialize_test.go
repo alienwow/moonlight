@@ -21,9 +21,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
 )
 
 func Test_initCron(t *testing.T) {

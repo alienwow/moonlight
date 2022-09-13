@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/log"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log"
 )
 
 func Test_getStatisticsLabels(t *testing.T) {

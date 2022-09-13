@@ -14,7 +14,7 @@
 
 package autotest
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var ACTION_LOG_DOWNLOAD = apis.ApiSpec{
 	Path:        "/api/autotests/filetree/<inode>/actions/download-action-log",

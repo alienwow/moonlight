@@ -23,10 +23,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda/apistructs"
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
-	"github.com/erda-project/erda/pkg/i18n"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
 )
 
 const DataValueKey = "action_data_value_key"

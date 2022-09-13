@@ -15,7 +15,7 @@
 package alert
 
 import (
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var APM_ALERT_SWITCH = apis.ApiSpec{

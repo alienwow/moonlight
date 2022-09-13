@@ -17,7 +17,7 @@ package utils
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
 )
 
 func NewContextWithHeader(ctx context.Context) context.Context {

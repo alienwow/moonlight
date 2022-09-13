@@ -21,15 +21,15 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister/base"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/requirement-task-overview/common"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/requirement-task-overview/common/gshelper"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/requirement-task-overview/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/requirement-task-overview/common/gshelper"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister/base"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 func init() {

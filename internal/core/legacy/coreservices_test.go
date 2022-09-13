@@ -21,7 +21,7 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda/internal/core/legacy/conf"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/conf"
 )
 
 const testClusterName = "core-services-test"

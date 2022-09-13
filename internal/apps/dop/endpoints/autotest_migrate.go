@@ -18,8 +18,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
 )
 
 type migrateRequest struct {

@@ -22,7 +22,7 @@ import (
 	"net/url"
 	"strconv"
 
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
 )
 
 func (p *provider) proxy(hostpath string, header http.Header, params url.Values, rw http.ResponseWriter, r *http.Request) error {

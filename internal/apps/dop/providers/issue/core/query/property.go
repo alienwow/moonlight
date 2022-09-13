@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/core/common"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/core/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 func (p *provider) GetProperties(req *pb.GetIssuePropertyRequest) ([]*pb.IssuePropertyIndex, error) {

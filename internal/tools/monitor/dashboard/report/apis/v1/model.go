@@ -18,8 +18,8 @@ import (
 	"database/sql/driver"
 	"encoding/json"
 
-	"github.com/erda-project/erda-proto-go/tools/monitor/dashboard/report/pb"
-	block "github.com/erda-project/erda/internal/tools/monitor/core/dataview/v1-chart-block"
+	block "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/dataview/v1-chart-block"
+	"github.com/ping-cloudnative/moonlight/proto-go/tools/monitor/dashboard/report/pb"
 )
 
 type reportFrequency string

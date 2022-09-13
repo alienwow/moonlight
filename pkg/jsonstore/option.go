@@ -21,13 +21,13 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/jsonstore/cacheetcd"
-	"github.com/erda-project/erda/pkg/jsonstore/etcd"
-	"github.com/erda-project/erda/pkg/jsonstore/lru"
-	"github.com/erda-project/erda/pkg/jsonstore/mem"
-	"github.com/erda-project/erda/pkg/jsonstore/memetcd"
-	"github.com/erda-project/erda/pkg/jsonstore/storetypes"
-	"github.com/erda-project/erda/pkg/jsonstore/timeout"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/cacheetcd"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/etcd"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/lru"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/mem"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/memetcd"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/storetypes"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/timeout"
 )
 
 type BackendType = int

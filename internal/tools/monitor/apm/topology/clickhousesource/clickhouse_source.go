@@ -20,8 +20,8 @@ import (
 	"github.com/doug-martin/goqu/v9"
 	"github.com/doug-martin/goqu/v9/exp"
 
-	apm "github.com/erda-project/erda/internal/tools/monitor/apm/common"
-	"github.com/erda-project/erda/pkg/ckhelper"
+	apm "github.com/ping-cloudnative/moonlight/internal/tools/monitor/apm/common"
+	"github.com/ping-cloudnative/moonlight/pkg/ckhelper"
 )
 
 // metric catalog

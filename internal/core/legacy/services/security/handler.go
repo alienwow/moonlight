@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/legacy/dao"
-	"github.com/erda-project/erda/internal/core/legacy/types"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/dao"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/types"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 type PermissionHandler interface {

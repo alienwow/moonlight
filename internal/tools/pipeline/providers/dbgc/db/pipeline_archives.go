@@ -21,9 +21,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/version"
-	"github.com/erda-project/erda/internal/tools/pipeline/dbclient"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight-utils/base/version"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 type ArchiveDeleteRequest struct {

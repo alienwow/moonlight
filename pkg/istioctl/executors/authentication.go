@@ -22,9 +22,9 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/istioctl"
-	"github.com/erda-project/erda/pkg/istioctl/assembler"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/istioctl"
+	"github.com/ping-cloudnative/moonlight/pkg/istioctl/assembler"
 )
 
 type AuthNExecutor struct {

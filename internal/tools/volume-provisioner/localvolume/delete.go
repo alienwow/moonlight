@@ -23,7 +23,7 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func (p *localVolumeProvisioner) Delete(ctx context.Context, pv *v1.PersistentVolume) error {

@@ -30,10 +30,10 @@ import (
 	"github.com/recallsong/go-utils/reflectx"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-proto-go/core/monitor/settings/pb"
-	"github.com/erda-project/erda/pkg/common/errors"
-	"github.com/erda-project/erda/pkg/router"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/pkg/router"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/settings/pb"
 )
 
 func (s *settingsService) monitorConfigMap(ns string) *configDefine {

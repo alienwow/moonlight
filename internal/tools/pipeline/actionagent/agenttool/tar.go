@@ -24,7 +24,7 @@ import (
 	"github.com/c2h5oh/datasize"
 	"github.com/mholt/archiver"
 
-	"github.com/erda-project/erda/pkg/retry"
+	"github.com/ping-cloudnative/moonlight/pkg/retry"
 )
 
 // Tar is the forth step of reource agent do

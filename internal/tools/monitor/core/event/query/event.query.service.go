@@ -17,10 +17,10 @@ package query
 import (
 	"context"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/event/pb"
-	commonPb "github.com/erda-project/erda-proto-go/oap/common/pb"
-	oapPb "github.com/erda-project/erda-proto-go/oap/event/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/core/event/storage"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/event/storage"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/event/pb"
+	commonPb "github.com/ping-cloudnative/moonlight/proto-go/oap/common/pb"
+	oapPb "github.com/ping-cloudnative/moonlight/proto-go/oap/event/pb"
 )
 
 type eventQueryService struct {

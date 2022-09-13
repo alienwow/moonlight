@@ -21,7 +21,7 @@ import (
 
 	"github.com/olivere/elastic"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/elasticsearch/index"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/elasticsearch/index"
 )
 
 // Ensure .

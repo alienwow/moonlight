@@ -21,9 +21,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/executortypes"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/volume"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/executortypes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/volume"
 )
 
 type Action int

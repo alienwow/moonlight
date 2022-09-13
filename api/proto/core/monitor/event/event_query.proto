@@ -1,6 +1,6 @@
 syntax = "proto3";
 package erda.core.monitor.event;
-option go_package = "github.com/erda-project/erda-proto-go/core/monitor/event/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/event/pb";
 import "google/api/annotations.proto";
 import "oap/event/event.proto";
 

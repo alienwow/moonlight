@@ -21,7 +21,7 @@ import (
 	"github.com/labstack/echo"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/internal/pkg/mock"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/mock"
 )
 
 func Test_getRealIP(t *testing.T) {

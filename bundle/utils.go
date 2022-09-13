@@ -15,9 +15,9 @@
 package bundle
 
 import (
-	commonpb "github.com/erda-project/erda-proto-go/common/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
+	commonpb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
 )
 
 func toAPIError(statusCode int, err apistructs.ErrorResponse) *errorresp.APIError {

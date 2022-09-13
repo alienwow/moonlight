@@ -20,8 +20,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/apps/dop/dao"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // taskName -> stepID

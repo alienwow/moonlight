@@ -24,12 +24,12 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/gittar/conf"
-	"github.com/erda-project/erda/pkg/desensitize"
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/conf"
+	"github.com/ping-cloudnative/moonlight/pkg/desensitize"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 type Token struct {

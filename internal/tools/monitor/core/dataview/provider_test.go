@@ -23,14 +23,14 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/pkg/audit"
-	"github.com/erda-project/erda/internal/tools/monitor/core/dataview/db"
-	"github.com/erda-project/erda/pkg/mock"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/audit"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/dataview/db"
+	"github.com/ping-cloudnative/moonlight/pkg/mock"
 )
 
 func Test_provider_ExportTaskExecutor(t *testing.T) {

@@ -22,13 +22,13 @@ import (
 	"bou.ke/monkey"
 	"github.com/alecthomas/assert"
 
-	testplanpb "github.com/erda-project/erda-proto-go/core/dop/autotest/testplan/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/pipeline/aop/aoptypes"
-	"github.com/erda-project/erda/internal/tools/pipeline/dbclient"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/aop/aoptypes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
+	testplanpb "github.com/ping-cloudnative/moonlight/proto-go/core/dop/autotest/testplan/pb"
 )
 
 func Test_filterPipelineTask(t *testing.T) {

@@ -20,16 +20,16 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/safe"
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
-	cronpb "github.com/erda-project/erda-proto-go/core/pipeline/cron/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/pipeline/dbclient"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgepipeline_register"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgereporter/db"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/leaderworker"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/safe"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysqlxorm"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgepipeline_register"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgereporter/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/leaderworker"
+	cronpb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cron/pb"
 )
 
 type config struct {

@@ -17,10 +17,10 @@ package mock
 import (
 	"context"
 
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda/internal/core/legacy/services/member"
-	"github.com/erda-project/erda/internal/core/legacy/services/permission"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/member"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/permission"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 type OrgMock struct {

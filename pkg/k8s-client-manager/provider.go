@@ -24,10 +24,10 @@ import (
 	"k8s.io/client-go/rest"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/pkg/k8sclient"
-	"github.com/erda-project/erda/pkg/k8sclient/scheme"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient/scheme"
 )
 
 // Interface .

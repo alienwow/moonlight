@@ -22,10 +22,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
-	"github.com/erda-project/erda/pkg/kms/kmscrypto"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmscrypto"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
 )
 
 // GetRandomId 生成随机33位uuid，并且，（首字母开头 + 32位uuid）构成Id

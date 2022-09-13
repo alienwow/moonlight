@@ -24,16 +24,16 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/legacy/conf"
-	"github.com/erda-project/erda/internal/core/legacy/dao"
-	"github.com/erda-project/erda/internal/core/legacy/model"
-	"github.com/erda-project/erda/internal/core/user/impl/uc"
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/i18n"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/conf"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/dao"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/model"
+	"github.com/ping-cloudnative/moonlight/internal/core/user/impl/uc"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 type NotifyGroup struct {

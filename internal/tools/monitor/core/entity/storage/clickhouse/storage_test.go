@@ -23,11 +23,11 @@ import (
 	ckdriver "github.com/ClickHouse/clickhouse-go/v2/lib/driver"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/providers/clickhouse"
-	"github.com/erda-project/erda/internal/tools/monitor/core/entity"
-	"github.com/erda-project/erda/internal/tools/monitor/core/entity/storage"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table/loader"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/providers/clickhouse"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/entity"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/entity/storage"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table/loader"
 )
 
 type MockLogger struct {

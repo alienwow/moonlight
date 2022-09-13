@@ -17,7 +17,7 @@ package source
 import (
 	"context"
 
-	"github.com/erda-project/erda-proto-go/msp/apm/exception/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/exception/pb"
 )
 
 type ExceptionSource interface {

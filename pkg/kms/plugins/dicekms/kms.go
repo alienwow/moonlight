@@ -23,11 +23,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/crypto/uuid"
-	"github.com/erda-project/erda/pkg/kms/kmscrypto"
-	"github.com/erda-project/erda/pkg/kms/kmstypes"
-	"github.com/erda-project/erda/pkg/kms/log"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmscrypto"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmstypes"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/log"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 type additionalData struct {

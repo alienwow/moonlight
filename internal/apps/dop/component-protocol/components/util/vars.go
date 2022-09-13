@@ -17,8 +17,8 @@ package util
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 const ColumnPipelineStatus = "pipelineStatus"

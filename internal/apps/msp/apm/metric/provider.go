@@ -17,14 +17,14 @@ package metric
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	tenantpb "github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda/bundle"
-	monitordb "github.com/erda-project/erda/internal/apps/msp/instance/db/monitor"
-	mperm "github.com/erda-project/erda/internal/apps/msp/instance/permission"
-	"github.com/erda-project/erda/internal/core/org"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	monitordb "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db/monitor"
+	mperm "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/permission"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	tenantpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
 )
 
 type config struct {

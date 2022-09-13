@@ -24,10 +24,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/conf"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/clusterinfo"
-	"github.com/erda-project/erda/pkg/k8sclient"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/clusterinfo"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient"
 )
 
 func Test_isBuildkitHit(t *testing.T) {

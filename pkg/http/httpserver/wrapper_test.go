@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	i18nProviders "github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda/pkg/http/httpserver"
+	i18nProviders "github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
 )
 
 func TestUnwrapI18nCodes(t *testing.T) {

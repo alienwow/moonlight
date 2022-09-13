@@ -17,8 +17,8 @@ package bundle
 import (
 	"time"
 
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 var Bundle *bundle.Bundle

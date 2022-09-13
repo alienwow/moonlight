@@ -17,7 +17,7 @@ package dao
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
 )
 
 type CodeCoverageSetting struct {

@@ -15,7 +15,7 @@
 package hub_info
 
 import (
-	"github.com/erda-project/erda-proto-go/core/hepa/hub_info/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/hub_info/pb"
 )
 
 type Interface pb.HubInfoServiceServer

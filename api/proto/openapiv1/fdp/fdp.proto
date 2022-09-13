@@ -4,7 +4,7 @@ syntax = "proto3";
 
 package erda.openapiv1.fdp; // remove 'openapiv1.' when you make this proto file effective
 
-option go_package = "github.com/erda-project/erda-proto-go/openapiv1/fdp/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/openapiv1/fdp/pb";
 
 import "google/api/annotations.proto";
 import "google/protobuf/empty.proto";

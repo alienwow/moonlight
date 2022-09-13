@@ -22,9 +22,9 @@ import (
 
 	sls "github.com/aliyun/aliyun-log-go-sdk"
 
-	"github.com/erda-project/erda-infra/providers/elasticsearch"
-	logs2 "github.com/erda-project/erda/internal/tools/monitor/core/log"
-	metrics "github.com/erda-project/erda/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight-utils/providers/elasticsearch"
+	logs2 "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log"
+	metrics "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
 )
 
 // // RDS审计日志

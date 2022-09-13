@@ -19,10 +19,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-proto-go/core/hepa/consumer/pb"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/vars"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/legacy_consumer"
-	erdaErr "github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/vars"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/legacy_consumer"
+	erdaErr "github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/consumer/pb"
 )
 
 type legacyConsumerService struct {

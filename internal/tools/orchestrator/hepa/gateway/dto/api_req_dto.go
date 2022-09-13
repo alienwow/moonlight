@@ -14,7 +14,7 @@
 
 package dto
 
-import "github.com/erda-project/erda-proto-go/core/hepa/api/pb"
+import "github.com/ping-cloudnative/moonlight/proto-go/core/hepa/api/pb"
 
 var INNER_HOSTS = []string{
 	"dev-api-gateway.kube-system.svc.cluster.local",

@@ -17,10 +17,10 @@ package bundle
 import (
 	"strconv"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle/apierrors"
-	"github.com/erda-project/erda/internal/pkg/diceworkspace"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/diceworkspace"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
 )
 
 // GetProjectBranchRules 查询项目分支规则

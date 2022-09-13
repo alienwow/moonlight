@@ -21,7 +21,7 @@ import (
 	"gopkg.in/oauth2.v3"
 	"gopkg.in/oauth2.v3/models"
 
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
 )
 
 type ClientStore struct {

@@ -18,11 +18,11 @@ import (
 	"context"
 	"strings"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/endpoint"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/gateway/dto"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/k8s"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/endpoint"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/gateway/dto"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/k8s"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
 )
 
 type RuntimeEndpointInfo struct {

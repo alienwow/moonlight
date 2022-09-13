@@ -20,12 +20,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/types"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/core/query"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/types"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/core/query"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
 )
 
 type StackChart struct {

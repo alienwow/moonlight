@@ -22,17 +22,17 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister/base"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister/base"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
 
-	monitorpb "github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-alert-overview/common"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-alert-overview/common"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	monitorpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 const parseLayout = "2006-01-02T15:04:05Z"

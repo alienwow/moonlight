@@ -15,10 +15,10 @@
 package publisher
 
 import (
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/model"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
-	"github.com/erda-project/erda/pkg/nexus"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/model"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/nexus"
 )
 
 func (p *Publisher) ensureNexusHostedRepo(publisher *model.Publisher) error {

@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
 )
 
 // FilterHeader remove internal header if exist in request

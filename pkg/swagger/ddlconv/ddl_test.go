@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/erda-project/erda/pkg/swagger/ddlconv"
+	"github.com/ping-cloudnative/moonlight/pkg/swagger/ddlconv"
 )
 
 const createsql = `

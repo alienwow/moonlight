@@ -21,10 +21,10 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/erda-project/erda-infra/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
 )
 
-// -go:generate mockgen -destination=./mock_log.go -package exporter github.com/erda-project/erda-infra/base/logs Logger
+// -go:generate mockgen -destination=./mock_log.go -package exporter github.com/ping-cloudnative/moonlight-utils/base/logs Logger
 // -go:generate mockgen -destination=./mock_output.go -package exporter -source=./interface.go Output
 func TestInvoke_WithLogAnalyticsPattern_Should_Call_Output(t *testing.T) {
 	ctrl := gomock.NewController(t)

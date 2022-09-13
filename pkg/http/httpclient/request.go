@@ -31,9 +31,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/pkg/http/customhttp"
-	"github.com/erda-project/erda/pkg/i18n"
-	"github.com/erda-project/erda/pkg/terminal/loading"
+	"github.com/ping-cloudnative/moonlight/pkg/http/customhttp"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/terminal/loading"
 )
 
 type Request struct {

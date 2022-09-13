@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/erda-project/erda-proto-go/msp/apm/adapter/pb"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/common/errors"
-	"github.com/erda-project/erda/pkg/template"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/pkg/template"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/adapter/pb"
 )
 
 var (

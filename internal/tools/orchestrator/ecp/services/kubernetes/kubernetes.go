@@ -19,7 +19,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/k8sclient"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient"
 )
 
 var k8sClients = make(map[string]*k8sclient.K8sClient, 0)

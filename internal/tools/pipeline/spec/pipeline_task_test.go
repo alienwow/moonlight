@@ -23,11 +23,11 @@ import (
 	"github.com/magiconair/properties/assert"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskerror"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskresult"
-	"github.com/erda-project/erda/pkg/metadata"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskerror"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskresult"
+	"github.com/ping-cloudnative/moonlight/pkg/metadata"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
 )
 
 func TestRuntimeID(t *testing.T) {

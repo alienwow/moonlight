@@ -23,12 +23,12 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/olivere/elastic"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/chartmeta"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricq"
-	queryv1 "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/query/v1"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/chartmeta"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricq"
+	queryv1 "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/query/v1"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 // MockQueryer is a mock of Queryer interface.

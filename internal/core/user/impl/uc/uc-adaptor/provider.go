@@ -17,7 +17,7 @@ package uc_adaptor
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
 )
 
 type config struct {

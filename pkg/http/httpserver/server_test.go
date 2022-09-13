@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
 )
 
 func TestServer_Base64EncodeRequestBody(t *testing.T) {

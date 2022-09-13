@@ -15,8 +15,8 @@
 package pvolumes
 
 import (
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/metadata"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/metadata"
 )
 
 // GetAvailableTaskContainerWorkdirs 查询当前存在的所有 Workdir

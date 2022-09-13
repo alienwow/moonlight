@@ -23,8 +23,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	_ "github.com/erda-project/erda-infra/base/version"
-	actionrunner "github.com/erda-project/erda/internal/tools/pipeline/action-runner"
+	_ "github.com/ping-cloudnative/moonlight-utils/base/version"
+	actionrunner "github.com/ping-cloudnative/moonlight/internal/tools/pipeline/action-runner"
 )
 
 var config = flag.String("config", "./config.json", "file path")

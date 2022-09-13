@@ -24,7 +24,7 @@ import (
 	pmodel "github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/prompb"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
 )
 
 func ParseStream(r io.Reader, callback func(record *metric.Metric) error) error {

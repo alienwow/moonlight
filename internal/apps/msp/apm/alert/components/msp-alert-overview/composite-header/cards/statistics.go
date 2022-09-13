@@ -21,16 +21,16 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/kv"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	messengerpb "github.com/erda-project/erda-proto-go/core/messenger/notify/pb"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-alert-overview/common"
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/common/errors"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/kv"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-alert-overview/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	messengerpb "github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notify/pb"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 func (p *provider) alertTriggerCount(sdk *cptype.SDK) (*kv.KV, error) {

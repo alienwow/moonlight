@@ -23,10 +23,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/text/message"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/overview"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/overview"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
 )
 
 func (e *Endpoints) CreateAccount(ctx context.Context, r *http.Request, vars map[string]string) (

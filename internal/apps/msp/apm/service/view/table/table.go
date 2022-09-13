@@ -17,8 +17,8 @@ package table
 import (
 	"context"
 
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/service/view/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/service/view/common"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 type Column struct {

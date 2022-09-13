@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/log/query/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/log/query/pb"
 )
 
 func parseLines(reader io.ReadCloser, process func(line []byte) error) (err error) {

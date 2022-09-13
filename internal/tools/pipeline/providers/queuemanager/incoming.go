@@ -23,9 +23,9 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/events"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/events"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // listenIncomingPipeline listen incoming pipeline id

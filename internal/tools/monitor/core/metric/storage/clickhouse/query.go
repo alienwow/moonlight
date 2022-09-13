@@ -30,9 +30,9 @@ import (
 
 	oteltrace "go.opentelemetry.io/otel/trace"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
-	tsql "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql"
-	"github.com/erda-project/erda/pkg/common/trace"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
+	tsql "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql"
+	"github.com/ping-cloudnative/moonlight/pkg/common/trace"
 )
 
 func (p *provider) Query(ctx context.Context, q tsql.Query) (*model.ResultSet, error) {

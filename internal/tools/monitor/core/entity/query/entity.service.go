@@ -19,10 +19,10 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-proto-go/oap/entity/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/core/entity"
-	"github.com/erda-project/erda/internal/tools/monitor/core/entity/storage"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/entity"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/entity/storage"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/oap/entity/pb"
 )
 
 type entityService struct {

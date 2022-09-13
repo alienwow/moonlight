@@ -15,7 +15,7 @@
 package queue
 
 import (
-	"github.com/erda-project/erda-proto-go/core/pipeline/queue/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/queue/pb"
 )
 
 func (q *defaultQueue) Update(pq *pb.Queue) {

@@ -27,9 +27,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 const protoBaseDir = "openapiv1"
@@ -427,7 +427,7 @@ func getProtoPackageByAPIName(apiName string) string {
 
 func getProtoGoPackageByAPIName(apiName string) string {
 	compName, subDirs := getCompAndSubDirsByAPIName(apiName)
-	return filepath.Join("github.com/erda-project/erda-proto-go", protoBaseDir, compName, strutil.Join(subDirs, "/"), "pb")
+	return filepath.Join("github.com/ping-cloudnative/moonlight/proto-go", protoBaseDir, compName, strutil.Join(subDirs, "/"), "pb")
 }
 
 func replaceOpenapiV1Path(path string) string {

@@ -15,7 +15,7 @@
 package persist
 
 import (
-	"github.com/erda-project/erda/internal/tools/monitor/core/log"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log"
 )
 
 // MetadataProcessor .

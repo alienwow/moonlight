@@ -18,12 +18,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
-	"github.com/erda-project/erda/internal/apps/dop/services/autotest"
-	"github.com/erda-project/erda/internal/apps/dop/services/filetree"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/autotest"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/filetree"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // Pipeline pipeline 结构体

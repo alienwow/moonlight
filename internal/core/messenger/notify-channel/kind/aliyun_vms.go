@@ -14,7 +14,7 @@
 
 package kind
 
-import "github.com/erda-project/erda/pkg/common/errors"
+import "github.com/ping-cloudnative/moonlight/pkg/common/errors"
 
 type AliyunVMS struct {
 	AccessKeyId     string `json:"accessKeyId"`

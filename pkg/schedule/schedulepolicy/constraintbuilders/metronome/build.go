@@ -15,9 +15,9 @@
 package metronome
 
 import (
-	"github.com/erda-project/erda/apistructs"
-	constraints2 "github.com/erda-project/erda/pkg/schedule/schedulepolicy/constraintbuilders/constraints"
-	marathon2 "github.com/erda-project/erda/pkg/schedule/schedulepolicy/constraintbuilders/marathon"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	constraints2 "github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/constraintbuilders/constraints"
+	marathon2 "github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/constraintbuilders/marathon"
 )
 
 // Constraints  metronome constraints

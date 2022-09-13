@@ -25,16 +25,16 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	cmspb "github.com/erda-project/erda-proto-go/core/pipeline/cms/pb"
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/legacy/dao"
-	"github.com/erda-project/erda/internal/core/legacy/model"
-	"github.com/erda-project/erda/internal/core/legacy/types"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/gittarutil"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/dao"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/model"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/types"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/gittarutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	cmspb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cms/pb"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 // Application 应用操作封装

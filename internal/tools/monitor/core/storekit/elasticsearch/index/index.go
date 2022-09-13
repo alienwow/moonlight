@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/elasticsearch"
-	election "github.com/erda-project/erda-infra/providers/etcd-election"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/elasticsearch"
+	election "github.com/ping-cloudnative/moonlight-utils/providers/etcd-election"
 )
 
 // FindElection .

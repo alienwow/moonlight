@@ -23,8 +23,8 @@ import (
 	kvstore "github.com/aliyun/alibaba-cloud-sdk-go/services/r-kvstore"
 	"github.com/sirupsen/logrus"
 
-	aliyun_resources "github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources"
-	"github.com/erda-project/erda/pkg/strutil"
+	aliyun_resources "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // list instance

@@ -21,7 +21,7 @@ package mock
 import (
 	reflect "reflect"
 
-	logs "github.com/erda-project/erda-infra/base/logs"
+	logs "github.com/ping-cloudnative/moonlight-utils/base/logs"
 	gomock "github.com/golang/mock/gomock"
 )
 

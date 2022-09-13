@@ -17,7 +17,7 @@ package model
 import (
 	"time"
 
-	"github.com/erda-project/erda-infra/providers/mysql/v2/plugins/fields"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysql/v2/plugins/fields"
 )
 
 type Model struct {

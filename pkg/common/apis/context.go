@@ -21,8 +21,8 @@ import (
 
 	"google.golang.org/grpc/peer"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	transhttp "github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
 )
 
 // WithInternalClientContext .

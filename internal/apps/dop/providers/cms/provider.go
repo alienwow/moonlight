@@ -15,14 +15,14 @@
 package cms
 
 import (
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	cmspb "github.com/erda-project/erda-proto-go/core/pipeline/cms/pb"
-	"github.com/erda-project/erda-proto-go/dop/cms/pb"
-	. "github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/pkg/audit"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	. "github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/audit"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	cmspb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cms/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/cms/pb"
 )
 
 type config struct {

@@ -34,7 +34,7 @@ import (
 
 	"github.com/mitchellh/go-homedir"
 
-	"github.com/erda-project/erda/tools/gotools/go-test-sum/cover"
+	"github.com/ping-cloudnative/moonlight/tools/gotools/go-test-sum/cover"
 )
 
 var (

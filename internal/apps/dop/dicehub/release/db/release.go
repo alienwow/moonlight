@@ -23,9 +23,9 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-proto-go/core/dicehub/release/pb"
-	"github.com/erda-project/erda/pkg/database/dbengine"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb"
 )
 
 // ReleaseConfig .

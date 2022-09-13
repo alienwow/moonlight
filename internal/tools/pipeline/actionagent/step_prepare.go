@@ -28,7 +28,7 @@ import (
 	"github.com/c2h5oh/datasize"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/filehelper"
+	"github.com/ping-cloudnative/moonlight/pkg/filehelper"
 )
 
 const (

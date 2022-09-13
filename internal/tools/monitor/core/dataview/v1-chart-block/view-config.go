@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
 )
 
 // ViewConfigDTO .

@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/conf"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/conf"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func GetOrgByDomain(domain string) (string, error) {

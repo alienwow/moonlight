@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"strconv"
 
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/clusterinfo"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/clusterinfo"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 func GetPipelineLink(orgClient org.ClientInterface, p spec.Pipeline) (bool, string) {

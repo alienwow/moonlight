@@ -15,8 +15,8 @@
 package dop
 
 import (
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var ProjectPackageExport = apis.ApiSpec{

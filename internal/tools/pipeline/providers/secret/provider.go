@@ -18,17 +18,17 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
-	cmspb "github.com/erda-project/erda-proto-go/core/pipeline/cms/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/tools/pipeline/dbclient"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cache"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cancel"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/clusterinfo"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/user"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysqlxorm"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cache"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cancel"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/clusterinfo"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/user"
+	cmspb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cms/pb"
 )
 
 type config struct {

@@ -15,17 +15,17 @@
 package req_distribution
 
 import (
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/bubblegraph"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/bubblegraph/impl"
-	structure "github.com/erda-project/erda-infra/providers/component-protocol/components/commodel/data-structure"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace/query"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace/query/commom/custom"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/bubblegraph"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/bubblegraph/impl"
+	structure "github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/commodel/data-structure"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace/query"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace/query/commom/custom"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 type provider struct {

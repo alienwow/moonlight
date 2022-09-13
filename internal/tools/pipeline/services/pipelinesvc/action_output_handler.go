@@ -19,8 +19,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/encoding/jsonpath"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/encoding/jsonpath"
 )
 
 func handlerActionOutputsWithJq(action *apistructs.PipelineYmlAction, jq string) ([]string, error) {

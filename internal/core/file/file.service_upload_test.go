@@ -19,8 +19,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/internal/core/file/db"
-	"github.com/erda-project/erda/pkg/storage"
+	"github.com/ping-cloudnative/moonlight/internal/core/file/db"
+	"github.com/ping-cloudnative/moonlight/pkg/storage"
 )
 
 func Test_fileService_headerValueDispositionInline(t *testing.T) {

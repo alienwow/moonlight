@@ -15,7 +15,7 @@
 package utils
 
 import (
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
 )
 
 // runtime errors

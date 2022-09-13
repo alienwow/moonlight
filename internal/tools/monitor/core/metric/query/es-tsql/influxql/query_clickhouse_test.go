@@ -23,7 +23,7 @@ import (
 	"github.com/doug-martin/goqu/v9"
 	"github.com/stretchr/testify/require"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
 )
 
 type mockClickhouse struct {

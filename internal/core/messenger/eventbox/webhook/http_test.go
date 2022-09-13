@@ -22,9 +22,9 @@ package webhook
 // 	"testing"
 // 	"time"
 
-// 	"github.com/erda-project/erda/apistructs"
-// 	"github.com/erda-project/erda/internal/eventbox/server"
-// 	"github.com/erda-project/erda/pkg/http/httpclient"
+// 	"github.com/ping-cloudnative/moonlight/apistructs"
+// 	"github.com/ping-cloudnative/moonlight/internal/eventbox/server"
+// 	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 
 // 	"github.com/stretchr/testify/assert"
 // )

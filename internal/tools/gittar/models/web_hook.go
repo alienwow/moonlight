@@ -21,7 +21,7 @@ import (
 	"github.com/parnurzeal/gorequest"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/tools/gittar/pkg/gitmodule"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/pkg/gitmodule"
 )
 
 const (

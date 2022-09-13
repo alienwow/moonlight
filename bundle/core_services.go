@@ -17,8 +17,8 @@ package bundle
 import (
 	"fmt"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
 )
 
 func (b *Bundle) ProjectClusterReferred(userID, orgID, clusterName string) (referred bool, err error) {

@@ -21,8 +21,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/queue/pb"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager/queue"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager/queue"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/queue/pb"
 )
 
 func MakeQueueUsageBackupKey(qID string) string {

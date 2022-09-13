@@ -26,12 +26,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/file/db"
-	"github.com/erda-project/erda/internal/core/legacy/services/apierrors"
-	"github.com/erda-project/erda/pkg/kms/kmscrypto"
-	"github.com/erda-project/erda/pkg/kms/kmstypes"
-	_ "github.com/erda-project/erda/pkg/mimetype"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/file/db"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmscrypto"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmstypes"
+	_ "github.com/ping-cloudnative/moonlight/pkg/mimetype"
 )
 
 const (

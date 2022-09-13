@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-proto-go/tools/monitor/dashboard/report/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/tools/monitor/dashboard/report/pb"
 )
 
 func Test_constructHistoryDTOs(t *testing.T) {

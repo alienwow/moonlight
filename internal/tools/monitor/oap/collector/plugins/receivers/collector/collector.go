@@ -25,8 +25,8 @@ import (
 	"github.com/buger/jsonparser"
 	"github.com/labstack/echo"
 
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/protoparser/rawparser"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/protoparser/rawparser"
 )
 
 const (

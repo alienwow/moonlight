@@ -26,9 +26,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/diagnotor/pb"
-	"github.com/erda-project/erda/pkg/clusterdialer"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/pkg/clusterdialer"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/diagnotor/pb"
 )
 
 type diagnotorService struct {

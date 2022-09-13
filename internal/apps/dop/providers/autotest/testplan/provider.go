@@ -19,16 +19,16 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda-proto-go/core/dop/autotest/testplan/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/dao"
-	"github.com/erda-project/erda/internal/apps/dop/providers/autotest/testplan/db"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/autotest/testplan/db"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dop/autotest/testplan/pb"
 )
 
 type config struct {

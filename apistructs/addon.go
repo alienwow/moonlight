@@ -17,7 +17,7 @@ package apistructs
 import (
 	"time"
 
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
 )
 
 const (

@@ -20,10 +20,10 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/http/customhttp"
-	"github.com/erda-project/erda/pkg/http/httpclientutil"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/http/customhttp"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclientutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 const k8sServiceSuffix = ".svc.cluster.local"

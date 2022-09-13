@@ -19,7 +19,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-proto-go/core/hepa/legacy_upstream/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/legacy_upstream/pb"
 )
 
 type UpstreamApiDto struct {

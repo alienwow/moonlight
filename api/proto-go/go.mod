@@ -1,10 +1,10 @@
-module github.com/erda-project/erda-proto-go
+module github.com/ping-cloudnative/moonlight/proto-go
 
 go 1.17
 
 require (
 	github.com/envoyproxy/protoc-gen-validate v0.1.0
-	github.com/erda-project/erda-infra v1.0.7
+	github.com/ping-cloudnative/moonlight-utils v0.0.0-20220913084520-91464782bcde
 	google.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa
 	google.golang.org/grpc v1.42.0
 	google.golang.org/protobuf v1.27.1
@@ -13,6 +13,7 @@ require (
 require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/kr/pretty v0.3.0 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
 	github.com/mitchellh/mapstructure v1.4.3 // indirect
 	github.com/pelletier/go-toml v1.9.4 // indirect

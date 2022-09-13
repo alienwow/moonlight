@@ -21,15 +21,15 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/clickhouse"
-	"github.com/erda-project/erda/internal/tools/monitor/core/event"
-	"github.com/erda-project/erda/internal/tools/monitor/core/settings/retention-strategy"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit"
-	tablepkg "github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table/creator"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table/loader"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/event"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/settings/retention-strategy"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit"
+	tablepkg "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table/creator"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table/loader"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/clickhouse"
 )
 
 type config struct {

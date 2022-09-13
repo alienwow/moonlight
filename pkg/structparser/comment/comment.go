@@ -24,7 +24,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // extract struct comment, and generate methods for them

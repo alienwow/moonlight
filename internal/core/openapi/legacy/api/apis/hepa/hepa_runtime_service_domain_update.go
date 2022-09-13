@@ -14,7 +14,7 @@
 
 package hepa
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var HEPA_RUNTIME_SERVICE_DOMAIN_UPDATE = apis.ApiSpec{
 	Path:        "/api/runtimes/<runtimeId>/services/<serviceName>/domains",

@@ -18,7 +18,7 @@ import (
 	"context"
 	"sync"
 
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
 )
 
 type AccessItemCollection map[string]*tokenpb.Token

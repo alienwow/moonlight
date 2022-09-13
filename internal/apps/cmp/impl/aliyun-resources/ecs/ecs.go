@@ -24,9 +24,9 @@ import (
 	"github.com/golang-collections/collections/set"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	aliyun_resources "github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	aliyun_resources "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func List(ctx aliyun_resources.Context, page aliyun_resources.PageOption,

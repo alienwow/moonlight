@@ -31,10 +31,10 @@ import (
 	"k8s.io/client-go/tools/cache"
 	watchtools "k8s.io/client-go/tools/watch"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/plugins/k8s/k8serror"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	kedav1alpha1 "github.com/erda-project/erda/pkg/k8sclient/apis/keda/v1alpha1"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/plugins/k8s/k8serror"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	kedav1alpha1 "github.com/ping-cloudnative/moonlight/pkg/k8sclient/apis/keda/v1alpha1"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // ErdaScaledObject is the object to manipulate k8s crd api of scaledobject

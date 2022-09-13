@@ -32,13 +32,13 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/util"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/vars"
-	kErrors "github.com/erda-project/erda/internal/tools/orchestrator/hepa/errors"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/hepautils"
-	"github.com/erda-project/erda/pkg/k8s/interface_factory"
-	"github.com/erda-project/erda/pkg/k8s/union_interface"
-	"github.com/erda-project/erda/pkg/k8sclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/util"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/vars"
+	kErrors "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/errors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/hepautils"
+	"github.com/ping-cloudnative/moonlight/pkg/k8s/interface_factory"
+	"github.com/ping-cloudnative/moonlight/pkg/k8s/union_interface"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient"
 )
 
 const (

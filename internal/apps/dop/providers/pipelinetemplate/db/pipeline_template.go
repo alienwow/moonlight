@@ -18,8 +18,8 @@ import (
 	"github.com/jinzhu/gorm"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-proto-go/dop/pipelinetemplate/pb"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/pipelinetemplate/pb"
 )
 
 type DicePipelineTemplate struct {

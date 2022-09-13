@@ -24,14 +24,14 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/text/message"
 
-	"github.com/erda-project/erda/apistructs"
-	aliyun_resources "github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources"
-	"github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/ecs"
-	"github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/ons"
-	"github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/oss"
-	"github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/rds"
-	"github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/redis"
-	"github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/vpc"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	aliyun_resources "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/ecs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/ons"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/oss"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/rds"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/redis"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/vpc"
 )
 
 type CachedCloudResourceOverview struct {

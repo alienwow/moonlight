@@ -14,7 +14,7 @@
 
 package log_service
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var MSP_ADDON_LOGS_SEARCH_SEQUENTIAL = apis.ApiSpec{
 	Path:        "/api/log-analytics/<addon>/sequentialSearch",

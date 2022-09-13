@@ -19,16 +19,16 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-infra/pkg/transport/http/encoding"
-	"github.com/erda-project/erda-proto-go/msp/configcenter/pb"
-	instancedb "github.com/erda-project/erda/internal/apps/msp/instance/db"
-	mperm "github.com/erda-project/erda/internal/apps/msp/instance/permission"
-	"github.com/erda-project/erda/pkg/common/apis"
-	perm "github.com/erda-project/erda/pkg/common/permission"
+	instancedb "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	mperm "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/permission"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	perm "github.com/ping-cloudnative/moonlight/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	transhttp "github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport/http/encoding"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/configcenter/pb"
 )
 
 type config struct {

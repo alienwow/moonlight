@@ -14,7 +14,7 @@
 
 package monitor
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var MONITOR_ORG_ALERT_RECORD_ATTRS = apis.ApiSpec{
 	Path:        "/api/org-alert-record-attrs",

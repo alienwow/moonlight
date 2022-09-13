@@ -24,15 +24,15 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister/base"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	messenger "github.com/erda-project/erda-proto-go/core/messenger/notify/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-notify-detail/common"
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister/base"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-notify-detail/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	messenger "github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notify/pb"
 )
 
 func (cp *ComponentEventOverviewInfo) Render(ctx context.Context, c *cptype.Component, s cptype.Scenario, event cptype.ComponentEvent, gs *cptype.GlobalStateData) error {

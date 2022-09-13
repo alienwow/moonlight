@@ -17,9 +17,9 @@ package db
 import (
 	"encoding/json"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/action_runner_scheduler/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/action_runner_scheduler/pb"
 )
 
 type RunnerTask struct {

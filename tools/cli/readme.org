@@ -5,7 +5,7 @@ c* 增加一个命令
 package cmd
 
 import (
-	. "github.com/erda-project/erda/tools/cli/command"
+	. "github.com/ping-cloudnative/moonlight/tools/cli/command"
 )
 
 // 后面有Command结构体的详细参数

@@ -15,7 +15,7 @@
 package cmd
 
 import (
-	"github.com/erda-project/erda/tools/cli/command"
+	"github.com/ping-cloudnative/moonlight/tools/cli/command"
 )
 
 var PROJECTDEPLOYMENT = command.Command{

@@ -21,9 +21,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/spec"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
 )
 
 func TestVerifyAccessKey(t *testing.T) {

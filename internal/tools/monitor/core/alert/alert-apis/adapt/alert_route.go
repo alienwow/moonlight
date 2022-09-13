@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
 )
 
 type routeFunc func(params map[string]interface{}) string

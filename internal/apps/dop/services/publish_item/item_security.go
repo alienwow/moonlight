@@ -23,9 +23,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/metrics"
-	"github.com/erda-project/erda/internal/pkg/metrics/query"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/metrics"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/metrics/query"
 )
 
 // GetCertificationlist 获取验证列表

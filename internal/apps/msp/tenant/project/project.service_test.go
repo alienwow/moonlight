@@ -23,15 +23,15 @@ import (
 	"github.com/golang/mock/gomock"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	tenantpb "github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda-proto-go/msp/tenant/project/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/msp/instance/db/monitor"
-	"github.com/erda-project/erda/internal/apps/msp/tenant/db"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db/monitor"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/tenant/db"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
+	tenantpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/project/pb"
 )
 
 func Test_projectService_GetProjects(t *testing.T) {
@@ -427,7 +427,7 @@ func Test_projectService_DeleteProject(t *testing.T) {
 	}
 }
 
-// -go:generate mockgen -destination=./project_logs_test.go -package project github.com/erda-project/erda-infra/base/logs Logger
+// -go:generate mockgen -destination=./project_logs_test.go -package project github.com/ping-cloudnative/moonlight-utils/base/logs Logger
 func Test_projectService_GetProjectList(t *testing.T) {
 	type fields struct {
 		p            *provider

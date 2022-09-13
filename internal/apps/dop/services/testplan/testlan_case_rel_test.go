@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	issuepb "github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	issuepb "github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 func TestToPbTestPlanCaseRel(t *testing.T) {

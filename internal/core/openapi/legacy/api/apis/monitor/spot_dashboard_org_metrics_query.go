@@ -14,7 +14,7 @@
 
 package monitor
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var SPOT_DASHBOARD_ORG_METRICS_QUERY = apis.ApiSpec{
 	Path:        "/api/orgCenter/metrics-query",

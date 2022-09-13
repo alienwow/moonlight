@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/http/httputil"
-	"github.com/erda-project/erda/tools/cli/command"
-	"github.com/erda-project/erda/tools/cli/utils"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/tools/cli/command"
+	"github.com/ping-cloudnative/moonlight/tools/cli/utils"
 )
 
 // SetProjectWorkspaceConfigss 为指定项目的指定环境设置 features

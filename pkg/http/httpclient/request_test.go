@@ -28,7 +28,7 @@ import (
 //
 //	"github.com/stretchr/testify/assert"
 //
-//	"github.com/erda-project/erda/pkg/http/customhttp"
+//	"github.com/ping-cloudnative/moonlight/pkg/http/customhttp"
 //)
 //
 //func TestContentTypeIsJson(t *testing.T) {

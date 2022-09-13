@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda/internal/apps/msp/instance"
-	instancedb "github.com/erda-project/erda/internal/apps/msp/instance/db"
-	httpperm "github.com/erda-project/erda/internal/tools/monitor/common/permission"
-	"github.com/erda-project/erda/pkg/common/errors"
-	"github.com/erda-project/erda/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance"
+	instancedb "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	httpperm "github.com/ping-cloudnative/moonlight/internal/tools/monitor/common/permission"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/pkg/common/permission"
 )
 
 // Interface .

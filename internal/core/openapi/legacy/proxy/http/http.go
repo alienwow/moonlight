@@ -22,8 +22,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api"
-	util "github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api"
+	util "github.com/ping-cloudnative/moonlight/pkg/http/httputil"
 )
 
 func NewReverseProxyWithCustom(director func(*http.Request)) http.Handler {

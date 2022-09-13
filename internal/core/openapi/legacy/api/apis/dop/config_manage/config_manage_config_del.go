@@ -14,7 +14,7 @@
 
 package config_manage
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var CONFIG_MANAGE_CONFIG_DEL = apis.ApiSpec{
 	Path:        "/api/configmanage/configs",

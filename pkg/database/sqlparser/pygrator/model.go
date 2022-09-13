@@ -22,7 +22,7 @@ import (
 	"github.com/pingcap/parser/mysql"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 const ModelPattern = `class {{.ModelName}}(django.db.models.Model):

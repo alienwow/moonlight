@@ -33,17 +33,17 @@ import (
 	"k8s.io/kubectl/pkg/describe"
 	"k8s.io/kubernetes/pkg/kubelet/events"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/conf"
-	"github.com/erda-project/erda/internal/tools/pipeline/pipengine/actionexecutor/logic"
-	"github.com/erda-project/erda/internal/tools/pipeline/pipengine/actionexecutor/types"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/container_provider"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/clusterinfo"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/k8sclient"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/constraintbuilders"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/labelconfig"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pipengine/actionexecutor/logic"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pipengine/actionexecutor/types"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/container_provider"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/clusterinfo"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/constraintbuilders"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/labelconfig"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 var Kind = types.Kind(spec.PipelineTaskExecutorKindK8sJob)

@@ -23,8 +23,8 @@ import (
 	"github.com/pkg/errors"
 	storagev1 "k8s.io/api/storage/v1"
 
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // StorageClass is the object to encapsulate docker

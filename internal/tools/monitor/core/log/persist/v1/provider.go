@@ -21,15 +21,15 @@ import (
 
 	"github.com/bluele/gcache"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	writer "github.com/erda-project/erda-infra/pkg/parallel-writer"
-	"github.com/erda-project/erda-infra/providers/cassandra"
-	mutex "github.com/erda-project/erda-infra/providers/etcd-mutex"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/tools/monitor/core/log/persist/v1/schema"
-	"github.com/erda-project/erda/internal/tools/monitor/core/settings/retention-strategy"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/kafka"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	writer "github.com/ping-cloudnative/moonlight-utils/pkg/parallel-writer"
+	"github.com/ping-cloudnative/moonlight-utils/providers/cassandra"
+	mutex "github.com/ping-cloudnative/moonlight-utils/providers/etcd-mutex"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log/persist/v1/schema"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/settings/retention-strategy"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/kafka"
 )
 
 type config struct {

@@ -21,10 +21,10 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/legacy/dao"
-	"github.com/erda-project/erda/internal/core/legacy/model"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/dao"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/model"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 func Test_checkCreateParam(t *testing.T) {

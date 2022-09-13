@@ -17,8 +17,8 @@ package cmd_test
 import (
 	"testing"
 
-	"github.com/erda-project/erda/tools/cli/cmd"
-	"github.com/erda-project/erda/tools/cli/command"
+	"github.com/ping-cloudnative/moonlight/tools/cli/cmd"
+	"github.com/ping-cloudnative/moonlight/tools/cli/command"
 )
 
 func TestHepaHostFromOpenapi(t *testing.T) {

@@ -29,8 +29,8 @@ import (
 	"github.com/labstack/echo"
 	"github.com/rakyll/statik/fs"
 
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/collector/statik" // include static files
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/collector/statik" // include static files
 )
 
 //go:generate statik -src=./ -ns "monitor/metrics-collector" -include=*.jpg,*.txt,*.html,*.css,*.js

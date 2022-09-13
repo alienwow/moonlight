@@ -17,8 +17,8 @@ package db
 import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-proto-go/core/dicehub/extension/pb"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/extension/pb"
 )
 
 type Extension struct {

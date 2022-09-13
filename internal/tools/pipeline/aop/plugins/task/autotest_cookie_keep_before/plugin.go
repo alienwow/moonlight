@@ -20,14 +20,14 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-proto-go/core/pipeline/report/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/aop"
-	"github.com/erda-project/erda/internal/tools/pipeline/aop/aoptypes"
-	"github.com/erda-project/erda/internal/tools/pipeline/aop/plugins/task/autotest_cookie_keep_after"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/reconciler/rlog"
-	"github.com/erda-project/erda/pkg/apitestsv2"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/aop"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/aop/aoptypes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/aop/plugins/task/autotest_cookie_keep_after"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/reconciler/rlog"
+	"github.com/ping-cloudnative/moonlight/pkg/apitestsv2"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/report/pb"
 )
 
 const taskType = "api-test"

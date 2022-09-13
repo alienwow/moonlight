@@ -19,11 +19,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
-	constraints2 "github.com/erda-project/erda/pkg/schedule/schedulepolicy/constraintbuilders/constraints"
-	k8s2 "github.com/erda-project/erda/pkg/schedule/schedulepolicy/constraintbuilders/k8s"
-	marathon2 "github.com/erda-project/erda/pkg/schedule/schedulepolicy/constraintbuilders/marathon"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	constraints2 "github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/constraintbuilders/constraints"
+	k8s2 "github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/constraintbuilders/k8s"
+	marathon2 "github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/constraintbuilders/marathon"
 )
 
 func TestBuildConstraints(t *testing.T) {

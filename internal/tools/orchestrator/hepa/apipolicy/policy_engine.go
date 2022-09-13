@@ -18,8 +18,8 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
-	db "github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/service"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
+	db "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/service"
 )
 
 type IngressAnnotation struct {

@@ -19,7 +19,7 @@ package conf
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func checkActionTypeMapping(cfg *Conf) {

@@ -1,8 +1,8 @@
 FROM registry.erda.cloud/erda/golang-base:210416 as build
 
-RUN mkdir -p "$GOPATH/src/github.com/erda-project/erda/"
-COPY . "$GOPATH/src/github.com/erda-project/erda/"
-WORKDIR "$GOPATH/src/github.com/erda-project/erda/"
+RUN mkdir -p "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
+COPY . "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
+WORKDIR "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
 
 ARG APP_NAME
 ARG CONFIG_PATH

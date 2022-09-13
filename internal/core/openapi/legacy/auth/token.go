@@ -23,16 +23,16 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/spec"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/conf"
-	"github.com/erda-project/erda/internal/core/user/impl/uc"
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/http/httputil"
-	"github.com/erda-project/erda/pkg/oauth2"
-	"github.com/erda-project/erda/pkg/oauth2/tokenstore/mysqltokenstore"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/spec"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/conf"
+	"github.com/ping-cloudnative/moonlight/internal/core/user/impl/uc"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/pkg/oauth2"
+	"github.com/ping-cloudnative/moonlight/pkg/oauth2/tokenstore/mysqltokenstore"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
 )
 
 const (

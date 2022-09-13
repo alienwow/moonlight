@@ -17,8 +17,8 @@ package conf
 import (
 	"strings"
 
-	"github.com/erda-project/erda/pkg/envconf"
-	"github.com/erda-project/erda/pkg/http/httpclientutil"
+	"github.com/ping-cloudnative/moonlight/pkg/envconf"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclientutil"
 )
 
 // Conf define envs

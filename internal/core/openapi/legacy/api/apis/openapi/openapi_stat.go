@@ -17,8 +17,8 @@ package openapi
 import (
 	"net/http"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/monitor"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/monitor"
 )
 
 var OPENAPI_STAT = apis.ApiSpec{

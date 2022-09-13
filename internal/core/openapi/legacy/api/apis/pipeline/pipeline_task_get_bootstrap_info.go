@@ -17,7 +17,7 @@ package pipeline
 import (
 	"net/http"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var PIPELINE_TASK_GET_BOOTSTRAP_INFO = apis.ApiSpec{

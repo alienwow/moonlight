@@ -19,11 +19,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/legacy/model"
-	"github.com/erda-project/erda/internal/core/legacy/services/apierrors"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/model"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // ListActivity 活动列表

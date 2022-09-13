@@ -20,7 +20,7 @@ import (
 	"bou.ke/monkey"
 	"github.com/Shopify/sarama"
 
-	"github.com/erda-project/erda-infra/base/logs/logrusx"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs/logrusx"
 )
 
 func TestMain(m *testing.M) {

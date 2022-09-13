@@ -23,15 +23,15 @@ import (
 
 	"github.com/alecthomas/assert"
 
-	pb1 "github.com/erda-project/erda-proto-go/core/pipeline/base/pb"
-	cronpb "github.com/erda-project/erda-proto-go/core/pipeline/cron/pb"
-	commonpb "github.com/erda-project/erda-proto-go/core/pipeline/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
-	"github.com/erda-project/erda/pkg/encoding/jsonparse"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/encoding/jsonparse"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	pb1 "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/base/pb"
+	cronpb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cron/pb"
+	commonpb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/pb"
 )
 
 type TestPipelineCron struct {

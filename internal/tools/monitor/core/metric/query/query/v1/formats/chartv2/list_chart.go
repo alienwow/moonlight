@@ -15,9 +15,9 @@
 package chartv2
 
 import (
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/chartmeta"
-	query "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/query/v1"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/units"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/chartmeta"
+	query "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/query/v1"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/units"
 )
 
 func (f *Formater) isListReq(ctx *query.Context) bool {

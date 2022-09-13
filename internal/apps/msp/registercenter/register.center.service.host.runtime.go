@@ -18,9 +18,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/erda-project/erda-proto-go/msp/registercenter/pb"
-	"github.com/erda-project/erda/internal/apps/msp/registercenter/zkproxy"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/registercenter/zkproxy"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/registercenter/pb"
 )
 
 // GetHostRuntimeRule depracated

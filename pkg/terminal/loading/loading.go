@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erda-project/erda/pkg/terminal/color_str"
+	"github.com/ping-cloudnative/moonlight/pkg/terminal/color_str"
 )
 
 var loadingChars = []string{"⠧", "⠶", "⠼", "⠹", "⠛", "⠏"}

@@ -24,9 +24,9 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	clusterpb "github.com/erda-project/erda-proto-go/core/clustermanager/cluster/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	clusterpb "github.com/ping-cloudnative/moonlight/proto-go/core/clustermanager/cluster/pb"
 )
 
 func TestRemoveSensitiveInfo(t *testing.T) {

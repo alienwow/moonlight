@@ -18,13 +18,13 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/auto-test-scenes/common/gshelper"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/types"
-	autotestv2 "github.com/erda-project/erda/internal/apps/dop/services/autotest_v2"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/auto-test-scenes/common/gshelper"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/types"
+	autotestv2 "github.com/ping-cloudnative/moonlight/internal/apps/dop/services/autotest_v2"
 )
 
 type ScenesSetInfo struct {

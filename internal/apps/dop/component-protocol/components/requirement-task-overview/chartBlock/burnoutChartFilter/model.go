@@ -18,8 +18,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/components/filter"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/components/filter"
 )
 
 type Filter struct {

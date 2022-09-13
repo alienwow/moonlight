@@ -19,13 +19,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	cmspb "github.com/erda-project/erda-proto-go/core/pipeline/cms/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/dao"
-	"github.com/erda-project/erda/internal/apps/dop/model"
-	"github.com/erda-project/erda/internal/apps/dop/services/permission"
-	"github.com/erda-project/erda/pkg/arrays"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/model"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/permission"
+	"github.com/ping-cloudnative/moonlight/pkg/arrays"
+	cmspb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cms/pb"
 )
 
 // EnvConfig 命名空间参数

@@ -31,17 +31,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda-proto-go/core/dicehub/release/pb"
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/pkg/mock"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/clusterinfo"
-	"github.com/erda-project/erda/internal/tools/orchestrator/services/addon"
-	"github.com/erda-project/erda/pkg/database/dbengine"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/mock"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/clusterinfo"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/services/addon"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 func TestModifyStatusIfNotForDisplay(t *testing.T) {

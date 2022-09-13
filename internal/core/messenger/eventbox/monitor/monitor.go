@@ -20,11 +20,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/constant"
-	"github.com/erda-project/erda/pkg/jsonstore"
-	_ "github.com/erda-project/erda/pkg/monitor"
-	"github.com/erda-project/erda/pkg/persist_stat"
-	"github.com/erda-project/erda/pkg/persist_stat/backend"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/constant"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore"
+	_ "github.com/ping-cloudnative/moonlight/pkg/monitor"
+	"github.com/ping-cloudnative/moonlight/pkg/persist_stat"
+	"github.com/ping-cloudnative/moonlight/pkg/persist_stat/backend"
 )
 
 var (

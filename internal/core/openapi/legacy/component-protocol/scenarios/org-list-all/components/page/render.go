@@ -21,9 +21,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/scenarios/org-list-all/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/scenarios/org-list-all/i18n"
 )
 
 func (i *ComponentPage) marshal(c *apistructs.Component) error {

@@ -22,10 +22,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	commonpb "github.com/erda-project/erda-proto-go/common/pb"
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
+	commonpb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 func (p *provider) GenerateButtonMap(projectID uint64, issueTypes []string) (map[string]map[int64][]*pb.IssueStateButton, error) {

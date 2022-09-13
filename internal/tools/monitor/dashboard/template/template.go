@@ -23,9 +23,9 @@ import (
 	"github.com/jinzhu/gorm"
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/erda-project/erda/internal/pkg/mysql"
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/mysql"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
 )
 
 func (p *provider) createTemplate(query struct {

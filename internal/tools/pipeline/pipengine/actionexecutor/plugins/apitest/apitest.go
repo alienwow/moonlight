@@ -21,11 +21,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/dbclient"
-	"github.com/erda-project/erda/internal/tools/pipeline/pipengine/actionexecutor/plugins/apitest/logic"
-	"github.com/erda-project/erda/internal/tools/pipeline/pipengine/actionexecutor/types"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pipengine/actionexecutor/plugins/apitest/logic"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pipengine/actionexecutor/types"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 var Kind = types.Kind(spec.PipelineTaskExecutorKindAPITest)

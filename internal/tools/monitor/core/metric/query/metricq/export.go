@@ -23,7 +23,7 @@ import (
 	"github.com/360EntSecGroup-Skylar/excelize/v2"
 	uuid "github.com/satori/go.uuid"
 
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
 )
 
 func downloadExcelFile(w http.ResponseWriter, data interface{}) interface{} {

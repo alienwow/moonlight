@@ -17,16 +17,16 @@ package menu
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-proto-go/msp/menu/pb"
-	"github.com/erda-project/erda/bundle"
-	instancedb "github.com/erda-project/erda/internal/apps/msp/instance/db"
-	mperm "github.com/erda-project/erda/internal/apps/msp/instance/permission"
-	"github.com/erda-project/erda/internal/apps/msp/menu/db"
-	"github.com/erda-project/erda/pkg/common/apis"
-	perm "github.com/erda-project/erda/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	instancedb "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	mperm "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/permission"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/menu/db"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	perm "github.com/ping-cloudnative/moonlight/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/menu/pb"
 )
 
 type config struct {

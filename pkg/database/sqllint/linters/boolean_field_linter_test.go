@@ -17,8 +17,8 @@ package linters_test
 import (
 	"testing"
 
-	"github.com/erda-project/erda/pkg/database/sqllint"
-	_ "github.com/erda-project/erda/pkg/database/sqllint/linters"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint"
+	_ "github.com/ping-cloudnative/moonlight/pkg/database/sqllint/linters"
 )
 
 const booleanFieldLinterConfig = `

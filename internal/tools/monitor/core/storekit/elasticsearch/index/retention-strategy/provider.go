@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/elasticsearch/index"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/elasticsearch/index/cleaner"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/elasticsearch/index"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/elasticsearch/index/cleaner"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
 )
 
 // Interface .

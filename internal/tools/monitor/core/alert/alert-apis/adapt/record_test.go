@@ -20,7 +20,7 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
 )
 
 func Test_QueryAlertHistory_BothFail_Should_Return_Error(t *testing.T) {

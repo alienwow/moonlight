@@ -22,11 +22,11 @@ import (
 	"github.com/rancher/apiserver/pkg/types"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-proto-go/cmp/dashboard/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	calcu "github.com/erda-project/erda/pkg/resourcecalculator"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	calcu "github.com/ping-cloudnative/moonlight/pkg/resourcecalculator"
+	"github.com/ping-cloudnative/moonlight/proto-go/cmp/dashboard/pb"
 )
 
 type ReportTable struct {

@@ -23,9 +23,9 @@ import (
 	"github.com/recallsong/go-utils/encoding/jsonx"
 	v1 "k8s.io/api/core/v1"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	k8sclient "github.com/erda-project/erda/pkg/k8s-client-manager"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	k8sclient "github.com/ping-cloudnative/moonlight/pkg/k8s-client-manager"
 )
 
 type (

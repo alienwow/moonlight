@@ -21,9 +21,9 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/internal/core/legacy/services/member"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/member"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 func Test_provider_getOrgPermissions(t *testing.T) {

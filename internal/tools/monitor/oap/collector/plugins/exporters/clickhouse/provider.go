@@ -19,16 +19,16 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace"
-	"github.com/erda-project/erda/internal/tools/monitor/core/log"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model/odata"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/plugins/exporters/clickhouse/builder"
-	metricstore "github.com/erda-project/erda/internal/tools/monitor/oap/collector/plugins/exporters/clickhouse/builder/metric"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/plugins/exporters/clickhouse/builder/span"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model/odata"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/plugins/exporters/clickhouse/builder"
+	metricstore "github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/plugins/exporters/clickhouse/builder/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/plugins/exporters/clickhouse/builder/span"
 )
 
 type config struct {

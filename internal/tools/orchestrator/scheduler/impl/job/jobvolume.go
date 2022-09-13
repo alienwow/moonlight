@@ -17,8 +17,8 @@ package job
 import (
 	"context"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/task"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/task"
 )
 
 func (j *JobImpl) CreateJobVolume(req apistructs.JobVolume) (string, error) {

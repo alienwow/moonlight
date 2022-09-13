@@ -21,10 +21,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/dispatcher/errors"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/subscriber"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/types"
-	"github.com/erda-project/erda/pkg/goroutinepool"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/dispatcher/errors"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/subscriber"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/types"
+	"github.com/ping-cloudnative/moonlight/pkg/goroutinepool"
 )
 
 // Filter的最后一个，实际上用来做后续对 message 的操作

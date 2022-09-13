@@ -27,15 +27,15 @@ import (
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"
 
-	infrahttpserver "github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda-proto-go/core/file/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/file/filetypes"
-	"github.com/erda-project/erda/internal/core/legacy/services/apierrors"
-	"github.com/erda-project/erda/internal/pkg/user"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
-	"github.com/erda-project/erda/pkg/strutil"
+	infrahttpserver "github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/file/filetypes"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/user"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/file/pb"
 )
 
 type HTTPHandler interface {

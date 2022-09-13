@@ -23,8 +23,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda/pkg/parser/pipelineyml/pipelineymlv1"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml/pipelineymlv1"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // UpgradeYmlFromV1 根据传入的 v1 yaml content 给出 v1.1 yaml content

@@ -23,10 +23,10 @@ import (
 	"bou.ke/monkey"
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-proto-go/core/monitor/expression/pb"
-	alertdb "github.com/erda-project/erda/internal/tools/monitor/core/alert/alert-apis/db"
-	"github.com/erda-project/erda/pkg/encoding/jsonmap"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	alertdb "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/alert/alert-apis/db"
+	"github.com/ping-cloudnative/moonlight/pkg/encoding/jsonmap"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/expression/pb"
 )
 
 func Test_expressionService_GetTemplates(t *testing.T) {

@@ -23,13 +23,13 @@ import (
 	"github.com/sirupsen/logrus"
 	corev1 "k8s.io/api/core/v1"
 
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	orgCache "github.com/erda-project/erda/internal/tools/orchestrator/cache/org"
-	"github.com/erda-project/erda/internal/tools/orchestrator/i18n"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/instanceinfo"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	orgCache "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/cache/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/instanceinfo"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 // exportPodErrInfo export pod error info

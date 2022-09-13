@@ -16,8 +16,8 @@ package kms
 
 import (
 	// plugins
-	_ "github.com/erda-project/erda/pkg/kms/plugins/dicekms"
+	_ "github.com/ping-cloudnative/moonlight/pkg/kms/plugins/dicekms"
 
 	// stores
-	_ "github.com/erda-project/erda/pkg/kms/stores/etcd"
+	_ "github.com/ping-cloudnative/moonlight/pkg/kms/stores/etcd"
 )

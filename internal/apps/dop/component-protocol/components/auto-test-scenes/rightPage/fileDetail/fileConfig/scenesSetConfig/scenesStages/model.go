@@ -19,13 +19,13 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/auto-test-scenes/common/gshelper"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/auto-test-scenes/rightPage/fileDetail/fileConfig/scenesConfig/stages"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/types"
-	autotestv2 "github.com/erda-project/erda/internal/apps/dop/services/autotest_v2"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/auto-test-scenes/common/gshelper"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/auto-test-scenes/rightPage/fileDetail/fileConfig/scenesConfig/stages"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/types"
+	autotestv2 "github.com/ping-cloudnative/moonlight/internal/apps/dop/services/autotest_v2"
 )
 
 type SceneStage struct {

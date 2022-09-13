@@ -27,8 +27,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	fakeclientset "k8s.io/client-go/kubernetes/fake"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/executortypes"
-	"github.com/erda-project/erda/pkg/k8sclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/executortypes"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient"
 )
 
 func Test_IPToHostname(t *testing.T) {

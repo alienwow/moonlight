@@ -15,7 +15,7 @@
 package event
 
 import (
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 // StandardResponse 标准 api 返回结构

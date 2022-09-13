@@ -17,11 +17,11 @@ package instance
 import (
 	"math"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/instanceinfo"
-	"github.com/erda-project/erda/internal/tools/orchestrator/utils"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/instanceinfo"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/utils"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // Instance instance 实例对象封装

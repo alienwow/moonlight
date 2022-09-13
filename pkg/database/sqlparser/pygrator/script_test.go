@@ -22,7 +22,7 @@ import (
 	"github.com/pingcap/parser"
 	"github.com/pingcap/parser/ast"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/pygrator"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/pygrator"
 )
 
 func TestGenMigration(t *testing.T) {

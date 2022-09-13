@@ -18,7 +18,7 @@ package storetypes
 import (
 	"context"
 
-	"github.com/erda-project/erda/pkg/jsonstore/stm"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/stm"
 )
 
 // ChangeType kv 变化类型

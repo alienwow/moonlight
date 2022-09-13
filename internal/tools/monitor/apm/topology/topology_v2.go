@@ -22,11 +22,11 @@ import (
 	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
 	"github.com/doug-martin/goqu/v9"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	apm "github.com/erda-project/erda/internal/tools/monitor/apm/common"
-	"github.com/erda-project/erda/internal/tools/monitor/apm/topology/clickhousesource"
-	"github.com/erda-project/erda/pkg/ckhelper"
-	pkgmath "github.com/erda-project/erda/pkg/math"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	apm "github.com/ping-cloudnative/moonlight/internal/tools/monitor/apm/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/apm/topology/clickhousesource"
+	"github.com/ping-cloudnative/moonlight/pkg/ckhelper"
+	pkgmath "github.com/ping-cloudnative/moonlight/pkg/math"
 )
 
 var (

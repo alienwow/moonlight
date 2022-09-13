@@ -24,10 +24,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	cmpPb "github.com/erda-project/erda-proto-go/cmp/dashboard/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
+	cmpPb "github.com/ping-cloudnative/moonlight/proto-go/cmp/dashboard/pb"
 )
 
 func (p *Project) ApplicationsResources(ctx context.Context, req *apistructs.ApplicationsResourcesRequest) (

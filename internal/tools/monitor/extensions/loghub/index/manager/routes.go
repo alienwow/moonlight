@@ -17,8 +17,8 @@ package manager
 import (
 	"net/http"
 
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
 )
 
 func (p *provider) intRoutes(routes httpserver.Router) error {

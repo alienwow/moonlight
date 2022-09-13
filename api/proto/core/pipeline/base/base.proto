@@ -12,7 +12,7 @@ import "common/md.proto";
 import "core/pipeline/cron_pub.proto";
 import "core/pipeline/queue/queue.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/core/pipeline/base/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/base/pb";
 
 service BaseService {
   ////////// pipelines

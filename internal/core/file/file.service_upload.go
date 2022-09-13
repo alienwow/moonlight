@@ -24,17 +24,17 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-proto-go/core/file/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/file/db"
-	"github.com/erda-project/erda/internal/core/file/filetypes"
-	"github.com/erda-project/erda/internal/core/legacy/services/apierrors"
-	"github.com/erda-project/erda/pkg/common/pbutil"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
-	"github.com/erda-project/erda/pkg/kms/kmscrypto"
-	"github.com/erda-project/erda/pkg/kms/kmstypes"
-	"github.com/erda-project/erda/pkg/storage"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/file/db"
+	"github.com/ping-cloudnative/moonlight/internal/core/file/filetypes"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/common/pbutil"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmscrypto"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmstypes"
+	"github.com/ping-cloudnative/moonlight/pkg/storage"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/file/pb"
 )
 
 func (s *fileService) ifDispositionInline(fileType string) bool {

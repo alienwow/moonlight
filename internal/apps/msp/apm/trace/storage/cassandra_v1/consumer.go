@@ -26,10 +26,10 @@ import (
 	"github.com/gocql/gocql"
 	"github.com/recallsong/go-utils/reflectx"
 
-	"github.com/erda-project/erda-infra/providers/cassandra"
-	oap "github.com/erda-project/erda-proto-go/oap/trace/pb"
-	"github.com/erda-project/erda/internal/pkg/monitor"
-	metrics "github.com/erda-project/erda/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight-utils/providers/cassandra"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/monitor"
+	metrics "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	oap "github.com/ping-cloudnative/moonlight/proto-go/oap/trace/pb"
 )
 
 func (p *provider) initCassandra(session *cassandra.Session) error {

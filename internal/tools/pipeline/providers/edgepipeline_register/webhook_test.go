@@ -25,12 +25,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 
-	"github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-proto-go/core/messenger/eventbox/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/dispatcher"
-	httpinput "github.com/erda-project/erda/internal/core/messenger/eventbox/input/http"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/subscriber"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/dispatcher"
+	httpinput "github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/input/http"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/subscriber"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/messenger/eventbox/pb"
 )
 
 type MockRegister struct{}

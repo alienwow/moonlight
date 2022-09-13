@@ -24,18 +24,18 @@ import (
 	"bou.ke/monkey"
 	"github.com/golang/mock/gomock"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-proto-go/msp/member/pb"
-	projectpb "github.com/erda-project/erda-proto-go/msp/tenant/project/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	db2 "github.com/erda-project/erda/internal/apps/msp/instance/db"
-	"github.com/erda-project/erda/internal/apps/msp/tenant/db"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	db2 "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/tenant/db"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/member/pb"
+	projectpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/project/pb"
 )
 
-////go:generate mockgen -destination=./member_register_test.go -package member github.com/erda-project/erda-infra/pkg/transport Register
-////go:generate mockgen -destination=./projectServer_test.go -package member github.com/erda-project/erda-proto-go/msp/tenant/project/pb ProjectServiceServer
+////go:generate mockgen -destination=./member_register_test.go -package member github.com/ping-cloudnative/moonlight-utils/pkg/transport Register
+////go:generate mockgen -destination=./projectServer_test.go -package member github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/project/pb ProjectServiceServer
 func Test_memberService_ListMember(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()

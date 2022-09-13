@@ -20,12 +20,12 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-proto-go/orchestrator/podscaler/pb"
-	"github.com/erda-project/erda/apistructs"
-	pstypes "github.com/erda-project/erda/internal/tools/orchestrator/components/podscaler/types"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/internal/tools/orchestrator/spec"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	pstypes "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/podscaler/types"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/proto-go/orchestrator/podscaler/pb"
 )
 
 // processRuntimeScaleRecord 处理单个 runtime 对应的 scale 操作

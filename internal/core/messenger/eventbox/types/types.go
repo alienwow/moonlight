@@ -17,7 +17,7 @@ package types
 import (
 	"strings"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 // LabelKey `Message.Labels' key

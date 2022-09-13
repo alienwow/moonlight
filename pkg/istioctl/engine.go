@@ -20,7 +20,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"istio.io/client-go/pkg/clientset/versioned"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 type ExecResult int

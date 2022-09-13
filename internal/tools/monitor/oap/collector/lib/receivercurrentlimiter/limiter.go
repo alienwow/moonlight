@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib"
 )
 
 var (

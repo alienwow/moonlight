@@ -24,8 +24,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/jsonstore"
-	"github.com/erda-project/erda/pkg/persist_stat"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore"
+	"github.com/ping-cloudnative/moonlight/pkg/persist_stat"
 )
 
 type accumValue struct {

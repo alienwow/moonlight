@@ -18,9 +18,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager/pkg/queue/priorityqueue"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/reconciler/rlog"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager/pkg/queue/priorityqueue"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/reconciler/rlog"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 func (q *defaultQueue) AddPipelineIntoQueue(p *spec.Pipeline, doneCh chan struct{}) {

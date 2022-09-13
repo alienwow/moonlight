@@ -14,7 +14,7 @@
 
 package kratos
 
-import "github.com/erda-project/erda/internal/core/user/common"
+import "github.com/ping-cloudnative/moonlight/internal/core/user/common"
 
 type OryKratosSession struct {
 	ID       string            `json:"id"`

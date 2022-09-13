@@ -14,7 +14,7 @@
 
 package interceptor
 
-import "github.com/erda-project/erda-proto-go/oap/trace/pb"
+import "github.com/ping-cloudnative/moonlight/proto-go/oap/trace/pb"
 
 type SpansProvider interface {
 	GetSpans() []*pb.Span

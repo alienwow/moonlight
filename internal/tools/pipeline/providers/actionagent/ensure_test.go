@@ -22,11 +22,11 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/clusterinfo"
-	"github.com/erda-project/erda/pkg/jsonstore"
-	"github.com/erda-project/erda/pkg/jsonstore/etcd"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/clusterinfo"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/etcd"
 )
 
 var s *provider

@@ -15,10 +15,10 @@
 package endpoint_api
 
 import (
-	_ "github.com/erda-project/erda-proto-go/core/project/client"
-	_ "github.com/erda-project/erda-proto-go/core/project/pb"
-	_ "github.com/erda-project/erda-proto-go/orchestrator/runtime/client"
-	_ "github.com/erda-project/erda-proto-go/orchestrator/runtime/pb"
-	_ "github.com/erda-project/erda/internal/pkg/cron"
-	_ "github.com/erda-project/erda/pkg/common/permission"
+	_ "github.com/ping-cloudnative/moonlight/internal/pkg/cron"
+	_ "github.com/ping-cloudnative/moonlight/pkg/common/permission"
+	_ "github.com/ping-cloudnative/moonlight/proto-go/core/project/client"
+	_ "github.com/ping-cloudnative/moonlight/proto-go/core/project/pb"
+	_ "github.com/ping-cloudnative/moonlight/proto-go/orchestrator/runtime/client"
+	_ "github.com/ping-cloudnative/moonlight/proto-go/orchestrator/runtime/pb"
 )

@@ -23,15 +23,15 @@ import (
 	"github.com/coreos/etcd/clientv3"
 	"github.com/gorilla/schema"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/dispatcher"
-	httpinput "github.com/erda-project/erda/internal/core/messenger/eventbox/input/http"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/webhook"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/leaderworker"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/dispatcher"
+	httpinput "github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/input/http"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/webhook"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/leaderworker"
 )
 
 type Config struct {

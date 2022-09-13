@@ -22,11 +22,11 @@ import (
 	"bou.ke/monkey"
 	"github.com/alecthomas/assert"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/actionmgr"
-	"github.com/erda-project/erda/pkg/expression"
-	"github.com/erda-project/erda/pkg/pipeline_snippet_client"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/actionmgr"
+	"github.com/ping-cloudnative/moonlight/pkg/expression"
+	"github.com/ping-cloudnative/moonlight/pkg/pipeline_snippet_client"
 )
 
 func TestHandleQueryPipelineYamlBySnippetConfigs(t *testing.T) {

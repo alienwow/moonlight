@@ -22,10 +22,10 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/erda-project/erda-proto-go/msp/configcenter/pb"
-	"github.com/erda-project/erda/internal/apps/msp/configcenter/nacos"
-	instancedb "github.com/erda-project/erda/internal/apps/msp/instance/db"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/configcenter/nacos"
+	instancedb "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/configcenter/pb"
 )
 
 type PropertySource string

@@ -17,7 +17,7 @@ package cms
 import (
 	"context"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/cms/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cms/pb"
 )
 
 type ConfigManager interface {

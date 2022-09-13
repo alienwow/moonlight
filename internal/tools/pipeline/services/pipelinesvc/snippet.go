@@ -23,13 +23,13 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/services/apierrors"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/expression"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
-	"github.com/erda-project/erda/pkg/pipeline_snippet_client"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/expression"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/pkg/pipeline_snippet_client"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // handleQueryPipelineYamlBySnippetConfigs 统一查询 snippetConfigs

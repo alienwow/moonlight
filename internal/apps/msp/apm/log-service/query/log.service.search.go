@@ -22,11 +22,11 @@ import (
 
 	"github.com/ahmetb/go-linq/v3"
 
-	monitorpb "github.com/erda-project/erda-proto-go/core/monitor/log/query/pb"
-	"github.com/erda-project/erda-proto-go/msp/apm/log-service/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/index/query"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/math"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/index/query"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/math"
+	monitorpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/log/query/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/log-service/pb"
 )
 
 func (s *logService) PagedSearchFromMonitor(ctx context.Context, req *pb.PagedSearchRequest) (*pb.PagedSearchResponse, error) {

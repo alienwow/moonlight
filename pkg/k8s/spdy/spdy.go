@@ -25,7 +25,7 @@ import (
 	// "k8s.io/apimachinery/pkg/util/httpstream/spdy"
 	restclient "k8s.io/client-go/rest"
 
-	spdy "github.com/erda-project/erda/pkg/k8s/httpstream/spdy"
+	spdy "github.com/ping-cloudnative/moonlight/pkg/k8s/httpstream/spdy"
 )
 
 // Upgrader validates a response from the server after a SPDY upgrade.

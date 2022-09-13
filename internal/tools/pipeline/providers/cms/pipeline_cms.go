@@ -27,13 +27,13 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
-	"github.com/erda-project/erda-proto-go/core/pipeline/cms/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cms/db"
-	"github.com/erda-project/erda/pkg/crypto/encryption"
-	"github.com/erda-project/erda/pkg/limit_sync_group"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysqlxorm"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cms/db"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/encryption"
+	"github.com/ping-cloudnative/moonlight/pkg/limit_sync_group"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cms/pb"
 )
 
 const (

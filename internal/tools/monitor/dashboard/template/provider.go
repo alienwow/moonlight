@@ -15,14 +15,14 @@
 package template
 
 import (
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda-infra/providers/httpserver/interceptors"
-	"github.com/erda-project/erda-infra/providers/mysql"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/tools/monitor/common/db"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricq"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver/interceptors"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysql"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/common/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricq"
 )
 
 type define struct{}

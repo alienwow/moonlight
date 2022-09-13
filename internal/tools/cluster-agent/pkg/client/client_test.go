@@ -23,8 +23,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	fakeclientset "k8s.io/client-go/kubernetes/fake"
 
-	"github.com/erda-project/erda/internal/tools/cluster-agent/config"
-	"github.com/erda-project/erda/pkg/k8sclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/cluster-agent/config"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient"
 )
 
 func Test_getClusterInfo(t *testing.T) {

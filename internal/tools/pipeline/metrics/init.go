@@ -17,8 +17,8 @@ package metrics
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/erda-project/erda/internal/pkg/metrics/report"
-	"github.com/erda-project/erda/internal/tools/pipeline/conf"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/metrics/report"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/conf"
 )
 
 // disableMetrics 是否禁用 metric 相关操作

@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
 )
 
 func Test_getStageMap(t *testing.T) {

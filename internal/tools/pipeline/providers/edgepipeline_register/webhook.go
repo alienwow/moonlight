@@ -22,11 +22,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/erda-project/erda-proto-go/core/messenger/eventbox/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/dispatcher"
-	httpsubscriber "github.com/erda-project/erda/internal/core/messenger/eventbox/subscriber/http"
-	"github.com/erda-project/erda/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/dispatcher"
+	httpsubscriber "github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/subscriber/http"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/messenger/eventbox/pb"
 )
 
 func (p *provider) listWebHook(rw http.ResponseWriter, r *http.Request) {

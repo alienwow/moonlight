@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/util"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/util"
 )
 
 func getPair() (Values, string) {

@@ -17,8 +17,8 @@ package openapi
 import (
 	"net/http"
 
-	"github.com/erda-project/erda-infra/base/version"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/version"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var OPENAPI_VERSION = apis.ApiSpec{

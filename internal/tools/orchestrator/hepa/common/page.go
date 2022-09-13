@@ -14,7 +14,7 @@
 
 package common
 
-import "github.com/erda-project/erda-proto-go/core/hepa/pb"
+import "github.com/ping-cloudnative/moonlight/proto-go/core/hepa/pb"
 
 var (
 	serialVersionUID  int64 = -802234107812549630

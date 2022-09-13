@@ -17,8 +17,8 @@ package apis
 import (
 	"net/http"
 
-	dicestructs "github.com/erda-project/erda/apistructs"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	dicestructs "github.com/ping-cloudnative/moonlight/apistructs"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
 )
 
 func (p *provider) listReportType(r *http.Request, params struct {

@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"strconv"
 
-	model "github.com/erda-project/erda-infra/providers/component-protocol/components/filter/models"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/project-pipeline-exec-list/common"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/util"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/standard-components/condition"
-	"github.com/erda-project/erda/pkg/limit_sync_group"
+	model "github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/filter/models"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/project-pipeline-exec-list/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/util"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/standard-components/condition"
+	"github.com/ping-cloudnative/moonlight/pkg/limit_sync_group"
 )
 
 type UserType string

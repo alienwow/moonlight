@@ -17,9 +17,9 @@ package query
 import (
 	"github.com/jinzhu/gorm"
 
-	commonpb "github.com/erda-project/erda-proto-go/common/pb"
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	commonpb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 func (p *provider) GetIssue(id int64, identityInfo *commonpb.IdentityInfo) (*pb.Issue, error) {

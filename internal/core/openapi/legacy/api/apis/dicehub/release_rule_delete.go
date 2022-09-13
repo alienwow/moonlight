@@ -17,7 +17,7 @@ package dicehub
 import (
 	"net/http"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var RELEASE_RULE_delete = apis.ApiSpec{

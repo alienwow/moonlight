@@ -22,8 +22,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/pkg/transport/interceptor"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport/interceptor"
 )
 
 type (

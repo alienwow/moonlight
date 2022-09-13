@@ -9,7 +9,7 @@ import "core/pipeline/cron_pub.proto";
 import "core/pipeline/base/base.proto";
 import "google/protobuf/wrappers.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/core/pipeline/cron/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cron/pb";
 
 service CronService {
   rpc CronCreate (CronCreateRequest) returns (CronCreateResponse) {

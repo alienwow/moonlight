@@ -15,14 +15,14 @@
 package proto
 
 import (
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	common "github.com/erda-project/erda-proto-go/common/pb"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/auth"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/proxy"
-	discover "github.com/erda-project/erda/internal/pkg/service-discover"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	transhttp "github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/auth"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/proxy"
+	discover "github.com/ping-cloudnative/moonlight/internal/pkg/service-discover"
+	common "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
 )
 
 // +provider

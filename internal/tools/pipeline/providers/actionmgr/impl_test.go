@@ -20,10 +20,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgepipeline_register"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgepipeline_register"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func TestMakeActionTypeVersion(t *testing.T) {

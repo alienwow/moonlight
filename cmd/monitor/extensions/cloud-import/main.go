@@ -17,18 +17,18 @@ package main
 import (
 	_ "embed"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/tools/monitor/extensions/loghub"
-	"github.com/erda-project/erda/pkg/common"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub"
+	"github.com/ping-cloudnative/moonlight/pkg/common"
 
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/log-service/analysis"
-	_ "github.com/erda-project/erda/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat"
-	_ "github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/sls-import"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/log-service/analysis"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/sls-import"
 
 	// infra
-	_ "github.com/erda-project/erda-infra/providers/health"
-	_ "github.com/erda-project/erda-infra/providers/kafka"
-	_ "github.com/erda-project/erda-infra/providers/pprof"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/health"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/kafka"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/pprof"
 )
 
 //go:embed bootstrap.yaml

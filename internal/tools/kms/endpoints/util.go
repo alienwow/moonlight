@@ -21,11 +21,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/pkg/user"
-	"github.com/erda-project/erda/internal/tools/kms/conf"
-	"github.com/erda-project/erda/internal/tools/kms/endpoints/apierrors"
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
-	"github.com/erda-project/erda/pkg/kms/kmstypes"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/user"
+	"github.com/ping-cloudnative/moonlight/internal/tools/kms/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/kms/endpoints/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmstypes"
 )
 
 // getPluginByKeyID 根据 keyID 获取对应的 plugin

@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-proto-go/core/dop/taskerror/pb"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dop/taskerror/pb"
 )
 
 func Test_taskErrorService_ListErrorLog(t *testing.T) {

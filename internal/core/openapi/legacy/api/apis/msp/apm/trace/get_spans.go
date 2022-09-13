@@ -14,7 +14,7 @@
 
 package trace
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var GET_SPANS = apis.ApiSpec{
 	Path:        "/api/msp/apm/traces/<traceID>/spans",

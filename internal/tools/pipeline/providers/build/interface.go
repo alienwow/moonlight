@@ -20,8 +20,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/conf"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/build/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/build/db"
 )
 
 type Interface interface {

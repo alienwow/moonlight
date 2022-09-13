@@ -20,9 +20,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
 )
 
 // 组件状态

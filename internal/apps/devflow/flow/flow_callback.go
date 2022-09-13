@@ -20,8 +20,8 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-proto-go/apps/devflow/flow/pb"
-	rulepb "github.com/erda-project/erda-proto-go/dop/rule/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/apps/devflow/flow/pb"
+	rulepb "github.com/ping-cloudnative/moonlight/proto-go/dop/rule/pb"
 )
 
 func (s *Service) FlowCallBack(ctx context.Context, req *pb.FlowCallbackRequest) (*pb.FlowCallbackResponse, error) {

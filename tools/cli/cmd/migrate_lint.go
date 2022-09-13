@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/erda-project/erda/pkg/database/sqllint"
-	_ "github.com/erda-project/erda/pkg/database/sqllint/linters"
-	"github.com/erda-project/erda/pkg/database/sqlparser/migrator"
-	"github.com/erda-project/erda/tools/cli/command"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint"
+	_ "github.com/ping-cloudnative/moonlight/pkg/database/sqllint/linters"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/migrator"
+	"github.com/ping-cloudnative/moonlight/tools/cli/command"
 )
 
 const (

@@ -21,12 +21,12 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/conf"
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/dbclient"
-	imagedb "github.com/erda-project/erda/internal/apps/dop/dicehub/image/db"
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/registry"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/conf"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/dbclient"
+	imagedb "github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/image/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/registry"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 const (

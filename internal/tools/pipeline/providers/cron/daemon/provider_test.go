@@ -22,9 +22,9 @@ import (
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cron/db"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgepipeline_register"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cron/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgepipeline_register"
 )
 
 type CronMockEdgeRegister struct {

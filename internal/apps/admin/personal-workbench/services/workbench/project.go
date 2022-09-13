@@ -24,11 +24,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
-	menupb "github.com/erda-project/erda-proto-go/msp/menu/pb"
-	projpb "github.com/erda-project/erda-proto-go/msp/tenant/project/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	menupb "github.com/ping-cloudnative/moonlight/proto-go/msp/menu/pb"
+	projpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/project/pb"
 )
 
 type UrlParams struct {

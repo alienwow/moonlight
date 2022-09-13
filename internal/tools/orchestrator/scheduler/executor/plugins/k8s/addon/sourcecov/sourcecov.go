@@ -25,14 +25,14 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	scv1 "github.com/erda-project/erda-sourcecov/api/v1alpha1"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/plugins/k8s/addon"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/plugins/k8s/k8sapi"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/plugins/k8s/k8serror"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/constraintbuilders"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/plugins/k8s/addon"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/plugins/k8s/k8sapi"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/plugins/k8s/k8serror"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/constraintbuilders"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 type SourcecovOperator struct {

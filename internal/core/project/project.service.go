@@ -20,9 +20,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-proto-go/core/project/pb"
-	"github.com/erda-project/erda/internal/core/project/dao"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/core/project/dao"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/project/pb"
 )
 
 // project implements pb.ProjectServer

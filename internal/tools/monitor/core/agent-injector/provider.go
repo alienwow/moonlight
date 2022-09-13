@@ -21,10 +21,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/base/version"
-	"github.com/erda-project/erda-infra/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/base/version"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
 )
 
 type config struct {

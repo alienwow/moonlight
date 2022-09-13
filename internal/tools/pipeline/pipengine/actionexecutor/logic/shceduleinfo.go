@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/schedule/executorconfig"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/executorconfig"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func GetScheduleInfo(cluster apistructs.ClusterInfo, executorName, executorKind string, jobFromUser apistructs.JobFromUser) (apistructs.ScheduleInfo2, apistructs.ScheduleInfo, error) {

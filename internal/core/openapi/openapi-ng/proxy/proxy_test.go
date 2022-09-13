@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda-infra/base/logs/logrusx"
-	discover "github.com/erda-project/erda/internal/pkg/service-discover"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs/logrusx"
+	discover "github.com/ping-cloudnative/moonlight/internal/pkg/service-discover"
 )
 
 func Test_buildPathToSegments(t *testing.T) {

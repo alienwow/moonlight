@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package erda.oap.collector.receiver.opentelemetry;
-option go_package = "github.com/erda-project/erda-proto-go/oap/collector/receiver/opentelemetry/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/oap/collector/receiver/opentelemetry/pb";
 
 import "google/api/annotations.proto";
 import "google/protobuf/timestamp.proto";

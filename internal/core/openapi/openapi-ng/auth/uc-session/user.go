@@ -18,9 +18,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/auth"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/common"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/auth"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/common"
 )
 
 func (p *provider) addUserInfoAPI(router openapi.Interface) {

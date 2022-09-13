@@ -14,7 +14,7 @@
 
 package metric
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var POST_QUERY_METRIC_AGGREGATE = apis.ApiSpec{
 	Path:        "/api/tmc/metrics/<scope>/<aggregate>",

@@ -15,8 +15,8 @@
 package file
 
 import (
-	"github.com/erda-project/erda/internal/core/file/db"
-	"github.com/erda-project/erda/internal/core/legacy/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/core/file/db"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/apierrors"
 )
 
 func (s *fileService) DeleteFile(file db.File) error {

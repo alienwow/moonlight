@@ -23,9 +23,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/flosch/pongo2.v3"
 
-	"github.com/erda-project/erda-proto-go/dop/pipelinetemplate/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/expression"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/expression"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/pipelinetemplate/pb"
 )
 
 const (

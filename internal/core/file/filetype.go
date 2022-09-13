@@ -15,7 +15,7 @@
 package file
 
 import (
-	"github.com/erda-project/erda-proto-go/core/file/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/file/pb"
 )
 
 // GetFileTypeByExt ext has dot

@@ -20,7 +20,7 @@ import (
 	"github.com/rancher/apiserver/pkg/types"
 	apiuser "k8s.io/apiserver/pkg/authentication/user"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 type SteveServer interface {

@@ -15,9 +15,9 @@
 package taskresult
 
 import (
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskerror"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskinspect"
-	"github.com/erda-project/erda/pkg/metadata"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskerror"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskinspect"
+	"github.com/ping-cloudnative/moonlight/pkg/metadata"
 )
 
 type Result struct {

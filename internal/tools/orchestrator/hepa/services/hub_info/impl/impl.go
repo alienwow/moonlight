@@ -20,13 +20,13 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-proto-go/core/hepa/hub_info/pb"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/vars"
-	context1 "github.com/erda-project/erda/internal/tools/orchestrator/hepa/context"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/hepautils"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
-	repositoryService "github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/service"
-	erdaErr "github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/vars"
+	context1 "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/context"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/hepautils"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
+	repositoryService "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/service"
+	erdaErr "github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/hub_info/pb"
 )
 
 func NewHubInfoService() (pb.HubInfoServiceServer, error) {

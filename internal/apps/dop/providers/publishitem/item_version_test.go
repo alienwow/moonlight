@@ -24,12 +24,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-proto-go/dop/publishitem/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/providers/publishitem/db"
-	"github.com/erda-project/erda/internal/pkg/mock"
-	"github.com/erda-project/erda/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/publishitem/db"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/mock"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/publishitem/pb"
 )
 
 func TestPublishItemVersion(t *testing.T) {

@@ -20,7 +20,7 @@ package bundle
 //
 //	"github.com/stretchr/testify/assert"
 //
-//	"github.com/erda-project/erda/apistructs"
+//	"github.com/ping-cloudnative/moonlight/apistructs"
 //)
 //
 //func TestGetMemberByToken(t *testing.T) {

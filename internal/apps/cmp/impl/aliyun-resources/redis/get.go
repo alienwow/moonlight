@@ -26,9 +26,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/text/message"
 
-	"github.com/erda-project/erda/apistructs"
-	aliyun_resources "github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources"
-	"github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/vswitch"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	aliyun_resources "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/vswitch"
 )
 
 func GetInstanceFullDetailInfo(c context.Context, ctx aliyun_resources.Context, instanceID string) ([]apistructs.CloudResourceDetailInfo, error) {

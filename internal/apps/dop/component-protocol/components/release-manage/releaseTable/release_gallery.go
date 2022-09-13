@@ -20,11 +20,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	gallerypb "github.com/erda-project/erda-proto-go/apps/gallery/pb"
-	"github.com/erda-project/erda-proto-go/core/dicehub/release/pb"
-	"github.com/erda-project/erda/internal/apps/gallery/types"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/internal/apps/gallery/types"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	gallerypb "github.com/ping-cloudnative/moonlight/proto-go/apps/gallery/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb"
 )
 
 func (r *ComponentReleaseTable) putOnRelease(ctx context.Context, releaseID string) error {

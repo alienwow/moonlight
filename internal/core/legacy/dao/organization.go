@@ -17,8 +17,8 @@ package dao
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/internal/core/legacy/model"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/model"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // CreateOrg 创建企业

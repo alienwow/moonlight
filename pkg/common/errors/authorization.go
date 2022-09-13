@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
 )
 
 // UnauthorizedError .

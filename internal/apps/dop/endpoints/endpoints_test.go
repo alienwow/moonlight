@@ -17,7 +17,7 @@ package endpoints_test
 import (
 	"testing"
 
-	"github.com/erda-project/erda/internal/apps/dop/endpoints"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/endpoints"
 )
 
 func TestEndpoints_Routes(t *testing.T) {

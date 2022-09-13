@@ -15,10 +15,10 @@
 package schedulepolicy
 
 import (
-	"github.com/erda-project/erda/pkg/parser/diceyml"
-	"github.com/erda-project/erda/pkg/schedule/executorconfig"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/labelconfig"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/labelpipeline"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/executorconfig"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/labelconfig"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/labelpipeline"
 )
 
 // request

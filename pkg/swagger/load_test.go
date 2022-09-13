@@ -18,7 +18,7 @@ package swagger_test
 //	"io/ioutil"
 //	"testing"
 //
-//	"github.com/erda-project/erda/pkg/swagger"
+//	"github.com/ping-cloudnative/moonlight/pkg/swagger"
 //)
 //
 //func TestMarshalYAML(t *testing.T) {

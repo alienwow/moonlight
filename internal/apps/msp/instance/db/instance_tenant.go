@@ -17,7 +17,7 @@ package db
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/pkg/database/gormutil"
+	"github.com/ping-cloudnative/moonlight/pkg/database/gormutil"
 )
 
 // InstanceTenantDB .

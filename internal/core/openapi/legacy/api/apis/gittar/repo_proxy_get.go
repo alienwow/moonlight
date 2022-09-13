@@ -14,7 +14,7 @@
 
 package gittar
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var REPO_GET = apis.ApiSpec{
 	Path:        "/api/repo/<*>",

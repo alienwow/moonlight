@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle/apierrors"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle/apierrors"
 )
 
 // CreateMessage 发送消息（不包括 event ）, `Message.Labels` 见 `MessageLabel`

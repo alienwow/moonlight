@@ -17,7 +17,7 @@ package cmd_test
 import (
 	"testing"
 
-	"github.com/erda-project/erda/tools/cli/cmd"
+	"github.com/ping-cloudnative/moonlight/tools/cli/cmd"
 )
 
 func TestGwDelPreCheck(t *testing.T) {

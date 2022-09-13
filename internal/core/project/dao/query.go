@@ -15,7 +15,7 @@
 package dao
 
 import (
-	"github.com/erda-project/erda/internal/core/project/model"
+	"github.com/ping-cloudnative/moonlight/internal/core/project/model"
 )
 
 func GetProject(tx *TX, options ...Option) (*model.ErdaProject, bool, error) {

@@ -17,8 +17,8 @@ package kratos
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/core/legacy/conf"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/conf"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 func UserMigration(req OryKratosCreateIdentitiyRequest) (string, error) {

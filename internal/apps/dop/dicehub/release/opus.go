@@ -19,9 +19,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	commonPb "github.com/erda-project/erda-proto-go/common/pb"
-	"github.com/erda-project/erda-proto-go/core/dicehub/release/pb"
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/release/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/release/db"
+	commonPb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb"
 )
 
 type opus struct {

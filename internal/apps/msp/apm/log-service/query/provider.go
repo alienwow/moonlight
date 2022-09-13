@@ -21,16 +21,16 @@ import (
 	"github.com/jinzhu/gorm"
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	monitorpb "github.com/erda-project/erda-proto-go/core/monitor/log/query/pb"
-	"github.com/erda-project/erda-proto-go/msp/apm/log-service/pb"
-	"github.com/erda-project/erda/internal/apps/msp/instance/db"
-	"github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/index/query"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/index/query"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	monitorpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/log/query/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/log-service/pb"
 )
 
 type config struct {

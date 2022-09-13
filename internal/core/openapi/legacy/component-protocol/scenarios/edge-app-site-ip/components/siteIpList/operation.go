@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/erda-project/erda/apistructs"
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
 )
 
 const (

@@ -27,7 +27,7 @@ import (
 	"github.com/hpcloud/tail"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/filehelper"
+	"github.com/ping-cloudnative/moonlight/pkg/filehelper"
 )
 
 // FullHandler handle full text as io.ReadCloser

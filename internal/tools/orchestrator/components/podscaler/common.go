@@ -21,16 +21,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-proto-go/orchestrator/podscaler/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/pkg/user"
-	pstypes "github.com/erda-project/erda/internal/tools/orchestrator/components/podscaler/types"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/internal/tools/orchestrator/services/apierrors"
-	"github.com/erda-project/erda/internal/tools/orchestrator/spec"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/user"
+	pstypes "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/podscaler/types"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/proto-go/orchestrator/podscaler/pb"
 )
 
 func (s *podscalerService) GetUserAndOrgID(ctx context.Context) (userID user.ID, orgID uint64, err error) {

@@ -32,7 +32,7 @@ func Test_getAppNameFromModulePath(t *testing.T) {
 }
 
 func Test_getModulePathFromMainEntranceFileName(t *testing.T) {
-	assert.Equal(t, "monitor/monitor", getModulePathFromMainEntranceFileName("/go/src/github.com/erda-project/erda/cmd/monitor/monitor/main.go"))
-	assert.Equal(t, "pipeline", getModulePathFromMainEntranceFileName("/go/src/github.com/erda-project/erda/cmd/pipeline/main.go"))
-	assert.Equal(t, "", getModulePathFromMainEntranceFileName("/go/src/github.com/erda-project/erda/cmd/main.go"))
+	assert.Equal(t, "monitor/monitor", getModulePathFromMainEntranceFileName("/go/src/github.com/ping-cloudnative/moonlight/cmd/monitor/monitor/main.go"))
+	assert.Equal(t, "pipeline", getModulePathFromMainEntranceFileName("/go/src/github.com/ping-cloudnative/moonlight/cmd/pipeline/main.go"))
+	assert.Equal(t, "", getModulePathFromMainEntranceFileName("/go/src/github.com/ping-cloudnative/moonlight/cmd/main.go"))
 }

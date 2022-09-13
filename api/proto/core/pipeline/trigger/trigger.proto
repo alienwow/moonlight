@@ -5,7 +5,7 @@ package erda.core.pipeline.trigger;
 import "google/api/annotations.proto";
 import "common/openapi.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/core/pipeline/trigger/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/trigger/pb";
 
 service TriggerService {
   option (erda.common.openapi_service) = {

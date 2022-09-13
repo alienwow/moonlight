@@ -23,7 +23,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	extensionsv1beta1 "k8s.io/api/extensions/v1beta1"
 
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 // ReadDaemonSet 通过 API Server 地址获取 DaemonSet

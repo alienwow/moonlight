@@ -18,12 +18,12 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
-	"github.com/erda-project/erda/internal/apps/dop/services/branchrule"
-	"github.com/erda-project/erda/internal/pkg/diceworkspace"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/branchrule"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/diceworkspace"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 type Permission struct {

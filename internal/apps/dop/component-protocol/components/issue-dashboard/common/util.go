@@ -21,9 +21,9 @@ import (
 	"github.com/go-echarts/go-echarts/v2/charts"
 	"github.com/go-echarts/go-echarts/v2/opts"
 
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/issue-dashboard/common/stackhandlers"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/issue-dashboard/common/stackhandlers"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 func FixEmptyWord(em string) string {

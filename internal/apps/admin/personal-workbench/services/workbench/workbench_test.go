@@ -17,7 +17,7 @@ package workbench
 import (
 	"os"
 
-	"github.com/erda-project/erda/bundle"
+	"github.com/ping-cloudnative/moonlight/bundle"
 )
 
 func initBundle() *bundle.Bundle {

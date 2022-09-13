@@ -17,8 +17,8 @@ package workList
 import (
 	"testing"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/list"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/list"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func TestWorkList_GenAppKvInfo(t *testing.T) {

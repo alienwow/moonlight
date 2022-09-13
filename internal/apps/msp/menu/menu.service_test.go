@@ -25,15 +25,15 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-proto-go/msp/menu/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/msp/instance/db"
-	mdb "github.com/erda-project/erda/internal/apps/msp/menu/db"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	mdb "github.com/ping-cloudnative/moonlight/internal/apps/msp/menu/db"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/menu/pb"
 )
 
-////go:generate mockgen -destination=./menu_register_test.go -package exporter github.com/erda-project/erda-infra/pkg/transport Register
-////go:generate mockgen -destination=./menu_logs_test.go -package exporter github.com/erda-project/erda-infra/base/logs Logger
+////go:generate mockgen -destination=./menu_register_test.go -package exporter github.com/ping-cloudnative/moonlight-utils/pkg/transport Register
+////go:generate mockgen -destination=./menu_logs_test.go -package exporter github.com/ping-cloudnative/moonlight-utils/base/logs Logger
 func Test_menuService_GetMenu(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()

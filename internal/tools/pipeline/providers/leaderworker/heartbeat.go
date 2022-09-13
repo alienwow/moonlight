@@ -22,8 +22,8 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/leaderworker/worker"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/leaderworker/worker"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func (p *provider) workerContinueReportHeartbeat(ctx context.Context, w worker.Worker) {

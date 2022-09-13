@@ -18,7 +18,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 func CalculateTaskCostTimeSec(task *spec.PipelineTask) (cost int64) {

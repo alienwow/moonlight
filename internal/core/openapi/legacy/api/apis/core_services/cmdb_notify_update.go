@@ -15,9 +15,9 @@
 package core_services
 
 import (
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/spec"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/spec"
 )
 
 var CMDB_NOTIFY_UPDATE = apis.ApiSpec{

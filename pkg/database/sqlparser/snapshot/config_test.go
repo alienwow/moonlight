@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/snapshot"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/snapshot"
 )
 
 func TestSampling(t *testing.T) {

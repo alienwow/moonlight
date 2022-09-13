@@ -19,10 +19,10 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/report/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/report/pb"
 )
 
 func (client *Client) CreatePipelineReport(report *spec.PipelineReport, ops ...SessionOption) error {

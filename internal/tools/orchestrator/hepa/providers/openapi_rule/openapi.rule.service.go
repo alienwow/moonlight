@@ -19,11 +19,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-proto-go/core/hepa/openapi_rule/pb"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/vars"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/gateway/dto"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/openapi_rule"
-	erdaErr "github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/vars"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/gateway/dto"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/openapi_rule"
+	erdaErr "github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/openapi_rule/pb"
 )
 
 type openapiRuleService struct {

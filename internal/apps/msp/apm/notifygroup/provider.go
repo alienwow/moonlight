@@ -19,18 +19,18 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	notifygroup "github.com/erda-project/erda-proto-go/core/messenger/notifygroup/pb"
-	"github.com/erda-project/erda-proto-go/msp/apm/notifygroup/pb"
-	tenantpb "github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	instancedb "github.com/erda-project/erda/internal/apps/msp/instance/db"
-	"github.com/erda-project/erda/internal/apps/msp/tenant/db"
-	"github.com/erda-project/erda/internal/pkg/audit"
-	db2 "github.com/erda-project/erda/internal/tools/monitor/common/db"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	instancedb "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/tenant/db"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/audit"
+	db2 "github.com/ping-cloudnative/moonlight/internal/tools/monitor/common/db"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	notifygroup "github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notifygroup/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/notifygroup/pb"
+	tenantpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
 )
 
 type config struct {

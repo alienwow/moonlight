@@ -19,8 +19,8 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/legacy/model"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/model"
 )
 
 func (client *DBClient) CreateMBox(mbox *model.MBox) error {

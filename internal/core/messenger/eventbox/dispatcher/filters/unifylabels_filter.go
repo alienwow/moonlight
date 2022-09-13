@@ -15,8 +15,8 @@
 package filters
 
 import (
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/dispatcher/errors"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/types"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/dispatcher/errors"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/types"
 )
 
 type UnifyLabelsFilter struct{}

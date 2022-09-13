@@ -23,7 +23,7 @@ import (
 	"github.com/pingcap/parser/ast"
 	"gorm.io/gorm"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/snapshot"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/snapshot"
 )
 
 // Module is the list of Script

@@ -19,7 +19,7 @@ package timeout
 //	"testing"
 //	"time"
 //
-//	"github.com/erda-project/erda/pkg/jsonstore/mem"
+//	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/mem"
 //
 //	"github.com/stretchr/testify/assert"
 //)

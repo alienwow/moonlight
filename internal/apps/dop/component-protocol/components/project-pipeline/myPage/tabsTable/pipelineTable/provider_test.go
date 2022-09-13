@@ -19,8 +19,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/definition/pb"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/definition/pb"
 )
 
 func TestMakeInode(t *testing.T) {

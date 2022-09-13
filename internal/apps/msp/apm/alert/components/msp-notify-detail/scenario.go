@@ -15,6 +15,6 @@
 package msp_notify_detail
 
 import (
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-notify-detail/eventStatusInfo"
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-notify-detail/notificationContentInfo"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-notify-detail/eventStatusInfo"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-notify-detail/notificationContentInfo"
 )

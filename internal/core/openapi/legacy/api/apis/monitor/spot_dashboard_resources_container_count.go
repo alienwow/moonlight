@@ -14,7 +14,7 @@
 
 package monitor
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var SPOT_DASHBOARD_RESOURCES_CONTAINERS_COUNT = apis.ApiSpec{
 	Path:        "/api/cluster/resources/containers/group/count",

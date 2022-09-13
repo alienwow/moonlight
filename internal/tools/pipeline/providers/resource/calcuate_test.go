@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
 )
 
 func Test_calculatePipelineLimitResource(t *testing.T) {

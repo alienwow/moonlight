@@ -14,7 +14,7 @@
 
 package monitor
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var MONITOR_ORG_REPORT_TASK = apis.ApiSpec{
 	Path:        "/api/org/report/tasks/<id>",

@@ -20,9 +20,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
-	es_tsql "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricmeta"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
+	es_tsql "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricmeta"
 )
 
 // MockQuery is a mock of Query interface.

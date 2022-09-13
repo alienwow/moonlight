@@ -23,10 +23,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/tools/cli/command"
-	"github.com/erda-project/erda/tools/cli/common"
-	"github.com/erda-project/erda/tools/cli/utils"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/tools/cli/command"
+	"github.com/ping-cloudnative/moonlight/tools/cli/common"
+	"github.com/ping-cloudnative/moonlight/tools/cli/utils"
 )
 
 var PIPELINERUN = command.Command{

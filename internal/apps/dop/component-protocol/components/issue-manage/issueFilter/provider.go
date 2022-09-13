@@ -15,10 +15,10 @@
 package issueFilter
 
 import (
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/standard-components/issueFilter"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/standard-components/issueFilter/gshelper"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/standard-components/issueFilter"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/standard-components/issueFilter/gshelper"
 )
 
 type provider struct {

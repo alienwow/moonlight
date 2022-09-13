@@ -25,7 +25,7 @@ import (
 
 	"github.com/olivere/elastic"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
 )
 
 // BuildBoolQuery .

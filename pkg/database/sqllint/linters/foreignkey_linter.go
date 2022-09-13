@@ -19,9 +19,9 @@ import (
 
 	"github.com/pingcap/parser/ast"
 
-	"github.com/erda-project/erda/pkg/database/sqllint"
-	"github.com/erda-project/erda/pkg/database/sqllint/linterror"
-	"github.com/erda-project/erda/pkg/database/sqllint/script"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint/linterror"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint/script"
 )
 
 type foreignKeyLinter struct {

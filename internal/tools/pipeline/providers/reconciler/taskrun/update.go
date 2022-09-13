@@ -20,11 +20,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/events"
-	"github.com/erda-project/erda/internal/tools/pipeline/metrics"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskerror"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/reconciler/rlog"
-	"github.com/erda-project/erda/pkg/loop"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/events"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/metrics"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskerror"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/reconciler/rlog"
+	"github.com/ping-cloudnative/moonlight/pkg/loop"
 )
 
 // Update must update without error

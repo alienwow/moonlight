@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/events/eventtypes"
-	"github.com/erda-project/erda/pkg/jsonstore"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/events/eventtypes"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore"
 )
 
 const (

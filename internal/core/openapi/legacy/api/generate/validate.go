@@ -18,9 +18,9 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/spec"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"

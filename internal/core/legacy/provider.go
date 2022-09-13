@@ -17,16 +17,16 @@ package legacy
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda/internal/core/legacy/dao"
-	"github.com/erda-project/erda/internal/core/legacy/providers/errorbox"
-	"github.com/erda-project/erda/internal/core/legacy/services/permission"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/pkg/oauth2"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/dao"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/providers/errorbox"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/permission"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/pkg/oauth2"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 type provider struct {

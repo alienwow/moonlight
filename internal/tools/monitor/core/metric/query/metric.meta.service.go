@@ -17,9 +17,9 @@ package query
 import (
 	"context"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricmeta"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricmeta"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 type metricMetaService struct {

@@ -22,12 +22,12 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	aliyun_resources "github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources"
-	"github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/nat"
-	"github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/vpc"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	aliyun_resources "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/nat"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/vpc"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
 )
 
 func (e *Endpoints) AddCloudClusters(ctx context.Context, r *http.Request, vars map[string]string) (resp httpserver.Responser, err error) {

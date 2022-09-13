@@ -17,10 +17,10 @@ package source
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/providers/cassandra"
-	"github.com/erda-project/erda-proto-go/msp/apm/trace/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace/query/commom/custom"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/providers/cassandra"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace/query/commom/custom"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/trace/pb"
 )
 
 type CassandraSource struct {

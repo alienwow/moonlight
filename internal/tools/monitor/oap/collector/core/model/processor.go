@@ -15,10 +15,10 @@
 package model
 
 import (
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace"
-	"github.com/erda-project/erda/internal/tools/monitor/core/log"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
-	odata2 "github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model/odata"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	odata2 "github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model/odata"
 )
 
 type RuntimeProcessor struct {

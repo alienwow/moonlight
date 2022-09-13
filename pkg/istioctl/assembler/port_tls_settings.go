@@ -20,7 +20,7 @@ import (
 	"istio.io/api/networking/v1alpha3"
 	"istio.io/api/security/v1beta1"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func NewPortTlsSettings(svc *apistructs.Service) (drSettings []*v1alpha3.TrafficPolicy_PortTrafficPolicy, paSettings map[uint32]*v1beta1.PeerAuthentication_MutualTLS) {

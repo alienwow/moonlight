@@ -17,13 +17,13 @@ package resource
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	clusterpb "github.com/erda-project/erda-proto-go/core/clustermanager/cluster/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/cmp/cmp_interface"
-	"github.com/erda-project/erda/internal/apps/cmp/dbclient"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/cmp_interface"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/dbclient"
+	clusterpb "github.com/ping-cloudnative/moonlight/proto-go/core/clustermanager/cluster/pb"
 )
 
 const Lang = "Lang"

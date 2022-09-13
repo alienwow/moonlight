@@ -24,8 +24,8 @@ import (
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/ecs"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/crypto/encrypt"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/encrypt"
 )
 
 func (m *Mns) GetInstancesInfo(req apistructs.EcsInfoReq) (*ecs.DescribeInstancesResponse, error) {

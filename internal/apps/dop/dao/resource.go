@@ -15,7 +15,7 @@
 package dao
 
 import (
-	"github.com/erda-project/erda/internal/core/legacy/model"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/model"
 )
 
 // GetOrgClusterRelationsByOrg 根据 orgID 获取企业对应集群关系

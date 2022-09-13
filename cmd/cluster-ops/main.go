@@ -17,11 +17,11 @@ package main
 import (
 	_ "embed"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/pkg/common"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/pkg/common"
 
-	_ "github.com/erda-project/erda-infra/providers"
-	_ "github.com/erda-project/erda/internal/tools/cluster-ops"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/cluster-ops"
 )
 
 //go:embed bootstrap.yaml

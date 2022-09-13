@@ -21,14 +21,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/config"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model/odata"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/pipeline"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/common/unmarshalwork"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/receivercurrentlimiter"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/config"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model/odata"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/pipeline"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/common/unmarshalwork"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/receivercurrentlimiter"
 )
 
 func init() {

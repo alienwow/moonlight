@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-proto-go/msp/apm/checker/pb"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/checker/pb"
 )
 
 func Test_checkerService_CreateChecker(t *testing.T) {

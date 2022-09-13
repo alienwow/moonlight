@@ -14,7 +14,7 @@
 
 package api_gateway
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var API_GATEWAY_CONSUMER_EDIT = apis.ApiSpec{
 	Path:        "/api/gateway/consumer",

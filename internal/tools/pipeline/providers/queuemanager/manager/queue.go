@@ -22,12 +22,12 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/queue/pb"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager/queue"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager/types"
-	"github.com/erda-project/erda/pkg/jsonstore/storetypes"
-	"github.com/erda-project/erda/pkg/loop"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager/queue"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager/types"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/storetypes"
+	"github.com/ping-cloudnative/moonlight/pkg/loop"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/queue/pb"
 )
 
 const (

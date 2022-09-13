@@ -17,11 +17,11 @@ package nexussvc
 import (
 	"context"
 
-	cmspb "github.com/erda-project/erda-proto-go/core/pipeline/cms/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/utils"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cms"
-	"github.com/erda-project/erda/pkg/nexus"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/utils"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cms"
+	"github.com/ping-cloudnative/moonlight/pkg/nexus"
+	cmspb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cms/pb"
 )
 
 func (svc *NexusSvc) SyncRepoConfigToPipelineCM(syncConfig apistructs.NexusSyncConfigToPipelineCM, repo *apistructs.NexusRepository) error {

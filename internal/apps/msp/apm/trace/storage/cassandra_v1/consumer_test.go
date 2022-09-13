@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/internal/pkg/monitor"
-	metrics "github.com/erda-project/erda/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/monitor"
+	metrics "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
 )
 
 // TestMetricToSpan .

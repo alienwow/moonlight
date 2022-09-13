@@ -25,18 +25,18 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	definitionpb "github.com/erda-project/erda-proto-go/core/pipeline/definition/pb"
-	sourcepb "github.com/erda-project/erda-proto-go/core/pipeline/source/pb"
-	"github.com/erda-project/erda-proto-go/dop/projectpipeline/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/providers/projectpipeline"
-	ruleactionpipeline "github.com/erda-project/erda/internal/apps/dop/providers/rule/actions/pipeline"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
-	"github.com/erda-project/erda/internal/apps/dop/services/pipeline"
-	"github.com/erda-project/erda/internal/pkg/diceworkspace"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/projectpipeline"
+	ruleactionpipeline "github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/actions/pipeline"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/pipeline"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/diceworkspace"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
+	definitionpb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/definition/pb"
+	sourcepb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/source/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/projectpipeline/pb"
 )
 
 // ReleaseCallback gittar hook的回调，目前只响应TAG，自动触发pipeline进行release

@@ -25,7 +25,7 @@ import (
 	apply "k8s.io/client-go/applyconfigurations/networking/v1"
 	. "k8s.io/client-go/kubernetes/typed/networking/v1"
 
-	"github.com/erda-project/erda/pkg/k8s/union_interface"
+	"github.com/ping-cloudnative/moonlight/pkg/k8s/union_interface"
 )
 
 type IngressHelper struct {

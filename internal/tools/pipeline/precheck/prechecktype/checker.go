@@ -17,8 +17,8 @@ package prechecktype
 import (
 	"context"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
 )
 
 type PreChecker interface {

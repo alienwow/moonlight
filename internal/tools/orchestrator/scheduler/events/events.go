@@ -25,13 +25,13 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/events/eventtypes"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/executortypes"
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/dlock"
-	"github.com/erda-project/erda/pkg/jsonstore"
-	"github.com/erda-project/erda/pkg/jsonstore/storetypes"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/events/eventtypes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/executortypes"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/dlock"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/storetypes"
 )
 
 var (

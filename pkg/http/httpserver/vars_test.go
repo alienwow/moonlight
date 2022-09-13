@@ -23,7 +23,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/assert"
 
-	infrahttpserver "github.com/erda-project/erda-infra/providers/httpserver"
+	infrahttpserver "github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
 )
 
 func Test_getVars(t *testing.T) {

@@ -25,13 +25,13 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/elasticsearch"
-	election "github.com/erda-project/erda-infra/providers/etcd-election"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda-infra/providers/httpserver/interceptors"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/elasticsearch/index"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/elasticsearch"
+	election "github.com/ping-cloudnative/moonlight-utils/providers/etcd-election"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver/interceptors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/elasticsearch/index"
 )
 
 type (

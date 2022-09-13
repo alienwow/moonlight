@@ -27,10 +27,10 @@ import (
 
 	aliyun_errors "github.com/aliyun/alibaba-cloud-sdk-go/sdk/errors"
 
-	"github.com/erda-project/erda/apistructs"
-	aliyun_resources "github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources"
-	"github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/slb"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	aliyun_resources "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/slb"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
 )
 
 // create ApiGateway VPC grant access

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package erda.common;
 import "google/protobuf/descriptor.proto";
-option go_package = "github.com/erda-project/erda-proto-go/common/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/common/pb";
 
 extend google.protobuf.MethodOptions {
     OpenAPIOption openapi = 7325727;

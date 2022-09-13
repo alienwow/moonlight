@@ -21,13 +21,13 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-proto-go/core/monitor/event/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/core/event"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/event"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/event/pb"
 )
 
 // -go:generate mockgen -destination=./mock_storage.go -package query -source=../storage/storage.go Storage
-// -go:generate mockgen -destination=./mock_log.go -package query github.com/erda-project/erda-infra/base/logs Logger
+// -go:generate mockgen -destination=./mock_log.go -package query github.com/ping-cloudnative/moonlight-utils/base/logs Logger
 func Test_eventQueryService_GetEvents(t *testing.T) {
 
 	type args struct {

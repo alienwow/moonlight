@@ -21,13 +21,13 @@ import (
 	"github.com/bluele/gcache"
 	"github.com/gocql/gocql"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/logs/logrusx"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	writer "github.com/erda-project/erda-infra/pkg/parallel-writer"
-	"github.com/erda-project/erda-infra/providers/cassandra"
-	mutex "github.com/erda-project/erda-infra/providers/etcd-mutex"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/kafka"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs/logrusx"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	writer "github.com/ping-cloudnative/moonlight-utils/pkg/parallel-writer"
+	"github.com/ping-cloudnative/moonlight-utils/providers/cassandra"
+	mutex "github.com/ping-cloudnative/moonlight-utils/providers/etcd-mutex"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/kafka"
 )
 
 type mockContext struct {

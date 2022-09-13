@@ -15,14 +15,14 @@
 package jaeger
 
 import (
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-proto-go/oap/collector/receiver/jaeger/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/interceptor"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/plugins"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	transhttp "github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/interceptor"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/plugins"
+	"github.com/ping-cloudnative/moonlight/proto-go/oap/collector/receiver/jaeger/pb"
 )
 
 var providerName = plugins.WithPrefixReceiver("jaeger")

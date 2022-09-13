@@ -5,9 +5,9 @@ FROM ${BASE_DOCKER_IMAGE} as build
 ENV CGO_ENABLED 0
 
 ENV BUILD_FLAGS="-v -ldflags '-d -s -w' -a -tags netgo -installsuffix netgo"
-COPY . /go/src/github.com/erda-project/erda/
+COPY . /go/src/github.com/ping-cloudnative/moonlight/
 
-WORKDIR /go/src/github.com/erda-project/erda/
+WORKDIR /go/src/github.com/ping-cloudnative/moonlight/
 
 RUN --mount=type=cache,target=/root/.cache/go-build \
     --mount=type=cache,target=/go/pkg/mod \

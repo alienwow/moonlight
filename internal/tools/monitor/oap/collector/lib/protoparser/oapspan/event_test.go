@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
 )
 
 func Test_span_event_unmarshal(t *testing.T) {

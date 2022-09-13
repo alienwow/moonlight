@@ -22,9 +22,9 @@ import (
 	"github.com/sirupsen/logrus"
 	autoscalingv2beta2 "k8s.io/api/autoscaling/v2beta2"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	pstypes "github.com/erda-project/erda/internal/tools/orchestrator/components/podscaler/types"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	pstypes "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/podscaler/types"
 )
 
 func buildHPAEventInfo(bdl *bundle.Bundle, hpa autoscalingv2beta2.HorizontalPodAutoscaler, errorinfo string, errorinfo_human string, tp string) {

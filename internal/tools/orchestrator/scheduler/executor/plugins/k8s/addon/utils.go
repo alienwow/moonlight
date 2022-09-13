@@ -20,8 +20,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/util/validation"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
 )
 
 func SetAddonLabelsAndAnnotations(service apistructs.Service, labels, annotations map[string]string) {

@@ -22,8 +22,8 @@ import (
 	"github.com/alecthomas/assert"
 	gomock "github.com/golang/mock/gomock"
 
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 func Test_provider_userInfoRetriever(t *testing.T) {

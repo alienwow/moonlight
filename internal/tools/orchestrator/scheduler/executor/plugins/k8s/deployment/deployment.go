@@ -36,7 +36,7 @@ import (
 	"k8s.io/client-go/tools/cache"
 	watchtools "k8s.io/client-go/tools/watch"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/plugins/k8s/k8serror"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/plugins/k8s/k8serror"
 )
 
 // Deployment is the object to manipulate k8s api of deployment

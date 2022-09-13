@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"strconv"
 
-	monitorpb "github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-alert-event-detail/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-alert-event-detail/common"
+	monitorpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
 )
 
 func (b *ComponentOperationButton) GetAlertEvent(ctx context.Context) (*monitorpb.AlertEventItem, error) {

@@ -18,9 +18,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/erda-project/erda/apistructs"
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/scenarios/auto-test-plan-detail/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/scenarios/auto-test-plan-detail/i18n"
 )
 
 type ComponentAction struct{}

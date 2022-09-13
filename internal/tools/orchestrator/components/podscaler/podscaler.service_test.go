@@ -26,15 +26,15 @@ import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/erda-project/erda-proto-go/orchestrator/podscaler/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/pkg/user"
-	pstypes "github.com/erda-project/erda/internal/tools/orchestrator/components/podscaler/types"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/servicegroup"
-	"github.com/erda-project/erda/internal/tools/orchestrator/spec"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/user"
+	pstypes "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/podscaler/types"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/servicegroup"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/proto-go/orchestrator/podscaler/pb"
 )
 
 func Test_podScalerService_CreateRuntimeHPARules(t *testing.T) {

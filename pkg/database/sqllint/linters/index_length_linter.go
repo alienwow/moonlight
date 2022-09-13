@@ -21,10 +21,10 @@ import (
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/types"
 
-	"github.com/erda-project/erda/pkg/database/sqllint"
-	"github.com/erda-project/erda/pkg/database/sqllint/linterror"
-	"github.com/erda-project/erda/pkg/database/sqllint/script"
-	"github.com/erda-project/erda/pkg/swagger/ddlconv"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint/linterror"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint/script"
+	"github.com/ping-cloudnative/moonlight/pkg/swagger/ddlconv"
 )
 
 const (

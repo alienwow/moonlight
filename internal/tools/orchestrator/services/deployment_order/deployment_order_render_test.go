@@ -22,14 +22,14 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	infrai18n "github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-proto-go/core/dicehub/release/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	release2 "github.com/erda-project/erda/internal/apps/dop/dicehub/release"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/internal/tools/orchestrator/i18n"
-	"github.com/erda-project/erda/internal/tools/orchestrator/services/addon"
+	infrai18n "github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	release2 "github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/release"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/services/addon"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb"
 )
 
 func getFakeErdaYaml() []byte {

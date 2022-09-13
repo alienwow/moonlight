@@ -20,11 +20,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/common"
-	identity "github.com/erda-project/erda/internal/core/user/common"
-	"github.com/erda-project/erda/internal/core/user/impl/kratos"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/common"
+	identity "github.com/ping-cloudnative/moonlight/internal/core/user/common"
+	"github.com/ping-cloudnative/moonlight/internal/core/user/impl/kratos"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 const SessionCookieName = "ory_kratos_session"

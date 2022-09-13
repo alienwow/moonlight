@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/pkg/envconf"
+	"github.com/ping-cloudnative/moonlight/pkg/envconf"
 )
 
 func TestAutoTestRunWait(t *testing.T) {

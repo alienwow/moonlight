@@ -19,12 +19,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/common"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/common/unmarshalwork"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/typeconvert"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/common/unmarshalwork"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/typeconvert"
 )
 
 func ParseSpotSpan(buf []byte, callback func(span *trace.Span) error) error {

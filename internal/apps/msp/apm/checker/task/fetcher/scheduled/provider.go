@@ -21,13 +21,13 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	election "github.com/erda-project/erda-infra/providers/etcd-election"
-	"github.com/erda-project/erda-proto-go/msp/apm/checker/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/checker/storage"
-	"github.com/erda-project/erda/internal/apps/msp/apm/checker/storage/cache"
-	"github.com/erda-project/erda/internal/apps/msp/apm/checker/task/fetcher"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	election "github.com/ping-cloudnative/moonlight-utils/providers/etcd-election"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/checker/storage"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/checker/storage/cache"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/checker/task/fetcher"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/checker/pb"
 )
 
 type config struct {

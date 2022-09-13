@@ -21,10 +21,10 @@ import (
 	"bou.ke/monkey"
 	"github.com/alecthomas/assert"
 
-	commonpb "github.com/erda-project/erda-proto-go/common/pb"
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	commonpb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 func Test_provider_SetIssueChildrenCount(t *testing.T) {

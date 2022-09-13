@@ -21,9 +21,9 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda/pkg/expression"
-	"github.com/erda-project/erda/pkg/mock"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/expression"
+	"github.com/ping-cloudnative/moonlight/pkg/mock"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 const (

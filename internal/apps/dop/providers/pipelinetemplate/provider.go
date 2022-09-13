@@ -17,14 +17,14 @@ package pipelinetemplate
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/mysql"
-	"github.com/erda-project/erda-proto-go/dop/pipelinetemplate/pb"
-	dbclient "github.com/erda-project/erda/internal/apps/dop/providers/pipelinetemplate/db"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysql"
+	dbclient "github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/pipelinetemplate/db"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/pipelinetemplate/pb"
 )
 
 type config struct{}

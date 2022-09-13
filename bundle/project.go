@@ -22,13 +22,13 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-proto-go/msp/menu/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle/apierrors"
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/http/httputil"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/menu/pb"
 )
 
 // GetProject get project by id from core-services.

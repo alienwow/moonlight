@@ -19,8 +19,8 @@ import (
 
 	"istio.io/client-go/pkg/clientset/versioned"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/istioctl"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/istioctl"
 )
 
 type BaseExecutor struct {

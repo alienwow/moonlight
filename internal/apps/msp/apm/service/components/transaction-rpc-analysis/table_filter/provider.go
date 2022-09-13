@@ -19,14 +19,14 @@ import (
 	"encoding/base64"
 	"encoding/json"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister/base"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/issue-kanban/common/gshelper"
-	"github.com/erda-project/erda/internal/apps/msp/apm/service/common/transaction"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/components/filter"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister/base"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/issue-kanban/common/gshelper"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/service/common/transaction"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/components/filter"
 )
 
 type ComponentFilter struct {

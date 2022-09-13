@@ -24,10 +24,10 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/cmp/dbclient"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/dbclient"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
 )
 
 func patch(bdl *bundle.Bundle, c *Clusters) {

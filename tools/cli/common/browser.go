@@ -23,7 +23,7 @@ import (
 
 	"github.com/pkg/browser"
 
-	"github.com/erda-project/erda/tools/cli/command"
+	"github.com/ping-cloudnative/moonlight/tools/cli/command"
 )
 
 type EntityType string

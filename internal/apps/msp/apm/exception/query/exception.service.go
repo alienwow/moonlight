@@ -17,8 +17,8 @@ package query
 import (
 	"context"
 
-	"github.com/erda-project/erda-proto-go/msp/apm/exception/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/exception/query/source"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/exception/query/source"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/exception/pb"
 )
 
 type exceptionService struct {

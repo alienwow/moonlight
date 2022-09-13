@@ -23,12 +23,12 @@ import (
 	uuid2 "github.com/satori/go.uuid"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/dao"
-	"github.com/erda-project/erda/internal/apps/dop/model"
-	"github.com/erda-project/erda/internal/apps/dop/services/nexussvc"
-	"github.com/erda-project/erda/pkg/nexus"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/model"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/nexussvc"
+	"github.com/ping-cloudnative/moonlight/pkg/nexus"
 )
 
 // Publisher 资源对象操作封装

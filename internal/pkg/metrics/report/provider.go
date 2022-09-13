@@ -19,7 +19,7 @@ import (
 
 	"github.com/recallsong/go-utils/logs"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
 )
 
 type ReportMode string

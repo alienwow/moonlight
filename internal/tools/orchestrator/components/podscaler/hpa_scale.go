@@ -28,11 +28,11 @@ import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"modernc.org/mathutil"
 
-	"github.com/erda-project/erda-proto-go/orchestrator/podscaler/pb"
-	"github.com/erda-project/erda/apistructs"
-	pstypes "github.com/erda-project/erda/internal/tools/orchestrator/components/podscaler/types"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/internal/tools/orchestrator/spec"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	pstypes "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/podscaler/types"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/spec"
+	"github.com/ping-cloudnative/moonlight/proto-go/orchestrator/podscaler/pb"
 )
 
 func (s *podscalerService) createHPARule(userInfo *apistructs.UserInfo, appInfo *apistructs.ApplicationDTO, runtime *dbclient.Runtime, serviceRules []*pb.RuntimeServiceHPAConfig) (*pb.CommonResponse, error) {

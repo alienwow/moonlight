@@ -17,7 +17,7 @@ package apidocsvc_test
 import (
 	"testing"
 
-	"github.com/erda-project/erda/internal/apps/dop/services/apidocsvc"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apidocsvc"
 )
 
 func Test_MustSuffix(t *testing.T) {

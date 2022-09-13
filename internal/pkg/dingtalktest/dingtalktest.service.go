@@ -17,10 +17,10 @@ package dingtalktest
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-proto-go/pkg/dingtalktest/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/proto-go/pkg/dingtalktest/pb"
 )
 
 type dingTalkTestService struct {

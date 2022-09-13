@@ -19,8 +19,8 @@ import (
 	reflect "reflect"
 	testing "testing"
 
-	servicehub "github.com/erda-project/erda-infra/base/servicehub"
-	pb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
+	servicehub "github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	pb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 func Test_metricService_QueryWithInfluxFormat(t *testing.T) {

@@ -15,7 +15,7 @@
 package kong
 
 import (
-	. "github.com/erda-project/erda/internal/tools/orchestrator/hepa/kong/dto"
+	. "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/kong/dto"
 )
 
 type KongAdapter interface {

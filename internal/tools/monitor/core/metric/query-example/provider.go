@@ -21,10 +21,10 @@ import (
 	"github.com/recallsong/go-utils/encoding/jsonx"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	indexloader "github.com/erda-project/erda/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	indexloader "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 type provider struct {

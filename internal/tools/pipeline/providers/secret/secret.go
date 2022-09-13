@@ -19,16 +19,16 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/erda-project/erda-infra/pkg/strutil"
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda-proto-go/core/pipeline/cms/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cms"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/http/httpclientutil"
-	"github.com/erda-project/erda/pkg/nexus"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cms"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclientutil"
+	"github.com/ping-cloudnative/moonlight/pkg/nexus"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cms/pb"
 )
 
 // FetchSecrets return secrets, cmsDiceFiles and error.

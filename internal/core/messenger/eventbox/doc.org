@@ -51,7 +51,7 @@ curl -XPOST 'http://diceeventbox.marathon.l4lb.thisdcos.directory:9528/api/dice/
    
 *** 使用eventbox封装的API函数
 **** go Package
-     =github.com/erda-project/erda/modules/eventbox/api=
+     =github.com/ping-cloudnative/moonlight/modules/eventbox/api=
 **** usage
 #+BEGIN_SRC 
      var notifier, err := api.New(sender, nil)

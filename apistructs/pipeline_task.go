@@ -17,7 +17,7 @@ package apistructs
 import (
 	"time"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskresult"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskresult"
 )
 
 const (

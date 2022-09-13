@@ -2,9 +2,9 @@
 ARG BASE_DOCKER_IMAGE
 FROM ${BASE_DOCKER_IMAGE} as build
 
-RUN mkdir -p "$GOPATH/src/github.com/erda-project/erda/"
-COPY . "$GOPATH/src/github.com/erda-project/erda/"
-WORKDIR "$GOPATH/src/github.com/erda-project/erda/"
+RUN mkdir -p "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
+COPY . "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
+WORKDIR "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
 RUN rm -fr extensions
 
 ARG CONFIG_PATH
@@ -46,7 +46,7 @@ ENV APP_NAME=${APP_NAME}
 
 COPY --from=app-handler /erda-handled /erda
 
-COPY --from=build "$GOPATH/src/github.com/erda-project/erda/build/scripts/cluster-agent/*" "/usr/bin/"
+COPY --from=build "$GOPATH/src/github.com/ping-cloudnative/moonlight/build/scripts/cluster-agent/*" "/usr/bin/"
 RUN chmod 777 /usr/bin/kubectl-shell.sh /usr/bin/shell-setup.sh
 
 WORKDIR /erda

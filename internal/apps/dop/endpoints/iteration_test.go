@@ -25,11 +25,11 @@ import (
 	"github.com/gorilla/schema"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/dao"
-	"github.com/erda-project/erda/internal/apps/dop/services/iteration"
-	"github.com/erda-project/erda/internal/pkg/user"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/iteration"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/user"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
 )
 
 func TestPagingIterations(t *testing.T) {

@@ -22,8 +22,8 @@ import (
 	"github.com/olivere/elastic"
 	"github.com/robfig/cron/v3"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/elasticsearch/index"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/elasticsearch/index"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
 )
 
 func (p *provider) runDiskCheckAndClean(ctx context.Context) {

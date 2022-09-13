@@ -22,7 +22,7 @@ import (
 	"github.com/coreos/etcd/mvcc/mvccpb"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/leaderworker/worker"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/leaderworker/worker"
 )
 
 func (p *provider) ListWorkers(ctx context.Context, workerTypes ...worker.Type) ([]worker.Worker, error) {

@@ -20,11 +20,11 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/plugins/k8s/addon/sourcecov/mock"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/plugins/k8s/k8serror"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/plugins/k8s/addon/sourcecov/mock"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/plugins/k8s/k8serror"
 )
 
-////go:generate mockgen -destination=./mock/namespaceutil_mock.go -package mock github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/plugins/k8s/addon NamespaceUtil
+////go:generate mockgen -destination=./mock/namespaceutil_mock.go -package mock github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/plugins/k8s/addon NamespaceUtil
 func Test_CreateNSIfNotExists(t *testing.T) {
 	assert := require.New(t)
 	ctrl := gomock.NewController(t)

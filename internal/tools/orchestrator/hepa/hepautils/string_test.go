@@ -17,7 +17,7 @@ package hepautils_test
 import (
 	"testing"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/hepautils"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/hepautils"
 )
 
 func TestKongRender(t *testing.T) {

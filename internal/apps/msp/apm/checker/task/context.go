@@ -21,8 +21,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/erda-project/erda/internal/apps/msp/apm/checker/plugins"
-	"github.com/erda-project/erda/internal/pkg/metrics/report"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/checker/plugins"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/metrics/report"
 )
 
 type reportContext struct {

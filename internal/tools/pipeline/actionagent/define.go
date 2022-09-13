@@ -23,10 +23,10 @@ import (
 
 	"github.com/c2h5oh/datasize"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/actionagent/filewatch"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskerror"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskinspect"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/actionagent/filewatch"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskerror"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskinspect"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 const (

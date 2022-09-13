@@ -22,8 +22,8 @@ import (
 	sls "github.com/aliyun/aliyun-log-go-sdk"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-infra/providers/elasticsearch"
-	logs "github.com/erda-project/erda/internal/tools/monitor/core/log"
+	"github.com/ping-cloudnative/moonlight-utils/providers/elasticsearch"
+	logs "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log"
 )
 
 func TestRDSProcess_withFilter1(t *testing.T) {

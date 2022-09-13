@@ -20,11 +20,11 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	monitorpb "github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-alert-overview/common"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-alert-overview/common"
+	monitorpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 type SimpleChart struct {

@@ -20,8 +20,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/pygrator"
-	"github.com/erda-project/erda/tools/cli/command"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/pygrator"
+	"github.com/ping-cloudnative/moonlight/tools/cli/command"
 )
 
 var MigrateMkPyPkg = command.Command{

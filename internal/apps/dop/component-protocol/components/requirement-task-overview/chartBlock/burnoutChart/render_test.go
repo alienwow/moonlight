@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
 )
 
 func TestSumWorkTime(t *testing.T) {

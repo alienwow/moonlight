@@ -17,17 +17,17 @@ package query
 import (
 	"time"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda-proto-go/core/monitor/log/query/pb"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/tools/monitor/common"
-	monitorperm "github.com/erda-project/erda/internal/tools/monitor/common/permission"
-	"github.com/erda-project/erda/internal/tools/monitor/core/log/storage"
-	"github.com/erda-project/erda/pkg/common/apis"
-	perm "github.com/erda-project/erda/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/common"
+	monitorperm "github.com/ping-cloudnative/moonlight/internal/tools/monitor/common/permission"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log/storage"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	perm "github.com/ping-cloudnative/moonlight/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/log/query/pb"
 )
 
 type config struct {

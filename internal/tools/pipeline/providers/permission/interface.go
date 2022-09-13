@@ -14,7 +14,7 @@
 
 package permission
 
-import "github.com/erda-project/erda/apistructs"
+import "github.com/ping-cloudnative/moonlight/apistructs"
 
 type Interface interface {
 	CheckInternalClient(apistructs.IdentityInfo) error

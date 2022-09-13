@@ -17,7 +17,7 @@ package dao
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/internal/apps/dop/conf"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/conf"
 )
 
 type TX struct {

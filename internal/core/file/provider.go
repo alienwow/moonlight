@@ -23,15 +23,15 @@ import (
 	"github.com/c2h5oh/datasize"
 	"github.com/coreos/etcd/clientv3"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/etcd"
-	"github.com/erda-project/erda-infra/providers/mysql"
-	"github.com/erda-project/erda-proto-go/core/file/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/file/db"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/etcd"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysql"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/file/db"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/file/pb"
 )
 
 type (

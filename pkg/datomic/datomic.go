@@ -23,7 +23,7 @@ import (
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/clientv3/concurrency"
 
-	"github.com/erda-project/erda/pkg/jsonstore/etcd"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/etcd"
 )
 
 const (

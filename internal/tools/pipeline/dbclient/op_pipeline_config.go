@@ -17,7 +17,7 @@ package dbclient
 import (
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 // defaultAPITestActionExecutor provide api-test action-executor

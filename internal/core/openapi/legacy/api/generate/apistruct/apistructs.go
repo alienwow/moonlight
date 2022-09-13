@@ -17,8 +17,8 @@ package apistruct
 import (
 	"fmt"
 
-	"github.com/erda-project/erda/pkg/structparser"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/structparser"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 var (

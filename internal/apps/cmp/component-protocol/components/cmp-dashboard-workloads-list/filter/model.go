@@ -17,9 +17,9 @@ package filter
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/cmp"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp"
 )
 
 const (

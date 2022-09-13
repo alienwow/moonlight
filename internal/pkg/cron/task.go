@@ -17,7 +17,7 @@ package cron
 import (
 	"time"
 
-	cronPkg "github.com/erda-project/erda/pkg/cron"
+	cronPkg "github.com/ping-cloudnative/moonlight/pkg/cron"
 )
 
 type Task interface {

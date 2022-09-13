@@ -24,10 +24,10 @@ import (
 	"bou.ke/monkey"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	alertpb "github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/internal/pkg/mock"
-	"github.com/erda-project/erda/internal/tools/monitor/core/alert/alert-apis/adapt"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/mock"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/alert/alert-apis/adapt"
+	alertpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 type orgMock struct {

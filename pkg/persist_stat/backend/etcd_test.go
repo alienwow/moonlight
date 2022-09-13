@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	// "github.com/erda-project/erda/pkg/jsonstore"
+	// "github.com/ping-cloudnative/moonlight/pkg/jsonstore"
 
 	"github.com/stretchr/testify/assert"
 )

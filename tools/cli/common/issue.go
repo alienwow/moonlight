@@ -21,10 +21,10 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/erda-project/erda-proto-go/dop/issue/stream/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/tools/cli/command"
-	"github.com/erda-project/erda/tools/cli/utils"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/stream/pb"
+	"github.com/ping-cloudnative/moonlight/tools/cli/command"
+	"github.com/ping-cloudnative/moonlight/tools/cli/utils"
 )
 
 func GetIssue(ctx *command.Context, orgID, projectID, issueID uint64) (*apistructs.Issue, error) {

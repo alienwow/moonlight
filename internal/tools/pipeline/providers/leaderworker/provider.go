@@ -23,11 +23,11 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	election "github.com/erda-project/erda-infra/providers/etcd-election"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/leaderworker/worker"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	election "github.com/ping-cloudnative/moonlight-utils/providers/etcd-election"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/leaderworker/worker"
 )
 
 type provider struct {

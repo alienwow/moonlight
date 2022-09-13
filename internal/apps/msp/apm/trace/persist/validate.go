@@ -17,8 +17,8 @@ package persist
 import (
 	"errors"
 
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace"
 )
 
 // Validator .

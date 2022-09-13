@@ -22,9 +22,9 @@ import (
 
 	sls "github.com/aliyun/aliyun-log-go-sdk"
 
-	"github.com/erda-project/erda-infra/providers/elasticsearch"
-	logs "github.com/erda-project/erda/internal/tools/monitor/core/log"
-	metrics "github.com/erda-project/erda/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight-utils/providers/elasticsearch"
+	logs "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log"
+	metrics "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
 )
 
 // apiGroupUid	API分组ID

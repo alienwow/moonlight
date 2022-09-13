@@ -15,8 +15,8 @@
 package notify
 
 import (
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
 )
 
 func (o *NotifyGroup) GetNotifyItemsByNotifyID(notifyID int64) ([]*apistructs.NotifyItem, error) {

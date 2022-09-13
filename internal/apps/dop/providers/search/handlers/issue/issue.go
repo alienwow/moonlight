@@ -21,12 +21,12 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	issuepb "github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	"github.com/erda-project/erda-proto-go/dop/search/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/core/query"
-	"github.com/erda-project/erda/internal/apps/dop/providers/search/handlers"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/core/query"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/search/handlers"
+	issuepb "github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/search/pb"
 )
 
 type issueSearch struct {

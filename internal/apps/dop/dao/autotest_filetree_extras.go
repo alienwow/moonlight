@@ -21,8 +21,8 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/base/pb"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/base/pb"
 )
 
 type autoTestFileTreeNodeMetaExtra map[string]interface{}

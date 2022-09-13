@@ -17,7 +17,7 @@ package dto_test
 import (
 	"testing"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/gateway/dto"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/gateway/dto"
 )
 
 func TestUpstreamApiDto_Init(t *testing.T) {

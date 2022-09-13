@@ -17,8 +17,8 @@ package storage
 import (
 	"context"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/entity"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/entity"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit"
 )
 
 type (

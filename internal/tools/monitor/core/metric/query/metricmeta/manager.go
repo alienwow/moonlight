@@ -20,10 +20,10 @@ import (
 	"github.com/go-redis/redis"
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse"
-	indexloader "github.com/erda-project/erda/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse"
+	indexloader "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
 )
 
 // MetaSource .

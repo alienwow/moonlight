@@ -18,10 +18,10 @@ import (
 	"context"
 	"encoding/json"
 
-	alertpb "github.com/erda-project/erda-proto-go/cmp/alert/pb"
-	monitor "github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	alertpb "github.com/ping-cloudnative/moonlight/proto-go/cmp/alert/pb"
+	monitor "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
 )
 
 func (p *provider) GetAlertConditions(ctx context.Context, request *alertpb.GetAlertConditionsRequest) (*alertpb.GetAlertConditionsResponse, error) {

@@ -17,9 +17,9 @@ package aliyun_resources
 import (
 	"fmt"
 
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/cmp/dbclient"
-	"github.com/erda-project/erda/pkg/jsonstore"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/dbclient"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore"
 )
 
 type AccessKeySecret struct {

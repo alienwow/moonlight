@@ -17,8 +17,8 @@ package release_rule_test
 import (
 	"testing"
 
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/dbclient"
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/service/release_rule"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/service/release_rule"
 )
 
 func TestNew(t *testing.T) {

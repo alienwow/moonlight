@@ -27,14 +27,14 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/events"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/plugins/k8s/configmap"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/instanceinfo"
-	"github.com/erda-project/erda/pkg/dlock"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/jsonstore"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/events"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/plugins/k8s/configmap"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/instanceinfo"
+	"github.com/ping-cloudnative/moonlight/pkg/dlock"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 const (

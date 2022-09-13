@@ -17,7 +17,7 @@ package bundle
 import (
 	"net/http"
 
-	"github.com/erda-project/erda/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
 )
 
 // GetLocale 获取对应语言对象

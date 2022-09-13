@@ -14,7 +14,7 @@
 
 package condition
 
-import model "github.com/erda-project/erda-infra/providers/component-protocol/components/filter/models"
+import model "github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/filter/models"
 
 func ExternalInputCondition(key, label, placeholder string) *model.InputCondition {
 	input := model.NewInputCondition(key, label)

@@ -19,7 +19,7 @@ import (
 
 	appsv1 "k8s.io/api/apps/v1"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 const (

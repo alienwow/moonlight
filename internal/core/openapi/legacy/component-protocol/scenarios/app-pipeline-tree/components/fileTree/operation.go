@@ -14,7 +14,7 @@
 
 package fileTree
 
-import "github.com/erda-project/erda/apistructs"
+import "github.com/ping-cloudnative/moonlight/apistructs"
 
 type AddNodeOperation struct {
 	Key      string                  `json:"key"`

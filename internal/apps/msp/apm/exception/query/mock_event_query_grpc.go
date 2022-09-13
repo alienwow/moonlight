@@ -8,7 +8,7 @@ import (
 	context "context"
 	reflect "reflect"
 
-	pb "github.com/erda-project/erda-proto-go/core/monitor/event/pb"
+	pb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/event/pb"
 	gomock "github.com/golang/mock/gomock"
 	grpc "google.golang.org/grpc"
 )

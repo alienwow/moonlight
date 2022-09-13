@@ -22,9 +22,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/loop"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/loop"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // retryQueryClusterInfo query cluster info, retry if tcp error.

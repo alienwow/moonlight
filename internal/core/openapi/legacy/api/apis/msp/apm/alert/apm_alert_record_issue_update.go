@@ -14,7 +14,7 @@
 
 package alert
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var APM_ALERT_RECORD_ISSUE_UPDATE = apis.ApiSpec{
 	Path:        "/api/tmc/tenantGroup/<tenantGroup>/alert-records/<groupId>/issues/<issueId>",

@@ -19,8 +19,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/xormplus/xorm"
 
-	"github.com/erda-project/erda-proto-go/dop/qa/unittest/pb"
-	"github.com/erda-project/erda/pkg/database/cimysql"
+	"github.com/ping-cloudnative/moonlight/pkg/database/cimysql"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/qa/unittest/pb"
 )
 
 func FindTPRecord(tp *TPRecordDO) (*TPRecordDO, error) {

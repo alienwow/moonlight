@@ -17,7 +17,7 @@ package deployment
 import (
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func (d *Deployment) DeployStageAddons(deploymentID uint64) (*apistructs.DeploymentCreateResponseDTO, error) {

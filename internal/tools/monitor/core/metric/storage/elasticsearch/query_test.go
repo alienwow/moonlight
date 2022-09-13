@@ -23,8 +23,8 @@ import (
 	"github.com/olivere/elastic"
 	"github.com/stretchr/testify/require"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
-	indexloader "github.com/erda-project/erda/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
+	indexloader "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
 )
 
 func TestSearch(t *testing.T) {

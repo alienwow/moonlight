@@ -23,8 +23,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/migrator"
-	"github.com/erda-project/erda/tools/cli/command"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/migrator"
+	"github.com/ping-cloudnative/moonlight/tools/cli/command"
 )
 
 const recordSQLPat = `INSERT INTO schema_migration_history (

@@ -23,9 +23,9 @@ import (
 	"github.com/xormplus/xorm"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
-	"github.com/erda-project/erda-proto-go/core/pipeline/definition/pb"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysqlxorm"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/definition/pb"
 )
 
 type PipelineDefinition struct {

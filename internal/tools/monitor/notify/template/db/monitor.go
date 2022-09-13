@@ -15,7 +15,7 @@
 package db
 
 import (
-	"github.com/erda-project/erda/internal/tools/monitor/common/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/common/db"
 )
 
 func (n *NotifyDB) GetProjectByScopeID(scopeID string) (projectID string, err error) {

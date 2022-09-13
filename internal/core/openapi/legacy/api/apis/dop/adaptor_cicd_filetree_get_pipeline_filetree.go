@@ -17,7 +17,7 @@ package dop
 import (
 	"net/http"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var ADAPTOR_CICD_FILETREE_GET_PIPELINE_FILETREE = apis.ApiSpec{

@@ -20,10 +20,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/storage"
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/storage"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
 )
 
 // MetadataProcessor .

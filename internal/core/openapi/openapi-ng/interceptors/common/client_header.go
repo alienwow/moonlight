@@ -17,11 +17,11 @@ package common
 import (
 	"net/http"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/interceptors"
-	"github.com/erda-project/erda/pkg/goroutine_context"
-	"github.com/erda-project/erda/pkg/http/httputil"
-	"github.com/erda-project/erda/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/interceptors"
+	"github.com/ping-cloudnative/moonlight/pkg/goroutine_context"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
 )
 
 // +provider

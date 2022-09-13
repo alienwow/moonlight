@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package erda.core.hepa.org_client;
-option go_package = "github.com/erda-project/erda-proto-go/core/hepa/org_client/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/hepa/org_client/pb";
 import "google/api/annotations.proto";
 import "google/protobuf/struct.proto";
 import "core/hepa/openapi_rule/openapi_rule.proto";

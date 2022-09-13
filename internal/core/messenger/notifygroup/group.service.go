@@ -22,17 +22,17 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/erda-project/erda-proto-go/core/messenger/notifygroup/pb"
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/legacy/services/notify"
-	"github.com/erda-project/erda/internal/core/legacy/services/permission"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/pkg/audit"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/common/errors"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/notify"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/permission"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/audit"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notifygroup/pb"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 type notifyGroupService struct {

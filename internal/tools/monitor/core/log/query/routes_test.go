@@ -21,8 +21,8 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/log/query/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/core/log/storage"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log/storage"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/log/query/pb"
 )
 
 func Test_downloadLog(t *testing.T) {

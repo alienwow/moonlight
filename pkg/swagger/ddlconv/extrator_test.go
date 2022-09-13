@@ -20,7 +20,7 @@ import (
 	"github.com/pingcap/parser"
 	"github.com/pingcap/parser/ast"
 
-	"github.com/erda-project/erda/pkg/swagger/ddlconv"
+	"github.com/ping-cloudnative/moonlight/pkg/swagger/ddlconv"
 )
 
 func TestExtractCreateName(t *testing.T) {

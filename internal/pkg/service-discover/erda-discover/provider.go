@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	servicediscover "github.com/erda-project/erda/internal/pkg/service-discover"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	servicediscover "github.com/ping-cloudnative/moonlight/internal/pkg/service-discover"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
 )
 
 type config struct {

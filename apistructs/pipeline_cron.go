@@ -17,7 +17,7 @@ package apistructs
 import (
 	"time"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/pb"
 )
 
 type PipelineCronPagingRequest struct {

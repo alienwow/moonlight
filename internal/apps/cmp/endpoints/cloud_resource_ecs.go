@@ -25,12 +25,12 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/text/message"
 
-	"github.com/erda-project/erda/apistructs"
-	aliyun_resources "github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources"
-	"github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/ecs"
-	libregion "github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/region"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	aliyun_resources "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/ecs"
+	libregion "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/region"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func (e *Endpoints) ECSTrending(ctx context.Context, r *http.Request, vars map[string]string) (

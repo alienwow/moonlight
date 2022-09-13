@@ -25,14 +25,14 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	propipelinepb "github.com/erda-project/erda-proto-go/dop/projectpipeline/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
-	"github.com/erda-project/erda/internal/apps/dop/types"
-	"github.com/erda-project/erda/internal/pkg/user"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/types"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/user"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	propipelinepb "github.com/ping-cloudnative/moonlight/proto-go/dop/projectpipeline/pb"
 )
 
 // CreateApplication 创建应用

@@ -18,7 +18,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erda-project/erda/pkg/cron"
+	"github.com/ping-cloudnative/moonlight/pkg/cron"
 )
 
 const (

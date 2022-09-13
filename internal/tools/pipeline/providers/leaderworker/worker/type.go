@@ -15,7 +15,7 @@
 package worker
 
 import (
-	"github.com/erda-project/erda/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
 )
 
 type ID string

@@ -14,7 +14,7 @@
 
 package dao
 
-import "github.com/erda-project/erda/pkg/database/dbengine"
+import "github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
 
 // IssuePropertyRelation 事件属性实例关联表
 type IssuePropertyRelation struct {

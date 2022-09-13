@@ -15,8 +15,8 @@
 package errors
 
 import (
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-infra/providers/i18n"
+	transhttp "github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
 )
 
 type Error interface {

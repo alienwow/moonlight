@@ -20,8 +20,8 @@ import (
 
 	"github.com/recallsong/go-utils/logs"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/pkg/metrics/report"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/metrics/report"
 )
 
 type define struct{}

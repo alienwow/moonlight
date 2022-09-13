@@ -24,8 +24,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/jsonstore/etcd"
-	"github.com/erda-project/erda/pkg/jsonstore/storetypes"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/etcd"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/storetypes"
 )
 
 type CacheEtcdStore struct {

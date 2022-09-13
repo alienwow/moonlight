@@ -15,8 +15,8 @@
 package podChart
 
 import (
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common/chart"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common/chart"
 )
 
 type PodChart struct {

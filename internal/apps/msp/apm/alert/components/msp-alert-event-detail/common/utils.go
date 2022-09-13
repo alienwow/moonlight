@@ -20,12 +20,12 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/table"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	monitorpb "github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/alert/components/common"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/table"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/common"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
+	monitorpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 func SetAlertEventToGlobalState(gs cptype.GlobalStateData, alertEvent *pb.AlertEventItem) {

@@ -22,13 +22,13 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/aop"
-	"github.com/erda-project/erda/internal/tools/pipeline/conf"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/errorsx"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskerror"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/leaderworker/lwctx"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/reconciler/rlog"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/aop"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/errorsx"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskerror"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/leaderworker/lwctx"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/reconciler/rlog"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func (tr *TaskRun) Do(itr TaskOp) error {

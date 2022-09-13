@@ -17,8 +17,8 @@ package dao
 import (
 	"time"
 
-	"github.com/erda-project/erda/internal/apps/gallery/model"
-	"github.com/erda-project/erda/pkg/cache"
+	"github.com/ping-cloudnative/moonlight/internal/apps/gallery/model"
+	"github.com/ping-cloudnative/moonlight/pkg/cache"
 )
 
 var version2presentation *cache.Cache

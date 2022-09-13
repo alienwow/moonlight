@@ -24,14 +24,14 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
-	"github.com/erda-project/erda-proto-go/core/pipeline/definition/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/definition/db"
-	"github.com/erda-project/erda/internal/tools/pipeline/services/apierrors"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
-	"github.com/erda-project/erda/pkg/encoding/jsonparse"
-	"github.com/erda-project/erda/pkg/time/mysql_time"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysqlxorm"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/definition/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/pkg/encoding/jsonparse"
+	"github.com/ping-cloudnative/moonlight/pkg/time/mysql_time"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/definition/pb"
 )
 
 type pipelineDefinition struct {

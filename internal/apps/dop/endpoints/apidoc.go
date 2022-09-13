@@ -19,12 +19,12 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/pkg/user"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
-	"github.com/erda-project/erda/pkg/swagger"
-	"github.com/erda-project/erda/pkg/swagger/oas3"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/user"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
+	"github.com/ping-cloudnative/moonlight/pkg/swagger"
+	"github.com/ping-cloudnative/moonlight/pkg/swagger/oas3"
 )
 
 // APIDocWebsocket is the handler for the editor session,

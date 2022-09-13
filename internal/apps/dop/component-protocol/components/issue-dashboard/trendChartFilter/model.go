@@ -15,9 +15,9 @@
 package trendChartFilter
 
 import (
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/issue-dashboard/common"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/components/filter"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/issue-dashboard/common"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/components/filter"
 )
 
 type ComponentFilter struct {

@@ -20,8 +20,8 @@ import (
 	"github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	pstypes "github.com/erda-project/erda/internal/tools/orchestrator/components/podscaler/types"
-	"github.com/erda-project/erda/internal/tools/orchestrator/spec"
+	pstypes "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/podscaler/types"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/spec"
 )
 
 // RuntimeHPA define KEDA ScaledObjects for runtime's service

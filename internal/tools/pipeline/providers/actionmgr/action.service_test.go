@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/action/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/action/pb"
 )
 
 func Test_actionsOrderByLocationIndex(t *testing.T) {

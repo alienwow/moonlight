@@ -15,9 +15,9 @@
 package issueFilter
 
 import (
-	model "github.com/erda-project/erda-infra/providers/component-protocol/components/filter/models"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda/apistructs"
+	model "github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/filter/models"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func (f *IssueFilter) getPropIterationsOptions() ([]model.SelectOption, error) {

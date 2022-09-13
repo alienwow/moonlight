@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	monitorpb "github.com/erda-project/erda-proto-go/core/monitor/log/query/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/index/query"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/index/query"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	monitorpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/log/query/pb"
 )
 
 func (p *provider) initRoutes(routes httpserver.Router) {

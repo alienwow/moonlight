@@ -22,12 +22,12 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	notifygroup "github.com/erda-project/erda-proto-go/core/messenger/notifygroup/pb"
-	"github.com/erda-project/erda-proto-go/msp/apm/notifygroup/pb"
-	tenantpb "github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda/internal/pkg/audit"
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/audit"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	notifygroup "github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notifygroup/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/notifygroup/pb"
+	tenantpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
 )
 
 type notifyGroupService struct {

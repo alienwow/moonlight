@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/issue-dashboard/common"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/issue-dashboard/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
 )
 
 // ExpireTypeUndefined      ExpireType = "Undefined"

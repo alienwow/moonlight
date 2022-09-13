@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/erda-project/erda/pkg/crypto/uuid/snowflake"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid/snowflake"
 )
 
 func TestSnowFlakeUUID(t *testing.T) {

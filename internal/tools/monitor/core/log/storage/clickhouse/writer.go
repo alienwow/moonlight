@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/erda-project/erda-infra/providers/clickhouse"
-	"github.com/erda-project/erda/internal/tools/monitor/core/log"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit"
-	tablepkg "github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table"
+	"github.com/ping-cloudnative/moonlight-utils/providers/clickhouse"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit"
+	tablepkg "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table"
 )
 
 func (p *provider) NewWriter(ctx context.Context) (storekit.BatchWriter, error) {

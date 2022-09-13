@@ -14,7 +14,7 @@
 
 package model
 
-import "github.com/erda-project/erda/apistructs"
+import "github.com/ping-cloudnative/moonlight/apistructs"
 
 type NotifyItem struct {
 	BaseModel

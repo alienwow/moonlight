@@ -20,10 +20,10 @@ import (
 	"github.com/ahmetb/go-linq/v3"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	structure "github.com/erda-project/erda-infra/providers/component-protocol/components/commodel/data-structure"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/linegraph"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda/pkg/math"
+	structure "github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/commodel/data-structure"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/linegraph"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/math"
 )
 
 type LineGraphMetaData struct {

@@ -21,13 +21,13 @@ import (
 	"github.com/rancher/remotedialer"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	clusterpb "github.com/erda-project/erda-proto-go/core/clustermanager/cluster/pb"
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/cluster-manager/dialer/config"
-	"github.com/erda-project/erda/internal/tools/cluster-manager/dialer/server"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/cluster-manager/dialer/config"
+	"github.com/ping-cloudnative/moonlight/internal/tools/cluster-manager/dialer/server"
+	clusterpb "github.com/ping-cloudnative/moonlight/proto-go/core/clustermanager/cluster/pb"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
 )
 
 // +provider

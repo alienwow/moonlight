@@ -17,7 +17,7 @@ package apistructs
 import (
 	"time"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskinspect"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskinspect"
 )
 
 type PipelineBasicReport struct {

@@ -21,7 +21,7 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda/pkg/apitestsv2"
+	"github.com/ping-cloudnative/moonlight/pkg/apitestsv2"
 )
 
 // appendOrReplaceSetCookiesToCookie

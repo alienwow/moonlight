@@ -14,7 +14,7 @@
 
 package trace
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var GET_TRACE_DEBUG_HISTORY_STATUS = apis.ApiSpec{
 	Path:        "/api/trace-requests/<requestId>/status",

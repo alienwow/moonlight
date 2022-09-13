@@ -20,9 +20,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/schedule/executorconfig"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/labelconfig"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/executorconfig"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/labelconfig"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // Workspace label (ie env label, distinguish dev, test, staging, prod)

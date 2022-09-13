@@ -20,11 +20,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/pipengine/pvolumes"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/expression"
-	"github.com/erda-project/erda/pkg/loop"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pipengine/pvolumes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/expression"
+	"github.com/ping-cloudnative/moonlight/pkg/loop"
 )
 
 // GenerateParamsFromTask 生成 task 用于计算表达式的所有参数

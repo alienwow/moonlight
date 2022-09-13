@@ -15,6 +15,6 @@
 package scenes_import_record
 
 import (
-	_ "github.com/erda-project/erda/internal/apps/dop/component-protocol/components/scenes-import-record/filter"
-	_ "github.com/erda-project/erda/internal/apps/dop/component-protocol/components/scenes-import-record/table"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/scenes-import-record/filter"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/scenes-import-record/table"
 )

@@ -17,7 +17,7 @@ package db
 import (
 	"time"
 
-	"github.com/erda-project/erda/pkg/encoding/jsonmap"
+	"github.com/ping-cloudnative/moonlight/pkg/encoding/jsonmap"
 )
 
 // tables name

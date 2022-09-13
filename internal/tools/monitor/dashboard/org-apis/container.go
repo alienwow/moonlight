@@ -22,10 +22,10 @@ import (
 
 	"github.com/olivere/elastic"
 
-	"github.com/erda-project/erda-infra/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
 
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
 )
 
 func (p *provider) getContainers(ctx httpserver.Context, r *http.Request, params struct {

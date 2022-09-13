@@ -25,16 +25,16 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	monitor "github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	alert "github.com/erda-project/erda-proto-go/msp/apm/alert/pb"
-	tenantpb "github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/pkg/audit"
-	"github.com/erda-project/erda/internal/tools/monitor/core/alert/alert-apis/adapt"
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/common/errors"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/audit"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/alert/alert-apis/adapt"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	monitor "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
+	alert "github.com/ping-cloudnative/moonlight/proto-go/msp/apm/alert/pb"
+	tenantpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
 )
 
 type alertService struct {

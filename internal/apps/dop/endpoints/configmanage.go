@@ -22,15 +22,15 @@ import (
 	"strconv"
 	"strings"
 
-	cmspb "github.com/erda-project/erda-proto-go/core/pipeline/cms/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
-	"github.com/erda-project/erda/internal/apps/dop/utils"
-	"github.com/erda-project/erda/internal/pkg/gitflowutil"
-	"github.com/erda-project/erda/internal/pkg/user"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cms"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/utils"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/gitflowutil"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/user"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cms"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
+	cmspb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cms/pb"
 )
 
 func (e *Endpoints) createOrUpdateCmsNsConfigs(ctx context.Context, r *http.Request, vars map[string]string) (httpserver.Responser, error) {

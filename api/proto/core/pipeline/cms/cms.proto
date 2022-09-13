@@ -6,7 +6,7 @@ import "github.com/envoyproxy/protoc-gen-validate/validate/validate.proto";
 import "google/api/annotations.proto";
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/core/pipeline/cms/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cms/pb";
 
 service CmsService {
   rpc CreateNs (CmsCreateNsRequest) returns (CmsCreateNsResponse) {

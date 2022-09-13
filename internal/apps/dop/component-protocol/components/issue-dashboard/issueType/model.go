@@ -15,7 +15,7 @@
 package issueType
 
 import (
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
 )
 
 type ComponentAction struct {

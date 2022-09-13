@@ -22,18 +22,18 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/metadata"
 
-	clusterpb "github.com/erda-project/erda-proto-go/core/clustermanager/cluster/pb"
-	"github.com/erda-project/erda-proto-go/orchestrator/runtime/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/components/runtime/mock"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/internal/tools/orchestrator/events"
-	"github.com/erda-project/erda/pkg/database/dbengine"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/runtime/mock"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/events"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	clusterpb "github.com/ping-cloudnative/moonlight/proto-go/core/clustermanager/cluster/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/orchestrator/runtime/pb"
 )
 
-////go:generate mockgen -destination=./mock/mock_sg.go -package mock github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/servicegroup ServiceGroup
-////go:generate mockgen -destination=./mock/mock.go -package mock github.com/erda-project/erda/internal/tools/orchestrator/components/runtime DBService,BundleService,EventManagerService
+////go:generate mockgen -destination=./mock/mock_sg.go -package mock github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/servicegroup ServiceGroup
+////go:generate mockgen -destination=./mock/mock.go -package mock github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/runtime DBService,BundleService,EventManagerService
 
 type fakeClusterServiceServer struct {
 	clusterpb.ClusterServiceServer

@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package erda.oap.entity;
-option go_package = "github.com/erda-project/erda-proto-go/oap/entity/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/oap/entity/pb";
 import "google/protobuf/struct.proto";
 import "google/api/annotations.proto";
 import "github.com/envoyproxy/protoc-gen-validate/validate/validate.proto";

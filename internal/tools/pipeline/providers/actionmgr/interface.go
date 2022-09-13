@@ -15,10 +15,10 @@
 package actionmgr
 
 import (
-	"github.com/erda-project/erda-proto-go/core/pipeline/action/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/action/pb"
 )
 
 type Interface interface {

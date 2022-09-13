@@ -31,9 +31,9 @@ import (
 	git "github.com/libgit2/git2go/v33"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/pkg/diceworkspace"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/diceworkspace"
 )
 
 // Repository represents a Git repository.

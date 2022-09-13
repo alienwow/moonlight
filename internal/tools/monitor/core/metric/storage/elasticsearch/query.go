@@ -23,10 +23,10 @@ import (
 	"github.com/olivere/elastic"
 	"github.com/recallsong/go-utils/encoding/jsonx"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query"
-	tsql "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql"
-	indexloader "github.com/erda-project/erda/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query"
+	tsql "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql"
+	indexloader "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
 )
 
 // Interface .

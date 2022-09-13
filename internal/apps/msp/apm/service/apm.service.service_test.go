@@ -26,10 +26,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	commonpb "github.com/erda-project/erda-proto-go/common/pb"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda-proto-go/msp/apm/service/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/service/view/chart"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/service/view/chart"
+	commonpb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/service/pb"
 )
 
 func Test_parseLanguage(t *testing.T) {

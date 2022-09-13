@@ -25,17 +25,17 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	clusterpb "github.com/erda-project/erda-proto-go/core/clustermanager/cluster/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/internal/tools/orchestrator/events"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/servicegroup"
-	"github.com/erda-project/erda/internal/tools/orchestrator/services/addon"
-	"github.com/erda-project/erda/internal/tools/orchestrator/services/log"
-	"github.com/erda-project/erda/pkg/database/dbengine"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/events"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/servicegroup"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/services/addon"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/services/log"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	clusterpb "github.com/ping-cloudnative/moonlight/proto-go/core/clustermanager/cluster/pb"
 )
 
 func TestConvertGroupLabels(t *testing.T) {

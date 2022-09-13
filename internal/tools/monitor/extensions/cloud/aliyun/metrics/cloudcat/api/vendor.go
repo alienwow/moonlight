@@ -23,7 +23,7 @@ import (
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses"
 	"go.uber.org/ratelimit"
 
-	"github.com/erda-project/erda/pkg/aliyunclient"
+	"github.com/ping-cloudnative/moonlight/pkg/aliyunclient"
 )
 
 type CloudVendor interface {

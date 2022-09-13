@@ -22,8 +22,8 @@ import (
 	"github.com/sirupsen/logrus"
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
 )
 
 func buildVPAEventInfo(bdl *bundle.Bundle, pod *corev1.Pod, errorinfo string, errorinfo_human string, tp string) {

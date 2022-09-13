@@ -22,7 +22,7 @@ import (
 
 	"github.com/recallsong/go-utils/reflectx"
 
-	"github.com/erda-project/erda/pkg/router"
+	"github.com/ping-cloudnative/moonlight/pkg/router"
 )
 
 func (p *provider) getConfig(ctx context.Context) *retentionConfig {

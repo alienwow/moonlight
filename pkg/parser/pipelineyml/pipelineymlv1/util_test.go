@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/erda-project/erda/pkg/metadata"
+	"github.com/ping-cloudnative/moonlight/pkg/metadata"
 )
 
 func TestRegexp(t *testing.T) {

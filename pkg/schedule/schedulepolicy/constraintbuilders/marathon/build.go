@@ -15,11 +15,11 @@
 package marathon
 
 import (
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/constraintbuilders/constraints"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/labelconfig"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/constraintbuilders/constraints"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/labelconfig"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 type constraintsOp string

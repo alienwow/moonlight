@@ -19,11 +19,11 @@ import (
 	"encoding/json"
 	"path/filepath"
 
-	spb "github.com/erda-project/erda-proto-go/core/pipeline/source/pb"
-	"github.com/erda-project/erda-proto-go/dop/projectpipeline/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/providers/projectpipeline/deftype"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/projectpipeline/deftype"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	spb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/source/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/projectpipeline/pb"
 )
 
 type ProjectSourceType interface {

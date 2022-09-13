@@ -21,8 +21,8 @@ package jsonstore
 //	"testing"
 //	"time"
 //
-//	"github.com/erda-project/erda/pkg/jsonstore/stm"
-//	"github.com/erda-project/erda/pkg/jsonstore/storetypes"
+//	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/stm"
+//	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/storetypes"
 //
 //	"github.com/stretchr/testify/assert"
 //)

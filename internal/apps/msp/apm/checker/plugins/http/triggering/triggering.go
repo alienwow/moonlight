@@ -22,8 +22,8 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-proto-go/msp/apm/checker/pb"
-	_ "github.com/erda-project/erda-proto-go/msp/apm/checker/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/checker/pb"
+	_ "github.com/ping-cloudnative/moonlight/proto-go/msp/apm/checker/pb"
 )
 
 const (

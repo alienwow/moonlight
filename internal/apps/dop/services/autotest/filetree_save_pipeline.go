@@ -23,11 +23,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/base/pb"
-	graphpb "github.com/erda-project/erda-proto-go/core/pipeline/graph/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/base/pb"
+	graphpb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/graph/pb"
 )
 
 const (

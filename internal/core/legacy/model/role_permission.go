@@ -15,7 +15,7 @@
 package model
 
 import (
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
 )
 
 // RolePermission 角色资源操作

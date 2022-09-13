@@ -17,7 +17,7 @@ package quality_chart
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
 )
 
 const (

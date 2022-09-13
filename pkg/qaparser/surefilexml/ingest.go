@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erda-project/erda-proto-go/dop/qa/unittest/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/qaparser"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/qaparser"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/qa/unittest/pb"
 )
 
 // IngestDir will search the given directory for XML files and return a slice

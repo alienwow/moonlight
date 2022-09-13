@@ -14,7 +14,7 @@
 
 package monitor
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var MONITOR_ADDON_LOGS_SEARCH = apis.ApiSpec{
 	Path:        "/api/log-analytics/<addon>/search",

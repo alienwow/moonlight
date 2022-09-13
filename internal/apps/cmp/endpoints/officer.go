@@ -22,13 +22,13 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/registry"
-	"github.com/erda-project/erda/internal/pkg/colonyutil"
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/registry"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/colonyutil"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func (e *Endpoints) RegistryReadonly(ctx context.Context, r *http.Request, vars map[string]string) (httpserver.Responser, error) {

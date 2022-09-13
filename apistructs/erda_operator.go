@@ -17,7 +17,7 @@ package apistructs
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
 )
 
 const (

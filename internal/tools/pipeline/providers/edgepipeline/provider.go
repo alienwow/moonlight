@@ -18,15 +18,15 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	cronpb "github.com/erda-project/erda-proto-go/core/pipeline/cron/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cancel"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgepipeline_register"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgereporter"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/run"
-	"github.com/erda-project/erda/internal/tools/pipeline/services/pipelinesvc"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cancel"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgepipeline_register"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgereporter"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/run"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/services/pipelinesvc"
+	cronpb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cron/pb"
 )
 
 type config struct {

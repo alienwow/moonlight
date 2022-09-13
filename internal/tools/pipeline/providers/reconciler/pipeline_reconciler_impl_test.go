@@ -22,8 +22,8 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 func Test_defaultPipelineReconciler_setTotalTaskNumberBeforeReconcilePipeline(t *testing.T) {

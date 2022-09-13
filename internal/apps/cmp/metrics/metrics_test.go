@@ -23,7 +23,7 @@ import (
 	"golang.org/x/time/rate"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 func Test_isEmptyResponse(t *testing.T) {

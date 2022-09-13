@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/pkg/kms/kmstypes"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmstypes"
 )
 
 func TestLoad(t *testing.T) {

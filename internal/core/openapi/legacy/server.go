@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/conf"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/conf"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
 )
 
 func NewServer(token tokenpb.TokenServiceServer) (*http.Server, error) {

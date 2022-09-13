@@ -1,7 +1,7 @@
 syntax = "proto3";
 package erda.core.messenger.notifychannel;
 
-option go_package = "github.com/erda-project/erda-proto-go/core/messenger/notifychannel/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notifychannel/pb";
 
 import "google/api/annotations.proto";
 import "google/protobuf/timestamp.proto";

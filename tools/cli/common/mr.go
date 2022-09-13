@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/tools/cli/command"
-	"github.com/erda-project/erda/tools/cli/utils"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/tools/cli/command"
+	"github.com/ping-cloudnative/moonlight/tools/cli/utils"
 )
 
 func GetMergeState() {

@@ -24,16 +24,16 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common"
-	gw "github.com/erda-project/erda/internal/tools/orchestrator/hepa/gateway/dto"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/gateway/exdto"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/kong"
-	kongDto "github.com/erda-project/erda/internal/tools/orchestrator/hepa/kong/dto"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
-	db "github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/service"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/domain"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/openapi_rule"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/zone"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common"
+	gw "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/gateway/dto"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/gateway/exdto"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/kong"
+	kongDto "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/kong/dto"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
+	db "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/service"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/domain"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/openapi_rule"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/zone"
 )
 
 type GatewayOpenapiRuleServiceImpl struct {

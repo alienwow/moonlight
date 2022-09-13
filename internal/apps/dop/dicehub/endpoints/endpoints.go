@@ -20,12 +20,12 @@ import (
 
 	"github.com/gorilla/schema"
 
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/dbclient"
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/service/release"
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/service/release_rule"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/service/release"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/service/release_rule"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
 )
 
 // Endpoints 定义 endpoint 方法

@@ -14,7 +14,7 @@
 
 package dop
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var ADAPTOR_CICD_TASK_LOG = apis.ApiSpec{
 	Path:        "/api/cicd/<pipelineID>/tasks/<taskID>/logs",

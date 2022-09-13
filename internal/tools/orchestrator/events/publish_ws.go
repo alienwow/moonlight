@@ -21,9 +21,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/pkg/websocket"
-	"github.com/erda-project/erda/internal/tools/orchestrator/ws"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/websocket"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/ws"
 )
 
 type WsPublisher struct {

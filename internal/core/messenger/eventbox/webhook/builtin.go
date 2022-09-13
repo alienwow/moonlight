@@ -17,7 +17,7 @@ package webhook
 import (
 	"fmt"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 // 如果不存在相同名字的 webhook 则创建

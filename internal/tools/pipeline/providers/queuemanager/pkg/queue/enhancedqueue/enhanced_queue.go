@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager/pkg/queue/priorityqueue"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager/pkg/queue/priorityqueue"
 )
 
 // EnhancedQueue 在优先队列基础上进行了封装，功能增强

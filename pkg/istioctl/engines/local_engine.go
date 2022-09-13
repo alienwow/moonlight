@@ -17,9 +17,9 @@ package engines
 import (
 	"istio.io/client-go/pkg/clientset/versioned"
 
-	"github.com/erda-project/erda/pkg/istioctl"
-	"github.com/erda-project/erda/pkg/istioctl/executors"
-	"github.com/erda-project/erda/pkg/k8sclient"
+	"github.com/ping-cloudnative/moonlight/pkg/istioctl"
+	"github.com/ping-cloudnative/moonlight/pkg/istioctl/executors"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient"
 )
 
 type LocalEngine struct {

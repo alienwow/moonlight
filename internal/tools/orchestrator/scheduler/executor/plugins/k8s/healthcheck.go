@@ -18,7 +18,7 @@ import (
 	apiv1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func (k *Kubernetes) NewHealthcheckProbe(service *apistructs.Service) *apiv1.Probe {

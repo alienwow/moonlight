@@ -19,7 +19,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysqlxorm"
 )
 
 type CIV3BuildCache struct {

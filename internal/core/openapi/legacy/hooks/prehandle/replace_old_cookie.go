@@ -19,7 +19,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/conf"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/conf"
 )
 
 func ReplaceOldCookie(ctx context.Context, rw http.ResponseWriter, req *http.Request) {

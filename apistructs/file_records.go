@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 type TestFileRecord struct {

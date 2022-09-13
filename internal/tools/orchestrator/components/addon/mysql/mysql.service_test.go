@@ -22,11 +22,11 @@ import (
 
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-proto-go/orchestrator/addon/mysql/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/pkg/kms/kmstypes"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmstypes"
+	"github.com/ping-cloudnative/moonlight/proto-go/orchestrator/addon/mysql/pb"
 )
 
 type MockKMS struct {

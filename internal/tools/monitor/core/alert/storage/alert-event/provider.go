@@ -17,11 +17,11 @@ package alert_event
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/mysql"
-	"github.com/erda-project/erda/internal/tools/monitor/core/alert/alert-apis/db"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/kafka"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysql"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/alert/alert-apis/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/kafka"
 )
 
 type define struct{}

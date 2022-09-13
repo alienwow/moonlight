@@ -18,8 +18,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/pipengine/actionexecutor"
-	"github.com/erda-project/erda/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pipengine/actionexecutor"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
 )
 
 func (e *Endpoints) reloadActionExecutorConfig(ctx context.Context, r *http.Request, vars map[string]string) (

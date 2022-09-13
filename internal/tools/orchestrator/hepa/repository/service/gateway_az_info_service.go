@@ -22,11 +22,11 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/bundle"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/util"
-	. "github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/vars"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/util"
+	. "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/vars"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
 )
 
 type AdminProjectDto struct {

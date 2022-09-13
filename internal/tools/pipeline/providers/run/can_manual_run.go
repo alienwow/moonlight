@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 func (s *provider) CanManualRun(ctx context.Context, p *spec.Pipeline) (reason string, can bool) {

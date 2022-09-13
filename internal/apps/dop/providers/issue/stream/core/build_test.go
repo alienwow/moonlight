@@ -22,17 +22,17 @@ import (
 	"github.com/alecthomas/assert"
 	gomock "github.com/golang/mock/gomock"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	commonpb "github.com/erda-project/erda-proto-go/common/pb"
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/stream/common"
-	"github.com/erda-project/erda/pkg/database/dbengine"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/stream/common"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	commonpb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 func Test_provider_CreateStream(t *testing.T) {

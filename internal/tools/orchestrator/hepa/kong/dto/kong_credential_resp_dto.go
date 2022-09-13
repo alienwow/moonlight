@@ -17,8 +17,8 @@ package dto
 import (
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-proto-go/core/hepa/openapi_consumer/pb"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/util"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/util"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/openapi_consumer/pb"
 )
 
 type KongCredentialListDto struct {

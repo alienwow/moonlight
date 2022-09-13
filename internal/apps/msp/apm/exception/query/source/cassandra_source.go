@@ -22,8 +22,8 @@ import (
 	"github.com/recallsong/go-utils/conv"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-infra/providers/cassandra"
-	"github.com/erda-project/erda-proto-go/msp/apm/exception/pb"
+	"github.com/ping-cloudnative/moonlight-utils/providers/cassandra"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/exception/pb"
 )
 
 type CassandraSource struct {

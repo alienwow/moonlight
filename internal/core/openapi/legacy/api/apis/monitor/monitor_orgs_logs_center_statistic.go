@@ -14,7 +14,7 @@
 
 package monitor
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var MONITOR_ORG_LOGS_STATISTIC = apis.ApiSpec{
 	Path:        "/api/org/logs/statistic/histogram",

@@ -17,7 +17,7 @@ package uuid
 import (
 	"strconv"
 
-	"github.com/erda-project/erda/pkg/crypto/uuid/snowflake"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid/snowflake"
 )
 
 var sf = snowflake.NewSnowflake(snowflake.Settings{})

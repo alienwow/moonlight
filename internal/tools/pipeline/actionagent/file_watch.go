@@ -26,9 +26,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/actionagent/filewatch"
-	"github.com/erda-project/erda/pkg/filehelper"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/actionagent/filewatch"
+	"github.com/ping-cloudnative/moonlight/pkg/filehelper"
 )
 
 func (agent *Agent) watchFiles() {

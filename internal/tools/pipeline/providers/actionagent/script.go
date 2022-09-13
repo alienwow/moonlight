@@ -15,9 +15,9 @@
 package actionagent
 
 import (
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/clusterinfo"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/clusterinfo"
 )
 
 func RunScript(clusterInfo apistructs.ClusterInfoData, scriptName string, params map[string]string) error {

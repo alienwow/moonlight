@@ -22,8 +22,8 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-proto-go/dop/pipelinetemplate/pb"
-	dbclient "github.com/erda-project/erda/internal/apps/dop/providers/pipelinetemplate/db"
+	dbclient "github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/pipelinetemplate/db"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/pipelinetemplate/pb"
 )
 
 func TestQueryPipelineTemplates(t *testing.T) {

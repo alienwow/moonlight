@@ -21,11 +21,11 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng"
-	openapiauth "github.com/erda-project/erda/internal/core/openapi/openapi-ng/auth"
-	"github.com/erda-project/erda/internal/core/org"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng"
+	openapiauth "github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/auth"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
 )
 
 type config struct {

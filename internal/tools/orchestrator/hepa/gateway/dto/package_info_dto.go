@@ -15,8 +15,8 @@
 package dto
 
 import (
-	"github.com/erda-project/erda-proto-go/core/hepa/endpoint_api/pb"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/endpoint_api/pb"
 )
 
 type PackageInfoDto struct {

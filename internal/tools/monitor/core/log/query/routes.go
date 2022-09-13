@@ -22,14 +22,14 @@ import (
 
 	"github.com/recallsong/go-utils/reflectx"
 
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda-proto-go/core/monitor/log/query/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/common"
-	"github.com/erda-project/erda/internal/tools/monitor/common/permission"
-	"github.com/erda-project/erda/internal/tools/monitor/core/log/storage"
-	"github.com/erda-project/erda/pkg/common/errors"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	transhttp "github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/common/permission"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log/storage"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/log/query/pb"
 )
 
 func (p *provider) initRoutes(routes httpserver.Router) {

@@ -18,8 +18,8 @@ package endpoints
 import (
 	"net/http"
 
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/kms"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/kms"
 )
 
 // Endpoints 定义 endpoint 方法

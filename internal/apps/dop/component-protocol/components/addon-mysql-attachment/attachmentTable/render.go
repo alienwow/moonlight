@@ -18,14 +18,14 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/strutil"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister/base"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	addonmysqlpb "github.com/erda-project/erda-proto-go/orchestrator/addon/mysql/pb"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/addon-mysql-account/accountTable/table"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/addon-mysql-account/common"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister/base"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/addon-mysql-account/accountTable/table"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/addon-mysql-account/common"
+	addonmysqlpb "github.com/ping-cloudnative/moonlight/proto-go/orchestrator/addon/mysql/pb"
 )
 
 type comp struct {

@@ -8,7 +8,7 @@ import "google/api/annotations.proto";
 import "google/protobuf/struct.proto";
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/dop/devflowrule/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/dop/devflowrule/pb";
 
 service DevFlowRuleService {
     option(erda.common.openapi_service) = {

@@ -28,16 +28,16 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/erda-project/erda/apistructs"
-	pipelineconf "github.com/erda-project/erda/internal/tools/pipeline/conf"
-	"github.com/erda-project/erda/internal/tools/pipeline/pipengine/actionexecutor/logic"
-	"github.com/erda-project/erda/internal/tools/pipeline/pipengine/actionexecutor/types"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/container_provider"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/containers"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/clusterinfo"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/constraintbuilders"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	pipelineconf "github.com/ping-cloudnative/moonlight/internal/tools/pipeline/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pipengine/actionexecutor/logic"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pipengine/actionexecutor/types"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/container_provider"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/containers"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/clusterinfo"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/constraintbuilders"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 const (

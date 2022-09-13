@@ -19,12 +19,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/kafka"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/kafka"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/storage"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/storage"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit"
 )
 
 type config struct {

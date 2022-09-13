@@ -23,7 +23,7 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-proto-go/dop/rule/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/rule/pb"
 )
 
 type Rule struct {

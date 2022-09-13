@@ -26,19 +26,19 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/org"
-	table "github.com/erda-project/erda/internal/tools/monitor/common/db"
-	"github.com/erda-project/erda/pkg/common/apis"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
-	"github.com/erda-project/erda/pkg/common/permission"
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	table "github.com/ping-cloudnative/moonlight/internal/tools/monitor/common/db"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 // Scope .

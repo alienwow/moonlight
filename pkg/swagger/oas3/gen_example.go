@@ -22,7 +22,7 @@ import (
 
 	"github.com/getkin/kin-openapi/openapi3"
 
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
 )
 
 // 为 *openapi3.Schema 生成 Example, 就地修改 schema.Example 字段

@@ -19,8 +19,8 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/erda-project/erda-proto-go/core/messenger/eventbox/pb"
-	"github.com/erda-project/erda/pkg/terminal/table"
+	"github.com/ping-cloudnative/moonlight/pkg/terminal/table"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/messenger/eventbox/pb"
 )
 
 type MonitorHTTP struct {

@@ -15,7 +15,7 @@
 package hepautils
 
 import (
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func RenderKongUri(uri string) (string, error) {

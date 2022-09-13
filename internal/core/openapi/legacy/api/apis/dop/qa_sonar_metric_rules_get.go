@@ -15,7 +15,7 @@
 package dop
 
 import (
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var QA_SONAR_METRIC_RULES_GET = apis.ApiSpec{

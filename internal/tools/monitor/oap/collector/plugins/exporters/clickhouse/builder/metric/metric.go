@@ -23,17 +23,17 @@ import (
 	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
-	"github.com/erda-project/erda/internal/tools/monitor/core/settings/retention-strategy"
-	tablepkg "github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table/creator"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table/loader"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model/odata"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/typeconvert"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/plugins/exporters/clickhouse/builder"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/settings/retention-strategy"
+	tablepkg "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table/creator"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table/loader"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model/odata"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/typeconvert"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/plugins/exporters/clickhouse/builder"
 )
 
 const (

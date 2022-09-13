@@ -21,15 +21,15 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	pb2 "github.com/erda-project/erda-proto-go/core/hepa/hub_info/pb"
-	"github.com/erda-project/erda-proto-go/core/hepa/legacy_upstream/pb"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/vars"
-	context1 "github.com/erda-project/erda/internal/tools/orchestrator/hepa/context"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/gateway/dto"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/hub_info"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/legacy_upstream"
-	erdaErr "github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/vars"
+	context1 "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/context"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/gateway/dto"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/hub_info"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/legacy_upstream"
+	erdaErr "github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	pb2 "github.com/ping-cloudnative/moonlight/proto-go/core/hepa/hub_info/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/legacy_upstream/pb"
 )
 
 type upstreamService struct {

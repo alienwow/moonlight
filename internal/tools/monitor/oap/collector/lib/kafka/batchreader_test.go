@@ -20,8 +20,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-infra/base/logs/logrusx"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs/logrusx"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit"
 )
 
 var mockProvider *provider

@@ -26,15 +26,15 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister/base"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/cmp"
-	cputil2 "github.com/erda-project/erda/internal/apps/cmp/component-protocol/cputil"
-	"github.com/erda-project/erda/internal/apps/cmp/component-protocol/types"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister/base"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp"
+	cputil2 "github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/cputil"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/types"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 func init() {

@@ -17,10 +17,10 @@ package eventStatusInfo
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	messenger "github.com/erda-project/erda-proto-go/core/messenger/notify/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-notify-detail/common"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-notify-detail/common"
+	messenger "github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notify/pb"
 )
 
 type ComponentEventOverviewInfo struct {

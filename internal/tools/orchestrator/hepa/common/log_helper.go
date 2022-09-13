@@ -32,10 +32,10 @@ import (
 	"github.com/rifflock/lfshook"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
-	erdaHttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/util"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/config"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	erdaHttp "github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/util"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/config"
 )
 
 // 2016-09-27 09:38:21.541541811 +0200 CEST

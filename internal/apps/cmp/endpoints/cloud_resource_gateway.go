@@ -26,13 +26,13 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/text/message"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/cmp/dbclient"
-	aliyun_resources "github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources"
-	_ "github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/cloudapi"
-	resource_factory "github.com/erda-project/erda/internal/apps/cmp/impl/resource-factory"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/dbclient"
+	aliyun_resources "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/cloudapi"
+	resource_factory "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/resource-factory"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
 )
 
 func (e *Endpoints) CreateGatewayVpcGrant(ctx context.Context, r *http.Request, vars map[string]string) (

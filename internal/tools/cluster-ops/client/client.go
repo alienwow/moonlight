@@ -25,10 +25,10 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/cluster-ops/config"
-	erdahelm "github.com/erda-project/erda/pkg/helm"
-	kc "github.com/erda-project/erda/pkg/k8sclient/config"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/cluster-ops/config"
+	erdahelm "github.com/ping-cloudnative/moonlight/pkg/helm"
+	kc "github.com/ping-cloudnative/moonlight/pkg/k8sclient/config"
 )
 
 const (

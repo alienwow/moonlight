@@ -17,11 +17,11 @@ package gshelper
 import (
 	"github.com/mitchellh/mapstructure"
 
-	model "github.com/erda-project/erda-infra/providers/component-protocol/components/filter/models"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/standard-components/issueFilter/gshelper"
+	model "github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/filter/models"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/standard-components/issueFilter/gshelper"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 const (

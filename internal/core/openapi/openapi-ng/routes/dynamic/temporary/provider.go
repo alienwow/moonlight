@@ -25,12 +25,12 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	fclient "github.com/erda-project/erda-infra/providers/remote-forward/client"
-	common "github.com/erda-project/erda-proto-go/common/pb"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/routes/dynamic"
-	httpapi "github.com/erda-project/erda/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	fclient "github.com/ping-cloudnative/moonlight-utils/providers/remote-forward/client"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/routes/dynamic"
+	httpapi "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	common "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
 )
 
 type (

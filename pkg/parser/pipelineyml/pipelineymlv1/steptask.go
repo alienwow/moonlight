@@ -17,7 +17,7 @@ package pipelineymlv1
 import (
 	"time"
 
-	"github.com/erda-project/erda/pkg/parser/pipelineyml/pipelineymlv1/steptasktype"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml/pipelineymlv1/steptasktype"
 )
 
 type StepTask interface {

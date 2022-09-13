@@ -15,7 +15,7 @@
 package types
 
 import (
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 var CPConfigs ComponentProtocolConfigs

@@ -21,7 +21,7 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
 )
 
 func Test_replaceNewStepValue(t *testing.T) {

@@ -20,7 +20,7 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda/pkg/filehelper"
+	"github.com/ping-cloudnative/moonlight/pkg/filehelper"
 )
 
 func Test_setupScript(t *testing.T) {

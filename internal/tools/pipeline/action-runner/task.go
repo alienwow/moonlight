@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erda-project/erda/pkg/retry"
-	"github.com/erda-project/erda/pkg/template"
+	"github.com/ping-cloudnative/moonlight/pkg/retry"
+	"github.com/ping-cloudnative/moonlight/pkg/template"
 )
 
 // Task .

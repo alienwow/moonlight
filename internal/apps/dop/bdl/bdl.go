@@ -15,7 +15,7 @@
 package bdl
 
 import (
-	"github.com/erda-project/erda/bundle"
+	"github.com/ping-cloudnative/moonlight/bundle"
 )
 
 var Bdl *bundle.Bundle

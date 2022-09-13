@@ -14,7 +14,7 @@
 
 package query
 
-import "github.com/erda-project/erda-proto-go/dop/issue/core/pb"
+import "github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 
 func (p *provider) SyncIssueChildrenIteration(issue *pb.Issue, iterationID int64) error {
 	if iterationID == 0 {

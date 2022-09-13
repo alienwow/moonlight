@@ -18,9 +18,9 @@ import (
 	"context"
 	"strconv"
 
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 // 1、调用ops的/api/cloud-account接口获取阿里云账号的ak+sk，查询数据库获取日志清洗的规则列表。

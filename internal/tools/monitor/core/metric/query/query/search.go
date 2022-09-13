@@ -25,14 +25,14 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
-	tsql "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql/formats"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricmeta"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/storage"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
+	tsql "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql/formats"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricmeta"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/storage"
 )
 
 type queryer struct {

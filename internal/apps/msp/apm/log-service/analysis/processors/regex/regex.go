@@ -21,9 +21,9 @@ import (
 	"github.com/dlclark/regexp2"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/log-service/analysis/processors"
-	"github.com/erda-project/erda/internal/apps/msp/apm/log-service/analysis/processors/convert"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/log-service/analysis/processors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/log-service/analysis/processors/convert"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 type config struct {

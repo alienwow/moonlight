@@ -36,11 +36,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"howett.net/plist"
 
-	"github.com/erda-project/erda-proto-go/core/file/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/providers/publishitem/db"
-	"github.com/erda-project/erda/internal/core/file/filetypes"
-	"github.com/erda-project/erda/pkg/template"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/publishitem/db"
+	"github.com/ping-cloudnative/moonlight/internal/core/file/filetypes"
+	"github.com/ping-cloudnative/moonlight/pkg/template"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/file/pb"
 )
 
 var (

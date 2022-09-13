@@ -21,7 +21,7 @@ import (
 	"github.com/Masterminds/semver"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
 )
 
 const DicehubExtensionsMenu = "dicehub.extensions.menu"

@@ -5,7 +5,7 @@ package erda.core.pipeline;
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/wrappers.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/core/pipeline/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/pb";
 
 message Cron {
     uint64 ID = 1 [json_name = "id"];

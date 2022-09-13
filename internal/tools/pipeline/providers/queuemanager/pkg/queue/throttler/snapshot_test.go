@@ -21,7 +21,7 @@ package throttler_test
 //
 //	"github.com/stretchr/testify/assert"
 //
-//	"github.com/erda-project/erda/internal/tools/pipeline/pipengine/queue/throttler"
+//	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pipengine/queue/throttler"
 //)
 //
 //func TestThrottler_Snapshot(t *testing.T) {

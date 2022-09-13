@@ -25,20 +25,20 @@ import (
 	"github.com/jinzhu/gorm"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/pkg/bundle-ex/cmdb"
-	"github.com/erda-project/erda/internal/tools/monitor/core/alert/alert-apis/cql"
-	"github.com/erda-project/erda/internal/tools/monitor/core/alert/alert-apis/db"
-	block "github.com/erda-project/erda/internal/tools/monitor/core/dataview/v1-chart-block"
-	"github.com/erda-project/erda/internal/tools/monitor/core/event/storage"
-	"github.com/erda-project/erda/internal/tools/monitor/core/expression"
-	"github.com/erda-project/erda/internal/tools/monitor/core/expression/model"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricq"
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
-	"github.com/erda-project/erda/pkg/encoding/jsonmap"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/bundle-ex/cmdb"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/alert/alert-apis/cql"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/alert/alert-apis/db"
+	block "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/dataview/v1-chart-block"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/event/storage"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/expression"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/expression/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricq"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight/pkg/encoding/jsonmap"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
 )
 
 func TestAdapt_newTicketAlertNotify(t *testing.T) {
@@ -165,9 +165,9 @@ func TestAdapt_compareNotify(t *testing.T) {
 	}
 }
 
-// //go:generate mockgen -destination=./alert_logs_test.go -package adapt github.com/erda-project/erda-infra/base/logs Logger
-// //go:generate mockgen -destination=./alert_metricq_test.go -package adapt github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricq Queryer
-// //go:generate mockgen -destination=./alert_t_test.go -package adapt github.com/erda-project/erda-infra/providers/i18n Translator
+// //go:generate mockgen -destination=./alert_logs_test.go -package adapt github.com/ping-cloudnative/moonlight-utils/base/logs Logger
+// //go:generate mockgen -destination=./alert_metricq_test.go -package adapt github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricq Queryer
+// //go:generate mockgen -destination=./alert_t_test.go -package adapt github.com/ping-cloudnative/moonlight-utils/providers/i18n Translator
 
 type pLog struct {
 }

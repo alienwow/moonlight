@@ -17,9 +17,9 @@ package static
 import (
 	"net/http"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	transhttp "github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng"
 )
 
 type provider struct{}

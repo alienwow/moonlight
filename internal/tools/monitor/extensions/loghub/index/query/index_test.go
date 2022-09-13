@@ -25,9 +25,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/msp/instance/db"
-	db2 "github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/index/query/db"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	db2 "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/index/query/db"
 )
 
 func TestReloadAllIndices_Should_Success(t *testing.T) {

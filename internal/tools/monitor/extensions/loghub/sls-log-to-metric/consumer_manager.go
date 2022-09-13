@@ -22,7 +22,7 @@ import (
 	sls "github.com/aliyun/aliyun-log-go-sdk"
 	"github.com/recallsong/go-utils/errorx"
 
-	"github.com/erda-project/erda-infra/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
 )
 
 // ConsumerManager .

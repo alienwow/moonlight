@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/internal/apps/dop/providers/publishitem/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/publishitem/db"
 )
 
 func Test_isOffLineVersion(t *testing.T) {

@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/erda-project/erda-proto-go/msp/registercenter/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/registercenter/pb"
 )
 
 // ServiceSearchResult .

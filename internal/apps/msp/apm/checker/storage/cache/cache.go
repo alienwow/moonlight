@@ -21,7 +21,7 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"github.com/erda-project/erda-proto-go/msp/apm/checker/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/checker/pb"
 )
 
 type (

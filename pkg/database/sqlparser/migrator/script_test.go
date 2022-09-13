@@ -19,7 +19,7 @@ import (
 
 	"github.com/pingcap/parser/ast"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/migrator"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/migrator"
 )
 
 func TestNewScript(t *testing.T) {

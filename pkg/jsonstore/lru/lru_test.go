@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/pkg/jsonstore/mem"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/mem"
 )
 
 var objects = [][2]string{

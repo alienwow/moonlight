@@ -22,13 +22,13 @@ import (
 	"bou.ke/monkey"
 	"github.com/golang/mock/gomock"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/pipeline/dbclient"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgepipeline_register"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgereporter/db"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgepipeline_register"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgereporter/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 func Test_pipelineFilterIn(t *testing.T) {
@@ -87,7 +87,7 @@ func Test_pipelineFilterIn(t *testing.T) {
 	}
 }
 
-////go:generate mockgen -destination=./reporter_logs_test.go -package edgereporter github.com/erda-project/erda-infra/base/logs Logger
+////go:generate mockgen -destination=./reporter_logs_test.go -package edgereporter github.com/ping-cloudnative/moonlight-utils/base/logs Logger
 func Test_provider_doTaskReporter(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()

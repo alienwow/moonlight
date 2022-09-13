@@ -15,7 +15,7 @@
 package msp_notify_list
 
 import (
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-notify-list/configurableFilter"
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-notify-list/searchFilter"
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-notify-list/table"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-notify-list/configurableFilter"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-notify-list/searchFilter"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-notify-list/table"
 )

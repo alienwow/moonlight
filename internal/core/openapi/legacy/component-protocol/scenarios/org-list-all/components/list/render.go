@@ -21,13 +21,13 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/apistructs"
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/scenarios/org-list-all/i18n"
-	orgclient "github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/scenarios/org-list-all/i18n"
+	orgclient "github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 const defaultOrgImage = "frontImg_default_org_icon"

@@ -23,15 +23,15 @@ import (
 
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-proto-go/core/messenger/notify/pb"
-	monitor "github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/messenger/common"
-	"github.com/erda-project/erda/internal/core/messenger/notify/db"
-	"github.com/erda-project/erda/internal/core/messenger/notify/model"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/common"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/notify/db"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/notify/model"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notify/pb"
+	monitor "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
 )
 
 type notifyService struct {

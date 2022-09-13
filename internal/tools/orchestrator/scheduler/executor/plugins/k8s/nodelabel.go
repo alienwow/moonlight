@@ -23,9 +23,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/executortypes"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/labelconfig"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/executortypes"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/labelconfig"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func (k *Kubernetes) IPToHostname(ip string) string {

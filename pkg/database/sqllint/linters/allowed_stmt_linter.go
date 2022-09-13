@@ -21,9 +21,9 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda/pkg/database/sqllint"
-	"github.com/erda-project/erda/pkg/database/sqllint/linterror"
-	"github.com/erda-project/erda/pkg/database/sqllint/script"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint/linterror"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint/script"
 )
 
 var alterTableTypes = map[ast.AlterTableType]string{

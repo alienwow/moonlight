@@ -20,15 +20,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/actionagent"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/pipelinefunc"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/apitestsv2"
-	"github.com/erda-project/erda/pkg/apitestsv2/cookiejar"
-	"github.com/erda-project/erda/pkg/encoding/jsonparse"
-	"github.com/erda-project/erda/pkg/loop"
-	"github.com/erda-project/erda/pkg/metadata"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/actionagent"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/pipelinefunc"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/apitestsv2"
+	"github.com/ping-cloudnative/moonlight/pkg/apitestsv2/cookiejar"
+	"github.com/ping-cloudnative/moonlight/pkg/encoding/jsonparse"
+	"github.com/ping-cloudnative/moonlight/pkg/loop"
+	"github.com/ping-cloudnative/moonlight/pkg/metadata"
 )
 
 const (

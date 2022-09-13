@@ -21,25 +21,25 @@ import (
 	"github.com/go-redis/redis"
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda-infra/providers/httpserver/interceptors"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/chartmeta"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricmeta"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/query"
-	queryv1 "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/query/v1"
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/query/v1/formats/chart"   //
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/query/v1/formats/chartv2" //
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/query/v1/formats/raw"     //
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/query/v1/language/json"   //
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/query/v1/language/params" //
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/storage"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse"
-	indexloader "github.com/erda-project/erda/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver/interceptors"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/chartmeta"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricmeta"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/query"
+	queryv1 "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/query/v1"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/query/v1/formats/chart"   //
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/query/v1/formats/chartv2" //
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/query/v1/formats/raw"     //
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/query/v1/language/json"   //
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/query/v1/language/params" //
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/storage"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse"
+	indexloader "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
 )
 
 type config struct {

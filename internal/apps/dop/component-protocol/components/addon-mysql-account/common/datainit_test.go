@@ -21,9 +21,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	addonmysqlpb "github.com/erda-project/erda-proto-go/orchestrator/addon/mysql/pb"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	addonmysqlpb "github.com/ping-cloudnative/moonlight/proto-go/orchestrator/addon/mysql/pb"
 )
 
 func TestAccountData_GetAccountName(t *testing.T) {

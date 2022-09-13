@@ -25,16 +25,16 @@ import (
 	"github.com/alecthomas/assert"
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-proto-go/core/dop/autotest/testplan/pb"
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/dao"
-	"github.com/erda-project/erda/internal/apps/dop/providers/autotest/testplan/db"
-	autotestv2 "github.com/erda-project/erda/internal/apps/dop/services/autotest_v2"
-	"github.com/erda-project/erda/internal/pkg/mock"
-	"github.com/erda-project/erda/pkg/database/dbengine"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/autotest/testplan/db"
+	autotestv2 "github.com/ping-cloudnative/moonlight/internal/apps/dop/services/autotest_v2"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/mock"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dop/autotest/testplan/pb"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 type TestPlanOrgMock struct {

@@ -22,8 +22,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	_ "github.com/erda-project/erda-infra/base/version"
-	"github.com/erda-project/erda/internal/tools/pipeline/actionagent"
+	_ "github.com/ping-cloudnative/moonlight-utils/base/version"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/actionagent"
 )
 
 type PlatformLogFormatter struct {

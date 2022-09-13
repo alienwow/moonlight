@@ -21,9 +21,9 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	commonPb "github.com/erda-project/erda-proto-go/common/pb"
-	"github.com/erda-project/erda-proto-go/tools/monitor/dashboard/report/pb"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	commonPb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/tools/monitor/dashboard/report/pb"
 )
 
 func (r *reportService) ListHistories(ctx context.Context, request *pb.ListHistoriesRequest) (*pb.ListHistoriesResponse, error) {

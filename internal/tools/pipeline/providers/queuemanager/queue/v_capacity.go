@@ -17,11 +17,11 @@ package queue
 import (
 	"fmt"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager/pkg/queue/priorityqueue"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager/types"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager/pkg/queue/priorityqueue"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager/types"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 type CapacityValidator struct {

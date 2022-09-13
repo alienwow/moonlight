@@ -26,7 +26,7 @@ import (
 	"github.com/recallsong/go-utils/encoding/md5x"
 	"github.com/recallsong/go-utils/errorx"
 
-	"github.com/erda-project/erda-infra/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
 )
 
 // 层级关系: account -> N * LogProject -> N * LogStore

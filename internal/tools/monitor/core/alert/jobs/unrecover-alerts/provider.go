@@ -21,11 +21,11 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	election "github.com/erda-project/erda-infra/providers/etcd-election"
-	"github.com/erda-project/erda/internal/pkg/metrics/report"
-	"github.com/erda-project/erda/internal/tools/monitor/core/alert/alert-apis/db"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	election "github.com/ping-cloudnative/moonlight-utils/providers/etcd-election"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/metrics/report"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/alert/alert-apis/db"
 )
 
 type config struct {

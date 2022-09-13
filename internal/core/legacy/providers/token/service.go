@@ -18,13 +18,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
-	tokenstore "github.com/erda-project/erda/pkg/oauth2/tokenstore/mysqltokenstore"
-	"github.com/erda-project/erda/pkg/secret"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
+	tokenstore "github.com/ping-cloudnative/moonlight/pkg/oauth2/tokenstore/mysqltokenstore"
+	"github.com/ping-cloudnative/moonlight/pkg/secret"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
 )
 
 type TokenService struct {

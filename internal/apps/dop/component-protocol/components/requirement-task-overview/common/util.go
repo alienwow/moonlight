@@ -17,7 +17,7 @@ package common
 import (
 	"time"
 
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
 )
 
 func DateTime(t time.Time) time.Time {

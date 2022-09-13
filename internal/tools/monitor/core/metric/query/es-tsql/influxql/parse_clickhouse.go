@@ -26,8 +26,8 @@ import (
 	"github.com/influxdata/influxql"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
-	tsql "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
+	tsql "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql"
 )
 
 func (p *Parser) ParseClickhouse(s *influxql.SelectStatement) (tsql.Query, error) {

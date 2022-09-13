@@ -19,8 +19,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/apipolicy"
-	kongDto "github.com/erda-project/erda/internal/tools/orchestrator/hepa/kong/dto"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/apipolicy"
+	kongDto "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/kong/dto"
 )
 
 type PolicyDto struct {

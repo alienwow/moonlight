@@ -17,7 +17,7 @@ package autotest
 import (
 	"net/http"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var QA_REPORTSETS_LIST = apis.ApiSpec{

@@ -18,8 +18,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/erda-project/erda/pkg/database/sqllint"
-	"github.com/erda-project/erda/pkg/database/sqlparser/migrator"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/migrator"
 )
 
 type parameter struct {

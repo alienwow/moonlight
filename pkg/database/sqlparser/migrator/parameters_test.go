@@ -17,7 +17,7 @@ package migrator_test
 import (
 	"testing"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/migrator"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/migrator"
 )
 
 type DSNParameters_Format struct {

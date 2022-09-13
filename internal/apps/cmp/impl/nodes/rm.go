@@ -25,11 +25,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/cmp/dbclient"
-	"github.com/erda-project/erda/pkg/crypto/encrypt"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/dbclient"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/encrypt"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func (n *Nodes) RmNodes(req apistructs.RmNodesRequest, userid string, orgid string) (uint64, error) {

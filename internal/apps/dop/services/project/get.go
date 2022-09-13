@@ -22,14 +22,14 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	dashboardPb "github.com/erda-project/erda-proto-go/cmp/dashboard/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
-	calcu "github.com/erda-project/erda/pkg/resourcecalculator"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
+	calcu "github.com/ping-cloudnative/moonlight/pkg/resourcecalculator"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	dashboardPb "github.com/ping-cloudnative/moonlight/proto-go/cmp/dashboard/pb"
 )
 
 // Get gets the project info.

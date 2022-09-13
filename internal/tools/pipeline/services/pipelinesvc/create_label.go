@@ -17,10 +17,10 @@ package pipelinesvc
 import (
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/services/apierrors"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
 )
 
 func (s *PipelineSvc) BatchCreateLabels(createReq *apistructs.PipelineLabelBatchInsertRequest) error {

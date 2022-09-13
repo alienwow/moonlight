@@ -19,7 +19,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func GetRealIP(request *http.Request) string {

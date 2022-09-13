@@ -24,11 +24,11 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda-proto-go/core/file/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/file/filetypes"
-	"github.com/erda-project/erda/internal/tools/monitor/core/dataview/db"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/file/filetypes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/dataview/db"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/file/pb"
 )
 
 func Test_dashboardFileName(t *testing.T) {

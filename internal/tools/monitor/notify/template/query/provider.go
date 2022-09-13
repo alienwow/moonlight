@@ -23,19 +23,19 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/tools/monitor/notify/template/db"
-	"github.com/erda-project/erda/internal/tools/monitor/notify/template/model"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/notify/template/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/notify/template/model"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/httpserver/interceptors"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-infra/providers/mysql"
-	"github.com/erda-project/erda/bundle"
-	bundlecmdb "github.com/erda-project/erda/internal/pkg/bundle-ex/cmdb"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver/interceptors"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysql"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	bundlecmdb "github.com/ping-cloudnative/moonlight/internal/pkg/bundle-ex/cmdb"
 )
 
 type define struct{}

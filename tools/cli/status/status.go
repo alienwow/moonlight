@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/erda-project/erda/tools/cli/utils"
+	"github.com/ping-cloudnative/moonlight/tools/cli/utils"
 )
 
 const (

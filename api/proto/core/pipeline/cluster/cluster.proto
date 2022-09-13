@@ -11,7 +11,7 @@ import "common/commit.proto";
 import "common/md.proto";
 import "core/pipeline/queue/queue.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/core/pipeline/cluster/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cluster/pb";
 
 service ClusterService {
   rpc ClusterHook (ClusterHookRequest) returns (ClusterHookResponse) {

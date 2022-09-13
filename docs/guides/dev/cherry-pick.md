@@ -25,4 +25,4 @@ Filter by labels: `auto-cherry-pick`
 
 Examples:
 
-- [Erda auto-cherry-pick](https://github.com/erda-project/erda/pulls?q=is%3Apr+label%3Aauto-cherry-pick)
+- [Erda auto-cherry-pick](https://github.com/ping-cloudnative/moonlight/pulls?q=is%3Apr+label%3Aauto-cherry-pick)

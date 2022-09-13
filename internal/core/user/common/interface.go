@@ -15,7 +15,7 @@
 package common
 
 import (
-	"github.com/erda-project/erda-proto-go/core/user/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 type Interface interface {

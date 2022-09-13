@@ -14,7 +14,7 @@
 
 package msp
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var MONITOR_INSTANCES = apis.ApiSpec{
 	Path:        "/api/monitor/instances/<terminusKey>",

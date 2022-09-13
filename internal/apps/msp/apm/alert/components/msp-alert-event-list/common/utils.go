@@ -17,9 +17,9 @@ package common
 import (
 	"github.com/mitchellh/mapstructure"
 
-	model "github.com/erda-project/erda-infra/providers/component-protocol/components/filter/models"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/table"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
+	model "github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/filter/models"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/table"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
 )
 
 func IdNameValuesToSelectOptions(values []*IdNameValue) []model.SelectOption {

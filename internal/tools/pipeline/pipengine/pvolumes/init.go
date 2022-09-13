@@ -15,7 +15,7 @@
 package pvolumes
 
 import (
-	"github.com/erda-project/erda/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/dbclient"
 )
 
 var dbClient *dbclient.Client

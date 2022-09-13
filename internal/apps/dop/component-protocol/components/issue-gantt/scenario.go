@@ -15,6 +15,6 @@
 package issue_gantt
 
 import (
-	_ "github.com/erda-project/erda/internal/apps/dop/component-protocol/components/issue-gantt/filter"
-	_ "github.com/erda-project/erda/internal/apps/dop/component-protocol/components/issue-gantt/gantt"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/issue-gantt/filter"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/issue-gantt/gantt"
 )

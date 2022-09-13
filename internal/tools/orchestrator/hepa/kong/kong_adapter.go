@@ -22,11 +22,11 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/config"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/kong/base"
-	v2 "github.com/erda-project/erda/internal/tools/orchestrator/hepa/kong/v2"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/service"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/config"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/kong/base"
+	v2 "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/kong/v2"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/service"
 )
 
 const InnerHost = "gateway.inner"

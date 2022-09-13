@@ -15,8 +15,8 @@
 package errorbox
 
 import (
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/legacy/model"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/model"
 )
 
 func (s *ErrorBoxService) List(param *apistructs.TaskErrorListRequest) ([]model.ErrorLog, error) {

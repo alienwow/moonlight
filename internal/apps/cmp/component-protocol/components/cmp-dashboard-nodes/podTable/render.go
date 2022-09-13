@@ -20,10 +20,10 @@ import (
 	"github.com/rancher/wrangler/pkg/data"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda/internal/apps/cmp"
-	"github.com/erda-project/erda/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common"
-	"github.com/erda-project/erda/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common/table"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common/table"
 )
 
 var steveServer cmp.SteveServer

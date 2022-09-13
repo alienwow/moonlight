@@ -24,8 +24,8 @@ import (
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/cms"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/api"
-	gl "github.com/erda-project/erda/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/globals"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/api"
+	gl "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/globals"
 )
 
 // var (

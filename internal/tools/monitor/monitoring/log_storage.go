@@ -20,10 +20,10 @@ package monitoring
 
 // 	"github.com/prometheus/client_golang/prometheus"
 
-// 	"github.com/erda-project/erda/apistructs"
-// 	"github.com/erda-project/erda/bundle"
-// 	"github.com/erda-project/erda/internal/tools/monitor/core/log/schema"
-// 	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricq"
+// 	"github.com/ping-cloudnative/moonlight/apistructs"
+// 	"github.com/ping-cloudnative/moonlight/bundle"
+// 	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log/schema"
+// 	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricq"
 // )
 
 // const tsqlLog = `SELECT keyspace::tag, address::tag, value(cassandra_columnfamily_totaldiskspaceused::field) FROM cassandra WHERE columnfamily::tag='base_log' AND keyspace::tag=~/spot_.*?/ AND keyspace::tag!='spot_prod' GROUP BY keyspace::tag, address::tag`

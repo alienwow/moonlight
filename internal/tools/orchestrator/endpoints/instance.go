@@ -28,11 +28,11 @@ import (
 	"github.com/sirupsen/logrus"
 	apiv1 "k8s.io/api/core/v1"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/pkg/user"
-	"github.com/erda-project/erda/internal/tools/orchestrator/services/apierrors"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/user"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
 )
 
 // InstanceRequestType 获取实例输入的请求参数

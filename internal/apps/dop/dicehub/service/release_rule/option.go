@@ -15,7 +15,7 @@
 package release_rule
 
 import (
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/dbclient"
 )
 
 // Option defines *ReleaseRule configurations

@@ -20,8 +20,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/cloudstorage/minioclient"
-	"github.com/erda-project/erda/pkg/cloudstorage/ossclient"
+	"github.com/ping-cloudnative/moonlight/pkg/cloudstorage/minioclient"
+	"github.com/ping-cloudnative/moonlight/pkg/cloudstorage/ossclient"
 )
 
 type Client interface {

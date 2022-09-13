@@ -19,11 +19,11 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	logs "github.com/erda-project/erda-infra/base/logs"
-	servicehub "github.com/erda-project/erda-infra/base/servicehub"
-	transport "github.com/erda-project/erda-infra/pkg/transport"
-	pb "github.com/erda-project/erda-proto-go/msp/apm/adapter/pb"
-	"github.com/erda-project/erda/pkg/common/apis"
+	logs "github.com/ping-cloudnative/moonlight-utils/base/logs"
+	servicehub "github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	transport "github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	pb "github.com/ping-cloudnative/moonlight/proto-go/msp/apm/adapter/pb"
 )
 
 type config struct {

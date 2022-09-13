@@ -17,11 +17,11 @@ package dicehub
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	image "github.com/erda-project/erda/internal/apps/dop/dicehub/image/db"
-	"github.com/erda-project/erda/internal/core/org"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	image "github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/image/db"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
 )
 
 type provider struct {

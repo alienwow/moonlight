@@ -15,7 +15,7 @@
 package sqllint
 
 import (
-	"github.com/erda-project/erda/pkg/database/sqllint/script"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint/script"
 )
 
 // Factory is a function that returns a Rule interface

@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/leaderworker/worker"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/leaderworker/worker"
 )
 
 func (p *provider) OnLeader(h func(ctx context.Context)) {

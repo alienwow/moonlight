@@ -25,7 +25,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func main() {
@@ -96,12 +96,12 @@ func parseDir(path string) map[string]*ast.Package {
 
 const (
 	dirPrefix        = "../apis/"
-	apiPkgPathPrefix = "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	apiPkgPathPrefix = "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 // return package, var
-// fname: ../apis/runner_task_collect_log.go       -> . "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
-// fname: ../apis/pipeline/a/b/pipeline_cancel.go  -> pipeline_a_b "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+// fname: ../apis/runner_task_collect_log.go       -> . "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
+// fname: ../apis/pipeline/a/b/pipeline_cancel.go  -> pipeline_a_b "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 func parseFile(fname string, f *ast.File) (pkgPath string, name string) {
 	// fnameWithoutPrefix:
 	//   runner_task_collect_log.go
@@ -115,10 +115,10 @@ func parseFile(fname string, f *ast.File) (pkgPath string, name string) {
 		pkgDirWithoutPrefix := fnameWithoutPrefix[0:idx]
 		//    pipeline/a/b -> pipeline_a_b
 		pkgAlias = strings.ReplaceAll(pkgDirWithoutPrefix, "/", "_")
-		//    pipeline_a_b "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis/pipeline/a/b"
+		//    pipeline_a_b "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis/pipeline/a/b"
 		pkgPath = fmt.Sprintf(`%s "%s"`, pkgAlias, strutil.Concat(apiPkgPathPrefix, "/", pkgDirWithoutPrefix))
 	} else {
-		// . "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+		// . "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 		pkgPath = fmt.Sprintf(`%s "%s"`, pkgAlias, strutil.Concat(apiPkgPathPrefix))
 	}
 	defer func() {

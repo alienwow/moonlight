@@ -14,7 +14,7 @@
 
 package monitor
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var MONITOR_APM_TOPOLOGY_SERVICES_LIST = apis.ApiSpec{
 	Path:        "/api/apm/topology/services",

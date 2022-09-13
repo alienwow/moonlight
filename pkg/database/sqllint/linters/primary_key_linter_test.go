@@ -17,7 +17,7 @@ package linters_test
 import (
 	"testing"
 
-	"github.com/erda-project/erda/pkg/database/sqllint"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint"
 )
 
 const primaryKeyLinterConfig = `

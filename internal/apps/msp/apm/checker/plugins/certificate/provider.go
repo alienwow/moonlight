@@ -17,10 +17,10 @@ package certificate
 import (
 	"fmt"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-proto-go/msp/apm/checker/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/checker/plugins"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/checker/plugins"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/checker/pb"
 )
 
 type config struct{}

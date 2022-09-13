@@ -2,9 +2,9 @@
 ARG BASE_DOCKER_IMAGE
 FROM ${BASE_DOCKER_IMAGE} as build
 
-RUN mkdir -p "$GOPATH/src/github.com/erda-project/erda/"
-COPY . "$GOPATH/src/github.com/erda-project/erda/"
-WORKDIR "$GOPATH/src/github.com/erda-project/erda/"
+RUN mkdir -p "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
+COPY . "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
+WORKDIR "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
 
 ARG CONFIG_PATH
 ARG MODULE_PATH
@@ -23,10 +23,10 @@ ARG APP_NAME
 ARG CONFIG_PATH
 ENV APP_NAME=${APP_NAME}
 
-COPY --from=build "$GOPATH/src/github.com/erda-project/erda/bin/${APP_NAME}" "/app/${APP_NAME}"
-COPY --from=build "$GOPATH/src/github.com/erda-project/erda/conf/${CONFIG_PATH}" "/app/conf/${CONFIG_PATH}"
-COPY --from=build "$GOPATH/src/github.com/erda-project/erda/pkg/erda-configs" "/app/erda-configs"
-COPY --from=build "$GOPATH/src/github.com/erda-project/erda/conf/common" "/app/conf/common"
+COPY --from=build "$GOPATH/src/github.com/ping-cloudnative/moonlight/bin/${APP_NAME}" "/app/${APP_NAME}"
+COPY --from=build "$GOPATH/src/github.com/ping-cloudnative/moonlight/conf/${CONFIG_PATH}" "/app/conf/${CONFIG_PATH}"
+COPY --from=build "$GOPATH/src/github.com/ping-cloudnative/moonlight/pkg/erda-configs" "/app/erda-configs"
+COPY --from=build "$GOPATH/src/github.com/ping-cloudnative/moonlight/conf/common" "/app/conf/common"
 
 RUN cp -r /app /opt/action && mv /opt/action/${APP_NAME} /opt/action/run
 

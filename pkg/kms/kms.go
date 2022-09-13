@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/erda-project/erda/pkg/kms/kmstypes"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmstypes"
 )
 
 var (

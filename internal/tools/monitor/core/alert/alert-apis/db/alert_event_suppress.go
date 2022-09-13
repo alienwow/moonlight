@@ -19,7 +19,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
 )
 
 const (

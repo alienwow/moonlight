@@ -23,11 +23,11 @@ import (
 	"path/filepath"
 	"strconv"
 
-	pb "github.com/erda-project/erda-proto-go/msp/tenant/project/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/tools/cli/command"
-	"github.com/erda-project/erda/tools/cli/utils"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	pb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/project/pb"
+	"github.com/ping-cloudnative/moonlight/tools/cli/command"
+	"github.com/ping-cloudnative/moonlight/tools/cli/utils"
 )
 
 type UserOrgProj struct {

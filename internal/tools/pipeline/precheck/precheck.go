@@ -24,14 +24,14 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/pipengine/pvolumes"
-	"github.com/erda-project/erda/internal/tools/pipeline/precheck/checkers/actionchecker/api_register"
-	"github.com/erda-project/erda/internal/tools/pipeline/precheck/checkers/actionchecker/buildpack"
-	"github.com/erda-project/erda/internal/tools/pipeline/precheck/checkers/actionchecker/release"
-	"github.com/erda-project/erda/internal/tools/pipeline/precheck/prechecktype"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pipengine/pvolumes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/precheck/checkers/actionchecker/api_register"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/precheck/checkers/actionchecker/buildpack"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/precheck/checkers/actionchecker/release"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/precheck/prechecktype"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 var hideFileRegexp, _ = regexp.Compile(`^\/(?:[^\/]+\/)*\.[^\/]*`)

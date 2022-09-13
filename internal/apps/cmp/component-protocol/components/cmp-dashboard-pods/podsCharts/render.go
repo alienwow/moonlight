@@ -23,11 +23,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister/base"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	cmpcputil "github.com/erda-project/erda/internal/apps/cmp/component-protocol/cputil"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister/base"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	cmpcputil "github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/cputil"
 )
 
 var PrimaryColor = []string{"primary8", "primary7", "primary6", "primary5", "primary4", "primary3", "primary2", "primary1"}

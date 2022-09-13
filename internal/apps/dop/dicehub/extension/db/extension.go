@@ -24,11 +24,11 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-proto-go/core/dicehub/extension/pb"
-	"github.com/erda-project/erda/pkg/expression"
-	"github.com/erda-project/erda/pkg/i18n"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml/pexpr"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/expression"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml/pexpr"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/extension/pb"
 )
 
 const localeSpecEntry = "locale"

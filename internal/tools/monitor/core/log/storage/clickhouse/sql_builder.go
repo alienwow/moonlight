@@ -21,10 +21,10 @@ import (
 
 	"github.com/doug-martin/goqu/v9"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/log/storage"
-	"github.com/erda-project/erda/internal/tools/monitor/core/log/storage/clickhouse/converter"
-	"github.com/erda-project/erda/internal/tools/monitor/core/log/storage/clickhouse/query_parser"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table/loader"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log/storage"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log/storage/clickhouse/converter"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log/storage/clickhouse/query_parser"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table/loader"
 )
 
 func (p *provider) buildSqlFromTablePart(req *storage.Selector) (*goqu.SelectDataset, *loader.TableMeta, error) {

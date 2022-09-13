@@ -20,8 +20,8 @@ import (
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/remotecommand"
 
-	httpstreamspdy "github.com/erda-project/erda/pkg/k8s/httpstream/spdy"
-	spdy "github.com/erda-project/erda/pkg/k8s/spdy"
+	httpstreamspdy "github.com/ping-cloudnative/moonlight/pkg/k8s/httpstream/spdy"
+	spdy "github.com/ping-cloudnative/moonlight/pkg/k8s/spdy"
 )
 
 // NewSPDYExecutor connects to the provided server and upgrades the connection to

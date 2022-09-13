@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func TestApplicationsResourcesItem_AddResource(t *testing.T) {

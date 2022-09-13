@@ -21,8 +21,8 @@ package bundle
 //
 //	"github.com/stretchr/testify/assert"
 //
-//	"github.com/erda-project/erda/apistructs"
-//	"github.com/erda-project/erda/pkg/filehelper"
+//	"github.com/ping-cloudnative/moonlight/apistructs"
+//	"github.com/ping-cloudnative/moonlight/pkg/filehelper"
 //)
 //
 //func TestDownloadDiceFile(t *testing.T) {

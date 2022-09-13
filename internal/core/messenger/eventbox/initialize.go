@@ -20,7 +20,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/dispatcher"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/dispatcher"
 )
 
 func Initialize(p *provider, ctx context.Context) error {

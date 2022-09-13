@@ -20,7 +20,7 @@ import (
 	"github.com/coreos/etcd/clientv3"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-infra/base/logs/logrusx"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs/logrusx"
 )
 
 func Test_getAccessKey(t *testing.T) {

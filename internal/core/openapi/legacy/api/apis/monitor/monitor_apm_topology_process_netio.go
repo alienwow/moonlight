@@ -14,7 +14,7 @@
 
 package monitor
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var MONITOR_APM_TOPOLOGY_PROCESS_NETIO = apis.ApiSpec{
 	Path:        "/api/apm/topology/process/netio",

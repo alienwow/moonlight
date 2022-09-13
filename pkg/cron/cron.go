@@ -28,7 +28,7 @@ import (
 	"github.com/robfig/cron"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/pkg/etcdclient"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/etcdclient"
 )
 
 // Cron keeps track of any number of entries, invoking the associated func as

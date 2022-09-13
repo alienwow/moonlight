@@ -14,7 +14,7 @@
 
 package orchestrator
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var ORCHESTRATOR_DEPLOYMENT_ORDER_RENDER_DETAIL = apis.ApiSpec{
 	Path:        "/api/deployment-orders/actions/render-detail",

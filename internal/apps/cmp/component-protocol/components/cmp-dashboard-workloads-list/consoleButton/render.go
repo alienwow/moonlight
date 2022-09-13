@@ -15,7 +15,7 @@
 package consoleButton
 
 import (
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister/base"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister/base"
 )
 
 func init() {

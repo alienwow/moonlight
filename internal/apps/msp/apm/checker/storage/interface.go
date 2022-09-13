@@ -14,7 +14,7 @@
 
 package storage
 
-import "github.com/erda-project/erda-proto-go/msp/apm/checker/pb"
+import "github.com/ping-cloudnative/moonlight/proto-go/msp/apm/checker/pb"
 
 // Interface .
 type Interface interface {

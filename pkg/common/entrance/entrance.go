@@ -20,7 +20,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func FindMainEntranceFileName() (string, bool) {
@@ -35,7 +35,7 @@ func FindMainEntranceFileName() (string, bool) {
 			return "", false
 		}
 		if frame.Function == "main.main" {
-			fileName := frame.File // such as: /go/src/github.com/erda-project/erda/cmd/monitor/monitor/main.go
+			fileName := frame.File // such as: /go/src/github.com/ping-cloudnative/moonlight/cmd/monitor/monitor/main.go
 			return fileName, true
 		}
 	}
@@ -53,7 +53,7 @@ func GetModulePath() string {
 	return modulePath
 }
 
-var modulePathRegex = regexp.MustCompile(`.*/cmd/(.*)/main\.go`) // such as: /go/src/github.com/erda-project/erda/cmd/monitor/monitor/main.go
+var modulePathRegex = regexp.MustCompile(`.*/cmd/(.*)/main\.go`) // such as: /go/src/github.com/ping-cloudnative/moonlight/cmd/monitor/monitor/main.go
 func getModulePathFromMainEntranceFileName(mainFileName string) string {
 	ss := modulePathRegex.FindStringSubmatch(mainFileName)
 	if len(ss) < 2 {

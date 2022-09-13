@@ -19,9 +19,9 @@ import (
 	reflect "reflect"
 	testing "testing"
 
-	servicehub "github.com/erda-project/erda-infra/base/servicehub"
-	pb1 "github.com/erda-project/erda-proto-go/core/dop/taskerror/pb"
-	pb "github.com/erda-project/erda-proto-go/core/services/errorbox/pb"
+	servicehub "github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	pb1 "github.com/ping-cloudnative/moonlight/proto-go/core/dop/taskerror/pb"
+	pb "github.com/ping-cloudnative/moonlight/proto-go/core/services/errorbox/pb"
 )
 
 func Test_errorBoxService_ListErrorLog(t *testing.T) {

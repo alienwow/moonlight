@@ -23,7 +23,7 @@ package query
 
 // 	"github.com/scylladb/gocqlx/qb"
 
-// 	"github.com/erda-project/erda-proto-go/core/monitor/log/query/pb"
+// 	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/log/query/pb"
 // )
 
 // func Test_provider_getLogItems(t *testing.T) {

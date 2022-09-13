@@ -18,7 +18,7 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func addLineDelimiter(ctx context.Context, prefix ...string) {

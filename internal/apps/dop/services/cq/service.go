@@ -15,8 +15,8 @@
 package cq
 
 import (
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/services/branchrule"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/branchrule"
 )
 
 type CQ struct {

@@ -19,7 +19,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda/pkg/expression"
+	"github.com/ping-cloudnative/moonlight/pkg/expression"
 )
 
 type LabelsVisitor struct {

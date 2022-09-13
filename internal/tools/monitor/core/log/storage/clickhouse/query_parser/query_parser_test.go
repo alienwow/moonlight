@@ -19,8 +19,8 @@ import (
 
 	"gotest.tools/assert"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/log/storage/clickhouse/converter"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table/loader"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log/storage/clickhouse/converter"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table/loader"
 )
 
 func Test_Parse(t *testing.T) {

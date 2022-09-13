@@ -14,7 +14,7 @@
 
 package orchestrator
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var ORCHESTRATOR_CLUSTER_INSTANCES_USAGE = apis.ApiSpec{
 	Path:        "/api/cmdb/clusters/<cluster>/instances-usage",

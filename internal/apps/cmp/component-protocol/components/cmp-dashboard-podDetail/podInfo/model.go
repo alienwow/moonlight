@@ -17,8 +17,8 @@ package PodInfo
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda/internal/apps/cmp"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
 )
 
 type PodInfo struct {

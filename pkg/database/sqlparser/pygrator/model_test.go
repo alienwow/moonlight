@@ -22,7 +22,7 @@ import (
 	"github.com/pingcap/parser/ast"
 	_ "github.com/pingcap/tidb/types/parser_driver"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/pygrator"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/pygrator"
 )
 
 var createStmt = `

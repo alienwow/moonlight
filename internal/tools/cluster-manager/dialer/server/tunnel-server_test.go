@@ -28,11 +28,11 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/bundle"
-	clientconfig "github.com/erda-project/erda/internal/tools/cluster-agent/config"
-	clusteragent "github.com/erda-project/erda/internal/tools/cluster-agent/pkg/client"
-	"github.com/erda-project/erda/internal/tools/cluster-manager/dialer/auth"
-	"github.com/erda-project/erda/internal/tools/cluster-manager/dialer/config"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	clientconfig "github.com/ping-cloudnative/moonlight/internal/tools/cluster-agent/config"
+	clusteragent "github.com/ping-cloudnative/moonlight/internal/tools/cluster-agent/pkg/client"
+	"github.com/ping-cloudnative/moonlight/internal/tools/cluster-manager/dialer/auth"
+	"github.com/ping-cloudnative/moonlight/internal/tools/cluster-manager/dialer/config"
 )
 
 const (

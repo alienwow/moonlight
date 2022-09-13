@@ -15,7 +15,7 @@
 package pipelineymlv1
 
 import (
-	"github.com/erda-project/erda/pkg/metadata"
+	"github.com/ping-cloudnative/moonlight/pkg/metadata"
 )
 
 const (

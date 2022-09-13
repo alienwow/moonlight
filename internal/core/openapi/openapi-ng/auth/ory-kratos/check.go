@@ -22,11 +22,11 @@ import (
 	"net/http"
 	"strconv"
 
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/apistructs"
-	openapiauth "github.com/erda-project/erda/internal/core/openapi/openapi-ng/auth"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	openapiauth "github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/auth"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 type loginChecker struct {

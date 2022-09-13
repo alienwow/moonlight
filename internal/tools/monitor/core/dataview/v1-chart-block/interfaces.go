@@ -17,9 +17,9 @@ package block
 import (
 	"fmt"
 
-	"github.com/erda-project/erda/internal/pkg/mysql"
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/mysql"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
 )
 
 type DashboardAPI interface {

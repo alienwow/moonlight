@@ -29,9 +29,9 @@ import (
 	otlpv11 "go.opentelemetry.io/proto/otlp/common/v1"
 	otlpv1 "go.opentelemetry.io/proto/otlp/trace/v1"
 
-	"github.com/erda-project/erda-proto-go/oap/collector/receiver/opentelemetry/pb"
-	tracepb "github.com/erda-project/erda-proto-go/oap/trace/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/interceptor"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/interceptor"
+	"github.com/ping-cloudnative/moonlight/proto-go/oap/collector/receiver/opentelemetry/pb"
+	tracepb "github.com/ping-cloudnative/moonlight/proto-go/oap/trace/pb"
 )
 
 var (

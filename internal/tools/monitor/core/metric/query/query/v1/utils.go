@@ -24,9 +24,9 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
 
-	tsql "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql"
+	tsql "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql"
 )
 
 // NormalizeColumn .

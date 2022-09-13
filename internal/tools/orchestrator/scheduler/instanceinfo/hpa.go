@@ -17,7 +17,7 @@ package instanceinfo
 import (
 	"fmt"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
 )
 
 func (c *Client) CreateHPAEventInfo(hpaEvent dbclient.HPAEventInfo) error {

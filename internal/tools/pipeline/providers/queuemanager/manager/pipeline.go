@@ -20,13 +20,13 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/queue/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/events"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager/queue"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/reconciler/rlog"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/loop"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/events"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager/queue"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/reconciler/rlog"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/loop"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/queue/pb"
 )
 
 // PutPipelineIntoQueue put pipeline into queue.

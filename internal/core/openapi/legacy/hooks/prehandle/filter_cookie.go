@@ -22,8 +22,8 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/auth"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/conf"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/auth"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/conf"
 )
 
 var filterCookieLock sync.Once

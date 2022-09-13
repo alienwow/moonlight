@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/erda-project/erda/pkg/cache"
+	"github.com/ping-cloudnative/moonlight/pkg/cache"
 )
 
 func TestNew(t *testing.T) {

@@ -14,7 +14,7 @@
 
 package config_manage
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var CONFIG_MANAGE_NAMESPACE_FIX = apis.ApiSpec{
 	Path:        "/api/config/namespace/fix-namespace-data-err",

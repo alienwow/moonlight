@@ -19,9 +19,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/terminal/color_str"
-	"github.com/erda-project/erda/tools/cli/status"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/terminal/color_str"
+	"github.com/ping-cloudnative/moonlight/tools/cli/status"
 )
 
 var ctx = Context{

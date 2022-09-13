@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 func UpdateIdentity(kratosPrivateAddr string, userID string, req OryKratosUpdateIdentitiyRequest) error {

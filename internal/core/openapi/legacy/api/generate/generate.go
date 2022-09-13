@@ -23,9 +23,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
-	"github.com/erda-project/erda/internal/pkg/innerdomain"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/innerdomain"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 //go:generate go run collect/collect.go
@@ -152,8 +152,8 @@ func trivialBegin(w io.Writer) {
 	io.WriteString(w, "import (\n")
 
 	importLines := []string{
-		`. "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"`,
-		`. "github.com/erda-project/erda/internal/core/openapi/legacy/api/spec"`,
+		`. "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"`,
+		`. "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/spec"`,
 	}
 	for _, pkgPath := range PkgPaths {
 		importLines = append(importLines, pkgPath)

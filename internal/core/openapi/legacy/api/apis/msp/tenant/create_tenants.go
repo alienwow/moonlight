@@ -14,7 +14,7 @@
 
 package tenant
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var CREATE_TENANTS = apis.ApiSpec{
 	Path:        "/api/msp/tenant",

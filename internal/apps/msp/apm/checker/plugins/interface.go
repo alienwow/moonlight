@@ -17,7 +17,7 @@ package plugins
 import (
 	"context"
 
-	"github.com/erda-project/erda-proto-go/msp/apm/checker/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/checker/pb"
 )
 
 // Interface .

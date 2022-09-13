@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erda-project/erda-proto-go/msp/registercenter/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/msp/instance"
-	instancedb "github.com/erda-project/erda/internal/apps/msp/instance/db"
-	"github.com/erda-project/erda/internal/apps/msp/registercenter/nacos"
-	"github.com/erda-project/erda/internal/apps/msp/registercenter/zkproxy"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance"
+	instancedb "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/registercenter/nacos"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/registercenter/zkproxy"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/registercenter/pb"
 )
 
 const engineName = "registercenter"

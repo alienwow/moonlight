@@ -14,7 +14,7 @@
 
 package dop
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var PUBLISH_ITEM_USERS = apis.ApiSpec{
 	Path:        "/api/publish-items/<publishItemId>/statistics/users",

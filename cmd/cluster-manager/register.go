@@ -15,6 +15,6 @@
 package main
 
 import (
-	_ "github.com/erda-project/erda/internal/tools/cluster-manager/cluster"
-	_ "github.com/erda-project/erda/internal/tools/cluster-manager/dialer"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/cluster-manager/cluster"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/cluster-manager/dialer"
 )

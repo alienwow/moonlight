@@ -22,10 +22,10 @@ package endpoints
 // 	"github.com/pkg/errors"
 // 	"github.com/sirupsen/logrus"
 //
-// 	"github.com/erda-project/erda/internal/core/legacy/conf"
-// 	"github.com/erda-project/erda/internal/core/legacy/model"
-// 	"github.com/erda-project/erda/internal/core/legacy/types"
-// 	"github.com/erda-project/erda/pkg/strutil"
+// 	"github.com/ping-cloudnative/moonlight/internal/core/legacy/conf"
+// 	"github.com/ping-cloudnative/moonlight/internal/core/legacy/model"
+// 	"github.com/ping-cloudnative/moonlight/internal/core/legacy/types"
+// 	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 // )
 //
 // const (

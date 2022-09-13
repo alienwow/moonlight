@@ -19,12 +19,12 @@ import (
 	"testing"
 	"time"
 
-	cronpb "github.com/erda-project/erda-proto-go/core/pipeline/cron/pb"
-	"github.com/erda-project/erda-proto-go/core/pipeline/pb"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgepipeline_register"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgereporter"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgepipeline_register"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgereporter"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
+	cronpb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cron/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/pb"
 )
 
 type CronServiceServerTestImpl struct {

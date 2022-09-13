@@ -17,11 +17,11 @@ package dbclient
 import (
 	"fmt"
 
-	"github.com/erda-project/erda/apistructs"
-	definitiondb "github.com/erda-project/erda/internal/tools/pipeline/providers/definition/db"
-	sourcedb "github.com/erda-project/erda/internal/tools/pipeline/providers/source/db"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	definitiondb "github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/definition/db"
+	sourcedb "github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/source/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
 )
 
 func (client *Client) ListPipelineBasesByIDs(pipelineIDs []uint64, ops ...SessionOption) (map[uint64]spec.PipelineBase, error) {

@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package erda.core.dicehub.release;
-option go_package = "github.com/erda-project/erda-proto-go/core/dicehub/release/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb";
 import "google/api/annotations.proto";
 import "google/protobuf/descriptor.proto";
 import "google/protobuf/struct.proto";

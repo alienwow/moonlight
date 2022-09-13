@@ -4,7 +4,7 @@ package erda.core.user;
 
 import "google/api/annotations.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/core/user/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb";
 
 service UserService {
   rpc GetUser(GetUserRequest) returns (GetUserResponse) {

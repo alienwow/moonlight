@@ -17,11 +17,11 @@ package permission
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	instancedb "github.com/erda-project/erda/internal/apps/msp/instance/db"
-	monitordb "github.com/erda-project/erda/internal/apps/msp/instance/db/monitor"
-	tenantdb "github.com/erda-project/erda/internal/apps/msp/tenant/db"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	instancedb "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	monitordb "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db/monitor"
+	tenantdb "github.com/ping-cloudnative/moonlight/internal/apps/msp/tenant/db"
 )
 
 // +provider

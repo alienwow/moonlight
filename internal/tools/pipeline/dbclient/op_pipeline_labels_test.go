@@ -20,7 +20,7 @@ package dbclient
 //	"github.com/davecgh/go-spew/spew"
 //	"github.com/stretchr/testify/assert"
 //
-//	"github.com/erda-project/erda/apistructs"
+//	"github.com/ping-cloudnative/moonlight/apistructs"
 //)
 //
 //func TestClient_GetPipelineIDsMatchLabels(t *testing.T) {

@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
 )
 
 func UpdatedTime(ctx context.Context, activeTime time.Time) string {

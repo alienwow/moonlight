@@ -17,13 +17,13 @@ package collector
 import (
 	"fmt"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	writer "github.com/erda-project/erda-infra/pkg/parallel-writer"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda-infra/providers/httpserver/interceptors"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/authentication"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/kafka"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	writer "github.com/ping-cloudnative/moonlight-utils/pkg/parallel-writer"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver/interceptors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/authentication"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/kafka"
 )
 
 type config struct {

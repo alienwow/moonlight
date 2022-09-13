@@ -22,10 +22,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/i18n"
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/envconf"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/envconf"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 type Conf struct {

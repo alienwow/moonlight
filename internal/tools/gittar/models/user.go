@@ -18,7 +18,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/erda-project/erda/internal/tools/gittar/pkg/gitmodule"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/pkg/gitmodule"
 )
 
 type Permission string

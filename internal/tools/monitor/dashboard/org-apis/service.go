@@ -22,7 +22,7 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricq"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricq"
 )
 
 var (

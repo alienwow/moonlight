@@ -28,14 +28,14 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	vpatypes "k8s.io/autoscaler/vertical-pod-autoscaler/pkg/apis/autoscaling.k8s.io/v1"
 
-	"github.com/erda-project/erda/bundle"
-	orgCache "github.com/erda-project/erda/internal/tools/orchestrator/cache/org"
-	pstypes "github.com/erda-project/erda/internal/tools/orchestrator/components/podscaler/types"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/internal/tools/orchestrator/i18n"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/plugins/k8s/scaledobject"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/util"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/instanceinfo"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	orgCache "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/cache/org"
+	pstypes "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/podscaler/types"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/plugins/k8s/scaledobject"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/util"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/instanceinfo"
 )
 
 //Synchronization strategy:

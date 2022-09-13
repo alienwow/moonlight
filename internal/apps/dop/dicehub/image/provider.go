@@ -17,11 +17,11 @@ package image
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-proto-go/core/dicehub/image/pb"
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/image/db"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/image/db"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/image/pb"
 )
 
 type config struct {

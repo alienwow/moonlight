@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/erda-project/erda/internal/apps/msp/apm/service/view/chart"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/service/view/chart"
 )
 
 func TestSelector(t *testing.T) {

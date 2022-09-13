@@ -14,7 +14,7 @@
 
 package project
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var MSP_PROJECT_OVERVIEW = apis.ApiSpec{
 	Path:        "/api/msp/tenant/project/overview",

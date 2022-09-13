@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda/pkg/secret"
+	"github.com/ping-cloudnative/moonlight/pkg/secret"
 )
 
 const (

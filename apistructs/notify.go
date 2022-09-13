@@ -17,7 +17,7 @@ package apistructs
 import (
 	"time"
 
-	"github.com/erda-project/erda/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
 )
 
 type NotifyChannel string

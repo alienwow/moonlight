@@ -24,15 +24,15 @@ import (
 
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	commonpb "github.com/erda-project/erda-proto-go/common/pb"
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/core/common"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
-	streamcommon "github.com/erda-project/erda/internal/apps/dop/providers/issue/stream/common"
-	"github.com/erda-project/erda/internal/apps/dop/services/i18n"
-	"github.com/erda-project/erda/pkg/filehelper"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/core/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
+	streamcommon "github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/stream/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/filehelper"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	commonpb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 // Convert: dao.Issue -> apistructs.Issue

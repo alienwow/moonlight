@@ -20,8 +20,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/erda-project/erda/bundle/apierrors"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/bundle/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
 )
 
 type urls map[string]string

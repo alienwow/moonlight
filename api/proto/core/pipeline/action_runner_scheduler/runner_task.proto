@@ -6,7 +6,7 @@ import "google/api/annotations.proto";
 import "common/identity.proto";
 import "common/openapi.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/core/pipeline/action_runner_scheduler/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/action_runner_scheduler/pb";
 
 service RunnerTaskService {
   option (erda.common.openapi_service) = {

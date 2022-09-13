@@ -26,14 +26,14 @@ import (
 	"google.golang.org/grpc/metadata"
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
-	clusterpb "github.com/erda-project/erda-proto-go/core/clustermanager/cluster/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/cmp/dbclient"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskresult"
-	"github.com/erda-project/erda/pkg/envconf"
-	"github.com/erda-project/erda/pkg/http/httputil"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskresult"
+	"github.com/ping-cloudnative/moonlight/pkg/envconf"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	clusterpb "github.com/ping-cloudnative/moonlight/proto-go/core/clustermanager/cluster/pb"
 )
 
 func (c *Clusters) AddClusters(ctx context.Context, req apistructs.CloudClusterRequest, userid string) (uint64, error) {

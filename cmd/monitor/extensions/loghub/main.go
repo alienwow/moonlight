@@ -15,25 +15,25 @@
 package main
 
 import (
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/tools/monitor/extensions/loghub"
-	"github.com/erda-project/erda/pkg/common"
-	"github.com/erda-project/erda/pkg/common/addon"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub"
+	"github.com/ping-cloudnative/moonlight/pkg/common"
+	"github.com/ping-cloudnative/moonlight/pkg/common/addon"
 
 	// providers and modules
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/log-service/analysis"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/log-service/analysis"
 
 	// // log export outputs
-	_ "github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/exporter"
-	_ "github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/exporter/output/elasticsearch"
-	_ "github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/exporter/output/elasticsearch-proxy"
-	_ "github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/exporter/output/stdout"
-	_ "github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/exporter/output/udp"
-	_ "github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/index/manager"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/exporter"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/exporter/output/elasticsearch"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/exporter/output/elasticsearch-proxy"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/exporter/output/stdout"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/exporter/output/udp"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/index/manager"
 
 	// infra
-	_ "github.com/erda-project/erda-infra/providers/health"
-	_ "github.com/erda-project/erda-infra/providers/pprof"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/health"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/pprof"
 )
 
 func main() {

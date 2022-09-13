@@ -18,11 +18,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/settings/pb"
-	"github.com/erda-project/erda/internal/apps/msp/instance/db"
-	monitordb "github.com/erda-project/erda/internal/apps/msp/instance/db/monitor"
-	"github.com/erda-project/erda/internal/apps/msp/resource/deploy/handlers"
-	"github.com/erda-project/erda/internal/apps/msp/resource/utils"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	monitordb "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db/monitor"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/resource/deploy/handlers"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/resource/utils"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/settings/pb"
 )
 
 func (p *provider) IsMatch(tmc *db.Tmc) bool {

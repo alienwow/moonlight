@@ -22,14 +22,14 @@ import (
 	"github.com/olivere/elastic"
 	"github.com/recallsong/go-utils/errorx"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	writer "github.com/erda-project/erda-infra/pkg/parallel-writer"
-	"github.com/erda-project/erda-infra/providers/elasticsearch"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/kafka"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	writer "github.com/ping-cloudnative/moonlight-utils/pkg/parallel-writer"
+	"github.com/ping-cloudnative/moonlight-utils/providers/elasticsearch"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/kafka"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 type config struct {

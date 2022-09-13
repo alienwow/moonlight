@@ -22,17 +22,17 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/filter"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/filter/impl"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister/base"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/project-runtime/common"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/standard-components/condition"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/types"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/filter"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/filter/impl"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister/base"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/project-runtime/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/standard-components/condition"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/types"
 )
 
 // todo placeholder

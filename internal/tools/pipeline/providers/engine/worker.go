@@ -19,8 +19,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/leaderworker"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/leaderworker/worker"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/leaderworker"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/leaderworker/worker"
 )
 
 func (p *provider) reconcileOnePipeline(ctx context.Context, logicTask worker.LogicTask) {

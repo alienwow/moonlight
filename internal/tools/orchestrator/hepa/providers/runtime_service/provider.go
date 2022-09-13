@@ -15,15 +15,15 @@
 package runtime_service
 
 import (
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-proto-go/core/hepa/runtime_service/pb"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/runtime_service/impl"
-	"github.com/erda-project/erda/pkg/common/apis"
-	perm "github.com/erda-project/erda/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/runtime_service/impl"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	perm "github.com/ping-cloudnative/moonlight/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/runtime_service/pb"
 )
 
 type config struct {

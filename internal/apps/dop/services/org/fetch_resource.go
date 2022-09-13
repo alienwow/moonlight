@@ -22,10 +22,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	dashboardPb "github.com/erda-project/erda-proto-go/cmp/dashboard/pb"
-	"github.com/erda-project/erda/apistructs"
-	calcu "github.com/erda-project/erda/pkg/resourcecalculator"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	calcu "github.com/ping-cloudnative/moonlight/pkg/resourcecalculator"
+	dashboardPb "github.com/ping-cloudnative/moonlight/proto-go/cmp/dashboard/pb"
 )
 
 func (o *Org) FetchOrgClusterResource(ctx context.Context, orgID uint64) (*apistructs.OrgClustersResourcesInfo, error) {

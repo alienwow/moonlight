@@ -17,9 +17,9 @@ package interceptor
 import (
 	"reflect"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/authentication"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/authentication"
 )
 
 var InterceptorType = reflect.TypeOf((*Interceptors)(nil)).Elem()

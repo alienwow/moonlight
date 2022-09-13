@@ -20,7 +20,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	infrahttpserver "github.com/erda-project/erda-infra/providers/httpserver"
+	infrahttpserver "github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
 )
 
 var infrahttpserverVars = infrahttpserver.Vars

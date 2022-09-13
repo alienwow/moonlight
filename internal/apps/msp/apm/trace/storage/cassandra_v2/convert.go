@@ -14,7 +14,7 @@
 
 package cassandra_v2
 
-import "github.com/erda-project/erda-proto-go/msp/apm/trace/pb"
+import "github.com/ping-cloudnative/moonlight/proto-go/msp/apm/trace/pb"
 
 func convertToPbSpans(list []*SavedSpan) []interface{} {
 	spans := make([]interface{}, 0, len(list))

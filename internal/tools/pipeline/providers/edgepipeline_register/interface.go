@@ -24,10 +24,10 @@ import (
 
 	"github.com/rancher/remotedialer"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/pkg/clusterdialer"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/pkg/clusterdialer"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
 )
 
 type Interface interface {

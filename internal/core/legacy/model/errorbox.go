@@ -17,7 +17,7 @@ package model
 import (
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 // ErrorLog 错误日志模型

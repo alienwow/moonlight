@@ -15,7 +15,7 @@
 package migrate
 
 import (
-	"github.com/erda-project/erda/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
 )
 
 const (

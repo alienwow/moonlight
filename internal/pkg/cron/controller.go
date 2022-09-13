@@ -22,7 +22,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	cronPkg "github.com/erda-project/erda/pkg/cron"
+	cronPkg "github.com/ping-cloudnative/moonlight/pkg/cron"
 )
 
 var (

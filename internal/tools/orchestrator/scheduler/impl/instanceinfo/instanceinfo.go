@@ -19,10 +19,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	insinfo "github.com/erda-project/erda/internal/tools/orchestrator/scheduler/instanceinfo"
-	"github.com/erda-project/erda/pkg/database/dbengine"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	insinfo "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/instanceinfo"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 type InstanceInfo interface {

@@ -15,9 +15,9 @@
 package pipelinetemplate
 
 import (
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-proto-go/dop/pipelinetemplate/pb"
-	dbclient "github.com/erda-project/erda/internal/apps/dop/providers/pipelinetemplate/db"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	dbclient "github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/pipelinetemplate/db"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/pipelinetemplate/pb"
 )
 
 type Interface interface {

@@ -25,8 +25,8 @@ import (
 
 	"github.com/olivere/elastic"
 
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
 )
 
 type groupHostTypeData struct {

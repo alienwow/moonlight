@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda/internal/apps/msp/instance/db/monitor"
-	"github.com/erda-project/erda/internal/apps/msp/tenant/db"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db/monitor"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/tenant/db"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
 )
 
 type tenantService struct {

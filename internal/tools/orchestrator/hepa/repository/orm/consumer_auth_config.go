@@ -15,8 +15,8 @@
 package orm
 
 import (
-	"github.com/erda-project/erda-proto-go/core/hepa/openapi_consumer/pb"
-	kongDto "github.com/erda-project/erda/internal/tools/orchestrator/hepa/kong/dto"
+	kongDto "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/kong/dto"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/openapi_consumer/pb"
 )
 
 const (

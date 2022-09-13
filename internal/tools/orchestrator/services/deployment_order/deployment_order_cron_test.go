@@ -23,9 +23,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	releasepb "github.com/erda-project/erda-proto-go/core/dicehub/release/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	releasepb "github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb"
 )
 
 func TestInspectDeploymentStatusDetail(t *testing.T) {
@@ -83,7 +83,7 @@ func TestInspectDeploymentStatusDetail(t *testing.T) {
 	}
 }
 
-////go:generate mockgen -destination=./deployment_order_release_test.go -package deployment_order github.com/erda-project/erda-proto-go/core/dicehub/release/pb ReleaseServiceServer
+////go:generate mockgen -destination=./deployment_order_release_test.go -package deployment_order github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb ReleaseServiceServer
 func TestPushOnDeploymentOrderPolling(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()

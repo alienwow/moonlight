@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/erda-project/erda/pkg/goroutine_context"
+	"github.com/ping-cloudnative/moonlight/pkg/goroutine_context"
 )
 
 const ZH = "zh-CN"

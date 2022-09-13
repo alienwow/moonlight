@@ -18,9 +18,9 @@ import (
 	"context"
 	stdtime "time"
 
-	monitorpb "github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/alert/components/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/common"
+	monitorpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 func GetInterval(startTimeMs, endTimeMs int64, minInterval stdtime.Duration, preferredPoints int64) string {

@@ -17,8 +17,8 @@ package operator
 import (
 	"testing"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model/odata"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model/odata"
 )
 
 func TestKeyExist_Match(t *testing.T) {

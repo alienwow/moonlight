@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/interceptors"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/interceptors"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
 )
 
 type config struct {

@@ -24,13 +24,13 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	commonpb "github.com/erda-project/erda-proto-go/common/pb"
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/core/common"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
-	stream "github.com/erda-project/erda/internal/apps/dop/providers/issue/stream/common"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/core/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
+	stream "github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/stream/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	commonpb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 func (p *provider) UpdateIssue(req *pb.UpdateIssueRequest) error {

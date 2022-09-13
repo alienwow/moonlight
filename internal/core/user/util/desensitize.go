@@ -15,9 +15,9 @@
 package util
 
 import (
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/desensitize"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/desensitize"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 func Densensitize(IDs []string, b []*userpb.User, needDesensitize bool) map[string]apistructs.UserInfo {

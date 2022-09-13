@@ -20,7 +20,7 @@ package oas3_test
 //	"io/ioutil"
 //	"testing"
 //
-//	"github.com/erda-project/erda/pkg/swagger/oas3"
+//	"github.com/ping-cloudnative/moonlight/pkg/swagger/oas3"
 //)
 //
 //const petstore = "./testdata/petstore-oas3.json"

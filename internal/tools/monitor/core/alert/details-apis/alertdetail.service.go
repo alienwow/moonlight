@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/alertdetail/pb"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alertdetail/pb"
 )
 
 type alertDetailService struct {

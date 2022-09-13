@@ -15,8 +15,8 @@
 package deftype
 
 import (
-	common "github.com/erda-project/erda-proto-go/core/pipeline/pb"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	common "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/pb"
 )
 
 type ProjectPipelineEndCron struct {

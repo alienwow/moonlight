@@ -24,10 +24,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/Knetic/govaluate.v3"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/mock"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml/pexpr"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/mock"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml/pexpr"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // 匹配 ${{ xxx }}

@@ -20,8 +20,8 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
 )
 
 func TestNewVolumeID(t *testing.T) {

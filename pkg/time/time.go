@@ -14,7 +14,7 @@
 
 package time
 
-import "github.com/erda-project/erda/pkg/math"
+import "github.com/ping-cloudnative/moonlight/pkg/math"
 
 var (
 	Nanosecond  float64 = 1                  // ns

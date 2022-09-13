@@ -17,16 +17,16 @@ package slow_count
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/linegraph/impl"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda-proto-go/msp/apm/service/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/service/datasources"
-	"github.com/erda-project/erda/internal/apps/msp/apm/service/view/common"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/linegraph/impl"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/service/datasources"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/service/view/common"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/service/pb"
 )
 
 type provider struct {

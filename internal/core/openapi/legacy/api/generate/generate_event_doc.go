@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/generate/apistruct"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/generate/apistruct"
 )
 
 var eventDocJSON = make(apistruct.JSON)

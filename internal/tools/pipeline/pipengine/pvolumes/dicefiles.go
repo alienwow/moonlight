@@ -15,7 +15,7 @@
 package pvolumes
 
 import (
-	"github.com/erda-project/erda/pkg/metadata"
+	"github.com/ping-cloudnative/moonlight/pkg/metadata"
 )
 
 func GenerateTaskDiceFileVolume(fileName, fileUUID, fileContainerPath string) metadata.MetadataField {

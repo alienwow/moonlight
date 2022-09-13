@@ -20,7 +20,7 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda/internal/core/legacy/services/dingtalk/api/native"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/dingtalk/api/native"
 )
 
 func Test_GetUserIdsByPhones_Should_Success(t *testing.T) {

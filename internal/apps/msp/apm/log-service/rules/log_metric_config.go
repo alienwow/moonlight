@@ -22,11 +22,11 @@ import (
 	uuid "github.com/satori/go.uuid"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/log-service/analysis/processors"
-	"github.com/erda-project/erda/internal/apps/msp/apm/log-service/rules/db"
-	"github.com/erda-project/erda/internal/pkg/mysql"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/log-service/analysis/processors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/log-service/rules/db"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/mysql"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 // ListLogMetricConfig .

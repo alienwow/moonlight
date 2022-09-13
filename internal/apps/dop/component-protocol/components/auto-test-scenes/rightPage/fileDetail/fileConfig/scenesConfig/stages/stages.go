@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/erda-project/erda/apistructs"
-	st "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/pkg/autotest/step"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	st "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/pkg/autotest/step"
 )
 
 type MU struct {

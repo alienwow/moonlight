@@ -1,6 +1,6 @@
 syntax = "proto3";
 package erda.core.dop.taskerror;
-option go_package = "github.com/erda-project/erda-proto-go/core/dop/taskerror/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/dop/taskerror/pb";
 
 import "google/api/annotations.proto";
 import "common/openapi.proto";

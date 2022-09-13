@@ -19,8 +19,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/pkg/registryhelper"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/pkg/registryhelper"
 )
 
 // DeleteManifests deletes manifests from the cluster inner image registry

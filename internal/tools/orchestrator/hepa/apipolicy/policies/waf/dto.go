@@ -19,7 +19,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/apipolicy"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/apipolicy"
 )
 
 const (

@@ -18,7 +18,7 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/pkg/cron"
+	"github.com/ping-cloudnative/moonlight/pkg/cron"
 )
 
 func (y *PipelineYml) validateTriggers() error {

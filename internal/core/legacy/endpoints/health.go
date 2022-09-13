@@ -18,9 +18,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/erda-project/erda-infra/base/version"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight-utils/base/version"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
 )
 
 // Health Component health check interface

@@ -18,7 +18,7 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
 )
 
 var (

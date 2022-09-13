@@ -22,11 +22,11 @@ import (
 	"github.com/rancher/remotedialer"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/tools/cluster-agent/config"
-	"github.com/erda-project/erda/internal/tools/cluster-agent/pkg/client"
-	"github.com/erda-project/erda/internal/tools/cluster-agent/pkg/leaderelection"
-	k8sclientconfig "github.com/erda-project/erda/pkg/k8sclient/config"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/tools/cluster-agent/config"
+	"github.com/ping-cloudnative/moonlight/internal/tools/cluster-agent/pkg/client"
+	"github.com/ping-cloudnative/moonlight/internal/tools/cluster-agent/pkg/leaderelection"
+	k8sclientconfig "github.com/ping-cloudnative/moonlight/pkg/k8sclient/config"
 )
 
 type provider struct {

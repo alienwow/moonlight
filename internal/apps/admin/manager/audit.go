@@ -20,9 +20,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/erda-project/erda/internal/apps/admin/apierrors"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/internal/apps/admin/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
 )
 
 func (am *AdminManager) AppendAuditEndpoint() {

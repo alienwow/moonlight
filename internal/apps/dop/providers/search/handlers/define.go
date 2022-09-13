@@ -21,7 +21,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-proto-go/dop/search/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/search/pb"
 )
 
 type SearchType string

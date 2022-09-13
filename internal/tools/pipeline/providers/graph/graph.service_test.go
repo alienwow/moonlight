@@ -22,10 +22,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/base/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/base/pb"
 )
 
 func Test_loadGraphActionNameAndLogo(t *testing.T) {

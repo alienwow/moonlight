@@ -24,14 +24,14 @@ import (
 	"github.com/olivere/elastic"
 	"github.com/recallsong/go-utils/encoding/jsonx"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
-	query2 "github.com/erda-project/erda/internal/tools/monitor/core/metric/query"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
+	query2 "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/chartmeta"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricmeta"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/query"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/chartmeta"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricmeta"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/query"
 )
 
 type queryer struct {

@@ -21,15 +21,15 @@ import (
 	"github.com/rancher/wrangler/pkg/data"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister/base"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda/internal/apps/cmp"
-	"github.com/erda-project/erda/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common"
-	"github.com/erda-project/erda/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common/chart"
-	cputil2 "github.com/erda-project/erda/internal/apps/cmp/component-protocol/cputil"
-	"github.com/erda-project/erda/internal/apps/cmp/metrics"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister/base"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common/chart"
+	cputil2 "github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/cputil"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/metrics"
 )
 
 var steveServer cmp.SteveServer

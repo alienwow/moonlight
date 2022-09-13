@@ -14,7 +14,7 @@
 
 package model
 
-import "github.com/erda-project/erda/pkg/encoding/jsonmap"
+import "github.com/ping-cloudnative/moonlight/pkg/encoding/jsonmap"
 
 var WindowKeys = []int64{1, 3, 5, 10, 15, 30}
 

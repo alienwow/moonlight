@@ -25,10 +25,10 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/expression/pb"
-	"github.com/erda-project/erda/internal/core/legacy/dao"
-	alertdb "github.com/erda-project/erda/internal/tools/monitor/core/alert/alert-apis/db"
-	"github.com/erda-project/erda/internal/tools/monitor/core/expression/model"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/dao"
+	alertdb "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/alert/alert-apis/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/expression/model"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/expression/pb"
 )
 
 const (

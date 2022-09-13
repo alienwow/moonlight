@@ -21,9 +21,9 @@ import (
 
 	sls "github.com/aliyun/aliyun-log-go-sdk"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/pkg/metrics/report"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/metrics/report"
 )
 
 type (

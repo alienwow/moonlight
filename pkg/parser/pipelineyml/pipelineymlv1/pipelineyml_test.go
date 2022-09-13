@@ -21,7 +21,7 @@ package pipelineymlv1
 //
 //	"github.com/stretchr/testify/require"
 //
-//	"github.com/erda-project/erda/apistructs"
+//	"github.com/ping-cloudnative/moonlight/apistructs"
 //)
 //
 //func TestPipelineYml_Unmarshal(t *testing.T) {

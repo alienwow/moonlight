@@ -17,7 +17,7 @@ package db
 import (
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/internal/core/legacy/dao"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/dao"
 )
 
 type DBClient struct {

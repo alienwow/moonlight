@@ -14,7 +14,7 @@
 
 package apistructs
 
-import "github.com/erda-project/erda/pkg/license"
+import "github.com/ping-cloudnative/moonlight/pkg/license"
 
 // LicenseResponse 查询license响应数据
 type LicenseResponse struct {

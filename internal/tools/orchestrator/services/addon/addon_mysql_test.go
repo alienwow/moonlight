@@ -18,14 +18,14 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/orchestrator/components/addon/mysql"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/internal/tools/orchestrator/services/log"
-	"github.com/erda-project/erda/internal/tools/orchestrator/services/resource"
-	"github.com/erda-project/erda/pkg/crypto/encryption"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/kms/kmstypes"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/addon/mysql"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/services/log"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/services/resource"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/encryption"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmstypes"
 )
 
 func Test_buildMySQLAccount(t *testing.T) {

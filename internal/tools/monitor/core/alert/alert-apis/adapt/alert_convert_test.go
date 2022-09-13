@@ -21,11 +21,11 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/monitor/core/alert/alert-apis/db"
-	"github.com/erda-project/erda/pkg/encoding/jsonmap"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/alert/alert-apis/db"
+	"github.com/ping-cloudnative/moonlight/pkg/encoding/jsonmap"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
 )
 
 type translator struct {

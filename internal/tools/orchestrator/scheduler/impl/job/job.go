@@ -19,14 +19,14 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/conf"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/cluster/clusterutil"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/task"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
-	"github.com/erda-project/erda/pkg/jsonstore"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/cluster/clusterutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/task"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 const (

@@ -2,9 +2,9 @@
 ARG BASE_DOCKER_IMAGE
 FROM ${BASE_DOCKER_IMAGE} as build
 
-RUN mkdir -p "$GOPATH/src/github.com/erda-project/erda/"
-COPY . "$GOPATH/src/github.com/erda-project/erda/"
-WORKDIR "$GOPATH/src/github.com/erda-project/erda/"
+RUN mkdir -p "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
+COPY . "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
+WORKDIR "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
 RUN mkdir /tmp/dicehub-extension
 RUN if [ -d "extensions" ] ; then mv extensions/* /tmp/dicehub-extension ; fi
 
@@ -44,7 +44,7 @@ RUN \
 COPY --from=app-handler /erda-handled /erda
 
 # use for gittar
-COPY --from=build "/go/src/github.com/erda-project/erda/build/dockerfiles/gittar-resource/.gitconfig" "/root/.gitconfig"
+COPY --from=build "/go/src/github.com/ping-cloudnative/moonlight/build/dockerfiles/gittar-resource/.gitconfig" "/root/.gitconfig"
 
 WORKDIR /erda
 CMD ["sh", "-c", "/erda/cmd/${MODULE_PATH}/bin"]

@@ -15,12 +15,12 @@
 package collector
 
 import (
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/authentication"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/plugins"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/authentication"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/plugins"
 )
 
 var providerName = plugins.WithPrefixReceiver("collector")

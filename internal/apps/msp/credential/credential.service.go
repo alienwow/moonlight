@@ -21,13 +21,13 @@ import (
 	"strconv"
 	"strings"
 
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda-proto-go/msp/credential/pb"
-	tenantpb "github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda/internal/pkg/audit"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/common/errors"
-	"github.com/erda-project/erda/pkg/oauth2/tokenstore/mysqltokenstore"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/audit"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/pkg/oauth2/tokenstore/mysqltokenstore"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/credential/pb"
+	tenantpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
 )
 
 type accessKeyService struct {

@@ -21,7 +21,7 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda/internal/core/legacy/services/dingtalk/api/native"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/dingtalk/api/native"
 )
 
 func Test_RegisterApp_WithMultipleTimes_Should_CreateOnlyOneRequestLock(t *testing.T) {

@@ -19,19 +19,19 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	eventpb "github.com/erda-project/erda-proto-go/core/messenger/eventbox/pb"
-	"github.com/erda-project/erda-proto-go/core/messenger/notify/pb"
-	"github.com/erda-project/erda/internal/core/legacy"
-	"github.com/erda-project/erda/internal/core/legacy/services/dingtalk/api/interfaces"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/input/http"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/monitor"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/register"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/webhook"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/pkg/common/apis"
-	perm "github.com/erda-project/erda/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/dingtalk/api/interfaces"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/input/http"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/monitor"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/register"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/webhook"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	perm "github.com/ping-cloudnative/moonlight/pkg/common/permission"
+	eventpb "github.com/ping-cloudnative/moonlight/proto-go/core/messenger/eventbox/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notify/pb"
 )
 
 type config struct{}

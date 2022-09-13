@@ -22,8 +22,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 var registerOnce sync.Once

@@ -26,8 +26,8 @@ update-gohub:
 	echo "update infra and gohub"
 	go env -w GO111MODULE=on
 	go env -w GOPROXY="$(GOPROXY)"
-	go get -u github.com/erda-project/erda-infra
-	go install github.com/erda-project/erda-infra/tools/gohub
+	go get -u github.com/ping-cloudnative/moonlight-utils
+	go install github.com/ping-cloudnative/moonlight-utils/tools/gohub
 	gohub tools install -v --goproxy="$(GOPROXY)" --ghproxy="$(GHPROXY)"
 
 build-use-docker-image:

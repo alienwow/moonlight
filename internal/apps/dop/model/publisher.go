@@ -14,7 +14,7 @@
 
 package model
 
-import "github.com/erda-project/erda/pkg/database/dbengine"
+import "github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
 
 // Publisher 资源模型
 type Publisher struct {

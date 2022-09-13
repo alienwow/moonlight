@@ -1,7 +1,7 @@
 
 ## Moonlight
 
-[![license](https://img.shields.io/github/license/erda-project/erda.svg)](https://github.com/erda-project/erda/blob/main/LICENSE)
+[![license](https://img.shields.io/github/license/erda-project/erda.svg)](https://github.com/ping-cloudnative/moonlight/blob/main/LICENSE)
 
 ## Introduction
 

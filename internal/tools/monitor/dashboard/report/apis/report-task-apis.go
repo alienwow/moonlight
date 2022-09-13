@@ -29,16 +29,16 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v2"
 
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	cronpb "github.com/erda-project/erda-proto-go/core/pipeline/cron/pb"
-	dicestructs "github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/pkg/mysql"
-	block "github.com/erda-project/erda/internal/tools/monitor/core/dataview/v1-chart-block"
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cron/crontypes"
-	"github.com/erda-project/erda/pkg/common/apis"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
-	"github.com/erda-project/erda/pkg/discover"
+	dicestructs "github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/mysql"
+	block "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/dataview/v1-chart-block"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cron/crontypes"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
+	cronpb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cron/pb"
 )
 
 func (p *provider) creatOrgReportTask(obj *reportTask) interface{} {

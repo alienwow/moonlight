@@ -19,8 +19,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/pkg/safe"
-	"github.com/erda-project/erda/internal/core/legacy/services/apierrors"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/safe"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/apierrors"
 )
 
 func (p *provider) asyncCleanupExpiredFiles() {

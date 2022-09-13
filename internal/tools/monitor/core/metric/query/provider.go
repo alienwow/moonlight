@@ -25,24 +25,24 @@ import (
 	"github.com/go-redis/redis"
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-infra/pkg/transport/http/encoding"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql/formats/chartv2"  //
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql/formats/dict"     //
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql/formats/influxdb" //
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql/influxql"         //
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricmeta"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/query"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/storage"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse"
-	indexloader "github.com/erda-project/erda/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	transhttp "github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport/http/encoding"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql/formats/chartv2"  //
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql/formats/dict"     //
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql/formats/influxdb" //
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql/influxql"         //
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricmeta"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/query"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/storage"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse"
+	indexloader "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/elasticsearch/index/loader"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 type config struct {

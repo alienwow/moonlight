@@ -25,8 +25,8 @@ import (
 	"github.com/coreos/etcd/clientv3"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/jsonstore/etcd"
-	"github.com/erda-project/erda/pkg/kms/kmstypes"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/etcd"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmstypes"
 )
 
 const (

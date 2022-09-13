@@ -17,7 +17,7 @@ package testplan
 import (
 	"net/http"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var CANCEL_APITEST = apis.ApiSpec{

@@ -25,7 +25,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/template"
+	"github.com/ping-cloudnative/moonlight/pkg/template"
 )
 
 // Runner .

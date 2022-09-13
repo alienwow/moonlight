@@ -17,7 +17,7 @@ package queue
 import (
 	"fmt"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 func (q *defaultQueue) BatchUpdatePipelinePriorityInQueue(pipelines []*spec.Pipeline) error {

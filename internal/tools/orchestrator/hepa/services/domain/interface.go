@@ -17,13 +17,13 @@ package domain
 import (
 	"context"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/endpoint"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/gateway/dto"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/service"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/endpoint"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/gateway/dto"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/service"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
 )
 
 var Service GatewayDomainService

@@ -23,8 +23,8 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager/manager"
-	"github.com/erda-project/erda/pkg/jsonstore/etcd"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager/manager"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/etcd"
 )
 
 func TestContinueBackupQueueUsage(t *testing.T) {

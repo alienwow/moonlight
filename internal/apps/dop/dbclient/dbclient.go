@@ -22,8 +22,8 @@ import (
 	"github.com/jinzhu/gorm"
 	gormbulk "github.com/t-tiger/gorm-bulk-insert"
 
-	"github.com/erda-project/erda/internal/apps/dop/conf"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/conf"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
 )
 
 const BULK_INSERT_CHUNK_SIZE = 3000

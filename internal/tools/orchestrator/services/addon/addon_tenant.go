@@ -21,12 +21,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
-	"github.com/erda-project/erda/pkg/kms/kmstypes"
-	"github.com/erda-project/erda/pkg/mysqlhelper"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmstypes"
+	"github.com/ping-cloudnative/moonlight/pkg/mysqlhelper"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 const (

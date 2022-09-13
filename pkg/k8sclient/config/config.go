@@ -22,8 +22,8 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/util/flowcontrol"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/clusterdialer"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/clusterdialer"
 )
 
 // ParseManageConfig parse manage config to rest.Config

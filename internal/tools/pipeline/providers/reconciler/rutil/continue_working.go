@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/erda-project/erda-infra/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
 )
 
 type WaitDuration time.Duration

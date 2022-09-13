@@ -20,17 +20,17 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	commonpb "github.com/erda-project/erda-proto-go/common/pb"
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	syncpb "github.com/erda-project/erda-proto-go/dop/issue/sync/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
-	stream "github.com/erda-project/erda/internal/apps/dop/providers/issue/stream/core"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
+	stream "github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/stream/core"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	commonpb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
+	syncpb "github.com/ping-cloudnative/moonlight/proto-go/dop/issue/sync/pb"
 )
 
 type config struct {

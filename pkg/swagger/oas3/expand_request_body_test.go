@@ -20,7 +20,7 @@ import (
 
 	"github.com/getkin/kin-openapi/openapi3"
 
-	oas32 "github.com/erda-project/erda/pkg/swagger/oas3"
+	oas32 "github.com/ping-cloudnative/moonlight/pkg/swagger/oas3"
 )
 
 const text = `{

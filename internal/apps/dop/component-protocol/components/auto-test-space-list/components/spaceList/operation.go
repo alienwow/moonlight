@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/bdl"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/auto-test-space-list/components/spaceFormModal"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/bdl"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/auto-test-space-list/components/spaceFormModal"
 )
 
 const (

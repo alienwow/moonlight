@@ -24,15 +24,15 @@ import (
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/dyvmsapi"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-proto-go/core/messenger/notify/pb"
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/subscriber"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/types"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/subscriber"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/types"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notify/pb"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 // VoiceSubscriber 语音通知分发

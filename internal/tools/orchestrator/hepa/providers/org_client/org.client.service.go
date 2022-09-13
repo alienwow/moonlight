@@ -19,12 +19,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-proto-go/core/hepa/org_client/pb"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/vars"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/gateway/exdto"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/org_client"
-	"github.com/erda-project/erda/pkg/common/apis"
-	erdaErr "github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/vars"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/gateway/exdto"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/org_client"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	erdaErr "github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/org_client/pb"
 )
 
 type orgClientService struct {

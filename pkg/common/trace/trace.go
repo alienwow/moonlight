@@ -30,8 +30,8 @@ import (
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
 
-	traceinject "github.com/erda-project/erda-infra/pkg/trace/inject"
-	"github.com/erda-project/erda/pkg/common/entrance"
+	traceinject "github.com/ping-cloudnative/moonlight-utils/pkg/trace/inject"
+	"github.com/ping-cloudnative/moonlight/pkg/common/entrance"
 )
 
 func getServiceName() string {

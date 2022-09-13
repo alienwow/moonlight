@@ -19,7 +19,7 @@ import (
 	typev1beta1 "istio.io/api/type/v1beta1"
 	"istio.io/client-go/pkg/apis/security/v1beta1"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func NewPeerAuthentication(svc *apistructs.Service) *v1beta1.PeerAuthentication {

@@ -15,10 +15,10 @@
 package nexussvc
 
 import (
-	"github.com/erda-project/erda-proto-go/core/pipeline/cms/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/dao"
-	"github.com/erda-project/erda/pkg/crypto/encryption"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/encryption"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cms/pb"
 )
 
 // NexusSvc nexus 操作封装

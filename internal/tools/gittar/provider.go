@@ -19,11 +19,11 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/etcd"
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda/internal/core/org"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/etcd"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 type provider struct {

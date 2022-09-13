@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/erda-project/erda/pkg/swagger/oas2"
-	"github.com/erda-project/erda/pkg/swagger/oasconv"
+	"github.com/ping-cloudnative/moonlight/pkg/swagger/oas2"
+	"github.com/ping-cloudnative/moonlight/pkg/swagger/oasconv"
 )
 
 const (

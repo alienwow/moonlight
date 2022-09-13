@@ -17,10 +17,10 @@ package generalability
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	dicehubpb "github.com/erda-project/erda-proto-go/core/dicehub/release/pb"
-	"github.com/erda-project/erda/internal/apps/msp/resource/deploy/handlers"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/resource/deploy/handlers"
+	dicehubpb "github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb"
 )
 
 type config struct {

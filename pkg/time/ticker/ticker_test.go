@@ -22,7 +22,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/pkg/time/ticker"
+	"github.com/ping-cloudnative/moonlight/pkg/time/ticker"
 )
 
 func TestExitError_Error(t *testing.T) {

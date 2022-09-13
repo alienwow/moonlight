@@ -14,7 +14,7 @@
 
 package actionagent
 
-import "github.com/erda-project/erda/apistructs"
+import "github.com/ping-cloudnative/moonlight/apistructs"
 
 type Interface interface {
 	// Ensure ensures that the agent is available:

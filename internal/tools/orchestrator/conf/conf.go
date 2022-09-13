@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/erda-project/erda/pkg/envconf"
+	"github.com/ping-cloudnative/moonlight/pkg/envconf"
 )
 
 const (

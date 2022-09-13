@@ -10,12 +10,12 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 
-	pb "github.com/erda-project/erda-proto-go/common/pb"
-	pb0 "github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	pb1 "github.com/erda-project/erda-proto-go/dop/issue/sync/pb"
-	apistructs "github.com/erda-project/erda/apistructs"
-	query "github.com/erda-project/erda/internal/apps/dop/providers/issue/core/query"
-	dao "github.com/erda-project/erda/internal/apps/dop/providers/issue/dao"
+	pb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	pb0 "github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
+	pb1 "github.com/ping-cloudnative/moonlight/proto-go/dop/issue/sync/pb"
+	apistructs "github.com/ping-cloudnative/moonlight/apistructs"
+	query "github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/core/query"
+	dao "github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/issue/dao"
 )
 
 // MockInterface is a mock of Interface interface.

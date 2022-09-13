@@ -15,7 +15,7 @@
 package test_report
 
 import (
-	_ "github.com/erda-project/erda/internal/apps/dop/component-protocol/components/test-report/createReportButton"
-	_ "github.com/erda-project/erda/internal/apps/dop/component-protocol/components/test-report/filter"
-	_ "github.com/erda-project/erda/internal/apps/dop/component-protocol/components/test-report/table"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/test-report/createReportButton"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/test-report/filter"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/test-report/table"
 )

@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda-proto-go/pkg/containerfilemanager/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/pkg/containerfilemanager/pb"
 )
 
 func Test_parseFileList(t *testing.T) {

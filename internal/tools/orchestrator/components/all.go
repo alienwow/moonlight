@@ -15,7 +15,7 @@
 package components
 
 import (
-	_ "github.com/erda-project/erda/internal/tools/orchestrator/components/addon/mysql"
-	_ "github.com/erda-project/erda/internal/tools/orchestrator/components/podscaler"
-	_ "github.com/erda-project/erda/internal/tools/orchestrator/components/runtime"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/addon/mysql"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/podscaler"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/runtime"
 )

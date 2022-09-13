@@ -20,7 +20,7 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda/internal/core/user/common"
+	"github.com/ping-cloudnative/moonlight/internal/core/user/common"
 )
 
 func Test_getUserByKey(t *testing.T) {

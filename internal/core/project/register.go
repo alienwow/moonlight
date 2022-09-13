@@ -15,5 +15,5 @@
 package project
 
 import (
-	_ "github.com/erda-project/erda-infra/providers/mysql/v2"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/mysql/v2"
 )

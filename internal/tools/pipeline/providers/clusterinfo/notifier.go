@@ -14,7 +14,7 @@
 
 package clusterinfo
 
-import "github.com/erda-project/erda/apistructs"
+import "github.com/ping-cloudnative/moonlight/apistructs"
 
 type Notifier interface {
 	RegisterClusterEvent() <-chan apistructs.ClusterEvent

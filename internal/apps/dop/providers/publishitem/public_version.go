@@ -19,9 +19,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-proto-go/dop/publishitem/pb"
-	"github.com/erda-project/erda/internal/apps/dop/providers/publishitem/db"
-	"github.com/erda-project/erda/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/publishitem/db"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/publishitem/pb"
 )
 
 // publicReleaseVersion 上架正式版

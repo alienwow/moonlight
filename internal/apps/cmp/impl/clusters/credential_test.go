@@ -29,11 +29,11 @@ import (
 	fakeclientset "k8s.io/client-go/kubernetes/fake"
 	"k8s.io/client-go/rest"
 
-	clusterpb "github.com/erda-project/erda-proto-go/core/clustermanager/cluster/pb"
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/cmp/dbclient"
-	"github.com/erda-project/erda/pkg/k8sclient"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/dbclient"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient"
+	clusterpb "github.com/ping-cloudnative/moonlight/proto-go/core/clustermanager/cluster/pb"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
 )
 
 var (
@@ -91,7 +91,7 @@ func getMockTokenServiceServer(ctrl *gomock.Controller) *MockTokenServiceServer 
 	return akService
 }
 
-////go:generate mockgen -destination=./credential_ak_test.go -package clusters github.com/erda-project/erda-proto-go/core/services/authentication/credentials/accesskey/pb AccessKeyServiceServer
+////go:generate mockgen -destination=./credential_ak_test.go -package clusters github.com/ping-cloudnative/moonlight/proto-go/core/services/authentication/credentials/accesskey/pb AccessKeyServiceServer
 func Test_GetOrCreateAccessKey_Create(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()

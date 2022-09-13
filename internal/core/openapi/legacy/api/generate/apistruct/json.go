@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 type JSON map[string]interface{}

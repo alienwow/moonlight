@@ -17,14 +17,14 @@ package main
 import (
 	_ "embed"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/tools/monitor/core/diagnotor/agent/bootstrap"
-	"github.com/erda-project/erda/pkg/common"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/diagnotor/agent/bootstrap"
+	"github.com/ping-cloudnative/moonlight/pkg/common"
 
 	// modules
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/diagnotor/agent"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/diagnotor/agent"
 	// providers
-	_ "github.com/erda-project/erda-infra/providers"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers"
 )
 
 //go:embed bootstrap.yaml

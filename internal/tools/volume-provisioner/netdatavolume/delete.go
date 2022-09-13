@@ -21,7 +21,7 @@ import (
 	"github.com/sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"
 
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func (p *netDataVolumeProvisioner) Delete(ctx context.Context, pv *v1.PersistentVolume) error {

@@ -19,8 +19,8 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
 )
 
 func (p *provider) intRoutes(routes httpserver.Router, prefix string) error {

@@ -29,15 +29,15 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/gittar/conf"
-	"github.com/erda-project/erda/internal/tools/gittar/helper"
-	"github.com/erda-project/erda/internal/tools/gittar/models"
-	"github.com/erda-project/erda/internal/tools/gittar/pkg/gitmodule"
-	"github.com/erda-project/erda/internal/tools/gittar/pkg/gitmodule/tool"
-	"github.com/erda-project/erda/internal/tools/gittar/pkg/util"
-	"github.com/erda-project/erda/internal/tools/gittar/webcontext"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/helper"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/models"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/pkg/gitmodule"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/pkg/gitmodule/tool"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/pkg/util"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/webcontext"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func isTextType(contentType string) bool {

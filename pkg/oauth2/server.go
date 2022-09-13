@@ -26,8 +26,8 @@ import (
 	"gopkg.in/oauth2.v3/manage"
 	"gopkg.in/oauth2.v3/server"
 
-	"github.com/erda-project/erda/pkg/oauth2/clientstore/mysqlclientstore"
-	"github.com/erda-project/erda/pkg/oauth2/tokenstore/mysqltokenstore"
+	"github.com/ping-cloudnative/moonlight/pkg/oauth2/clientstore/mysqlclientstore"
+	"github.com/ping-cloudnative/moonlight/pkg/oauth2/tokenstore/mysqltokenstore"
 )
 
 type OAuth2Server struct {

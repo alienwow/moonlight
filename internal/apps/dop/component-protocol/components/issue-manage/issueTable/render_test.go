@@ -21,10 +21,10 @@ import (
 	gomock "github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	idpb "github.com/erda-project/erda-infra/providers/component-protocol/protobuf/proto-go/cp/pb"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	idpb "github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/protobuf/proto-go/cp/pb"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 func TestGetTotalPage(t *testing.T) {

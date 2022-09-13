@@ -20,16 +20,16 @@ import (
 
 	"github.com/labstack/echo"
 
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/receivercurrentlimiter"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/receivercurrentlimiter"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/protoparser/promremotewrite"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/plugins"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/protoparser/promremotewrite"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/plugins"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
 )
 
 var providerName = plugins.WithPrefixReceiver("prometheus-remote-write")

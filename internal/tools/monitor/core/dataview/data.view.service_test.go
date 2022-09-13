@@ -22,9 +22,9 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-proto-go/core/monitor/dataview/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/core/dataview/db"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/dataview/db"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/dataview/pb"
 )
 
 func Test_dataViewService_ListSystemViews(t *testing.T) {

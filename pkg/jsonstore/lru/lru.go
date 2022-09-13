@@ -22,8 +22,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/pkg/jsonstore/js_util"
-	"github.com/erda-project/erda/pkg/jsonstore/storetypes"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/js_util"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/storetypes"
 )
 
 type LruStore struct {

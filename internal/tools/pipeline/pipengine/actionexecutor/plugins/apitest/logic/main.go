@@ -22,12 +22,12 @@ import (
 
 	"golang.org/x/net/publicsuffix"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/apitestsv2"
-	"github.com/erda-project/erda/pkg/apitestsv2/cookiejar"
-	"github.com/erda-project/erda/pkg/envconf"
-	"github.com/erda-project/erda/pkg/http/customhttp"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/apitestsv2"
+	"github.com/ping-cloudnative/moonlight/pkg/apitestsv2/cookiejar"
+	"github.com/ping-cloudnative/moonlight/pkg/envconf"
+	"github.com/ping-cloudnative/moonlight/pkg/http/customhttp"
 )
 
 const CookieJar = "cookieJar"

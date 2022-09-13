@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/erda-project/erda-proto-go/msp/configcenter/pb"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/configcenter/pb"
 )
 
 // SearchMode .

@@ -21,7 +21,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/pkg/storage"
+	"github.com/ping-cloudnative/moonlight/pkg/storage"
 )
 
 // BaseModel common info for all models

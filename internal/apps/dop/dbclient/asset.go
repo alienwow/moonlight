@@ -15,7 +15,7 @@
 package dbclient
 
 import (
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 // APIAsset is dice_api_assets model

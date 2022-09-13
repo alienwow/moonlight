@@ -25,7 +25,7 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/ddlreverser"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/ddlreverser"
 )
 
 const createTable = `

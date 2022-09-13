@@ -26,11 +26,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda-proto-go/pkg/containerfilemanager/pb"
-	"github.com/erda-project/erda/pkg/common/errors"
-	httpapi "github.com/erda-project/erda/pkg/common/httpapi"
-	perm "github.com/erda-project/erda/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	httpapi "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	perm "github.com/ping-cloudnative/moonlight/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight/proto-go/pkg/containerfilemanager/pb"
 )
 
 type fileManagerService struct {

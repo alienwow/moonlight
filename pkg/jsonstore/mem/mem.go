@@ -21,7 +21,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/pkg/jsonstore/storetypes"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/storetypes"
 )
 
 type MemStore struct {

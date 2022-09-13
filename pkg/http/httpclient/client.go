@@ -31,7 +31,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/clusterdialer"
+	"github.com/ping-cloudnative/moonlight/pkg/clusterdialer"
 )
 
 type BasicAuth struct {

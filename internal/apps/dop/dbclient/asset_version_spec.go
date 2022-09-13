@@ -20,7 +20,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 // APIAssetVersionSpec is dice_api_asset_version_specs model

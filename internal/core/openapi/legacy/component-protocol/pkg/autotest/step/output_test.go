@@ -22,9 +22,9 @@ import (
 	"bou.ke/monkey"
 	"github.com/alecthomas/assert"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
 )
 
 const testStepsData string = `[{"id":162,"type":"API","method":"","value":"{\"apiSpec\":{\"asserts\":[],\"body\":{\"content\":null,\"type\":\"\"},\"headers\":null,\"id\":\"\",\"method\":\"DELETE\",\"name\":\"deleteOrder\",\"out_params\":[{\"expression\":\"data.id\",\"key\":\"as\",\"source\":\"body:json\"}],\"params\":null,\"url\":\"/v2/store/order/{orderId}\"}}","name":"deleteOrder","preID":0,"preType":"Serial","sceneID":54,"spaceID":6,"creatorID":"","updaterID":"","Children":null,"apiSpecID":6},{"id":163,"type":"API","method":"","value":"{\"apiSpec\":{\"asserts\":[],\"body\":{\"content\":null,\"type\":\"\"},\"headers\":null,\"id\":\"\",\"method\":\"DELETE\",\"name\":\"deleteOrder\",\"out_params\":[{\"expression\":\"data.id\",\"key\":\"asd\",\"source\":\"body:json\"},{\"expression\":\"data.status\",\"key\":\"asd\",\"source\":\"body:json\"}],\"params\":[],\"url\":\"/sadfs/sad\"}}","name":"deleteOrder","preID":162,"preType":"Serial","sceneID":54,"spaceID":6,"creatorID":"","updaterID":"","Children":null,"apiSpecID":0}]`

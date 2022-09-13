@@ -23,9 +23,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/conf"
-	"github.com/erda-project/erda/internal/core/user/common"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/conf"
+	"github.com/ping-cloudnative/moonlight/internal/core/user/common"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 func Whoami(kratosPublicAddr string, sessionID string) (common.UserInfo, error) {

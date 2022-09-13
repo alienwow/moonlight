@@ -21,10 +21,10 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-proto-go/dop/publishitem/pb"
-	"github.com/erda-project/erda/internal/apps/dop/providers/publishitem/db"
-	"github.com/erda-project/erda/pkg/database/dbengine"
-	"github.com/erda-project/erda/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/publishitem/db"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/publishitem/pb"
 )
 
 func Test_publicReleaseVersion(t *testing.T) {

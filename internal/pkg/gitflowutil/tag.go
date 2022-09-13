@@ -15,7 +15,7 @@
 package gitflowutil
 
 import (
-	"github.com/erda-project/erda/pkg/semver"
+	"github.com/ping-cloudnative/moonlight/pkg/semver"
 )
 
 func IsReleaseTag(tag string) bool {

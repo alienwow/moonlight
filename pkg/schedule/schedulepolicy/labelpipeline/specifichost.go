@@ -17,7 +17,7 @@ package labelpipeline
 import (
 	"strings"
 
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/labelconfig"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/labelconfig"
 )
 
 func SpecificHostLabelFilter(

@@ -22,8 +22,8 @@ import (
 
 	"github.com/buger/jsonparser"
 
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/compressor"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/compressor"
 )
 
 func ParseStream(r io.Reader, contentEncoding, cusContentEncoding, format string, callback func(buf []byte) error) error {

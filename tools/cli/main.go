@@ -15,9 +15,9 @@
 package main
 
 import (
-	_ "github.com/erda-project/erda-infra/base/version"
-	"github.com/erda-project/erda/tools/cli/command"
-	_ "github.com/erda-project/erda/tools/cli/generated_cmd"
+	_ "github.com/ping-cloudnative/moonlight-utils/base/version"
+	"github.com/ping-cloudnative/moonlight/tools/cli/command"
+	_ "github.com/ping-cloudnative/moonlight/tools/cli/generated_cmd"
 )
 
 func main() {

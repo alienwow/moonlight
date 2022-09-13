@@ -17,7 +17,7 @@ package kind
 import (
 	"fmt"
 
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
 )
 
 type Email struct {

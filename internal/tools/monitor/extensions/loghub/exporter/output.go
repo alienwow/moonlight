@@ -21,7 +21,7 @@ import (
 	"github.com/recallsong/go-utils/encoding"
 	"github.com/recallsong/go-utils/reflectx"
 
-	"github.com/erda-project/erda-infra/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
 )
 
 // consumer .

@@ -19,7 +19,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 const Base64EncodedRequestBody = "base64-encoded-request-body"

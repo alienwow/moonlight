@@ -21,9 +21,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/pkg/transport/http/runtime"
-	discover "github.com/erda-project/erda/internal/pkg/service-discover"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport/http/runtime"
+	discover "github.com/ping-cloudnative/moonlight/internal/pkg/service-discover"
 )
 
 // Proxy .

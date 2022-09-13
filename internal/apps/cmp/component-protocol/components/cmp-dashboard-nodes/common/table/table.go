@@ -30,15 +30,15 @@ import (
 	"github.com/spf13/cast"
 	v1 "k8s.io/api/core/v1"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/cmp"
-	"github.com/erda-project/erda/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common"
-	"github.com/erda-project/erda/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common/filter"
-	"github.com/erda-project/erda/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common/label"
-	"github.com/erda-project/erda/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/nodeFilter"
-	"github.com/erda-project/erda/internal/apps/cmp/metrics"
-	"github.com/erda-project/erda/internal/apps/cmp/steve"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common/filter"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/common/label"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/component-protocol/components/cmp-dashboard-nodes/nodeFilter"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/metrics"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/steve"
 )
 
 type Table struct {

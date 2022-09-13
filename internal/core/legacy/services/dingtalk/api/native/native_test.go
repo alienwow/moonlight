@@ -22,7 +22,7 @@ import (
 	dingtalkoauth2_1_0 "github.com/alibabacloud-go/dingtalk/oauth2_1_0"
 	"github.com/alibabacloud-go/tea/tea"
 
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 func Test_GetAccessToken_Should_Success(t *testing.T) {

@@ -24,7 +24,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/metadata"
+	"github.com/ping-cloudnative/moonlight/pkg/metadata"
 )
 
 func (y *PipelineYml) FindDockerImageByResourceName(name string) (repository, tag string, err error) {

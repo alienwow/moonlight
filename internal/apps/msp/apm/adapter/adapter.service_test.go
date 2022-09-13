@@ -21,11 +21,11 @@ import (
 	"github.com/golang/mock/gomock"
 	_ "google.golang.org/grpc"
 
-	"github.com/erda-project/erda-proto-go/msp/apm/adapter/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/adapter/pb"
 )
 
-////go:generate mockgen -destination=./adapter_logs_test.go -package exporter github.com/erda-project/erda-infra/base/logs Logger
-////go:generate mockgen -destination=./adapter_register_test.go -package exporter github.com/erda-project/erda-infra/pkg/transport Register
+////go:generate mockgen -destination=./adapter_logs_test.go -package exporter github.com/ping-cloudnative/moonlight-utils/base/logs Logger
+////go:generate mockgen -destination=./adapter_register_test.go -package exporter github.com/ping-cloudnative/moonlight-utils/pkg/transport Register
 func Test_adapterService_GetInstrumentationLibrary(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()

@@ -26,8 +26,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	crClient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/k8sclient/apis/openyurt/v1alpha1"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient/apis/openyurt/v1alpha1"
 )
 
 const (

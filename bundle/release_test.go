@@ -26,8 +26,8 @@ package bundle
 //	"bou.ke/monkey"
 //	"github.com/stretchr/testify/assert"
 //
-//	"github.com/erda-project/erda/apistructs"
-//	"github.com/erda-project/erda/pkg/parser/diceyml"
+//	"github.com/ping-cloudnative/moonlight/apistructs"
+//	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
 //)
 //
 //func TestBundle_PullDiceYAML(t *testing.T) {

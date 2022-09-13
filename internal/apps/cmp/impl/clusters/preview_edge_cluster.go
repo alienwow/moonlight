@@ -20,7 +20,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func (c *Clusters) ClusterPreview(req apistructs.CloudClusterRequest) ([]apistructs.CloudResource, error) {

@@ -15,9 +15,9 @@
 package gittarutil
 
 import (
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/http/httpclientutil"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclientutil"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
 )
 
 type Ref struct {

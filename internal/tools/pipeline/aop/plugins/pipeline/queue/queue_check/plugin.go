@@ -15,11 +15,11 @@
 package queue_check
 
 import (
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/aop"
-	"github.com/erda-project/erda/internal/tools/pipeline/aop/aoptypes"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager/types"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/aop"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/aop/aoptypes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager/types"
 )
 
 var (

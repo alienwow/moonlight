@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/erda-project/erda/pkg/envconf"
+	"github.com/ping-cloudnative/moonlight/pkg/envconf"
 )
 
 type Conf struct {

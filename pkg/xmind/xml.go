@@ -23,7 +23,7 @@ import (
 
 	"github.com/mholt/archiver"
 
-	"github.com/erda-project/erda/pkg/filehelper"
+	"github.com/ping-cloudnative/moonlight/pkg/filehelper"
 )
 
 const (

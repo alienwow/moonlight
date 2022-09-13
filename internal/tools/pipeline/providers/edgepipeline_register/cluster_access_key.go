@@ -30,8 +30,8 @@ import (
 	"k8s.io/client-go/tools/cache"
 	watchtools "k8s.io/client-go/tools/watch"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/k8sclient"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient"
 )
 
 func (p *provider) watchClusterCredential(ctx context.Context) {

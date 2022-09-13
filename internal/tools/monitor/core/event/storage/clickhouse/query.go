@@ -21,8 +21,8 @@ import (
 
 	"github.com/doug-martin/goqu/v9"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/event"
-	"github.com/erda-project/erda/internal/tools/monitor/core/event/storage"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/event"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/event/storage"
 )
 
 func (p *provider) QueryPaged(ctx context.Context, sel *storage.Selector, pageNo, pageSize int) ([]*event.Event, error) {

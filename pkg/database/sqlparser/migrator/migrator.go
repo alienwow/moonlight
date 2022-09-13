@@ -26,9 +26,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/pygrator"
-	"github.com/erda-project/erda/pkg/database/sqlparser/snapshot"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/pygrator"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/snapshot"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // installing type

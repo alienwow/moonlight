@@ -23,10 +23,10 @@ import (
 	"k8s.io/client-go/rest"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/pkg/k8sclient/config"
-	"github.com/erda-project/erda/pkg/k8sclient/scheme"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient/config"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient/scheme"
 )
 
 type K8sClient struct {

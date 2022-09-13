@@ -27,17 +27,17 @@ import (
 	"bou.ke/monkey"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/cap"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/cluster"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/clusterinfo"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/instanceinfo"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/job"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/labelmanager"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/resourceinfo"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/servicegroup"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/volume"
-	"github.com/erda-project/erda/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/cap"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/cluster"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/clusterinfo"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/instanceinfo"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/job"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/labelmanager"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/resourceinfo"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/servicegroup"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/volume"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
 )
 
 func TestHTTPEndpoints_JobCreate(t *testing.T) {

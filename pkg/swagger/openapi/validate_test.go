@@ -22,7 +22,7 @@ package openapi_test
 //	"github.com/getkin/kin-openapi/openapi2"
 //	"github.com/getkin/kin-openapi/openapi2conv"
 //
-//	"github.com/erda-project/erda/pkg/swagger/openapi"
+//	"github.com/ping-cloudnative/moonlight/pkg/swagger/openapi"
 //)
 //
 //const testFile = "./testdata/portal.json"

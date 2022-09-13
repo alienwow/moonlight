@@ -19,8 +19,8 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
 )
 
 const MicroServiceScope = "micro_service"

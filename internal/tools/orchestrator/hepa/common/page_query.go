@@ -20,7 +20,7 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-proto-go/core/hepa/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/pb"
 )
 
 type PageQuery struct {

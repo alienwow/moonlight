@@ -15,7 +15,7 @@
 package core_services
 
 import (
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var CMDB_APPLICATION_PIN = apis.ApiSpec{

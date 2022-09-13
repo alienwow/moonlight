@@ -29,7 +29,7 @@ import (
 	"gopkg.in/oauth2.v3/errors"
 	"gopkg.in/oauth2.v3/utils/uuid"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 const (

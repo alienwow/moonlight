@@ -19,10 +19,10 @@ package assetsvc
 import (
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/bdl"
-	"github.com/erda-project/erda/internal/apps/dop/dbclient"
-	"github.com/erda-project/erda/internal/apps/dop/services/uc"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/bdl"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/uc"
 )
 
 // 通知消息中的 action 参数

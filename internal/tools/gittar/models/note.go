@@ -21,10 +21,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/gittar/pkg/gitmodule"
-	"github.com/erda-project/erda/internal/tools/gittar/pkg/util/guid"
-	"github.com/erda-project/erda/internal/tools/gittar/uc"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/pkg/gitmodule"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/pkg/util/guid"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/uc"
 )
 
 type NoteRequest struct {

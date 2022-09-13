@@ -17,7 +17,7 @@ package interceptor
 import (
 	"context"
 
-	trace "github.com/erda-project/erda-proto-go/oap/trace/pb"
+	trace "github.com/ping-cloudnative/moonlight/proto-go/oap/trace/pb"
 )
 
 var (

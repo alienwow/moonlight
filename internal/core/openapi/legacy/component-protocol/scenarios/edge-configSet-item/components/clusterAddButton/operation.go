@@ -17,7 +17,7 @@ package clusteraddbutton
 import (
 	"fmt"
 
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
 )
 
 type ComponentClusterAddButton struct {

@@ -18,8 +18,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/auth"
-	openapiauth "github.com/erda-project/erda/internal/core/openapi/openapi-ng/auth"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/auth"
+	openapiauth "github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/auth"
 )
 
 func (p *provider) Weight() int64 { return p.Cfg.Weight }

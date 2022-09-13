@@ -14,7 +14,7 @@
 
 package notify
 
-import "github.com/erda-project/erda/apistructs"
+import "github.com/ping-cloudnative/moonlight/apistructs"
 
 func (o *NotifyGroup) DeleteNotifySource(request *apistructs.DeleteNotifySourceRequest) error {
 	return o.db.DeleteNotifySource(request)

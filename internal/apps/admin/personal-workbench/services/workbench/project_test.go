@@ -21,9 +21,9 @@ import (
 
 	"bou.ke/monkey"
 
-	projpb "github.com/erda-project/erda-proto-go/msp/tenant/project/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	projpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/project/pb"
 )
 
 func TestProject_ListProjWbOverviewData(t *testing.T) {

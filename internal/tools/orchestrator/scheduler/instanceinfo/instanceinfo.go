@@ -15,7 +15,7 @@
 package instanceinfo
 
 import (
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
 )
 
 type Client struct {

@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 const (

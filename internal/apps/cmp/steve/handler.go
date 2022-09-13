@@ -34,8 +34,8 @@ import (
 	"k8s.io/apiserver/pkg/endpoints/request"
 	"k8s.io/client-go/rest"
 
-	infrahttpserver "github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda/pkg/strutil"
+	infrahttpserver "github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // GetURLPrefix get steve API prefix with cluster name

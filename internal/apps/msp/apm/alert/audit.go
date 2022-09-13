@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strconv"
 
-	monitor "github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	"github.com/erda-project/erda-proto-go/msp/apm/alert/pb"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	monitor "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/alert/pb"
 )
 
 var skipAudit = map[string]interface{}{

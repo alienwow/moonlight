@@ -17,9 +17,9 @@ package aop
 import (
 	"context"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/tools/pipeline/aop/aoptypes"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/aop/aoptypes"
 )
 
 // TuneConfigs Save the TunePointName of all types of call chains under different trigger

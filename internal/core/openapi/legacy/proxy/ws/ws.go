@@ -23,7 +23,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api"
 )
 
 type ReverseProxy struct {

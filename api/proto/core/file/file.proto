@@ -4,7 +4,7 @@ syntax = "proto3";
 
 package erda.core.file;
 
-option go_package = "github.com/erda-project/erda-proto-go/core/file/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/file/pb";
 
 import "google/api/annotations.proto";
 import "google/protobuf/empty.proto";

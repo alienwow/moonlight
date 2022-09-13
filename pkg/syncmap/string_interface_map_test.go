@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/pkg/metadata"
+	"github.com/ping-cloudnative/moonlight/pkg/metadata"
 )
 
 func TestStringInterfaceMap_MarshalJSON(t *testing.T) {

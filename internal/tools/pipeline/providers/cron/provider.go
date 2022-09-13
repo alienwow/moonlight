@@ -15,15 +15,15 @@
 package cron
 
 import (
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
-	"github.com/erda-project/erda-proto-go/core/pipeline/cron/pb"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cron/daemon"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cron/db"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgepipeline_register"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/leaderworker"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysqlxorm"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cron/daemon"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cron/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgepipeline_register"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/leaderworker"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cron/pb"
 )
 
 type config struct {

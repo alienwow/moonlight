@@ -17,7 +17,7 @@ package snapshot_test
 import (
 	"testing"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/snapshot"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/snapshot"
 )
 
 func TestIsCannotAddOrUpdateAChildRowError(t *testing.T) {

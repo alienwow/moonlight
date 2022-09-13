@@ -1,6 +1,6 @@
 syntax = "proto3";
 package erda.msp.apm.notifygroup;
-option go_package = "github.com/erda-project/erda-proto-go/msp/apm/notifygroup/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/msp/apm/notifygroup/pb";
 
 import "google/api/annotations.proto";
 import "google/protobuf/timestamp.proto";

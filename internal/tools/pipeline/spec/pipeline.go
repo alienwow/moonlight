@@ -20,11 +20,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/conf"
-	definitiondb "github.com/erda-project/erda/internal/tools/pipeline/providers/definition/db"
-	sourcedb "github.com/erda-project/erda/internal/tools/pipeline/providers/source/db"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/conf"
+	definitiondb "github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/definition/db"
+	sourcedb "github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/source/db"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // Pipeline

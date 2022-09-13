@@ -14,7 +14,7 @@
 
 package queue
 
-import "github.com/erda-project/erda/apistructs"
+import "github.com/ping-cloudnative/moonlight/apistructs"
 
 func (q *defaultQueue) IsStrictMode() bool {
 	q.lock.Lock()

@@ -17,8 +17,8 @@ package db
 import (
 	"time"
 
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysqlxorm"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 type PipelineDefinitionExtra struct {

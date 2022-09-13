@@ -18,30 +18,30 @@ import (
 	_ "embed"
 	"os"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/pkg/common"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/pkg/common"
 
 	// modules
-	_ "github.com/erda-project/erda-infra/providers/health"
-	_ "github.com/erda-project/erda-infra/providers/kafka"
-	_ "github.com/erda-project/erda-infra/providers/kubernetes"
-	_ "github.com/erda-project/erda-infra/providers/pprof"
-	_ "github.com/erda-project/erda-infra/providers/prometheus"
-	_ "github.com/erda-project/erda-infra/providers/serviceregister"
-	_ "github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/kafka"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/health"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/kafka"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/kubernetes"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/pprof"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/prometheus"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/serviceregister"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/kafka"
 
 	// providers
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/collector"
-	_ "github.com/erda-project/erda/internal/tools/monitor/oap/collector/authentication"
-	_ "github.com/erda-project/erda/internal/tools/monitor/oap/collector/interceptor"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/collector"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/authentication"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/interceptor"
 
 	// grpc
-	_ "github.com/erda-project/erda-infra/providers/grpcclient"
-	_ "github.com/erda-project/erda-proto-go/core/token/client"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/grpcclient"
+	_ "github.com/ping-cloudnative/moonlight/proto-go/core/token/client"
 
 	// data pipeline
-	_ "github.com/erda-project/erda/internal/tools/monitor/oap/collector/core"
-	_ "github.com/erda-project/erda/internal/tools/monitor/oap/collector/plugins/all"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/plugins/all"
 )
 
 //go:embed bootstrap.yaml
@@ -50,7 +50,7 @@ var centralBootstrapCfg string
 //go:embed bootstrap-agent.yaml
 var edgeBootstrapCfg string
 
-//go:generate sh -c "cd ${PROJ_PATH} && go generate -v -x github.com/erda-project/erda/internal/tools/monitor/core/collector"
+//go:generate sh -c "cd ${PROJ_PATH} && go generate -v -x github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/collector"
 func main() {
 	cfg := centralBootstrapCfg
 	if os.Getenv("DICE_IS_EDGE") == "true" {

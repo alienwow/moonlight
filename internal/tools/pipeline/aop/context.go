@@ -17,8 +17,8 @@ package aop
 import (
 	"context"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/aop/aoptypes"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/aop/aoptypes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 // NewContextForPipeline 用于快速构造流水线 AOP 上下文

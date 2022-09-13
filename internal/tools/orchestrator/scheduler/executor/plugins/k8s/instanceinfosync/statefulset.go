@@ -20,8 +20,8 @@ import (
 	"github.com/sirupsen/logrus"
 	appsv1 "k8s.io/api/apps/v1"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/instanceinfo"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/instanceinfo"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func updateAddonStatefulSet(dbclient *instanceinfo.Client, stslist *appsv1.StatefulSetList, delete bool) error {

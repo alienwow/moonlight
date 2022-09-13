@@ -24,14 +24,14 @@ import (
 	"github.com/gocql/gocql"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/providers/cassandra"
-	mutex "github.com/erda-project/erda-infra/providers/etcd-mutex"
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/providers/cassandra"
+	mutex "github.com/ping-cloudnative/moonlight-utils/providers/etcd-mutex"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 var bdl = bundle.New(bundle.WithErdaServer(), bundle.WithDOP())
@@ -274,7 +274,7 @@ func defaultKeyspaceConfig(keysapce string) *cassandra.KeyspaceConfig {
 		Name: keysapce,
 		Auto: false,
 		Replication: cassandra.KeyspaceReplicationConfig{
-			Class:  "SimpleStrategy",
+			Class: "SimpleStrategy",
 			Factor: 2,
 		},
 	}

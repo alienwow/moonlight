@@ -32,4 +32,4 @@ Feature: Support/Optimize ... in xxx platform （实现/优化了 xxx 平台的 
 
 Add comment like `/cherry-pick release/1.0` when this PR is merged.
 
-> For details on the cherry pick process, see the [cherry pick requests](https://github.com/erda-project/erda/blob/master/CONTRIBUTING.md#how-to-cherry-pick-a-merged-pr) section under [CONTRIBUTING.md](https://github.com/erda-project/erda/blob/master/CONTRIBUTING.md).
+> For details on the cherry pick process, see the [cherry pick requests](https://github.com/ping-cloudnative/moonlight/blob/master/CONTRIBUTING.md#how-to-cherry-pick-a-merged-pr) section under [CONTRIBUTING.md](https://github.com/ping-cloudnative/moonlight/blob/master/CONTRIBUTING.md).

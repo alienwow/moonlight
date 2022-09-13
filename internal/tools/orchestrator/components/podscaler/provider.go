@@ -19,15 +19,15 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-proto-go/orchestrator/podscaler/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/pkg/audit"
-	"github.com/erda-project/erda/internal/tools/orchestrator/events"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/servicegroup"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/audit"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/events"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/servicegroup"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/proto-go/orchestrator/podscaler/pb"
 )
 
 type config struct {

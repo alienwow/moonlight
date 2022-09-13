@@ -22,9 +22,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/conf"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/conf"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 const defautlFQDN string = "default.svc.cluster.local"

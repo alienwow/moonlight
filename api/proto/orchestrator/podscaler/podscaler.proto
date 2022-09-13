@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package erda.orchestrator.podscaler;
-option go_package = "github.com/erda-project/erda-proto-go/orchestrator/podscaler/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/orchestrator/podscaler/pb";
 
 import "google/api/annotations.proto";
 import "google/protobuf/any.proto";

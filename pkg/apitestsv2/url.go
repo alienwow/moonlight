@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/erda-project/erda/pkg/http/httpclientutil"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclientutil"
 )
 
 // domain: schema://${prefix} + u

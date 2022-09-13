@@ -15,7 +15,7 @@
 package cmp
 
 import (
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var CMP_CREDENTIAL_ACCESSKEY_RESET = apis.ApiSpec{

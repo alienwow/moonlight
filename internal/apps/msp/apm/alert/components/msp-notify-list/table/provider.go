@@ -24,19 +24,19 @@ import (
 
 	"github.com/ahmetb/go-linq/v3"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/commodel"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/table"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/table/impl"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	messenger "github.com/erda-project/erda-proto-go/core/messenger/notify/pb"
-	monitor "github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-notify-list/common"
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/commodel"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/table"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/table/impl"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-notify-list/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	messenger "github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notify/pb"
+	monitor "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
 )
 
 type provider struct {

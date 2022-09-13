@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/monitor/common/permission"
-	perm "github.com/erda-project/erda/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/common/permission"
+	perm "github.com/ping-cloudnative/moonlight/pkg/common/permission"
 )
 
 func (p *provider) getScopeByHTTPRequest(ctx httpserver.Context) (string, error) {

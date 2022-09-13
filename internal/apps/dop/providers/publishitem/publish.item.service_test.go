@@ -24,8 +24,8 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-proto-go/dop/publishitem/pb"
-	"github.com/erda-project/erda/internal/apps/dop/providers/publishitem/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/publishitem/db"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/publishitem/pb"
 )
 
 func TestQueryPublishItem(t *testing.T) {

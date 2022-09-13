@@ -14,7 +14,7 @@
 
 package officer
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var OFFICER_FETCH_SCRIPT = apis.ApiSpec{
 	Path:        "/api/script/<name>",

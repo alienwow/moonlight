@@ -15,9 +15,9 @@
 package gallery
 
 import (
-	_ "github.com/erda-project/erda-infra/providers/grpcserver"
-	_ "github.com/erda-project/erda-infra/providers/httpserver"
-	_ "github.com/erda-project/erda-infra/providers/mysql/v2"
-	_ "github.com/erda-project/erda-infra/providers/serviceregister"
-	_ "github.com/erda-project/erda/internal/apps/gallery/cache"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/grpcserver"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/mysql/v2"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/serviceregister"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/gallery/cache"
 )

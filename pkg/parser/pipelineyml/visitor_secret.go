@@ -21,8 +21,8 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/erda-project/erda/pkg/expression"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/expression"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // SecretVisitor 占位符统一在 yaml 中进行文本渲染，不渲染结构体，保证引号统一处理

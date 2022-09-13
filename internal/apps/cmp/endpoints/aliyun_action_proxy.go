@@ -28,11 +28,11 @@ import (
 	"golang.org/x/text/language"
 	"golang.org/x/text/message"
 
-	"github.com/erda-project/erda/apistructs"
-	aliyun_resources "github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources"
-	"github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources/vpc"
-	"github.com/erda-project/erda/pkg/aliyunclient"
-	"github.com/erda-project/erda/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	aliyun_resources "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources/vpc"
+	"github.com/ping-cloudnative/moonlight/pkg/aliyunclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
 )
 
 type cachedRegionItem struct {

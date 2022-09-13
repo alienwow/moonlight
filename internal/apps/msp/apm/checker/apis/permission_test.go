@@ -23,9 +23,9 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	projectpb "github.com/erda-project/erda-proto-go/msp/tenant/project/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/checker/storage/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/checker/storage/db"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
+	projectpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/project/pb"
 )
 
 func Test_checkerV1Service_GetProjectFromMetricID(t *testing.T) {

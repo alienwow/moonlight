@@ -114,8 +114,8 @@ func parseFile(fname string, f *ast.File) string {
 func imports() string {
 	return `
 import (
-        . "github.com/erda-project/erda/tools/cli/command"
-        . "github.com/erda-project/erda/tools/cli/cmd"
+        . "github.com/ping-cloudnative/moonlight/tools/cli/command"
+        . "github.com/ping-cloudnative/moonlight/tools/cli/cmd"
 )
 `
 }

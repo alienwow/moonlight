@@ -19,7 +19,7 @@ import (
 
 	"github.com/pingcap/parser/ast"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/table"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/table"
 )
 
 func TestTable_Append(t *testing.T) {

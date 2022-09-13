@@ -21,8 +21,8 @@ import (
 
 	"github.com/recallsong/go-utils/reflectx"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/msp/apm/log-service/rules/db"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/log-service/rules/db"
 )
 
 // LogMetricConfig .

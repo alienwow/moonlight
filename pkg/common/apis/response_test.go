@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
 )
 
 type mockResponseWriter struct {

@@ -20,10 +20,10 @@ import (
 
 	"github.com/olivere/elastic"
 
-	"github.com/erda-project/erda-proto-go/msp/resource/pb"
-	monitordb "github.com/erda-project/erda/internal/apps/msp/instance/db/monitor"
-	"github.com/erda-project/erda/internal/apps/msp/resource/deploy/coordinator"
-	"github.com/erda-project/erda/internal/apps/msp/resource/deploy/handlers"
+	monitordb "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db/monitor"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/resource/deploy/coordinator"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/resource/deploy/handlers"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/resource/pb"
 )
 
 type resourceService struct {

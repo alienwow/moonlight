@@ -22,16 +22,16 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/erda-project/erda-infra/pkg/strutil"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/msp/apm/log-service/analysis/processors"
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/log-service/analysis/processors/regex" //
-	metrics "github.com/erda-project/erda/internal/tools/monitor/core/metric"
-	"github.com/erda-project/erda/pkg/common/apis"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/log-service/analysis/processors"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/log-service/analysis/processors/regex" //
+	metrics "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 func (p *provider) intRoutes(routes httpserver.Router) error {

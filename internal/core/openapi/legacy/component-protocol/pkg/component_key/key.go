@@ -14,7 +14,7 @@
 
 package component_key
 
-import "github.com/erda-project/erda/pkg/crypto/uuid"
+import "github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
 
 func GetKey(id uint64) uint64 {
 	if id == 0 {

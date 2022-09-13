@@ -30,7 +30,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/table"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/table"
 )
 
 var (

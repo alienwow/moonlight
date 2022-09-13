@@ -17,8 +17,8 @@ package autotest
 import (
 	"net/http"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var FILETREE_NODE_SAVE_PIPELINE = apis.ApiSpec{

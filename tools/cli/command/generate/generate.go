@@ -22,7 +22,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/erda-project/erda/tools/cli/command"
+	"github.com/ping-cloudnative/moonlight/tools/cli/command"
 )
 
 //go:generate go run collect/collect.go
@@ -169,15 +169,15 @@ func flagType(flag command.Flag) string {
 func imports(cmd command.Command) []string {
 	r := []string{
 		"github.com/spf13/cobra",
-		"github.com/erda-project/erda/tools/cli/command",
+		"github.com/ping-cloudnative/moonlight/tools/cli/command",
 	}
 	if needNet(cmd) {
 		r = append(r, "net")
 	}
 	if needCmd(cmd) {
-		r = append(r, "github.com/erda-project/erda/tools/cli/cmd")
-		r = append(r, "github.com/erda-project/erda/tools/cli/translate")
-		r = append(r, "github.com/erda-project/erda/pkg/terminal/color_str")
+		r = append(r, "github.com/ping-cloudnative/moonlight/tools/cli/cmd")
+		r = append(r, "github.com/ping-cloudnative/moonlight/tools/cli/translate")
+		r = append(r, "github.com/ping-cloudnative/moonlight/pkg/terminal/color_str")
 		r = append(r, "fmt")
 	}
 	return r

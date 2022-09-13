@@ -21,17 +21,17 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-infra/base/version"
-	"github.com/erda-project/erda-proto-go/core/messenger/eventbox/pb"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/conf"
-	inputhttp "github.com/erda-project/erda/internal/core/messenger/eventbox/input/http"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/monitor"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/register"
-	emailsubscriber "github.com/erda-project/erda/internal/core/messenger/eventbox/subscriber/email"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/webhook"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/common/errors"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight-utils/base/version"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/conf"
+	inputhttp "github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/input/http"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/monitor"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/register"
+	emailsubscriber "github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/subscriber/email"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/webhook"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/messenger/eventbox/pb"
 )
 
 type eventBoxService struct {

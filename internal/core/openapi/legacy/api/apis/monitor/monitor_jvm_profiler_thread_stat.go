@@ -14,7 +14,7 @@
 
 package monitor
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var SPOT_JVM_PROFILER_THREAD_STAT = apis.ApiSpec{
 	Path:        "/api/monitor/jvmprofiler/<addonID>/profiling/<profilingID>/thread-stats",

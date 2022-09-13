@@ -15,7 +15,7 @@
 package metricmeta
 
 import (
-	"github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 type MetricMeta interface {

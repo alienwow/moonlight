@@ -17,7 +17,7 @@ package env
 import (
 	"testing"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/actionagent"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/actionagent"
 )
 
 func TestGenPipelineEnvKey(t *testing.T) {

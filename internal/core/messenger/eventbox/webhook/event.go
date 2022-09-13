@@ -17,7 +17,7 @@ package webhook
 import (
 	"encoding/json"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 // message which response to hooked url

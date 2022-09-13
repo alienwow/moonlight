@@ -15,9 +15,9 @@
 package cache
 
 import (
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/action_info"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/action_info"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
 )
 
 // TODO the cache should be standardized

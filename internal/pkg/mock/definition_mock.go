@@ -17,7 +17,7 @@ package mock
 import (
 	"context"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/definition/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/definition/pb"
 )
 
 type DefinitionMock struct {

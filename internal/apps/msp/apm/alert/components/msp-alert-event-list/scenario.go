@@ -15,7 +15,7 @@
 package msp_alert_event_list
 
 import (
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-alert-event-list/configurableFilter"
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-alert-event-list/searchFilter"
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-alert-event-list/table"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-alert-event-list/configurableFilter"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-alert-event-list/searchFilter"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-alert-event-list/table"
 )

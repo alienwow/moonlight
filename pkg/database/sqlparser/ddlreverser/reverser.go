@@ -24,7 +24,7 @@ import (
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 
-	"github.com/erda-project/erda/pkg/database/sqlparser/snapshot"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/snapshot"
 )
 
 // ReverseDDLWithSnapshot reverses a DDL.

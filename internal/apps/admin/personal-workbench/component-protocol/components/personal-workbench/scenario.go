@@ -15,10 +15,10 @@
 package personal_workbench
 
 import (
-	_ "github.com/erda-project/erda/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/messageList"
-	_ "github.com/erda-project/erda/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/messageTabs"
-	_ "github.com/erda-project/erda/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/workCards"
-	_ "github.com/erda-project/erda/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/workFilter"
-	_ "github.com/erda-project/erda/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/workList"
-	_ "github.com/erda-project/erda/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/workTabs"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/messageList"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/messageTabs"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/workCards"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/workFilter"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/workList"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/workTabs"
 )

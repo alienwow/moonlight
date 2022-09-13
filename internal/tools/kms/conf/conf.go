@@ -16,8 +16,8 @@
 package conf
 
 import (
-	"github.com/erda-project/erda/pkg/envconf"
-	"github.com/erda-project/erda/pkg/kms/kmstypes"
+	"github.com/ping-cloudnative/moonlight/pkg/envconf"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/kmstypes"
 )
 
 // Conf define config from envs.

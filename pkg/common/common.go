@@ -23,12 +23,12 @@ import (
 	uuid "github.com/satori/go.uuid"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/base/version"
-	"github.com/erda-project/erda-infra/pkg/mysqldriver"
-	"github.com/erda-project/erda/pkg/common/entrance"
-	"github.com/erda-project/erda/pkg/common/trace"
-	_ "github.com/erda-project/erda/pkg/common/trace" // nolint
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/base/version"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/mysqldriver"
+	"github.com/ping-cloudnative/moonlight/pkg/common/entrance"
+	"github.com/ping-cloudnative/moonlight/pkg/common/trace"
+	_ "github.com/ping-cloudnative/moonlight/pkg/common/trace" // nolint
 )
 
 var instanceID = uuid.NewV4().String()

@@ -17,9 +17,9 @@ package spec
 import (
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
-	definitiondb "github.com/erda-project/erda/internal/tools/pipeline/providers/definition/db"
-	sourcedb "github.com/erda-project/erda/internal/tools/pipeline/providers/source/db"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	definitiondb "github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/definition/db"
+	sourcedb "github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/source/db"
 )
 
 // PipelineBase represents `pipeline_bases` table.

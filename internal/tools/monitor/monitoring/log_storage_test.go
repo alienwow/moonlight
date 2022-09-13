@@ -18,8 +18,8 @@ package monitoring
 // 	"reflect"
 // 	"testing"
 
-// 	"github.com/erda-project/erda/internal/tools/monitor/core/log/schema"
-// 	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricq"
+// 	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log/schema"
+// 	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricq"
 // )
 
 // func Test_cassandraStorageLog_calculateUsage(t *testing.T) {

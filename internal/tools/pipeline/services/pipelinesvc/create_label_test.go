@@ -20,9 +20,9 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/xormplus/xorm"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/dbclient"
-	"github.com/erda-project/erda/pkg/crypto/uuid"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/pkg/crypto/uuid"
 )
 
 func TestPipelineSvc_BatchCreateLabels(t *testing.T) {

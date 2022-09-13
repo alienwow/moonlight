@@ -23,7 +23,7 @@ import (
 	"github.com/shirou/gopsutil/mem"
 	"github.com/shirou/gopsutil/process"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/diagnotor/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/diagnotor/pb"
 )
 
 type ioCountersStatEntry struct {

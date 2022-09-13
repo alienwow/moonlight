@@ -27,17 +27,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/providers/i18n"
-	metricpb "github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda-proto-go/msp/apm/trace/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace/core/common"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace/core/debug"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace/core/query"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace/db"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace/query/source"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace/storage"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace/core/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace/core/debug"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace/core/query"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace/query/source"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace/storage"
+	metricpb "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/trace/pb"
 )
 
 //go:generate mockgen -destination=./mock_storage.go -package query -source=../storage/storage.go Storage

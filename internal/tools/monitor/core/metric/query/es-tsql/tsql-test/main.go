@@ -26,8 +26,8 @@ import (
 	"github.com/olivere/elastic"
 	"github.com/recallsong/go-utils/encoding/jsonx"
 
-	tsql "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql"
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql/influxql"
+	tsql "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql/influxql"
 )
 
 func getClient() *elastic.Client {

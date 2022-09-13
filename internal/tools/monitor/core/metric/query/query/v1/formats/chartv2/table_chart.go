@@ -20,9 +20,9 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/chartmeta"
-	query "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/query/v1"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/units"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/chartmeta"
+	query "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/query/v1"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/units"
 )
 
 func (f *Formater) isTableReq(ctx *query.Context) bool {

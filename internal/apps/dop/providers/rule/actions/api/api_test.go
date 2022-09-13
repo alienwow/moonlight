@@ -22,7 +22,7 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/internal/apps/dop/providers/rule/jsonnet"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/jsonnet"
 )
 
 func Test_provider_getAPIConfig(t *testing.T) {

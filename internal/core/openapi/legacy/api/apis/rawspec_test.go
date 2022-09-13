@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis/dop"
-	"github.com/erda-project/erda/pkg/swagger/oas3"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis/dop"
+	"github.com/ping-cloudnative/moonlight/pkg/swagger/oas3"
 )
 
 func TestApiSpec_AddOperationTo(t *testing.T) {

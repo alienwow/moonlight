@@ -25,8 +25,8 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/auth"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/common"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/auth"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/common"
 )
 
 func (p *provider) LoginURL(rw http.ResponseWriter, r *http.Request) {

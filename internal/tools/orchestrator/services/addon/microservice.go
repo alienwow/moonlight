@@ -24,9 +24,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/conf"
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
 )
 
 var allEnvs = []string{apistructs.WORKSPACE_DEV, apistructs.WORKSPACE_TEST, apistructs.WORKSPACE_STAGING, apistructs.WORKSPACE_PROD}

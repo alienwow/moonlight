@@ -17,17 +17,17 @@ package main
 import (
 	_ "embed"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/pkg/common"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/pkg/common"
 
 	// providers and modules
-	_ "github.com/erda-project/erda-infra/providers"
-	_ "github.com/erda-project/erda-proto-go/core/clustermanager/cluster/client"
-	_ "github.com/erda-project/erda-proto-go/core/dicehub/release/client"
-	_ "github.com/erda-project/erda-proto-go/core/org/client"
-	_ "github.com/erda-project/erda-proto-go/msp/tenant/client"
-	_ "github.com/erda-project/erda/internal/tools/orchestrator"
-	_ "github.com/erda-project/erda/internal/tools/orchestrator/components"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components"
+	_ "github.com/ping-cloudnative/moonlight/proto-go/core/clustermanager/cluster/client"
+	_ "github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/client"
+	_ "github.com/ping-cloudnative/moonlight/proto-go/core/org/client"
+	_ "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/client"
 )
 
 //go:embed bootstrap.yaml

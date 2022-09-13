@@ -7,7 +7,7 @@ import "google/api/annotations.proto";
 import "common/openapi.proto";
 import "common/identity.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/core/pipeline/graph/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/graph/pb";
 
 service GraphService {
   option(erda.common.openapi_service) = {

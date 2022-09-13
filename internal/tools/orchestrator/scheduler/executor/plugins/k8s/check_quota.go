@@ -27,9 +27,9 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/erda-project/erda/apistructs"
-	orgCache "github.com/erda-project/erda/internal/tools/orchestrator/cache/org"
-	"github.com/erda-project/erda/internal/tools/orchestrator/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	orgCache "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/cache/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/i18n"
 )
 
 type QuotaError struct {

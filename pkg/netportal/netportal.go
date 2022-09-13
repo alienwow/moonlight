@@ -21,8 +21,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/pkg/http/customhttp"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/pkg/http/customhttp"
 )
 
 var bdl *bundle.Bundle

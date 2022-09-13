@@ -23,8 +23,8 @@ import (
 	"github.com/recallsong/go-utils/conv"
 	"github.com/recallsong/go-utils/encoding/md5x"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda/internal/pkg/metrics/report"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/metrics/report"
 )
 
 // Consumer .

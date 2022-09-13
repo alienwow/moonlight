@@ -19,7 +19,7 @@ import (
 
 	"github.com/ahmetb/go-linq/v3"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/entity"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/entity"
 )
 
 // Writer .

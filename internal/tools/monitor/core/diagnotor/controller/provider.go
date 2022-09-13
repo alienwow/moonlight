@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/base/version"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda-proto-go/core/monitor/diagnotor/pb"
-	"github.com/erda-project/erda/pkg/common/apis"
-	k8sclient "github.com/erda-project/erda/pkg/k8s-client-manager"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/base/version"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	k8sclient "github.com/ping-cloudnative/moonlight/pkg/k8s-client-manager"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/diagnotor/pb"
 )
 
 type config struct {

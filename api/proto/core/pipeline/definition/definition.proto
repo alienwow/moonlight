@@ -9,7 +9,7 @@ import "google/api/annotations.proto";
 import "google/protobuf/struct.proto";
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/core/pipeline/definition/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/definition/pb";
 
 service DefinitionService {
     rpc Create(PipelineDefinitionCreateRequest) returns (PipelineDefinitionCreateResponse) {

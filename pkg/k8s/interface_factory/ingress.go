@@ -21,9 +21,9 @@ import (
 	v1 "k8s.io/api/networking/v1"
 	"k8s.io/client-go/kubernetes"
 
-	erdaextensionsv1beta1 "github.com/erda-project/erda/pkg/k8s/typed/extensions/v1beta1"
-	erdav1 "github.com/erda-project/erda/pkg/k8s/typed/networking/v1"
-	"github.com/erda-project/erda/pkg/k8s/union_interface"
+	erdaextensionsv1beta1 "github.com/ping-cloudnative/moonlight/pkg/k8s/typed/extensions/v1beta1"
+	erdav1 "github.com/ping-cloudnative/moonlight/pkg/k8s/typed/networking/v1"
+	"github.com/ping-cloudnative/moonlight/pkg/k8s/union_interface"
 )
 
 const IngressKind = "Ingress"

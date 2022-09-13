@@ -19,11 +19,11 @@ import (
 
 	"github.com/gorilla/schema"
 
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/dbclient"
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/endpoints"
-	release2 "github.com/erda-project/erda/internal/apps/dop/dicehub/service/release"
-	"github.com/erda-project/erda/internal/apps/dop/dicehub/service/release_rule"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/endpoints"
+	release2 "github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/service/release"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dicehub/service/release_rule"
 )
 
 func TestNew(t *testing.T) {

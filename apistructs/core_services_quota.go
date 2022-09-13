@@ -17,7 +17,7 @@ package apistructs
 import (
 	"time"
 
-	calcu "github.com/erda-project/erda/pkg/resourcecalculator"
+	calcu "github.com/ping-cloudnative/moonlight/pkg/resourcecalculator"
 )
 
 type GetWorkspaceQuotaRequest struct {

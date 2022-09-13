@@ -17,7 +17,7 @@ package dbclient
 import (
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 // AddonNode addon node信息

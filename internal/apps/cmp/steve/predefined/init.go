@@ -26,7 +26,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	rbacv1 "k8s.io/api/rbac/v1"
 
-	"github.com/erda-project/erda/bundle"
+	"github.com/ping-cloudnative/moonlight/bundle"
 )
 
 var (

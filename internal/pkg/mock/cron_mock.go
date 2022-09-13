@@ -17,7 +17,7 @@ package mock
 import (
 	"context"
 
-	cronpb "github.com/erda-project/erda-proto-go/core/pipeline/cron/pb"
+	cronpb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cron/pb"
 )
 
 type CronMock struct {

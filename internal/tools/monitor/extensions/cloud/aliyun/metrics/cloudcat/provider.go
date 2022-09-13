@@ -21,14 +21,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	writer "github.com/erda-project/erda-infra/pkg/parallel-writer"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/api"
-	g "github.com/erda-project/erda/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/globals"
-	"github.com/erda-project/erda/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/scheduler"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/kafka"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	writer "github.com/ping-cloudnative/moonlight-utils/pkg/parallel-writer"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/api"
+	g "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/globals"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/scheduler"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/kafka"
 )
 
 type define struct{}

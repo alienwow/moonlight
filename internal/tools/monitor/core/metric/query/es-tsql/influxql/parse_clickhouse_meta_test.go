@@ -23,8 +23,8 @@ import (
 	"github.com/influxdata/influxql"
 	"github.com/stretchr/testify/require"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 type mockMeta struct {

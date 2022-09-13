@@ -18,7 +18,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 // Member 企业/项目/应用三级关系成员信息(包含平台管理员)

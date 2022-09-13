@@ -14,7 +14,7 @@
 
 package dto
 
-import "github.com/erda-project/erda-proto-go/core/hepa/openapi_consumer/pb"
+import "github.com/ping-cloudnative/moonlight/proto-go/core/hepa/openapi_consumer/pb"
 
 type ConsumerInfoDto struct {
 	ConsumerId       string               `json:"consumerId"`

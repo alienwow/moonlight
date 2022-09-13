@@ -21,7 +21,7 @@ import (
 	"bou.ke/monkey"
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 func Test_filterUserIDs(t *testing.T) {

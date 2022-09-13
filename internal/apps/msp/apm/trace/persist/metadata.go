@@ -15,7 +15,7 @@
 package persist
 
 import (
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace"
 )
 
 // MetadataProcessor .

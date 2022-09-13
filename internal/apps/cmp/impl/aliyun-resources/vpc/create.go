@@ -20,7 +20,7 @@ import (
 
 	libvpc "github.com/aliyun/alibaba-cloud-sdk-go/services/vpc"
 
-	aliyun_resources "github.com/erda-project/erda/internal/apps/cmp/impl/aliyun-resources"
+	aliyun_resources "github.com/ping-cloudnative/moonlight/internal/apps/cmp/impl/aliyun-resources"
 )
 
 func Create(ctx aliyun_resources.Context, req VPCCreateRequest) (string, error) {

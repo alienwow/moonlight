@@ -18,9 +18,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/erda-project/erda/apistructs"
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
-	siteiplist "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/scenarios/edge-app-site-ip/components/siteIpList"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
+	siteiplist "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/scenarios/edge-app-site-ip/components/siteIpList"
 )
 
 const (

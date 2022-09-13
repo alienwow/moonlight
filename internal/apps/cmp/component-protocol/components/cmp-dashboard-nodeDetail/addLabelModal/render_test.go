@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/i18n"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
 )
 
 type NopTranslator struct{}

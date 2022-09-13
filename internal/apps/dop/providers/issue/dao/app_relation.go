@@ -14,7 +14,7 @@
 
 package dao
 
-import "github.com/erda-project/erda/pkg/database/dbengine"
+import "github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
 
 // IssueAppRelation 事件应用关联
 type IssueAppRelation struct {

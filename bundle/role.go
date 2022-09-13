@@ -14,7 +14,7 @@
 
 package bundle
 
-import "github.com/erda-project/erda/apistructs"
+import "github.com/ping-cloudnative/moonlight/apistructs"
 
 // RoleInfo Role info
 type RoleInfo struct {

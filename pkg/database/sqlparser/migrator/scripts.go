@@ -27,9 +27,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"
 
-	"github.com/erda-project/erda/pkg/database/sqllint"
-	_ "github.com/erda-project/erda/pkg/database/sqllint/linters"
-	"github.com/erda-project/erda/pkg/database/sqlparser/pygrator"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint"
+	_ "github.com/ping-cloudnative/moonlight/pkg/database/sqllint/linters"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqlparser/pygrator"
 )
 
 const (

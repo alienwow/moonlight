@@ -18,7 +18,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/diagnotor/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/diagnotor/pb"
 )
 
 type diagnotorAgentService struct {

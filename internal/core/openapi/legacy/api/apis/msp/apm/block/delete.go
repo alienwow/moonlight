@@ -15,7 +15,7 @@
 package block
 
 import (
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var DELETE_BLOCK = apis.ApiSpec{

@@ -17,16 +17,16 @@ package groupby_status_count
 import (
 	"strconv"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	structure "github.com/erda-project/erda-infra/providers/component-protocol/components/commodel/data-structure"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/complexgraph"
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/complexgraph/impl"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cpregister"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	messengerpb "github.com/erda-project/erda-proto-go/core/messenger/notify/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/alert/components/msp-alert-overview/common"
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
-	"github.com/erda-project/erda/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/alert/components/msp-alert-overview/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	structure "github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/commodel/data-structure"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/complexgraph"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/complexgraph/impl"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cpregister"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	messengerpb "github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notify/pb"
 )
 
 type provider struct {

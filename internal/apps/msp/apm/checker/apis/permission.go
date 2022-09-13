@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"strconv"
 
-	projectpb "github.com/erda-project/erda-proto-go/msp/tenant/project/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/checker/storage/db"
-	"github.com/erda-project/erda/pkg/common/errors"
-	perm "github.com/erda-project/erda/pkg/common/permission"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/checker/storage/db"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	perm "github.com/ping-cloudnative/moonlight/pkg/common/permission"
+	projectpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/project/pb"
 )
 
 func (s *checkerV1Service) GetProjectFromMetricID() func(ctx context.Context, req interface{}) (string, error) {

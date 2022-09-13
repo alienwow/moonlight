@@ -17,18 +17,18 @@ package rule
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-proto-go/dop/rule/pb"
-	"github.com/erda-project/erda/internal/apps/dop/dao"
-	"github.com/erda-project/erda/internal/apps/dop/providers/rule/actions/api"
-	"github.com/erda-project/erda/internal/apps/dop/providers/rule/actions/dingtalkworknotice"
-	"github.com/erda-project/erda/internal/apps/dop/providers/rule/actions/pipeline"
-	"github.com/erda-project/erda/internal/apps/dop/providers/rule/db"
-	"github.com/erda-project/erda/internal/apps/dop/providers/rule/executor"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/actions/api"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/actions/dingtalkworknotice"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/actions/pipeline"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/executor"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/rule/pb"
 )
 
 type config struct {

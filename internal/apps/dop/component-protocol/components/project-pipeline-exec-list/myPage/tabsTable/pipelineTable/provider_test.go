@@ -22,9 +22,9 @@ import (
 
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/project-pipeline-exec-list/common"
-	"github.com/erda-project/erda/internal/apps/dop/component-protocol/components/project-pipeline-exec-list/common/gshelper"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/project-pipeline-exec-list/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/project-pipeline-exec-list/common/gshelper"
 )
 
 func TestParticipatedInApps(t *testing.T) {

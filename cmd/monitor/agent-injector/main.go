@@ -17,16 +17,16 @@ package main
 import (
 	_ "embed"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/pkg/common"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/pkg/common"
 
 	// providers
-	_ "github.com/erda-project/erda-infra/providers/health"                     //
-	_ "github.com/erda-project/erda-infra/providers/httpserver"                 //
-	_ "github.com/erda-project/erda-infra/providers/i18n"                       //
-	_ "github.com/erda-project/erda-infra/providers/pprof"                      //
-	_ "github.com/erda-project/erda-infra/providers/prometheus"                 //
-	_ "github.com/erda-project/erda/internal/tools/monitor/core/agent-injector" //
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/health"                     //
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/httpserver"                 //
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/i18n"                       //
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/pprof"                      //
+	_ "github.com/ping-cloudnative/moonlight-utils/providers/prometheus"                 //
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/agent-injector" //
 )
 
 //go:embed bootstrap.yaml

@@ -25,8 +25,8 @@ import (
 
 	cfgpkg "github.com/recallsong/go-utils/config"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table/loader"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table/loader"
 )
 
 func (p *provider) initDefaultDDLs() error {

@@ -14,7 +14,7 @@
 
 package filetree
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var CMDB_PROJECT_FILETREE_DELETE = apis.ApiSpec{
 	Path:        "/api/project-pipeline/filetree/<inode>",

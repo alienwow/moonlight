@@ -22,19 +22,19 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
-	"github.com/erda-project/erda-proto-go/core/pipeline/queue/pb"
-	"github.com/erda-project/erda/internal/tools/pipeline/dbclient"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/dispatcher"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/leaderworker"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager/manager"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager/types"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/jsonstore"
-	"github.com/erda-project/erda/pkg/jsonstore/etcd"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysqlxorm"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/dispatcher"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/leaderworker"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager/manager"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager/types"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/etcd"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/queue/pb"
 )
 
 type provider struct {

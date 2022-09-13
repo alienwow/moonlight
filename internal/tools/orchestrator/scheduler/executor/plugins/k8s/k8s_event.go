@@ -28,13 +28,13 @@ import (
 	apiv1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/watch"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/events"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/events/eventtypes"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/executor/executortypes"
-	"github.com/erda-project/erda/pkg/jsonstore/storetypes"
-	"github.com/erda-project/erda/pkg/loop"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/events"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/events/eventtypes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/executor/executortypes"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/storetypes"
+	"github.com/ping-cloudnative/moonlight/pkg/loop"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 type Event struct {

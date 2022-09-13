@@ -15,10 +15,10 @@
 package releaseTable
 
 import (
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	dicehubpb "github.com/erda-project/erda-proto-go/core/dicehub/release/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/org"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	dicehubpb "github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb"
 )
 
 type ComponentReleaseTable struct {

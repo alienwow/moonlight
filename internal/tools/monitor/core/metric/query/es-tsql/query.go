@@ -33,8 +33,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/query/metricmeta"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/metricmeta"
 )
 
 // TimeUnit .

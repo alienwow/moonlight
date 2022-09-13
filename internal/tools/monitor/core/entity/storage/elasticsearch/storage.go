@@ -25,9 +25,9 @@ import (
 	"github.com/olivere/elastic"
 	"github.com/recallsong/go-utils/encoding/jsonx"
 
-	"github.com/erda-project/erda-infra/providers/elasticsearch"
-	"github.com/erda-project/erda/internal/tools/monitor/core/entity"
-	"github.com/erda-project/erda/internal/tools/monitor/core/entity/storage"
+	"github.com/ping-cloudnative/moonlight-utils/providers/elasticsearch"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/entity"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/entity/storage"
 )
 
 func (p *provider) SetEntities(ctx context.Context, list []*entity.Entity) (int, error) {

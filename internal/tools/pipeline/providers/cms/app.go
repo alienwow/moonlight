@@ -17,7 +17,7 @@ package cms
 import (
 	"fmt"
 
-	"github.com/erda-project/erda/internal/pkg/gitflowutil"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/gitflowutil"
 )
 
 const PipelineAppConfigNameSpacePrefix = "pipeline-secrets-app"

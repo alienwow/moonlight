@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/encoding/jsonparse"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/encoding/jsonparse"
 )
 
 // ParseOutParams 解析 API 执行结果的出参，存储为全局变量，供后续使用

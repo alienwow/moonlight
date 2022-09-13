@@ -24,13 +24,13 @@ import (
 	"github.com/doug-martin/goqu/v9"
 	"github.com/doug-martin/goqu/v9/exp"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/providers/clickhouse"
-	"github.com/erda-project/erda-proto-go/msp/apm/trace/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace/query/commom/custom"
-	"github.com/erda-project/erda/internal/tools/monitor/core/storekit/clickhouse/table/loader"
-	"github.com/erda-project/erda/pkg/ckhelper"
-	"github.com/erda-project/erda/pkg/math"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/providers/clickhouse"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace/query/commom/custom"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/storekit/clickhouse/table/loader"
+	"github.com/ping-cloudnative/moonlight/pkg/ckhelper"
+	"github.com/ping-cloudnative/moonlight/pkg/math"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/trace/pb"
 )
 
 type ClickhouseSource struct {

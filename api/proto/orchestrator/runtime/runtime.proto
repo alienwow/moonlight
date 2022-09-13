@@ -8,7 +8,7 @@ import "google/protobuf/timestamp.proto";
 import "common/http.proto";
 import "common/status.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/orchestrator/runtime/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/orchestrator/runtime/pb";
 
 message GetRuntimeRequest {
   string nameOrID = 1;

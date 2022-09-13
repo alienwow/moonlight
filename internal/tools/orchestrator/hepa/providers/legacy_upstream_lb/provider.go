@@ -15,13 +15,13 @@
 package legacy_upstream_lb
 
 import (
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-proto-go/core/hepa/legacy_upstream_lb/pb"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/legacy_upstream_lb/impl"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/legacy_upstream_lb/impl"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/legacy_upstream_lb/pb"
 )
 
 type config struct {

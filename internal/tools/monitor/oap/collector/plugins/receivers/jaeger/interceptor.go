@@ -27,9 +27,9 @@ import (
 	"github.com/recallsong/go-utils/reflectx"
 
 	"github.com/erda-project/erda-oap-thirdparty-protocol/jaeger-thrift/jaeger"
-	jaegerpb "github.com/erda-project/erda-proto-go/oap/collector/receiver/jaeger/pb"
-	tracing "github.com/erda-project/erda-proto-go/oap/trace/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/interceptor"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/interceptor"
+	jaegerpb "github.com/ping-cloudnative/moonlight/proto-go/oap/collector/receiver/jaeger/pb"
+	tracing "github.com/ping-cloudnative/moonlight/proto-go/oap/trace/pb"
 )
 
 var (

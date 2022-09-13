@@ -19,8 +19,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/hepautils"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/hepautils"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func TestSortDomains(t *testing.T) {

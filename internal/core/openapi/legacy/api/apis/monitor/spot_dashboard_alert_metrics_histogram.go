@@ -14,7 +14,7 @@
 
 package monitor
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var SPOT_DASHBOARD_ALERT_METRICS_HISTOGRAM = apis.ApiSpec{
 	Path:        "/api/alert/metrics/<scope>/histogram",

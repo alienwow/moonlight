@@ -19,7 +19,7 @@ import (
 
 	"gotest.tools/assert"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/log"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/log"
 )
 
 func Test_normalize_request_id_compatible(t *testing.T) {

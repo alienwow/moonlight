@@ -17,14 +17,14 @@ package endpoints
 import (
 	"net/http"
 
-	clusterpb "github.com/erda-project/erda-proto-go/core/clustermanager/cluster/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/internal/tools/orchestrator/ecp/dbclient"
-	"github.com/erda-project/erda/internal/tools/orchestrator/ecp/services/edge"
-	"github.com/erda-project/erda/internal/tools/orchestrator/ecp/services/kubernetes"
-	"github.com/erda-project/erda/pkg/database/dbengine"
-	"github.com/erda-project/erda/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/ecp/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/ecp/services/edge"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/ecp/services/kubernetes"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	clusterpb "github.com/ping-cloudnative/moonlight/proto-go/core/clustermanager/cluster/pb"
 )
 
 type Endpoints struct {

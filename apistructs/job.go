@@ -17,7 +17,7 @@ package apistructs
 import (
 	"errors"
 
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
 )
 
 type JobKind string

@@ -21,7 +21,7 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda/internal/apps/dop/providers/devflowrule/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/devflowrule/db"
 )
 
 func Test_provider_GetFlowByRule(t *testing.T) {

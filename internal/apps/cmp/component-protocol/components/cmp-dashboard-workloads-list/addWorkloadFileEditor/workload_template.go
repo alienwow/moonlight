@@ -14,7 +14,7 @@
 
 package addWorkloadFileEditor
 
-import "github.com/erda-project/erda/apistructs"
+import "github.com/ping-cloudnative/moonlight/apistructs"
 
 var workloadTemplates = map[string]string{
 	string(apistructs.K8SDeployment): `apiVersion: apps/v1

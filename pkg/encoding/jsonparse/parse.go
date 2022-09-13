@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/erda-project/erda/pkg/encoding/jsonpath"
+	"github.com/ping-cloudnative/moonlight/pkg/encoding/jsonpath"
 )
 
 func JsonOneLine(o interface{}) string {

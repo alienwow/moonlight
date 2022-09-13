@@ -17,7 +17,7 @@ package pipeline
 import (
 	"net/http"
 
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 )
 
 var PIPELINE_SNIPPET_QUERY_OUTPUTS = apis.ApiSpec{

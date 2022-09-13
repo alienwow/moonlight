@@ -18,9 +18,9 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/erda-project/erda-proto-go/core/dop/taskerror/pb"
-	errboxpb "github.com/erda-project/erda-proto-go/core/services/errorbox/pb"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dop/taskerror/pb"
+	errboxpb "github.com/ping-cloudnative/moonlight/proto-go/core/services/errorbox/pb"
 )
 
 func (s *TaskErrorService) List(param *apistructs.ErrorLogListRequest) ([]*pb.ErrorLog, error) {

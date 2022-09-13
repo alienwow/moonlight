@@ -25,11 +25,11 @@ import (
 	git "github.com/libgit2/git2go/v33"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/gittar/event"
-	"github.com/erda-project/erda/internal/tools/gittar/models"
-	"github.com/erda-project/erda/internal/tools/gittar/pkg/gitmodule"
-	"github.com/erda-project/erda/internal/tools/gittar/webcontext"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/event"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/models"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/pkg/gitmodule"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/webcontext"
 )
 
 // protect branch

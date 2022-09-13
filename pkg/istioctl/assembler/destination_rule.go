@@ -19,7 +19,7 @@ import (
 
 	"istio.io/client-go/pkg/apis/networking/v1alpha3"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func NewDestinationRule(svc *apistructs.Service) *v1alpha3.DestinationRule {

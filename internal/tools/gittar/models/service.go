@@ -15,7 +15,7 @@
 package models
 
 import (
-	"github.com/erda-project/erda/bundle"
+	"github.com/ping-cloudnative/moonlight/bundle"
 )
 
 type Service struct {

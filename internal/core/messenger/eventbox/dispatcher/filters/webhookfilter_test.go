@@ -21,9 +21,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/constant"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/types"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/webhook"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/constant"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/types"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/webhook"
 )
 
 func testWebhookFilter(t *testing.T, f Filter) {

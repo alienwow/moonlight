@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/log-service/analysis/processors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/log-service/analysis/processors"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 func Test_Process_With_ValidParams_Should_Success(t *testing.T) {

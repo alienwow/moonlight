@@ -19,14 +19,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/pipeline/conf"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskerror"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskinspect"
-	"github.com/erda-project/erda/internal/tools/pipeline/pkg/taskresult"
-	"github.com/erda-project/erda/pkg/encoding/jsonparse"
-	"github.com/erda-project/erda/pkg/metadata"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskerror"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskinspect"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pkg/taskresult"
+	"github.com/ping-cloudnative/moonlight/pkg/encoding/jsonparse"
+	"github.com/ping-cloudnative/moonlight/pkg/metadata"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml"
 )
 
 const (

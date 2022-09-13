@@ -17,8 +17,8 @@ package db
 import (
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysqlxorm"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func (client *Client) NewArtifact(sha, identityText string, t apistructs.BuildArtifactType, content string, clusterName string, pipelineID uint64, ops ...mysqlxorm.SessionOption) (CIV3BuildArtifact, error) {

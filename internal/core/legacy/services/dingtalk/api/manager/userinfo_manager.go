@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/erda-project/erda/internal/core/legacy/services/dingtalk/api/native"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/dingtalk/api/native"
 )
 
 func (m *Manager) GetUserIdsByPhones(accessToken string, agentId int64, phones []string) (userIds []string, err error) {

@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	providersI18n "github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/i18n"
+	providersI18n "github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/i18n"
 )
 
 type mockTranslator struct {

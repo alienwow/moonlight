@@ -20,9 +20,9 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/model"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/metric/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/metric/pb"
 )
 
 func convertOptions(start, end string, options map[string]string) url.Values {

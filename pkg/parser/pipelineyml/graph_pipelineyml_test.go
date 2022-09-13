@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/base/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/base/pb"
 )
 
 func TestConvertGraphPipelineYml(t *testing.T) {

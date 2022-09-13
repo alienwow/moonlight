@@ -17,8 +17,8 @@ package conf
 import (
 	"strings"
 
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/envconf"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/envconf"
 )
 
 // Conf 定义配置对象.

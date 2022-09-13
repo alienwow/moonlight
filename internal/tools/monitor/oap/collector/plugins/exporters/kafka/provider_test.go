@@ -17,7 +17,7 @@ package kafka
 import (
 	"testing"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
 )
 
 func Test_provider_ExportMetric(t *testing.T) {

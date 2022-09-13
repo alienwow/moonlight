@@ -21,7 +21,7 @@ package mock
 import (
 	reflect "reflect"
 
-	httpserver "github.com/erda-project/erda-infra/providers/httpserver"
+	httpserver "github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
 	gomock "github.com/golang/mock/gomock"
 )
 

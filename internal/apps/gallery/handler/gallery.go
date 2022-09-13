@@ -24,16 +24,16 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-proto-go/apps/gallery/pb"
-	commonPb "github.com/erda-project/erda-proto-go/common/pb"
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/internal/apps/gallery/apierr"
-	"github.com/erda-project/erda/internal/apps/gallery/cache"
-	"github.com/erda-project/erda/internal/apps/gallery/dao"
-	"github.com/erda-project/erda/internal/apps/gallery/model"
-	"github.com/erda-project/erda/internal/apps/gallery/types"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/apps/gallery/apierr"
+	"github.com/ping-cloudnative/moonlight/internal/apps/gallery/cache"
+	"github.com/ping-cloudnative/moonlight/internal/apps/gallery/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/gallery/model"
+	"github.com/ping-cloudnative/moonlight/internal/apps/gallery/types"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/proto-go/apps/gallery/pb"
+	commonPb "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 type GalleryHandler struct {

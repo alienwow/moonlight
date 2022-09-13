@@ -22,12 +22,12 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	pstypes "github.com/erda-project/erda/internal/tools/orchestrator/components/podscaler/types"
-	"github.com/erda-project/erda/internal/tools/orchestrator/conf"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/impl/clusterinfo"
-	"github.com/erda-project/erda/internal/tools/orchestrator/scheduler/task"
-	"github.com/erda-project/erda/pkg/jsonstore"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	pstypes "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/components/podscaler/types"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/impl/clusterinfo"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/scheduler/task"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore"
 )
 
 var DeleteNotFound = errors.New("not found")

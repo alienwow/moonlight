@@ -26,7 +26,7 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 
-	"github.com/erda-project/erda/pkg/database/gormutil"
+	"github.com/ping-cloudnative/moonlight/pkg/database/gormutil"
 )
 
 func (mig *Migrator) DB() *gorm.DB {

@@ -17,10 +17,10 @@ package dao
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/core/legacy/model"
-	"github.com/erda-project/erda/internal/core/legacy/types"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/model"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/types"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 var joinSQL = "LEFT OUTER JOIN dice_member_extra on dice_member.scope_type=dice_member_extra.scope_type and dice_member.user_id=dice_member_extra.user_id and dice_member.scope_id=dice_member_extra.scope_id"

@@ -15,8 +15,8 @@
 package qaparser
 
 import (
-	"github.com/erda-project/erda-proto-go/dop/qa/unittest/pb"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/qa/unittest/pb"
 )
 
 type Totals struct {

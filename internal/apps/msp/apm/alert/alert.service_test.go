@@ -24,17 +24,17 @@ import (
 	"github.com/jinzhu/gorm"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	monitor "github.com/erda-project/erda-proto-go/core/monitor/alert/pb"
-	"github.com/erda-project/erda-proto-go/msp/apm/alert/pb"
-	tenant "github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/monitor/utils"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/utils"
+	monitor "github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/alert/pb"
+	tenant "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
 )
 
-////go:generate mockgen -destination=./alert_register_test.go -package alert github.com/erda-project/erda-infra/pkg/transport Register
-////go:generate mockgen -destination=./alert_monitor_test.go -package alert github.com/erda-project/erda-proto-go/core/monitor/alert/pb AlertServiceServer
-////go:generate mockgen -destination=./tenant_test.go -package alert github.com/erda-project/erda-proto-go/msp/tenant/pb TenantServiceServer
-////go:generate mockgen -destination=./credential_context_test.go -package alert github.com/erda-project/erda-infra/base/servicehub Context
+////go:generate mockgen -destination=./alert_register_test.go -package alert github.com/ping-cloudnative/moonlight-utils/pkg/transport Register
+////go:generate mockgen -destination=./alert_monitor_test.go -package alert github.com/ping-cloudnative/moonlight/proto-go/core/monitor/alert/pb AlertServiceServer
+////go:generate mockgen -destination=./tenant_test.go -package alert github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb TenantServiceServer
+////go:generate mockgen -destination=./credential_context_test.go -package alert github.com/ping-cloudnative/moonlight-utils/base/servicehub Context
 
 func Test_alertService_CreateCustomizeAlert(t *testing.T) {
 	ctrl := gomock.NewController(t)

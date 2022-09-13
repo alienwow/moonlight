@@ -19,9 +19,9 @@ import (
 
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-proto-go/core/pipeline/queue/pb"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/queuemanager/pkg/queue/priorityqueue"
-	"github.com/erda-project/erda/pkg/numeral"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/queuemanager/pkg/queue/priorityqueue"
+	"github.com/ping-cloudnative/moonlight/pkg/numeral"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/queue/pb"
 )
 
 func (q *defaultQueue) Usage() pb.QueueUsage {

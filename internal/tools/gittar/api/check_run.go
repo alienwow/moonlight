@@ -15,8 +15,8 @@
 package api
 
 import (
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/gittar/webcontext"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/webcontext"
 )
 
 func CreateCheckRun(ctx *webcontext.Context) {

@@ -18,7 +18,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/gateway/dto"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/gateway/dto"
 )
 
 func TestSortByTypeList_Less(t *testing.T) {

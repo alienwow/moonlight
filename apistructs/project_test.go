@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/erda-project/erda/apistructs"
-	calcu "github.com/erda-project/erda/pkg/resourcecalculator"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	calcu "github.com/ping-cloudnative/moonlight/pkg/resourcecalculator"
 )
 
 const createProjectRequest = `{

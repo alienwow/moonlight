@@ -17,12 +17,12 @@ package token
 import (
 	"github.com/go-redis/redis"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng"
-	openapiauth "github.com/erda-project/erda/internal/core/openapi/openapi-ng/auth"
-	"github.com/erda-project/erda/pkg/oauth2"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng"
+	openapiauth "github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/auth"
+	"github.com/ping-cloudnative/moonlight/pkg/oauth2"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
 )
 
 type config struct {

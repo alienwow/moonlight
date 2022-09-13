@@ -15,7 +15,7 @@
 package assembler
 
 import (
-	gw "github.com/erda-project/erda/internal/tools/orchestrator/hepa/gateway/dto"
+	gw "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/gateway/dto"
 )
 
 type GatewayGroupAssemblerImpl struct {

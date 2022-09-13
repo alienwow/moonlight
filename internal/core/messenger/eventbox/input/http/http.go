@@ -21,10 +21,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-proto-go/core/messenger/eventbox/pb"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/input"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/monitor"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/types"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/input"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/monitor"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/types"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/messenger/eventbox/pb"
 )
 
 type HttpInput struct {

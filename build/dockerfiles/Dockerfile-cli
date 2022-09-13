@@ -2,9 +2,9 @@
 ARG BASE_DOCKER_IMAGE
 FROM ${BASE_DOCKER_IMAGE} as build
 
-RUN mkdir -p "$GOPATH/src/github.com/erda-project/erda/"
-COPY . "$GOPATH/src/github.com/erda-project/erda/"
-WORKDIR "$GOPATH/src/github.com/erda-project/erda/"
+RUN mkdir -p "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
+COPY . "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
+WORKDIR "$GOPATH/src/github.com/ping-cloudnative/moonlight/"
 
 
 ARG DOCKER_IMAGE
@@ -16,8 +16,8 @@ RUN --mount=type=cache,target=/root/.cache/go-build\
 ARG BASE_DOCKER_IMAGE
 FROM ${BASE_DOCKER_IMAGE}
 
-COPY --from=build "$GOPATH/src/github.com/erda-project/erda/bin/erda-cli-linux" "/usr/bin/erda-cli"
-COPY --from=build "$GOPATH/src/github.com/erda-project/erda/build/scripts/cli/run.sh" "/usr/bin/run.sh"
+COPY --from=build "$GOPATH/src/github.com/ping-cloudnative/moonlight/bin/erda-cli-linux" "/usr/bin/erda-cli"
+COPY --from=build "$GOPATH/src/github.com/ping-cloudnative/moonlight/build/scripts/cli/run.sh" "/usr/bin/run.sh"
 
 RUN chmod 755 /usr/bin/erda-cli
 RUN chmod 755 /usr/bin/run.sh

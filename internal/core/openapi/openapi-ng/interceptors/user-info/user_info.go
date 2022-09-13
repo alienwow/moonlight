@@ -25,12 +25,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/interceptors"
-	"github.com/erda-project/erda/internal/core/user/util"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/interceptors"
+	"github.com/ping-cloudnative/moonlight/internal/core/user/util"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 type config struct {

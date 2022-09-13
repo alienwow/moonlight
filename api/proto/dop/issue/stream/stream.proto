@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package erda.dop.issue.stream;
-option go_package = "github.com/erda-project/erda-proto-go/dop/issue/stream/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/dop/issue/stream/pb";
 import "google/api/annotations.proto";
 import "common/openapi.proto";
 import "common/identity.proto";

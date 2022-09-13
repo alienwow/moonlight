@@ -24,10 +24,10 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 
-	"github.com/erda-project/erda-infra/pkg/transport/http/runtime"
-	common "github.com/erda-project/erda-proto-go/common/pb"
-	httpapi "github.com/erda-project/erda/pkg/common/httpapi"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport/http/runtime"
+	httpapi "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	common "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
 )
 
 // APIProxy .

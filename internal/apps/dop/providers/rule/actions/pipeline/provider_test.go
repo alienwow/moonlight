@@ -21,10 +21,10 @@ import (
 
 	"bou.ke/monkey"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/services/branchrule"
-	"github.com/erda-project/erda/internal/apps/dop/services/pipeline"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/branchrule"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/pipeline"
 )
 
 func Test_provider_CreatePipeline(t *testing.T) {

@@ -9,7 +9,7 @@ import "google/protobuf/struct.proto";
 import "google/protobuf/any.proto";
 import "common/identity.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/core/pipeline/report/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/report/pb";
 
 service ReportService {
   rpc QueryPipelineReportSet (PipelineReportSetQueryRequest) returns (PipelineReportSetQueryResponse) {

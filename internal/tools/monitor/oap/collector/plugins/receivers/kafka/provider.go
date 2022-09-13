@@ -20,16 +20,16 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace"
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model/odata"
-	kafkaInf "github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/kafka"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/protoparser/oapspan"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/protoparser/spotmetric"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/protoparser/spotspan"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model/odata"
+	kafkaInf "github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/kafka"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/protoparser/oapspan"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/protoparser/spotmetric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/protoparser/spotspan"
 )
 
 type parserName string

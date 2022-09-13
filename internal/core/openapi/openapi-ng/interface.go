@@ -17,7 +17,7 @@ package openapi
 import (
 	"context"
 
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
+	transhttp "github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
 )
 
 // Interface .

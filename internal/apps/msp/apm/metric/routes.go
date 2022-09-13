@@ -26,10 +26,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	tenantpb "github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/common/permission"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/common/permission"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
+	tenantpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
 )
 
 const permissionResource = "microservice_metric"

@@ -19,7 +19,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/spec"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/spec"
 )
 
 // RuntimeVPA define K8s VPA object for runtime's service

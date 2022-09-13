@@ -17,7 +17,7 @@ package token
 import (
 	"testing"
 
-	"github.com/erda-project/erda-proto-go/core/token/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
 )
 
 func TestToModelToken(t *testing.T) {

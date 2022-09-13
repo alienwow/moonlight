@@ -18,7 +18,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/erda-project/erda/pkg/swagger/oas3"
+	"github.com/ping-cloudnative/moonlight/pkg/swagger/oas3"
 )
 
 func TestExpandSchemaRef2(t *testing.T) {

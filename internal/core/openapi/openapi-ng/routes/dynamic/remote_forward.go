@@ -18,8 +18,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	forward "github.com/erda-project/erda-infra/providers/remote-forward"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	forward "github.com/ping-cloudnative/moonlight-utils/providers/remote-forward"
 )
 
 func (p *provider) initRemoteForward(ctx servicehub.Context) (err error) {

@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/dbclient"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 func (r *provider) mustFetchPipelineDetail(ctx context.Context, pipelineID uint64) *spec.Pipeline {

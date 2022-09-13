@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erda-project/erda/internal/tools/gittar/models"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/models"
 )
 
 func NewAuth() error {

@@ -18,7 +18,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/internal/core/legacy/model"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/model"
 )
 
 // CreateSubscribe Create relationship between erda item (project/application) and subscriber

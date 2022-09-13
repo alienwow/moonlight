@@ -15,7 +15,7 @@
 package transaction_mq_error
 
 import (
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/service/components/transaction-mq-error/error_req_distribution"
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/service/components/transaction-mq-error/metric_table"
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/service/components/transaction-mq-error/metric_table_filter"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/service/components/transaction-mq-error/error_req_distribution"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/service/components/transaction-mq-error/metric_table"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/service/components/transaction-mq-error/metric_table_filter"
 )

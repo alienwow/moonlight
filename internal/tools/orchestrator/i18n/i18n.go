@@ -20,8 +20,8 @@ import (
 	"golang.org/x/text/language"
 	"golang.org/x/text/message"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	orgCache "github.com/erda-project/erda/internal/tools/orchestrator/cache/org"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	orgCache "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/cache/org"
 )
 
 var (

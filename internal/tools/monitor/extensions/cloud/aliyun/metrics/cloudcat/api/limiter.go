@@ -20,7 +20,7 @@ import (
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses"
 
-	"github.com/erda-project/erda/bundle"
+	"github.com/ping-cloudnative/moonlight/bundle"
 )
 
 var (

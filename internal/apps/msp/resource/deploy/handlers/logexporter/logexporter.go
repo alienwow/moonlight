@@ -15,10 +15,10 @@
 package logexporter
 
 import (
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/msp/instance/db"
-	"github.com/erda-project/erda/internal/apps/msp/resource/deploy/handlers"
-	"github.com/erda-project/erda/internal/apps/msp/resource/utils"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/resource/deploy/handlers"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/resource/utils"
 )
 
 func (p *provider) IsMatch(tmc *db.Tmc) bool {

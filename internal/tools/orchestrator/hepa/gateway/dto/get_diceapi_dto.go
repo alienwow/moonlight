@@ -17,7 +17,7 @@ package dto
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
 )
 
 type GetDiceApiDto struct {

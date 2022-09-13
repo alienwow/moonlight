@@ -22,7 +22,7 @@ import (
 	"github.com/doug-martin/goqu/v9/exp"
 	"github.com/influxdata/influxql"
 
-	tsql "github.com/erda-project/erda/internal/tools/monitor/core/metric/query/es-tsql"
+	tsql "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric/query/es-tsql"
 )
 
 type SQLAggHandler interface {

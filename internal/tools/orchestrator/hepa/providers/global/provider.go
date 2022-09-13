@@ -15,16 +15,16 @@
 package global
 
 import (
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	clusterpb "github.com/erda-project/erda-proto-go/core/clustermanager/cluster/pb"
-	"github.com/erda-project/erda-proto-go/core/hepa/global/pb"
-	tenantpb "github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common"
-	apiI "github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/endpoint_api/impl"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/global/impl"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common"
+	apiI "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/endpoint_api/impl"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/global/impl"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	clusterpb "github.com/ping-cloudnative/moonlight/proto-go/core/clustermanager/cluster/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/global/pb"
+	tenantpb "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
 )
 
 type config struct {

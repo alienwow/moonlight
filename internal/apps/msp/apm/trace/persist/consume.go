@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"time"
 
-	oap "github.com/erda-project/erda-proto-go/oap/trace/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace"
-	metrics "github.com/erda-project/erda/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace"
+	metrics "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	oap "github.com/ping-cloudnative/moonlight/proto-go/oap/trace/pb"
 )
 
 func (p *provider) decodeSpotSpan(key, value []byte, topic *string, timestamp time.Time) (interface{}, error) {

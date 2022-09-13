@@ -14,7 +14,7 @@
 
 package fdp
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var CDP_DELETE = apis.ApiSpec{
 	Path:        "/api/fdp/<*>",

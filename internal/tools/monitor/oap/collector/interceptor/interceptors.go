@@ -20,12 +20,12 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-infra/pkg/transport/interceptor"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/authentication"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/maps"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	transhttp "github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport/interceptor"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/authentication"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/maps"
 )
 
 var (

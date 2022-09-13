@@ -14,7 +14,7 @@
 
 package dao
 
-import "github.com/erda-project/erda/apistructs"
+import "github.com/ping-cloudnative/moonlight/apistructs"
 
 // GetPodsByWorkspace get all pods in workspace in target project
 func (client *DBClient) GetPodsByWorkspace(projectID, workspace string) ([]apistructs.PodInfo, error) {

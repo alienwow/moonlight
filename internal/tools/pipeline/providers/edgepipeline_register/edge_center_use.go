@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/erda-project/erda-infra/pkg/safe"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/safe"
 )
 
 func (p *provider) mustStarted() {

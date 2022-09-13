@@ -30,14 +30,14 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 
-	clusterpb "github.com/erda-project/erda-proto-go/core/clustermanager/cluster/pb"
-	"github.com/erda-project/erda/bundle"
-	clientconfig "github.com/erda-project/erda/internal/tools/cluster-agent/config"
-	clusteragent "github.com/erda-project/erda/internal/tools/cluster-agent/pkg/client"
-	"github.com/erda-project/erda/internal/tools/cluster-manager/dialer/auth"
-	"github.com/erda-project/erda/internal/tools/cluster-manager/dialer/config"
-	"github.com/erda-project/erda/pkg/clusterdialer"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	clientconfig "github.com/ping-cloudnative/moonlight/internal/tools/cluster-agent/config"
+	clusteragent "github.com/ping-cloudnative/moonlight/internal/tools/cluster-agent/pkg/client"
+	"github.com/ping-cloudnative/moonlight/internal/tools/cluster-manager/dialer/auth"
+	"github.com/ping-cloudnative/moonlight/internal/tools/cluster-manager/dialer/config"
+	"github.com/ping-cloudnative/moonlight/pkg/clusterdialer"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	clusterpb "github.com/ping-cloudnative/moonlight/proto-go/core/clustermanager/cluster/pb"
 )
 
 const (

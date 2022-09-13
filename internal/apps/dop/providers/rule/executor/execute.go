@@ -17,12 +17,12 @@ package executor
 import (
 	"errors"
 
-	"github.com/erda-project/erda-proto-go/dop/rule/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/providers/rule/actions/api"
-	"github.com/erda-project/erda/internal/apps/dop/providers/rule/actions/dingtalkworknotice"
-	"github.com/erda-project/erda/internal/apps/dop/providers/rule/actions/pipeline"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/actions/api"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/actions/dingtalkworknotice"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/actions/pipeline"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/rule/pb"
 )
 
 type Executor struct {

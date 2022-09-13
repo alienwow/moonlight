@@ -17,8 +17,8 @@ package instanceinfo
 import (
 	"time"
 
-	"github.com/erda-project/erda/pkg/database/dbengine"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 type ServicePhase string

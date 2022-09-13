@@ -20,9 +20,9 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda/pkg/common/errors"
-	tokenstore "github.com/erda-project/erda/pkg/oauth2/tokenstore/mysqltokenstore"
+	"github.com/ping-cloudnative/moonlight/pkg/common/errors"
+	tokenstore "github.com/ping-cloudnative/moonlight/pkg/oauth2/tokenstore/mysqltokenstore"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
 )
 
 type Dao interface {

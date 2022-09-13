@@ -17,8 +17,8 @@ package autotest
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
 )
 
 func (svc *Service) CreateFileTreeNodeHistory(inode string) error {

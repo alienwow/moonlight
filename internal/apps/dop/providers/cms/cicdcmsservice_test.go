@@ -22,8 +22,8 @@ import (
 	"bou.ke/monkey"
 	"github.com/alecthomas/assert"
 
-	cmspb "github.com/erda-project/erda-proto-go/core/pipeline/cms/pb"
-	"github.com/erda-project/erda-proto-go/dop/cms/pb"
+	cmspb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cms/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/cms/pb"
 )
 
 type CmsServiceServerImpl struct {

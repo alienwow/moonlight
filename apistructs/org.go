@@ -21,7 +21,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda/pkg/nexus"
+	"github.com/ping-cloudnative/moonlight/pkg/nexus"
 )
 
 const SECRECT_PLACEHOLDER = "******"

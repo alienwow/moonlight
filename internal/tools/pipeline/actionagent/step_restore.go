@@ -25,10 +25,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/tools/pipeline/actionagent/agenttool"
-	"github.com/erda-project/erda/internal/tools/pipeline/pipengine/pvolumes"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
-	"github.com/erda-project/erda/pkg/filehelper"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/actionagent/agenttool"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/pipengine/pvolumes"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/filehelper"
 )
 
 const (

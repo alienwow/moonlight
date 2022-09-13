@@ -17,8 +17,8 @@ package query
 import (
 	"fmt"
 
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	"github.com/erda-project/erda/internal/tools/monitor/common/permission"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/common/permission"
 )
 
 func (p *provider) getScope(ctx httpserver.Context) (string, error) {

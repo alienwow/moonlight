@@ -19,7 +19,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/internal/pkg/mysql"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/mysql"
 )
 
 var (

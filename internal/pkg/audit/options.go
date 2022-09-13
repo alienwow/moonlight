@@ -21,7 +21,7 @@ import (
 
 	"github.com/recallsong/go-utils/conv"
 
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
 )
 
 type (

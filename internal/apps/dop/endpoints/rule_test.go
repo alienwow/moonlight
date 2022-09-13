@@ -22,9 +22,9 @@ import (
 	"bou.ke/monkey"
 	gomock "github.com/golang/mock/gomock"
 
-	pb "github.com/erda-project/erda-proto-go/dop/rule/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	pb "github.com/ping-cloudnative/moonlight/proto-go/dop/rule/pb"
 )
 
 func TestEndpoints_FireRule(t *testing.T) {

@@ -26,9 +26,9 @@ import (
 	"k8s.io/apiserver/pkg/endpoints/request"
 	corev1client "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/cmp/steve/predefined"
-	"github.com/erda-project/erda/pkg/k8sclient"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/steve/predefined"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient"
 )
 
 type ShellHandler struct {

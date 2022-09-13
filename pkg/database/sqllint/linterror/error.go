@@ -23,8 +23,8 @@ import (
 	"github.com/pingcap/parser"
 	"github.com/pingcap/parser/ast"
 
-	"github.com/erda-project/erda/pkg/database/sqllint/script"
-	"github.com/erda-project/erda/pkg/terminal/color"
+	"github.com/ping-cloudnative/moonlight/pkg/database/sqllint/script"
+	"github.com/ping-cloudnative/moonlight/pkg/terminal/color"
 )
 
 type LintError struct {

@@ -17,7 +17,7 @@ package orgapis
 import (
 	"net/http"
 
-	"github.com/erda-project/erda-infra/providers/httpserver"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
 )
 
 type MetricSource interface {

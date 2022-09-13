@@ -23,14 +23,14 @@ import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"gorm.io/gorm"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda-infra/pkg/transport"
-	"github.com/erda-project/erda-proto-go/dop/apim/pb"
-	orgCache "github.com/erda-project/erda/internal/apps/dop/cache/org"
-	"github.com/erda-project/erda/internal/apps/dop/providers/api-management/apierr"
-	"github.com/erda-project/erda/internal/apps/dop/providers/api-management/model"
-	"github.com/erda-project/erda/internal/core/org"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	orgCache "github.com/ping-cloudnative/moonlight/internal/apps/dop/cache/org"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/api-management/apierr"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/api-management/model"
+	"github.com/ping-cloudnative/moonlight/internal/core/org"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/apim/pb"
 )
 
 var (

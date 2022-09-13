@@ -26,19 +26,19 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
-	_ "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/scenarios/action/components/actionForm"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/types"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/i18n"
-	"github.com/erda-project/erda/pkg/discover"
-	"github.com/erda-project/erda/pkg/http/httpclient"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/http/httpserver/errorresp"
-	i18npkg "github.com/erda-project/erda/pkg/i18n"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
+	_ "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/scenarios/action/components/actionForm"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/types"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver/errorresp"
+	i18npkg "github.com/ping-cloudnative/moonlight/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 var Render = apis.ApiSpec{

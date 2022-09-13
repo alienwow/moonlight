@@ -14,7 +14,7 @@
 
 package apistructs
 
-import "github.com/erda-project/erda/pkg/nexus"
+import "github.com/ping-cloudnative/moonlight/pkg/nexus"
 
 //////////////////////////////////////////
 // nexus repository

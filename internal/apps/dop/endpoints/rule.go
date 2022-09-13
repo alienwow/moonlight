@@ -22,8 +22,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	rulepb "github.com/erda-project/erda-proto-go/dop/rule/pb"
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	rulepb "github.com/ping-cloudnative/moonlight/proto-go/dop/rule/pb"
 )
 
 type EventInfo struct {

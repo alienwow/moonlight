@@ -27,15 +27,15 @@ import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/erda-project/erda-infra/providers/mysqlxorm"
-	"github.com/erda-project/erda-proto-go/core/pipeline/cron/pb"
-	. "github.com/erda-project/erda-proto-go/core/pipeline/pb"
-	common "github.com/erda-project/erda-proto-go/core/pipeline/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cron/daemon"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/cron/db"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/edgepipeline_register"
+	"github.com/ping-cloudnative/moonlight-utils/providers/mysqlxorm"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cron/daemon"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/cron/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/edgepipeline_register"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cron/pb"
+	. "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/pb"
+	common "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/pb"
 )
 
 type daemonInterface struct {

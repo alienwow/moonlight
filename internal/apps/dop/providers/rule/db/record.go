@@ -22,8 +22,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-proto-go/dop/rule/pb"
-	"github.com/erda-project/erda/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/rule/pb"
 )
 
 type DBClient struct {

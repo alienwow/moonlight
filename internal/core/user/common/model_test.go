@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/erda-project/erda-proto-go/core/user/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 func TestToPbUser(t *testing.T) {

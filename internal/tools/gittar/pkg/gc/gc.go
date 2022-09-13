@@ -22,9 +22,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/tools/gittar/conf"
-	"github.com/erda-project/erda/pkg/cron"
-	"github.com/erda-project/erda/pkg/limit_sync_group"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/conf"
+	"github.com/ping-cloudnative/moonlight/pkg/cron"
+	"github.com/ping-cloudnative/moonlight/pkg/limit_sync_group"
 )
 
 // all gittar repository root address

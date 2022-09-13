@@ -17,7 +17,7 @@ package autotest
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
 )
 
 func (svc *Service) DeleteFileTreeNodeHistory(inode string) {

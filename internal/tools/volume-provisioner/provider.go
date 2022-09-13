@@ -20,7 +20,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
 )
 
 // config The definition of volume-provisioner config

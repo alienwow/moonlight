@@ -18,10 +18,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-proto-go/dop/qa/unittest/pb"
-	"github.com/erda-project/erda/pkg/cloudstorage"
-	"github.com/erda-project/erda/pkg/qaparser"
-	"github.com/erda-project/erda/pkg/qaparser/types"
+	"github.com/ping-cloudnative/moonlight/pkg/cloudstorage"
+	"github.com/ping-cloudnative/moonlight/pkg/qaparser"
+	"github.com/ping-cloudnative/moonlight/pkg/qaparser/types"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/qa/unittest/pb"
 )
 
 type NgParser struct {

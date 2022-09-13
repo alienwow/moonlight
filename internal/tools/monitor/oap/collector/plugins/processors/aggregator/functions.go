@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
 )
 
 type functionCall func(pre, cur *metric.Metric) *metric.Metric

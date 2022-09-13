@@ -17,7 +17,7 @@ package labelpipeline
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/labelconfig"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/labelconfig"
 )
 
 // Tenant label

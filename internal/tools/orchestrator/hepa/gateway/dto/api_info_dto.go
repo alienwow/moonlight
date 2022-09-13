@@ -17,7 +17,7 @@ package dto
 import (
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-proto-go/core/hepa/api/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/hepa/api/pb"
 )
 
 const (

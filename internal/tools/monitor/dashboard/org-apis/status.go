@@ -20,8 +20,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	api "github.com/erda-project/erda/pkg/common/httpapi"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	api "github.com/ping-cloudnative/moonlight/pkg/common/httpapi"
 )
 
 type statusQuery struct {

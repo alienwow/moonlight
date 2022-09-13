@@ -15,5 +15,5 @@
 package resources_node_monitor
 
 import (
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/service/components/resources-node-monitor/node"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/service/components/resources-node-monitor/node"
 )

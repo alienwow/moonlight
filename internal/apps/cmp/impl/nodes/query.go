@@ -24,9 +24,9 @@ import (
 	"github.com/golang-collections/collections/set"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/cmp/dbclient"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/dbclient"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 func (n *Nodes) Sync(rs []dbclient.Record) ([]dbclient.Record, error) {

@@ -26,16 +26,16 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/auth"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/generate/auto_register"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/conf"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/hooks"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/hooks/prehandle"
-	identity "github.com/erda-project/erda/internal/core/user/common"
-	"github.com/erda-project/erda/pkg/oauth2"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/auth"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/generate/auto_register"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/conf"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/hooks"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/hooks/prehandle"
+	identity "github.com/ping-cloudnative/moonlight/internal/core/user/common"
+	"github.com/ping-cloudnative/moonlight/pkg/oauth2"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
 )
 
 type LoginServer struct {

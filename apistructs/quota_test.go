@@ -17,7 +17,7 @@ package apistructs_test
 import (
 	"testing"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func TestTrendRequest_Validate(t *testing.T) {

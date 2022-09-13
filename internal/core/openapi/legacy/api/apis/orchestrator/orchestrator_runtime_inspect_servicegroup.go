@@ -14,7 +14,7 @@
 
 package orchestrator
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var ORCHESTRATOR_RUNTIME_INSPECT_SERVICEGROUP = apis.ApiSpec{
 	Path:        "/api/runtimes/<runtimeId>/configuration",

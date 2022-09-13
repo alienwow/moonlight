@@ -14,7 +14,7 @@
 
 package spec
 
-import "github.com/erda-project/erda/pkg/parser/diceyml"
+import "github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
 
 type LegacyDice struct {
 	Name         string                 `json:"name"`

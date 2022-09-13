@@ -43,8 +43,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/mock"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/mock"
 )
 
 // tryV1RenderRequestBodyStr 尝试使用 apitestsv1 的严格渲染逻辑，渲染失败不报错

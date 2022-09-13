@@ -20,8 +20,8 @@ import (
 	"bou.ke/monkey"
 	"github.com/alecthomas/assert"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/encoding/jsonpath"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/encoding/jsonpath"
 )
 
 func Test_handlerActionOutputsWithJq(t *testing.T) {

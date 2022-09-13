@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/erda-project/erda/pkg/secret"
-	"github.com/erda-project/erda/pkg/secret/hmac"
+	"github.com/ping-cloudnative/moonlight/pkg/secret"
+	"github.com/ping-cloudnative/moonlight/pkg/secret/hmac"
 )
 
 const maxExpireTime = time.Minute * 10

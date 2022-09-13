@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"testing"
 
-	providersI18n "github.com/erda-project/erda-infra/providers/i18n"
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	"github.com/erda-project/erda/internal/pkg/mock"
-	orgCache "github.com/erda-project/erda/internal/tools/orchestrator/cache/org"
-	"github.com/erda-project/erda/internal/tools/orchestrator/i18n"
+	providersI18n "github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/mock"
+	orgCache "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/cache/org"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/i18n"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
 )
 
 type mockTranslator struct {

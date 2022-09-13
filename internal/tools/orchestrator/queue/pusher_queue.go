@@ -21,7 +21,7 @@ import (
 	"github.com/go-redis/redis"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/conf"
 )
 
 type QueueEnum string

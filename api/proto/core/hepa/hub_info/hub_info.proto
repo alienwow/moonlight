@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package erda.core.hepa.hub_info;
 
-option go_package = "github.com/erda-project/erda-proto-go/core/hepa/endpoint_api/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/hepa/endpoint_api/pb";
 
 service HubInfoService {
   rpc CreateOrGetHubInfo(CreateHubInfoReq) returns (GetHubInfoResp) {}

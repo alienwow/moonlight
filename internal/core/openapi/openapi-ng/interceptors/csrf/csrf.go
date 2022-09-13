@@ -28,10 +28,10 @@ import (
 	"github.com/labstack/echo"
 	"github.com/labstack/gommon/random"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/common"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/interceptors"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/common"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/interceptors"
 )
 
 type config struct {

@@ -27,9 +27,9 @@ package drain
 //	corev1 "k8s.io/api/core/v1"
 //	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 //
-//	"github.com/erda-project/erda/apistructs"
-//	"github.com/erda-project/erda/pkg/clientgo/kubernetes"
-//	"github.com/erda-project/erda/pkg/clientgo/restclient"
+//	"github.com/ping-cloudnative/moonlight/apistructs"
+//	"github.com/ping-cloudnative/moonlight/pkg/clientgo/kubernetes"
+//	"github.com/ping-cloudnative/moonlight/pkg/clientgo/restclient"
 //)
 //
 //func getClient(inetAddr string) (*kubernetes.Clientset, error) {

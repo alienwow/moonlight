@@ -38,7 +38,7 @@ func TestGetEnvOrDefault(t *testing.T) {
 //
 //	"github.com/stretchr/testify/assert"
 //
-//	"github.com/erda-project/erda/pkg/jsonstore/stm"
+//	"github.com/ping-cloudnative/moonlight/pkg/jsonstore/stm"
 //)
 //
 //func TestCancelWatch(t *testing.T) {

@@ -19,10 +19,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/erda-project/erda/internal/tools/monitor/core/metric"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/common"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/common/unmarshalwork"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/metric"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/common/unmarshalwork"
 )
 
 func ParseSpotMetric(buf []byte, callback func(m *metric.Metric) error) error {

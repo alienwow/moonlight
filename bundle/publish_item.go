@@ -17,8 +17,8 @@ package bundle
 import (
 	"strconv"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle/apierrors"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle/apierrors"
 )
 
 // QueryPublishItems queries publish items from dicehub

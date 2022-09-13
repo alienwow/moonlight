@@ -14,7 +14,7 @@
 
 package cmp
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var CMP_CLOUD_RESOURCE = apis.ApiSpec{
 	Path:        "/api/ops/cloud-resource",

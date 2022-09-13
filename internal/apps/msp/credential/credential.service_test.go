@@ -24,20 +24,20 @@ import (
 	"github.com/golang/mock/gomock"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	grpc1 "github.com/erda-project/erda-infra/pkg/transport/grpc"
-	"github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-infra/pkg/transport/http/encoding"
-	tokenpb "github.com/erda-project/erda-proto-go/core/token/pb"
-	"github.com/erda-project/erda-proto-go/msp/credential/pb"
-	tenant "github.com/erda-project/erda-proto-go/msp/tenant/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
+	grpc1 "github.com/ping-cloudnative/moonlight-utils/pkg/transport/grpc"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport/http/encoding"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	tokenpb "github.com/ping-cloudnative/moonlight/proto-go/core/token/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/credential/pb"
+	tenant "github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb"
 )
 
-////go:generate mockgen -destination=./credential_register_test.go -package exporter github.com/erda-project/erda-infra/pkg/transport Register
-////go:generate mockgen -destination=./credential_ak_test.go -package exporter github.com/erda-project/erda-proto-go/core/services/authentication/credentials/accesskey/pb AccessKeyServiceServer
-////go:generate mockgen -destination=./credential_context_test.go -package exporter github.com/erda-project/erda-infra/base/servicehub Context
-////go:generate mockgen -destination=./tenant_test.go -package exporter github.com/erda-project/erda-proto-go/msp/tenant/pb TenantServiceServer
+////go:generate mockgen -destination=./credential_register_test.go -package exporter github.com/ping-cloudnative/moonlight-utils/pkg/transport Register
+////go:generate mockgen -destination=./credential_ak_test.go -package exporter github.com/ping-cloudnative/moonlight/proto-go/core/services/authentication/credentials/accesskey/pb AccessKeyServiceServer
+////go:generate mockgen -destination=./credential_context_test.go -package exporter github.com/ping-cloudnative/moonlight-utils/base/servicehub Context
+////go:generate mockgen -destination=./tenant_test.go -package exporter github.com/ping-cloudnative/moonlight/proto-go/msp/tenant/pb TenantServiceServer
 
 func Test_accessKeyService_QueryAccessKeys(t *testing.T) {
 	ctrl := gomock.NewController(t)

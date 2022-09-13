@@ -23,16 +23,16 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	"github.com/erda-project/erda-infra/base/servicehub"
-	transhttp "github.com/erda-project/erda-infra/pkg/transport/http"
-	"github.com/erda-project/erda-infra/providers/httpserver"
-	fserver "github.com/erda-project/erda-infra/providers/remote-forward/server"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/auth"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/proxy"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/routes/proto"
-	discover "github.com/erda-project/erda/internal/pkg/service-discover"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	transhttp "github.com/ping-cloudnative/moonlight-utils/pkg/transport/http"
+	"github.com/ping-cloudnative/moonlight-utils/providers/httpserver"
+	fserver "github.com/ping-cloudnative/moonlight-utils/providers/remote-forward/server"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/auth"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/proxy"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/routes/proto"
+	discover "github.com/ping-cloudnative/moonlight/internal/pkg/service-discover"
 )
 
 //go:embed static

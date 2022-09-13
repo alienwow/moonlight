@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle/apierrors"
-	"github.com/erda-project/erda/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle/apierrors"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
 )
 
 // api docs -> https://yuque.antfin-inc.com/terminus_paas_dev/middleware/iggk1u

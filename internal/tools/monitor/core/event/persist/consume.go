@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/erda-project/erda-proto-go/oap/event/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/core/event"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/event"
+	"github.com/ping-cloudnative/moonlight/proto-go/oap/event/pb"
 )
 
 func (p *provider) decode(key, value []byte, topic *string, timestamp time.Time) (interface{}, error) {

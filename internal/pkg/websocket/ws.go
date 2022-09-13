@@ -24,7 +24,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/igm/sockjs-go.v2/sockjs"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 type Command string

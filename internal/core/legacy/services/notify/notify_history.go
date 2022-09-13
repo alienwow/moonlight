@@ -14,7 +14,7 @@
 
 package notify
 
-import "github.com/erda-project/erda/apistructs"
+import "github.com/ping-cloudnative/moonlight/apistructs"
 
 func (o *NotifyGroup) CreateNotifyHistory(request *apistructs.CreateNotifyHistoryRequest) (int64, error) {
 	return o.db.CreateNotifyHistory(request)

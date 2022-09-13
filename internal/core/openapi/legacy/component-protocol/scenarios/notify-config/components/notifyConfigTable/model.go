@@ -15,8 +15,8 @@
 package notifyConfigTable
 
 import (
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/components/table"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/components/table"
 )
 
 var (

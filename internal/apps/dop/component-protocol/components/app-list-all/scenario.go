@@ -15,7 +15,7 @@
 package app_list_all
 
 import (
-	_ "github.com/erda-project/erda/internal/apps/dop/component-protocol/components/app-list-all/filter"
-	_ "github.com/erda-project/erda/internal/apps/dop/component-protocol/components/app-list-all/list"
-	_ "github.com/erda-project/erda/internal/apps/dop/component-protocol/components/app-list-all/tabs"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/app-list-all/filter"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/app-list-all/list"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/dop/component-protocol/components/app-list-all/tabs"
 )

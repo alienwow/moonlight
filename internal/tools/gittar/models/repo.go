@@ -25,10 +25,10 @@ import (
 	"github.com/patrickmn/go-cache"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/gittar/conf"
-	"github.com/erda-project/erda/internal/tools/gittar/pkg/gitmodule"
-	"github.com/erda-project/erda/pkg/gittarutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/gittar/pkg/gitmodule"
+	"github.com/ping-cloudnative/moonlight/pkg/gittarutil"
 )
 
 var ModeExternal = "external"

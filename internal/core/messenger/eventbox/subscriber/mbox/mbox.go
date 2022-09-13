@@ -17,12 +17,12 @@ package mbox
 import (
 	"encoding/json"
 
-	"github.com/erda-project/erda-proto-go/core/messenger/notify/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/subscriber"
-	"github.com/erda-project/erda/internal/core/messenger/eventbox/types"
-	"github.com/erda-project/erda/pkg/template"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/subscriber"
+	"github.com/ping-cloudnative/moonlight/internal/core/messenger/eventbox/types"
+	"github.com/ping-cloudnative/moonlight/pkg/template"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notify/pb"
 )
 
 type MBoxSubscriber struct {

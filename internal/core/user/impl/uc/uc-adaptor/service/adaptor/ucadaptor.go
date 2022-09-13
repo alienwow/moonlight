@@ -21,14 +21,14 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/core/user/impl/uc/uc-adaptor/conf"
-	"github.com/erda-project/erda/internal/core/user/impl/uc/uc-adaptor/dao"
-	"github.com/erda-project/erda/internal/core/user/impl/uc/uc-adaptor/ucclient"
-	"github.com/erda-project/erda/pkg/cron"
-	"github.com/erda-project/erda/pkg/dlock"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/core/user/impl/uc/uc-adaptor/conf"
+	"github.com/ping-cloudnative/moonlight/internal/core/user/impl/uc/uc-adaptor/dao"
+	"github.com/ping-cloudnative/moonlight/internal/core/user/impl/uc/uc-adaptor/ucclient"
+	"github.com/ping-cloudnative/moonlight/pkg/cron"
+	"github.com/ping-cloudnative/moonlight/pkg/dlock"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // Adaptor 结构体

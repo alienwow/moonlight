@@ -15,10 +15,10 @@
 package testset
 
 import (
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/dao"
-	"github.com/erda-project/erda/internal/apps/dop/services/testcase"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/dao"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/testcase"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 // Service testSet 实例对象封装

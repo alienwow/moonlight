@@ -15,9 +15,9 @@
 package gshelper
 
 import (
-	model "github.com/erda-project/erda-infra/providers/component-protocol/components/filter/models"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-proto-go/dop/issue/core/pb"
+	model "github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/filter/models"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
 )
 
 const (

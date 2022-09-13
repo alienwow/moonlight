@@ -21,7 +21,7 @@ import (
 	"bou.ke/monkey"
 	"github.com/alecthomas/assert"
 
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
 )
 
 func TestGetDomain(t *testing.T) {

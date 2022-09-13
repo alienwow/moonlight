@@ -25,17 +25,17 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/erda-project/erda-infra/pkg/transport"
-	infrai18n "github.com/erda-project/erda-infra/providers/i18n"
-	"github.com/erda-project/erda-proto-go/core/dicehub/release/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/i18n"
-	"github.com/erda-project/erda/internal/tools/orchestrator/services/addon"
-	"github.com/erda-project/erda/internal/tools/orchestrator/services/apierrors"
-	"github.com/erda-project/erda/internal/tools/orchestrator/services/runtime"
-	"github.com/erda-project/erda/internal/tools/orchestrator/utils"
-	"github.com/erda-project/erda/pkg/http/httputil"
-	"github.com/erda-project/erda/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/transport"
+	infrai18n "github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/services/addon"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/services/runtime"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/utils"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/diceyml"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/dicehub/release/pb"
 )
 
 const (

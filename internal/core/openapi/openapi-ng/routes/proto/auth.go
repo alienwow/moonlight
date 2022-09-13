@@ -18,8 +18,8 @@ import (
 	"net/http"
 	"reflect"
 
-	common "github.com/erda-project/erda-proto-go/common/pb"
-	"github.com/erda-project/erda/internal/core/openapi/openapi-ng/auth"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/openapi-ng/auth"
+	common "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
 )
 
 // GetAuthOption .

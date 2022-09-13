@@ -20,7 +20,7 @@ import (
 
 	"gopkg.in/Knetic/govaluate.v3"
 
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // Eval 递归渲染统一表达式语法里的占位符，再计算表达式结果

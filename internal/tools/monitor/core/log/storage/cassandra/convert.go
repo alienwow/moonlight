@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/erda-project/erda-proto-go/core/monitor/log/query/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/monitor/log/query/pb"
 )
 
 func convertToLogItems(list []*SavedLog, matcher func(data *pb.LogItem) bool) ([]interface{}, error) {

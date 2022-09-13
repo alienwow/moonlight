@@ -16,11 +16,11 @@
 package constraintbuilders
 
 import (
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/constraintbuilders/constraints"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/constraintbuilders/k8s"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/constraintbuilders/marathon"
-	"github.com/erda-project/erda/pkg/schedule/schedulepolicy/constraintbuilders/metronome"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/constraintbuilders/constraints"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/constraintbuilders/k8s"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/constraintbuilders/marathon"
+	"github.com/ping-cloudnative/moonlight/pkg/schedule/schedulepolicy/constraintbuilders/metronome"
 )
 
 type constraintBuilder interface {

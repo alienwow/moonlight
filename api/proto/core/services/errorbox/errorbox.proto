@@ -1,6 +1,6 @@
 syntax = "proto3";
 package erda.core.services.errorbox;
-option go_package = "github.com/erda-project/erda-proto-go/core/services/errorbox/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/services/errorbox/pb";
 
 import "google/api/annotations.proto";
 import "core/dop/taskerror/task_error.proto";

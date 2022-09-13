@@ -23,9 +23,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-infra/providers/i18n"
-	corepb "github.com/erda-project/erda-proto-go/dop/issue/core/pb"
-	"github.com/erda-project/erda-proto-go/dop/issue/stream/pb"
+	"github.com/ping-cloudnative/moonlight-utils/providers/i18n"
+	corepb "github.com/ping-cloudnative/moonlight/proto-go/dop/issue/core/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/issue/stream/pb"
 )
 
 const (

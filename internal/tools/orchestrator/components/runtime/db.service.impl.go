@@ -17,9 +17,9 @@ package runtime
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/erda-project/erda/internal/tools/orchestrator/dbclient"
-	"github.com/erda-project/erda/internal/tools/orchestrator/spec"
-	"github.com/erda-project/erda/pkg/database/dbengine"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/dbclient"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/spec"
+	"github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
 )
 
 type dbServiceImpl struct {

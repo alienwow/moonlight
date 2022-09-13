@@ -17,7 +17,7 @@ package log_service
 import (
 	"testing"
 
-	"github.com/erda-project/erda-proto-go/msp/apm/log-service/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/log-service/pb"
 )
 
 func TestParseRegexp(t *testing.T) {

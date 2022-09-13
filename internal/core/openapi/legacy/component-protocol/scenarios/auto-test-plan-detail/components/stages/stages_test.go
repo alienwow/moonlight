@@ -21,9 +21,9 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
 )
 
 func TestFindFirstLastStepInGroup(t *testing.T) {

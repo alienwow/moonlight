@@ -21,10 +21,10 @@ import (
 
 	gojsonnet "github.com/google/go-jsonnet"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda/internal/apps/dop/providers/rule/jsonnet"
-	"github.com/erda-project/erda/internal/core/legacy/services/dingtalk/api/interfaces"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/jsonnet"
+	"github.com/ping-cloudnative/moonlight/internal/core/legacy/services/dingtalk/api/interfaces"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 type Interface interface {

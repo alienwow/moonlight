@@ -17,7 +17,7 @@ package pexpr
 import (
 	"regexp"
 
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 // phRe 占位符正则表达式:

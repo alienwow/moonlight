@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package erda.core.messenger.notifygroup;
 
-option go_package = "github.com/erda-project/erda-proto-go/core/messenger/notifygroup/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notifygroup/pb";
 
 import "google/api/annotations.proto";
 import "google/protobuf/struct.proto";

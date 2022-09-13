@@ -25,9 +25,9 @@ import (
 	"github.com/recallsong/go-utils/encoding/jsonx"
 	"github.com/recallsong/go-utils/reflectx"
 
-	mspDb "github.com/erda-project/erda/internal/apps/msp/instance/db"
-	"github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/index/query/db"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	mspDb "github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/index/query/db"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 // log versions

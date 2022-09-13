@@ -19,12 +19,12 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/components/list"
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	"github.com/erda-project/erda-infra/providers/component-protocol/utils/cputil"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/common"
-	"github.com/erda-project/erda/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/i18n"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/common"
+	"github.com/ping-cloudnative/moonlight/internal/apps/admin/personal-workbench/component-protocol/components/personal-workbench/i18n"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/components/list"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/utils/cputil"
 )
 
 // GenAppKvInfo show: mr num, runtime num

@@ -19,11 +19,11 @@ import (
 	"runtime/debug"
 	"sync"
 
-	"github.com/erda-project/erda-infra/pkg/safe"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/leaderworker/lwctx"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/reconciler/rutil"
-	"github.com/erda-project/erda/internal/tools/pipeline/providers/reconciler/schedulabletask"
-	"github.com/erda-project/erda/internal/tools/pipeline/spec"
+	"github.com/ping-cloudnative/moonlight-utils/pkg/safe"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/leaderworker/lwctx"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/reconciler/rutil"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/providers/reconciler/schedulabletask"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/spec"
 )
 
 func (r *provider) ReconcileOnePipeline(ctx context.Context, pipelineID uint64) {

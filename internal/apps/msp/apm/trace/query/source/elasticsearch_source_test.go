@@ -22,10 +22,10 @@ import (
 	"bou.ke/monkey"
 	"github.com/pkg/errors"
 
-	"github.com/erda-project/erda-proto-go/msp/apm/trace/pb"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace"
-	"github.com/erda-project/erda/internal/apps/msp/apm/trace/storage"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace/storage"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/proto-go/msp/apm/trace/pb"
 )
 
 func TestFetchSpanFromES(t *testing.T) {

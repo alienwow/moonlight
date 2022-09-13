@@ -17,11 +17,11 @@ package main
 import (
 	_ "embed"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	"github.com/erda-project/erda/pkg/common"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/pkg/common"
 
-	_ "github.com/erda-project/erda-infra/providers"
-	_ "github.com/erda-project/erda/internal/tools/monitor/extensions/loghub/sls-log-to-metric"
+	_ "github.com/ping-cloudnative/moonlight-utils/providers"
+	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/sls-log-to-metric"
 )
 
 //go:embed bootstrap.yaml

@@ -19,7 +19,7 @@ import (
 
 	"github.com/alecthomas/assert"
 
-	"github.com/erda-project/erda/apistructs"
+	"github.com/ping-cloudnative/moonlight/apistructs"
 )
 
 func TestSetMeta(t *testing.T) {

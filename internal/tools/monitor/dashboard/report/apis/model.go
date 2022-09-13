@@ -18,8 +18,8 @@ import (
 	"database/sql/driver"
 	"encoding/json"
 
-	dicestructs "github.com/erda-project/erda/apistructs"
-	block "github.com/erda-project/erda/internal/tools/monitor/core/dataview/v1-chart-block"
+	dicestructs "github.com/ping-cloudnative/moonlight/apistructs"
+	block "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/dataview/v1-chart-block"
 )
 
 type reportFrequency string

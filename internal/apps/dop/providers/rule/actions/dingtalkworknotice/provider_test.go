@@ -21,8 +21,8 @@ import (
 
 	"bou.ke/monkey"
 
-	userpb "github.com/erda-project/erda-proto-go/core/user/pb"
-	"github.com/erda-project/erda/internal/apps/dop/providers/rule/jsonnet"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/jsonnet"
+	userpb "github.com/ping-cloudnative/moonlight/proto-go/core/user/pb"
 )
 
 type mockidentity struct {

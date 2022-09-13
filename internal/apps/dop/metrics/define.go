@@ -14,6 +14,6 @@
 
 package metrics
 
-import "github.com/erda-project/erda/internal/pkg/metrics/query"
+import "github.com/ping-cloudnative/moonlight/internal/pkg/metrics/query"
 
 var Client query.MetricQuery

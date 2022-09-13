@@ -15,5 +15,5 @@
 package components
 
 import (
-	_ "github.com/erda-project/erda/internal/apps/msp/apm/trace/query/components/trace-query"
+	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/trace/query/components/trace-query"
 )

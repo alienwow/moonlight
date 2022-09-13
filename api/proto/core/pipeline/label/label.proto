@@ -9,7 +9,7 @@ import "github.com/envoyproxy/protoc-gen-validate/validate/validate.proto";
 import "common/identity.proto";
 import "common/commit.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/core/pipeline/label/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/label/pb";
 
 service LabelService {
   rpc PipelineLabelBatchInsert (PipelineLabelBatchInsertRequest) returns (PipelineLabelBatchInsertResponse) {

@@ -19,8 +19,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	. "github.com/erda-project/erda/pkg/parser/pipelineyml/pipelineymlv1/pipelineymlvars"
-	"github.com/erda-project/erda/pkg/parser/pipelineyml/pipelineymlv1/steptasktype"
+	. "github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml/pipelineymlv1/pipelineymlvars"
+	"github.com/ping-cloudnative/moonlight/pkg/parser/pipelineyml/pipelineymlv1/steptasktype"
 )
 
 func getBytePipelineYml() []byte {

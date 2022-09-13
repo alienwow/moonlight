@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda-proto-go/core/file/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/file/pb"
 )
 
 func TestGetFileTypeByExt(t *testing.T) {

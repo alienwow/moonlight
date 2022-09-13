@@ -21,8 +21,8 @@ import (
 	"bou.ke/monkey"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/erda-project/erda-proto-go/dop/rule/pb"
-	"github.com/erda-project/erda/internal/apps/dop/providers/rule/db"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/rule/db"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/rule/pb"
 )
 
 func TestExprExecutor_Exec(t *testing.T) {

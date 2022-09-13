@@ -18,11 +18,11 @@ package kms
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/internal/tools/kms/conf"
-	"github.com/erda-project/erda/internal/tools/kms/endpoints"
-	"github.com/erda-project/erda/pkg/http/httpserver"
-	"github.com/erda-project/erda/pkg/kms"
-	"github.com/erda-project/erda/pkg/kms/stores/etcd"
+	"github.com/ping-cloudnative/moonlight/internal/tools/kms/conf"
+	"github.com/ping-cloudnative/moonlight/internal/tools/kms/endpoints"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpserver"
+	"github.com/ping-cloudnative/moonlight/pkg/kms"
+	"github.com/ping-cloudnative/moonlight/pkg/kms/stores/etcd"
 )
 
 // Initialize initialize and bootstrap the module.

@@ -22,7 +22,7 @@ import (
 	"bou.ke/monkey"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/pkg/jsonstore"
+	"github.com/ping-cloudnative/moonlight/pkg/jsonstore"
 )
 
 func TestSend(t *testing.T) {

@@ -25,8 +25,8 @@ import (
 	"github.com/olivere/elastic"
 	"github.com/recallsong/go-utils/reflectx"
 
-	"github.com/erda-project/erda/internal/apps/msp/instance/db"
-	"github.com/erda-project/erda/pkg/http/httpclient"
+	"github.com/ping-cloudnative/moonlight/internal/apps/msp/instance/db"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httpclient"
 )
 
 // log versions

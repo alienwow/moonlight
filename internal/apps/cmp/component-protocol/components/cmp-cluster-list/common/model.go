@@ -23,11 +23,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/square/go-jose.v2/json"
 
-	"github.com/erda-project/erda-infra/providers/component-protocol/cptype"
-	clusterpb "github.com/erda-project/erda-proto-go/core/clustermanager/cluster/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/cmp/conf"
-	"github.com/erda-project/erda/pkg/k8sclient"
+	"github.com/ping-cloudnative/moonlight-utils/providers/component-protocol/cptype"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/cmp/conf"
+	"github.com/ping-cloudnative/moonlight/pkg/k8sclient"
+	clusterpb "github.com/ping-cloudnative/moonlight/proto-go/core/clustermanager/cluster/pb"
 )
 
 const (

@@ -23,12 +23,12 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/services/autotest"
-	protocol "github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/pkg/gshelper"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/scenarios/auto-test-plan-detail/i18n"
-	"github.com/erda-project/erda/internal/core/openapi/legacy/component-protocol/scenarios/auto-test-plan-detail/types"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/autotest"
+	protocol "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/pkg/gshelper"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/scenarios/auto-test-plan-detail/i18n"
+	"github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/component-protocol/scenarios/auto-test-plan-detail/types"
 )
 
 type ComponentFileInfo struct {

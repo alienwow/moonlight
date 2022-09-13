@@ -26,10 +26,10 @@ import (
 	"github.com/gogap/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/apps/dop/metrics"
-	"github.com/erda-project/erda/internal/pkg/metrics/query"
-	"github.com/erda-project/erda/pkg/discover"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/metrics"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/metrics/query"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
 )
 
 // GetStatisticsTrend 获取统计大盘，整体趋势

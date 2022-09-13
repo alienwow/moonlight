@@ -14,7 +14,7 @@
 
 package db
 
-import "github.com/erda-project/erda/pkg/database/dbengine"
+import "github.com/ping-cloudnative/moonlight/pkg/database/dbengine"
 
 type Image struct {
 	dbengine.BaseModel

@@ -16,8 +16,8 @@
 package errorresp
 
 import (
-	"github.com/erda-project/erda/pkg/i18n"
-	"github.com/erda-project/erda/pkg/strutil"
+	"github.com/ping-cloudnative/moonlight/pkg/i18n"
+	"github.com/ping-cloudnative/moonlight/pkg/strutil"
 )
 
 type MetaMessage struct {

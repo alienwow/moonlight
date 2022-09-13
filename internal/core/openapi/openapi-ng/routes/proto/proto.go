@@ -23,8 +23,8 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/reflect/protoregistry"
 
-	_ "github.com/erda-project/erda-proto-go" // import all protobuf APIs
-	common "github.com/erda-project/erda-proto-go/common/pb"
+	_ "github.com/ping-cloudnative/moonlight/proto-go" // import all protobuf APIs
+	common "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
 )
 
 type (

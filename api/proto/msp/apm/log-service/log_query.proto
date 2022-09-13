@@ -1,6 +1,6 @@
 syntax = "proto3";
 package erda.msp.apm.log_service;
-option go_package = "github.com/erda-project/erda-proto-go/msp/apm/log-service/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/msp/apm/log-service/pb";
 import "google/api/annotations.proto";
 import "google/protobuf/struct.proto";
 import "common/openapi.proto";

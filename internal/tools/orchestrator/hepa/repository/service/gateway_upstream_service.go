@@ -21,9 +21,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/xormplus/xorm"
 
-	. "github.com/erda-project/erda/internal/tools/orchestrator/hepa/common/vars"
-	context1 "github.com/erda-project/erda/internal/tools/orchestrator/hepa/context"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
+	. "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common/vars"
+	context1 "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/context"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
 )
 
 type GatewayUpstreamServiceImpl struct {

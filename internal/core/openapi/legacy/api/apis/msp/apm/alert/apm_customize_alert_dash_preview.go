@@ -14,7 +14,7 @@
 
 package alert
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var APM_CUSTOMIZE_ALERT_DASH_PREVIEW = apis.ApiSpec{
 	Path:        "/api/tmc/micro-service/tenantGroup/<tenantGroup>/customize/alerts/dash-preview/query",

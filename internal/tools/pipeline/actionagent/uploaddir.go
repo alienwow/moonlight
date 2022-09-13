@@ -23,11 +23,11 @@ import (
 	"github.com/c2h5oh/datasize"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-proto-go/core/file/pb"
-	"github.com/erda-project/erda/internal/tools/pipeline/actionagent/agenttool"
-	"github.com/erda-project/erda/pkg/filehelper"
-	"github.com/erda-project/erda/pkg/metadata"
-	"github.com/erda-project/erda/pkg/retry"
+	"github.com/ping-cloudnative/moonlight/internal/tools/pipeline/actionagent/agenttool"
+	"github.com/ping-cloudnative/moonlight/pkg/filehelper"
+	"github.com/ping-cloudnative/moonlight/pkg/metadata"
+	"github.com/ping-cloudnative/moonlight/pkg/retry"
+	"github.com/ping-cloudnative/moonlight/proto-go/core/file/pb"
 )
 
 const (

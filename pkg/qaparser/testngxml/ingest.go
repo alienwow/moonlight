@@ -22,7 +22,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/pkg/qaparser"
+	"github.com/ping-cloudnative/moonlight/pkg/qaparser"
 )
 
 // IngestFiles will parse the given XML files and return a slice of all

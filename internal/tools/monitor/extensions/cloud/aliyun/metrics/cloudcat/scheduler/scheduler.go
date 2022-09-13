@@ -24,11 +24,11 @@ import (
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/cms"
 	"github.com/sirupsen/logrus"
 
-	writer "github.com/erda-project/erda-infra/pkg/parallel-writer"
-	"github.com/erda-project/erda/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/api"
-	"github.com/erda-project/erda/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/globals"
-	"github.com/erda-project/erda/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/grabber"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/kafka"
+	writer "github.com/ping-cloudnative/moonlight-utils/pkg/parallel-writer"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/api"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/globals"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/cloud/aliyun/metrics/cloudcat/grabber"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/kafka"
 )
 
 var topic = "spot-telemetry"

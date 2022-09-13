@@ -24,18 +24,18 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda-infra/base/servicehub"
-	definitionpb "github.com/erda-project/erda-proto-go/core/pipeline/definition/pb"
-	sourcepb "github.com/erda-project/erda-proto-go/core/pipeline/source/pb"
-	"github.com/erda-project/erda-proto-go/dop/projectpipeline/pb"
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/bundle"
-	"github.com/erda-project/erda/internal/apps/dop/providers/projectpipeline"
-	"github.com/erda-project/erda/internal/apps/dop/services/apierrors"
-	"github.com/erda-project/erda/internal/apps/dop/services/branchrule"
-	"github.com/erda-project/erda/internal/apps/dop/services/pipeline"
-	"github.com/erda-project/erda/internal/pkg/diceworkspace"
-	"github.com/erda-project/erda/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight-utils/base/servicehub"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/providers/projectpipeline"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/apierrors"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/branchrule"
+	"github.com/ping-cloudnative/moonlight/internal/apps/dop/services/pipeline"
+	"github.com/ping-cloudnative/moonlight/internal/pkg/diceworkspace"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	definitionpb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/definition/pb"
+	sourcepb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/source/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/dop/projectpipeline/pb"
 )
 
 type provider struct {

@@ -14,7 +14,7 @@
 
 package deftype
 
-import "github.com/erda-project/erda/apistructs"
+import "github.com/ping-cloudnative/moonlight/apistructs"
 
 type ProjectPipelineBatchRun struct {
 	PipelineDefinitionIDs []string

@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/erda-project/erda/pkg/secret"
+	"github.com/ping-cloudnative/moonlight/pkg/secret"
 )
 
 func TestSignature(t *testing.T) {

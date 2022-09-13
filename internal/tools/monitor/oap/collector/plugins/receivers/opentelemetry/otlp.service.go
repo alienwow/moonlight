@@ -18,11 +18,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/erda-project/erda-infra/base/logs"
-	common "github.com/erda-project/erda-proto-go/common/pb"
-	otppb "github.com/erda-project/erda-proto-go/oap/collector/receiver/opentelemetry/pb"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/core/model/odata"
-	"github.com/erda-project/erda/internal/tools/monitor/oap/collector/lib/protoparser/jsonmarshal"
+	"github.com/ping-cloudnative/moonlight-utils/base/logs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/core/model/odata"
+	"github.com/ping-cloudnative/moonlight/internal/tools/monitor/oap/collector/lib/protoparser/jsonmarshal"
+	common "github.com/ping-cloudnative/moonlight/proto-go/common/pb"
+	otppb "github.com/ping-cloudnative/moonlight/proto-go/oap/collector/receiver/opentelemetry/pb"
 )
 
 type otlpService struct {

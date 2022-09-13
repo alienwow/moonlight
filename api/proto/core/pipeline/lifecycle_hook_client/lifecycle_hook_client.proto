@@ -5,7 +5,7 @@ package erda.core.pipeline.lifecycle_hook_client;
 import "google/api/annotations.proto";
 import "common/identity.proto";
 
-option go_package = "github.com/erda-project/erda-proto-go/core/pipeline/lifecycle_hook_client/pb";
+option go_package = "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/lifecycle_hook_client/pb";
 
 service LifeCycleService {
   rpc LifeCycleRegister (LifeCycleClientRegisterRequest) returns (LifeCycleClientRegisterResponse) {

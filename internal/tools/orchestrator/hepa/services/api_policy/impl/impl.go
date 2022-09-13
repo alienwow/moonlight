@@ -27,22 +27,22 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/apipolicy"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/bundle"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/common"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/config"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/gateway/dto"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/k8s"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/kong"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/service"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/api_policy"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/domain"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/endpoint_api"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/global"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/openapi_rule"
-	"github.com/erda-project/erda/internal/tools/orchestrator/hepa/services/zone"
+	"github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/apipolicy"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/bundle"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/common"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/config"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/gateway/dto"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/k8s"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/kong"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/service"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/api_policy"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/domain"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/endpoint_api"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/global"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/openapi_rule"
+	"github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/services/zone"
 )
 
 const (
@@ -987,7 +987,7 @@ func (impl GatewayApiPolicyServiceImpl) SetPolicyConfig(category, packageId, pac
 		config = []byte{}
 	}
 	rerr = ingressPolicyService.UpdatePartial(&orm.GatewayIngressPolicy{
-		Az:     az.Az,
+		Az: az.Az,
 		ZoneId: zone.Id,
 		Name:   category,
 		Config: config,

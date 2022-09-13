@@ -25,13 +25,13 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v2"
 
-	notifyGrouppb "github.com/erda-project/erda-proto-go/core/messenger/notifygroup/pb"
-	orgpb "github.com/erda-project/erda-proto-go/core/org/pb"
-	cronpb "github.com/erda-project/erda-proto-go/core/pipeline/cron/pb"
-	"github.com/erda-project/erda-proto-go/tools/monitor/dashboard/report/pb"
-	dicestructs "github.com/erda-project/erda/apistructs"
-	"github.com/erda-project/erda/pkg/common/apis"
-	"github.com/erda-project/erda/pkg/discover"
+	dicestructs "github.com/ping-cloudnative/moonlight/apistructs"
+	"github.com/ping-cloudnative/moonlight/pkg/common/apis"
+	"github.com/ping-cloudnative/moonlight/pkg/discover"
+	notifyGrouppb "github.com/ping-cloudnative/moonlight/proto-go/core/messenger/notifygroup/pb"
+	orgpb "github.com/ping-cloudnative/moonlight/proto-go/core/org/pb"
+	cronpb "github.com/ping-cloudnative/moonlight/proto-go/core/pipeline/cron/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/tools/monitor/dashboard/report/pb"
 )
 
 func editReportTaskFields(report *reportTask, update *reportTaskUpdate) *reportTask {

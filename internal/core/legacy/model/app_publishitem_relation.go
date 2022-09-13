@@ -14,7 +14,7 @@
 
 package model
 
-import "github.com/erda-project/erda/apistructs"
+import "github.com/ping-cloudnative/moonlight/apistructs"
 
 // ApplicationPublishItemRelation 应用和发布项关联关系
 type ApplicationPublishItemRelation struct {

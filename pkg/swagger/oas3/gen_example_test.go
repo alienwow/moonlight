@@ -20,8 +20,8 @@ import (
 	"github.com/getkin/kin-openapi/openapi3"
 	"sigs.k8s.io/yaml"
 
-	"github.com/erda-project/erda/pkg/http/httputil"
-	"github.com/erda-project/erda/pkg/swagger/oas3"
+	"github.com/ping-cloudnative/moonlight/pkg/http/httputil"
+	"github.com/ping-cloudnative/moonlight/pkg/swagger/oas3"
 )
 
 const schemaText = `description: ""

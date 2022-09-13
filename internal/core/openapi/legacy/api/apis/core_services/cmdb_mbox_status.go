@@ -14,7 +14,7 @@
 
 package core_services
 
-import "github.com/erda-project/erda/internal/core/openapi/legacy/api/apis"
+import "github.com/ping-cloudnative/moonlight/internal/core/openapi/legacy/api/apis"
 
 var CMDB_MBOX_STATS = apis.ApiSpec{
 	Path:        "/api/mboxs/actions/stats",

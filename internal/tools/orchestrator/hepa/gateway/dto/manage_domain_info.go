@@ -14,7 +14,7 @@
 
 package dto
 
-import "github.com/erda-project/erda/internal/tools/orchestrator/hepa/repository/orm"
+import "github.com/ping-cloudnative/moonlight/internal/tools/orchestrator/hepa/repository/orm"
 
 type DomainType string
 

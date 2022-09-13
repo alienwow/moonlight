@@ -19,7 +19,7 @@ import (
 
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/erda-project/erda-proto-go/apps/devflow/issuerelation/pb"
+	"github.com/ping-cloudnative/moonlight/proto-go/apps/devflow/issuerelation/pb"
 )
 
 type IssueRelation struct {
