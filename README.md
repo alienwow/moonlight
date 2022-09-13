@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Moonlight is copied from Erda, but unlike Erda, Moonlight is based on a plug-in design, allowing users to assemble the required functions according to their own usage scenarios. Thanks again for Erda team.
+Moonlight is forked from Erda, but unlike Erda, Moonlight is based on a plug-in design, allowing users to assemble the required functions according to their own usage scenarios. Thanks again for Erda team.
 
 ## Quick Start
 
