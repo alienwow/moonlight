@@ -32,7 +32,6 @@ import (
 	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/alert/jobs/unrecover-alerts"
 	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/dataview"
 	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/dataview/v1-chart-block"
-	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/diagnotor/controller"
 	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/entity/query"
 	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/entity/storage"
 	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/core/entity/storage/clickhouse"
