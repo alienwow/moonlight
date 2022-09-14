@@ -27,11 +27,7 @@ import (
 
 	_ "github.com/ping-cloudnative/moonlight/internal/apps/msp/apm/log-service/metastore"
 	// log export outputs
-	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/exporter"
-	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/exporter/output/elasticsearch"
-	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/exporter/output/elasticsearch-proxy"
-	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/exporter/output/stdout"
-	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/exporter/output/udp"
+
 	_ "github.com/ping-cloudnative/moonlight/internal/tools/monitor/extensions/loghub/index/manager"
 
 	// infra
