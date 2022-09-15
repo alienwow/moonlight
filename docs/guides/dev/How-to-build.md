@@ -20,7 +20,7 @@ libgit2 安装，需手动安装 1.3.0 版本
 ```
 git clone https://github.com/libgit2/libgit2.git
 git checkout v1.3.0
-mkdir build && cd build
+mkdir -p build && cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local
 cmake --build . --target install
 ```
