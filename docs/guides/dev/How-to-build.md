@@ -13,7 +13,7 @@ Moonlight 目前之前在 MacOS（intel 和 m1都已经验证）、Linux 进行�
 在 MacOS 上安装依赖，Linux 可以参考每个依赖的文档  
 rdkafka 安装 [installing-librdkafka](https://github.com/confluentinc/confluent-kafka-go#installing-librdkafka)
 ```
-brew install rdkafka pkg-config
+brew install librdkafka pkg-config
 ```
 
 libgit2 安装，需手动安装 1.3.0 版本
